@@ -30,13 +30,26 @@ div.banners {
 <li><a href="https://sourceforge.net/projects/libexif">SF.net project page</a></li>
 <li><a href="api/">libexif API documentation</a> (preliminary)</li>
 <li><a href="internals/">libexif code internals documentation</a> (preliminary)</li>
-<li>Download <a href="https://sourceforge.net/project/showfiles.php?group_id=12272">libexif source tarballs</a> releases
-or get the source code from CVS:
+<li>Download libexif source code<ul>
+<li>as <a href="https://sourceforge.net/project/showfiles.php?group_id=12272">release tarballs</a></li>
+<li>from CVS (will be disabled some time in mid-2006):
 <pre>
 cvs -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/libexif login 
 cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/libexif co -P libexif
 cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/libexif co -P exif
+cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/libexif co -P libexif-gtk
+cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/libexif co -P gexif
 </pre>
+</li>
+<li>from SVN (will be enabled some time in mid-2006):
+<pre>
+svn co https://svn.sourceforge.net/svnroot/libexif/trunk/libexif
+svn co https://svn.sourceforge.net/svnroot/libexif/trunk/exif
+svn co https://svn.sourceforge.net/svnroot/libexif/trunk/libexif-gtk
+svn co https://svn.sourceforge.net/svnroot/libexif/trunk/gexif
+</pre>
+</li>
+</ul>
 </li>
 </ul>
 
@@ -46,8 +59,9 @@ cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/libexif co -P exif
 <li><a href="https://sourceforge.net/tracker/?group_id=12272&amp;atid=112272">Bug Tracker</a> - 
      <a href="https://sourceforge.net/tracker/?func=add&amp;group_id=12272&amp;atid=112272">submit your bugs here</a></li>
 <li><a href="https://sourceforge.net/mail/?group_id=12272">libexif mailing list</a></li>
-<li><a href="irc://irc.freenode.net/#gphoto">IRC Channel</a> - #gphoto on irc.freenode.net (shared with the
-    <a href="http://gphoto.org/">gphoto project</a>)</li>
+<li><a href="irc://irc.freenode.net/#libexif">libexif IRC Channel</a> - #libexif on irc.freenode.net</li>
+<li><a href="irc://irc.freenode.net/#gphoto">gphoto IRC Channel</a> - #gphoto on irc.freenode.net
+(channel of the related <a href="http://gphoto.org/">gphoto project</a>, more populated)</li>
 </ul>
 
 <h2>About EXIF</h2>
