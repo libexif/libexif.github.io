@@ -1,0 +1,331 @@
+<HTML><HEAD><TITLE>Manpage of exif</TITLE>
+</HEAD><BODY>
+<H1>exif</H1>
+Section: command line front-end to libexif (1)<BR>Updated: 2012-06-27<BR><A HREF="#index">Index</A>
+<A HREF="../index.html">Return to Main Contents</A><HR>
+
+<A NAME="lbAB">&nbsp;</A>
+<H2>NAME</H2>
+
+exif - shows EXIF information in JPEG files
+<A NAME="lbAC">&nbsp;</A>
+<H2>SYNOPSIS</H2>
+
+<B>exif [ </B><I>OPTION</I><B> ] [ </B><I>file...</I><B> ]</B>
+
+<A NAME="lbAD">&nbsp;</A>
+<H2>DESCRIPTION</H2>
+
+<B>exif</B>
+
+is a small command-line utility to show and change EXIF information in JPEG files.
+<P>
+
+Most digital cameras produce EXIF files, which are JPEG files with extra tags that contain information about the image. The
+<B>exif</B>
+
+command-line utility allows you to read EXIF information from and write EXIF information to those files.
+<B>exif</B>
+
+internally uses the
+<B>libexif</B>
+
+library.
+<P>
+
+Each input file given on the command line is acted upon in turn, using 
+all the options given. Execution will be aborted immediately if one
+file is not readable or does not contain EXIF tags.
+<P>
+
+As EXIF tags are read, any unknown ones are discarded and known ones are
+automatically converted into the correct format, if they aren't already.
+Corrupted MakerNote tags are also removed, but no format changes are made.
+<A NAME="lbAE">&nbsp;</A>
+<H2>OPTIONS</H2>
+
+<DL COMPACT>
+<DT><B>-v, --version</B>
+
+<DD>
+Display the
+<B>exif</B>
+
+version number.
+<DT><B>-i, --ids</B>
+
+<DD>
+Show ID numbers instead of tag names.
+<DT><B>-t, --tag=</B><I>TAG</I>
+
+<DD>
+Select only this
+<I>TAG</I>.
+
+<I>TAG</I>
+
+is the tag title, the short tag name, or the tag number
+(hexadecimal numbers are prefixed with 0x), from the IFD specified
+with --ifd.  The tag title is dependent on the current locale, whereas
+name and number are locale-independent.
+<DT><B>--ifd=</B><I>IFD</I>
+
+<DD>
+Select a tag or tags from this
+<I>IFD</I>.
+
+Valid IFDs are &quot;0&quot;, &quot;1&quot;, &quot;EXIF&quot;, &quot;GPS&quot;, and &quot;Interoperability&quot;.
+Defaults to &quot;0&quot;.
+<DT><B>-l, --list-tags</B>
+
+<DD>
+List all known EXIF tags and IFDs.  A JPEG image must be provided, and
+those tags which appear in the file are shown with an asterisk in the
+corresponding position in the list.
+<DT><B>-|, --show-mnote</B>
+
+<DD>
+Show the contents of the MakerNote tag.  The contents of this tag are nonstandard
+(and often undocumented) and may therefore not be recognized, or if they are
+recognized they may not necessarily be interpreted correctly.
+<DT><B>--remove</B>
+
+<DD>
+Remove the tag or (if no tag is specified) the entire IFD.
+<DT><B>-s, --show-description</B>
+
+<DD>
+Show description of tag.  The --tag option must also be given.
+<DT><B>-e, --extract-thumbnail</B>
+
+<DD>
+Extract the thumbnail, writing the thumbnail image to the file specified
+with --output.
+<DT><B>-r, --remove-thumbnail</B>
+
+<DD>
+Remove the thumbnail from the image, writing the new image to the file specified
+with --output.
+<DT><B>-n, --insert-thumbnail=</B><I>FILE</I>
+
+<DD>
+Insert
+<I>FILE</I>
+
+as thumbnail.  No attempt is made to ensure that the contents of
+<I>FILE</I>
+
+are in a valid thumbnail format.
+<DT><B>--no-fixup</B>
+
+<DD>
+Do not attempt to fix EXIF specification violations when reading tags.
+When used in conjunction with --create-exif, this option inhibits the
+creation of the mandatory tags.
+<B>exif</B>
+
+will otherwise remove illegal or unknown tags, add some mandatory tags using
+default values, and change the data type of some tags to match that required
+by the specification.
+<DT><B>-o, --output=</B><I>FILE</I>
+
+<DD>
+Write output image to
+<I>FILE</I>.
+
+If this option is not given and an image file must be written, the
+name used is the same as the input file with the suffix &quot;.modified.jpeg&quot;.
+<DT><B>--set-value=</B><I>VALUE</I>
+
+<DD>
+Set the data for the tag specified with --tag and --ifd to
+<I>VALUE</I>.
+
+Compound values consisting of multiple components are separated with
+spaces.
+<DT><B>-c, --create-exif</B>
+
+<DD>
+Create EXIF data if it does not exist. Mandatory tags are created with
+default values unless the --no-fixup option is given.
+This option can be used instead of specifying an input file name in most
+cases, to operate on the default values of the mandatory set of EXIF tags.
+In this case, the --output option has no effect and no file is written.
+<DT><B>-m, --machine-readable</B>
+
+<DD>
+Produce output in a machine-readable (tab-delimited) format.
+The --xml-output and --machine-readable options are mutually exclusive.
+<DT><B>-w, --width=</B><I>N</I>
+
+<DD>
+Set the maximum width of the output to N characters (default 80). This does
+not apply to some output formats (e.g. XML).
+<DT><B>-x, --xml-output</B>
+
+<DD>
+Produce output in an XML format (when possible).
+The --xml-output and --machine-readable options are mutually exclusive.
+Note that the XML schema changes with the locale, and it sometimes produces
+invalid XML. This option is not recommended.
+<DT><B>-d, --debug</B>
+
+<DD>
+Show debugging messages. Also, when processing a file that contains corrupted
+data, this option causes
+<B>exif</B>
+
+to attempt to continue processing. Normally,
+corrupted data causes an abort.
+</DL>
+<A NAME="lbAF">&nbsp;</A>
+<H3>Help options</H3>
+
+<DL COMPACT>
+<DT><B>-?, --help</B>
+
+<DD>
+Show help message.
+<DT><B>--usage</B>
+
+<DD>
+Display brief usage message.
+</DL>
+<A NAME="lbAG">&nbsp;</A>
+<H2>EXAMPLES</H2>
+
+Display all recognized EXIF tags in an image and the tag contents, with bad
+tags fixed:
+<P>
+
+<DL COMPACT><DT><DD>
+exif image.jpg
+</DL>
+
+<P>
+
+Display a table listing all known EXIF tags and whether each one exists in the
+given image:
+<P>
+
+<DL COMPACT><DT><DD>
+exif --list-tags --no-fixup image.jpg
+</DL>
+
+<P>
+
+Display details on all XResolution tags found in the given image:
+<P>
+
+<DL COMPACT><DT><DD>
+exif --tag=XResolution --no-fixup image.jpg
+</DL>
+
+<P>
+
+Display the raw contents of the &quot;Model&quot; tag in the given image (with a newline
+character appended):
+<P>
+
+<DL COMPACT><DT><DD>
+exif --ifd=0 --tag=Model --machine-readable image.jpg
+</DL>
+
+<P>
+
+Extract the thumbnail into the file thumbnail.jpg:
+<P>
+
+<DL COMPACT><DT><DD>
+exif --extract-thumbnail --output=thumbnail.jpg image.jpg
+</DL>
+
+<P>
+
+Display a list of the numeric values of only the EXIF tags in the thumbnail IFD
+(IFD 1) and the tag values:
+<P>
+
+<DL COMPACT><DT><DD>
+exif --ids --ifd=1 --no-fixup image.jpg
+</DL>
+
+<P>
+
+Display the meaning of tag 0x9209 in the &quot;EXIF&quot; IFD according to the EXIF
+specification:
+<P>
+
+<DL COMPACT><DT><DD>
+exif --show-description --ifd=EXIF --tag=0x9209 
+</DL>
+
+<P>
+
+Add an Orientation tag with value &quot;bottom - left&quot; to an existing image, leaving
+the existing tags untouched:
+<P>
+
+<DL COMPACT><DT><DD>
+exif --output=new.jpg --ifd=0 --tag=0x0112 --set-value=4 --no-fixup image.jpg
+</DL>
+
+<P>
+
+Add a YCbCr Sub-Sampling tag with value 2,1 (a.k.a YCbCr 4:2:2) to an
+existing image and fix the existing tags, if necessary:
+<P>
+
+<DL COMPACT><DT><DD>
+exif --output=new.jpg --tag=YCbCrSubSampling --ifd=0 --set-value='2 1' image.jpg
+</DL>
+
+<P>
+
+Display a table with all known EXIF tags, highlighting mandatory ones:
+<P>
+
+<DL COMPACT><DT><DD>
+exif -cl
+</DL>
+
+<P>
+
+<A NAME="lbAH">&nbsp;</A>
+<H2>AUTHOR</H2>
+
+<B>exif</B>
+
+was written by Lutz Mueller &lt;<A HREF="mailto:lutz@users.sourceforge.net">lutz@users.sourceforge.net</A>&gt;
+and numerous contributors.
+This man page is Copyright &#169; 2002-2012 Thomas Pircher,
+Dan Fandrich and others.
+<A NAME="lbAI">&nbsp;</A>
+<H2>SEE ALSO</H2>
+
+
+<B><A HREF="http://www.sourceforge.net/projects/libexif">http://www.sourceforge.net/projects/libexif</A></B>
+
+<P>
+
+<HR>
+<A NAME="index">&nbsp;</A><H2>Index</H2>
+<DL>
+<DT><A HREF="#lbAB">NAME</A><DD>
+<DT><A HREF="#lbAC">SYNOPSIS</A><DD>
+<DT><A HREF="#lbAD">DESCRIPTION</A><DD>
+<DT><A HREF="#lbAE">OPTIONS</A><DD>
+<DL>
+<DT><A HREF="#lbAF">Help options</A><DD>
+</DL>
+<DT><A HREF="#lbAG">EXAMPLES</A><DD>
+<DT><A HREF="#lbAH">AUTHOR</A><DD>
+<DT><A HREF="#lbAI">SEE ALSO</A><DD>
+</DL>
+<HR>
+This document was created by
+<A HREF="http://libexif.sourceforge.net/">man2html</A>,
+using the manual pages.<BR>
+Time: 18:10:32 GMT, July 12, 2012
+</BODY>
+</HTML>
