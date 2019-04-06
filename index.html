@@ -7,18 +7,18 @@
 <title>The libexif C EXIF library</title>
 <style type="text/css">
 body {
-  color: #000;
-  background-color: #fff;
+  color: black;
+  background-color: white;
 }
 
 a:link {
-  color: #00f;
+  color: blue;
   background-color: inherit;
   text-decoration: underline;
 }
 
 a:active {
-  color: #f00;
+  color: red;
   background-color: inherit;
   text-decoration: underline;
 }
@@ -30,29 +30,29 @@ a:visited {
 }
 
 a:hover {
-  color: #f00;
+  color: red;
   background-color: inherit;
   text-decoration: underline;
 }
 
 div.banners {
-  border: solid 1px #000;
+  border: solid 1px black;
   padding: 2px;
   margin: 0;
   background-color: #ddd;
-  color: #000;
+  color: black;
   height: 37px;
 }
 
 div.banners * {
-vertical-align: middle;
+  vertical-align: middle;
 }
 
 pre {
-  border: dashed 1px #000;
+  border: dashed 1px black;
   padding: 2px;
   background-color: #eee;
-  color: #000;
+  color: black;
 }
 </style>
 </head>
@@ -66,7 +66,7 @@ metainformation from and to image files.</li>
 <li>is licensed under the GNU 
 <a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html#TOC1">LESSER GENERAL PUBLIC LICENSE Version 2.1 (LGPL)</a>.</li>
 <li>runs under <abbr title="Portable Operating System Interface for uniX">POSIX</abbr>
-systems (e.g. GNU/Linux, xBSD, MacOS X, etc.) and Win32. Win64 untested.</li>
+systems (e.g. GNU/Linux, xBSD, MacOS X, Windows, etc.).</li>
 </ul>
 
 <h2>News</h2>
@@ -142,41 +142,43 @@ as well as many other bug fixes and enhancements.
 
 <h2>About the libexif project</h2>
 <ul>
-<li>The libexif project maintains these five software packages:<ul>
-<li><strong><a href="https://github.com/libexif/libexif">libexif</a></strong>, the EXIF parsing library.</li>
-<li><strong><a href="https://github.com/libexif/exif">exif</a></strong>, the simple command line interface to libexif.</li>
-<li><strong><a href="https://github.com/libexif/libexif-gtk">libexif-gtk</a></strong>, the library of GTK+ based graphical user interface elements for libexif.</li>
-<li><strong><a href="https://github.com/libexif/gexif">gexif</a></strong>, the GTK+ based GUI interface to libexif-gtk.</li>
-<li><strong><a href="https://github.com/libexif/libexif-testsuite">libexif-testsuite</a></strong>, a harness for regression testing of libexif and exif.</li>
-</ul>
-</li>
-<li><a href="https://github.com/libexif">Github project page</a> for source code</li>
-<li><a href="https://sourceforge.net/projects/libexif">SF.net project page</a> to report bugs</li>
-<li>Continuous integration builds for
-  <ul>
-    <li>libexif
-      <a href="https://travis-ci.org/libexif/libexif/"><img src="https://travis-ci.org/libexif/libexif.svg?branch=master" alt="Travis CI build status" /></a>
-      <a href="https://ci.appveyor.com/project/dfandrich/libexif"><img src="https://ci.appveyor.com/api/projects/status/xjjtr4leqojodjj0/branch/master?svg=true" alt="AppVeyor build status" /></a>
-      <a href="https://cirrus-ci.com/github/libexif/libexif"><img src="https://api.cirrus-ci.com/github/libexif/libexif.svg?branch=master" alt="Cirrus build status" /></a>
-      <a href="https://coveralls.io/github/libexif/libexif"><img src="https://coveralls.io/repos/github/libexif/libexif/badge.svg?branch=master" alt="Code coverage status" /></a>
-      <a href="https://scan.coverity.com/projects/libexif"><img alt="Coverity Scan Build Status" src="https://scan.coverity.com/projects/111/badge.svg"/></a>
-      <a href="https://lgtm.com/projects/g/libexif/libexif/context:cpp"><img src="https://img.shields.io/lgtm/grade/cpp/g/libexif/libexif.svg?logo=lgtm&amp;logoWidth=18" alt="LGTM" /></a>
-    </li><li>exif
-      <a href="https://travis-ci.org/libexif/exif/"><img src="https://travis-ci.org/libexif/exif.svg?branch=master" alt="Travis CI build status" /></a>
-      <a href="https://ci.appveyor.com/project/dfandrich/exif"><img src="https://ci.appveyor.com/api/projects/status/q9ooesujljat3ra7/branch/master?svg=true" alt="AppVeyor build status" /></a>
-      <a href="https://cirrus-ci.com/github/libexif/exif"><img src="https://api.cirrus-ci.com/github/libexif/exif.svg?branch=master" alt="Cirrus build status" /></a>
-      <a href="https://coveralls.io/github/libexif/exif"><img src="https://coveralls.io/repos/github/libexif/exif/badge.svg?branch=master" alt="Code coverage status" /></a>
-      <a href="https://scan.coverity.com/projects/exif"><img src="https://scan.coverity.com/projects/53/badge.svg" alt="Coverity Scan Build Status" /></a>
-      <a href="https://lgtm.com/projects/g/libexif/exif/context:cpp"><img src="https://img.shields.io/lgtm/grade/cpp/g/libexif/exif.svg?logo=lgtm&amp;logoWidth=18" alt="LGTM" /></a>
-    </li><li>libexif-gtk
-      <a href="https://travis-ci.org/libexif/libexif-gtk/"><img src="https://travis-ci.org/libexif/libexif-gtk.svg?branch=master" alt="Travis CI build status" /></a>
-  </li></ul>
-  </li>
-<li><a href="docs.html">Documentation</a></li>
-<li>Download libexif source code<ul>
-<li>as <a href="https://sourceforge.net/projects/libexif/files/">source tarball releases</a></li>
-<li>from git&mdash;see the links above for the appropriate repository
-</li>
+        <li>The libexif project maintains these five software packages:<ul>
+        <li><strong><a href="https://github.com/libexif/libexif">libexif</a></strong>, the EXIF parsing library.<br />
+        <a href="https://travis-ci.org/libexif/libexif/"><img src="https://travis-ci.org/libexif/libexif.svg?branch=master" alt="Travis CI build status" /></a>
+        <a href="https://ci.appveyor.com/project/dfandrich/libexif"><img src="https://ci.appveyor.com/api/projects/status/xjjtr4leqojodjj0/branch/master?svg=true" alt="AppVeyor build status" /></a>
+        <a href="https://cirrus-ci.com/github/libexif/libexif"><img src="https://api.cirrus-ci.com/github/libexif/libexif.svg?branch=master" alt="Cirrus build status" /></a>
+        <a href="https://coveralls.io/github/libexif/libexif"><img src="https://coveralls.io/repos/github/libexif/libexif/badge.svg?branch=master" alt="Code coverage status" /></a>
+        <a href="https://scan.coverity.com/projects/libexif"><img alt="Coverity Scan Build Status" src="https://scan.coverity.com/projects/111/badge.svg"/></a>
+        <a href="https://lgtm.com/projects/g/libexif/libexif/context:cpp"><img src="https://img.shields.io/lgtm/grade/cpp/g/libexif/libexif.svg?logo=lgtm&amp;logoWidth=18" alt="LGTM" /></a>
+        </li>
+
+        <li><strong><a href="https://github.com/libexif/exif">exif</a></strong>, the simple command line interface to libexif.<br />
+        <a href="https://travis-ci.org/libexif/exif/"><img src="https://travis-ci.org/libexif/exif.svg?branch=master" alt="Travis CI build status" /></a>
+        <a href="https://ci.appveyor.com/project/dfandrich/exif"><img src="https://ci.appveyor.com/api/projects/status/q9ooesujljat3ra7/branch/master?svg=true" alt="AppVeyor build status" /></a>
+        <a href="https://cirrus-ci.com/github/libexif/exif"><img src="https://api.cirrus-ci.com/github/libexif/exif.svg?branch=master" alt="Cirrus build status" /></a>
+        <a href="https://coveralls.io/github/libexif/exif"><img src="https://coveralls.io/repos/github/libexif/exif/badge.svg?branch=master" alt="Code coverage status" /></a>
+        <a href="https://scan.coverity.com/projects/exif"><img src="https://scan.coverity.com/projects/53/badge.svg" alt="Coverity Scan Build Status" /></a>
+        <a href="https://lgtm.com/projects/g/libexif/exif/context:cpp"><img src="https://img.shields.io/lgtm/grade/cpp/g/libexif/exif.svg?logo=lgtm&amp;logoWidth=18" alt="LGTM" /></a>
+        </li>
+
+        <li><strong><a href="https://github.com/libexif/libexif-gtk">libexif-gtk</a></strong>, the library of GTK+ based graphical user interface elements for libexif.<br />
+        <a href="https://travis-ci.org/libexif/libexif-gtk/"><img src="https://travis-ci.org/libexif/libexif-gtk.svg?branch=master" alt="Travis CI build status" /></a>
+        </li>
+
+        <li><strong><a href="https://github.com/libexif/gexif">gexif</a></strong>, the GTK+ based GUI interface to libexif-gtk.<br />
+        <a href="https://travis-ci.org/libexif/gexif/"><img src="https://travis-ci.org/libexif/gexif.svg?branch=master" alt="Travis CI build status" /></a>
+        </li>
+
+        <li><strong><a href="https://github.com/libexif/libexif-testsuite">libexif-testsuite</a></strong>, a harness for regression testing of libexif and exif.</li>
+        </ul>
+        </li>
+        <li><a href="https://github.com/libexif">Github project page</a> for source code</li>
+        <li><a href="https://sourceforge.net/projects/libexif">SF.net project page</a> to report bugs</li>
+        <li><a href="docs.html">Documentation</a></li>
+        <li>Download libexif source code<ul>
+        <li>as <a href="https://sourceforge.net/projects/libexif/files/">source tarball releases</a></li>
+        <li>from git&mdash;see the links above for the appropriate repository
+        </li>
 </ul>
 </li>
 <li>Download binaries
@@ -230,7 +232,7 @@ and not to libexif project members, as we have nothing to do with them.
 <li><a href="https://sourceforge.net/mail/?group_id=12272">libexif mailing list</a></li>
 <li><a href="irc://irc.freenode.net/#libexif">libexif IRC Channel</a> - #libexif on irc.freenode.net</li>
 <li><a href="irc://irc.freenode.net/#gphoto">gphoto IRC Channel</a> - #gphoto on irc.freenode.net
-(channel of the related <a href="http://gphoto.org/">gphoto project</a>, more populated)</li>
+(channel of the related <a href="http://gphoto.org/">gphoto2 project</a>, more populated)</li>
 </ul>
 
 <h2>About EXIF</h2>
@@ -247,7 +249,7 @@ and not to libexif project members, as we have nothing to do with them.
       style="border:0;width:88px;height:31px"
       src="https://jigsaw.w3.org/css-validator/images/vcss"
       alt="Valid CSS!" /></a>
-<span>Last update: 2019-04-02</span>
+<span>Last update: 2019-04-06</span>
 </div>
 
 </body>
