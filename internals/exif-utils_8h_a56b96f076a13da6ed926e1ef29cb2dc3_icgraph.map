@@ -1,0 +1,6 @@
+<map id="exif_get_slong" name="exif_get_slong">
+<area shape="rect" id="node1" title="Retrieve an ExifSLong value from memory." alt="" coords="343,31,449,57"/>
+<area shape="rect" id="node2" href="$exif-utils_8h.html#aade6b72dc606bf6d36d684353ddc16dd" title="Retrieve an ExifLong value from memory." alt="" coords="183,5,282,32"/>
+<area shape="rect" id="node4" href="$exif-utils_8h.html#a1934d7118f86a4791ba35f92c9c95a31" title="Retrieve an ExifSRational value from memory." alt="" coords="171,56,295,83"/>
+<area shape="rect" id="node3" href="$exif-utils_8h.html#af813a7082b2eb2f24975d88b1a05f0df" title="Retrieve an ExifRational value from memory." alt="" coords="5,5,123,32"/>
+</map>

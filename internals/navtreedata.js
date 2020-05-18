@@ -1,6 +1,29 @@
+/*
+@ @licstart  The following is the entire license notice for the
+JavaScript code in this file.
+
+Copyright (C) 1997-2017 by Dimitri van Heesch
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+@licend  The above is the entire license notice
+for the JavaScript code in this file
+*/
 var NAVTREE =
 [
-  [ "EXIF library (libexif) Internals", "index.html", [
+  [ "EXIF library (libexif) API", "index.html", [
     [ "The libexif library", "index.html", [
       [ "General Notes", "index.html#general_notes", null ],
       [ "Using libexif", "index.html#using_libexif", null ],
@@ -19,15 +42,14 @@ var NAVTREE =
         [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
       [ "Globals", "globals.html", [
-        [ "All", "globals.html", "globals_dup" ],
-        [ "Functions", "globals_func.html", "globals_func" ],
-        [ "Variables", "globals_vars.html", null ],
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", "globals_eval" ],
+        [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -37,12 +59,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"exif-loader_8c.html#a4130c97bd66d7ea86e6493f18f9588f8ad1f9f611dc267862bf1b38ed2b0ec783",
-"exif-tag_8c.html#a389f8ff3411e0525b28367892f1e78d3",
-"globals_enum.html",
-"mnote-olympus-tag_8h.html#a4b8d8a90fb313de066b339db8a274686a167271a188e9434043a4d7acf00da93d",
-"mnote-pentax-tag_8h.html#acd4e4c67fce607e4cf4d015ac1b5639eac8fb0fcc94ffabd6cf867d779ad491a4",
-"test-parse_8c.html#aa736b67a9ea94d77c71d13eb36bb20b0"
+"exif-tag_8h.html#a1a0ded93d47585f6889eb546915d0f41ab2d6e45957c06b3297ed7a60dbd7aee7"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

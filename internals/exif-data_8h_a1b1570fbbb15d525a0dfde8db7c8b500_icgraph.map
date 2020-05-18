@@ -1,0 +1,4 @@
+<map id="exif_data_new" name="exif_data_new">
+<area shape="rect" id="node1" title="Allocate a new ExifData." alt="" coords="224,5,329,32"/>
+<area shape="rect" id="node2" href="$exif-data_8h.html#a66a30ece3bdb6cfd8f2692df27ea2b87" title="Allocate a new ExifData and load EXIF data from a memory buffer." alt="" coords="5,5,176,32"/>
+</map>

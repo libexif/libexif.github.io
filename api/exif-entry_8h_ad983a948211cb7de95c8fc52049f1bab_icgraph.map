@@ -1,0 +1,5 @@
+<map id="exif_entry_unref" name="exif_entry_unref">
+<area shape="rect" id="node1" title="Decrease reference counter for ExifEntry." alt="" coords="353,5,468,32"/>
+<area shape="rect" id="node2" href="$exif-content_8h.html#af77d27f5949aa4249fd54a5146c28289" title="Actually free the ExifContent." alt="" coords="183,5,305,32"/>
+<area shape="rect" id="node3" href="$exif-content_8h.html#a5e72c0f223d5d1aa33b34f388a5c9d37" title="Decrease reference counter for ExifContent." alt="" coords="5,5,135,32"/>
+</map>

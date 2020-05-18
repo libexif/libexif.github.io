@@ -1,0 +1,7 @@
+<map id="exif_set_slong" name="exif_set_slong">
+<area shape="rect" id="node1" title="Store an ExifSLong value into memory in EXIF format." alt="" coords="368,56,475,83"/>
+<area shape="rect" id="node2" href="$exif-utils_8h.html#ac90147d0cc97bec7a577bf9576191bf8" title="Store an ExifLong value into memory in EXIF format." alt="" coords="209,31,307,57"/>
+<area shape="rect" id="node5" href="$exif-utils_8h.html#aa88a2d05131c7073aafdc4cd4ae709b3" title="Store an ExifSRational value into memory in EXIF format." alt="" coords="196,81,320,108"/>
+<area shape="rect" id="node3" href="$exif-data_8h.html#ac5700820c7d7e2a199a9170ed3833591" title="Store raw EXIF data representing the ExifData structure into a memory buffer." alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node4" href="$exif-utils_8h.html#aa299934dee6585bc65fbd88bdea1cbdf" title="Store an ExifRational value into memory in EXIF format." alt="" coords="18,56,135,83"/>
+</map>

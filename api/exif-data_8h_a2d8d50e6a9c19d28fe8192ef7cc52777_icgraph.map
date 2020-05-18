@@ -1,0 +1,5 @@
+<map id="exif_data_get_byte_order" name="exif_data_get_byte_order">
+<area shape="rect" id="node1" title="Return the byte order in use by this EXIF structure." alt="" coords="196,23,328,65"/>
+<area shape="rect" id="node2" href="$exif-entry_8h.html#a24425f48dd75ec56f9ac758aaa6ef9c4" title="Return a localized textual representation of the value of the EXIF entry." alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node3" href="$exif-entry_8h.html#ad7f9e3fd0fde760c332dfbef208589ed" title="Initialize an empty ExifEntry with default data in the correct format for the given tag." alt="" coords="10,56,143,83"/>
+</map>

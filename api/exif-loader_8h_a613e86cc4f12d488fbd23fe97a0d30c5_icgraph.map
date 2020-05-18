@@ -1,0 +1,4 @@
+<map id="exif_loader_write_file" name="exif_loader_write_file">
+<area shape="rect" id="node1" title="Load a file into the given ExifLoader from the filesystem." alt="" coords="216,5,359,32"/>
+<area shape="rect" id="node2" href="$exif-data_8h.html#ac3c2d86223d3b219bad7ab2d28d8b8d2" title="Allocate a new ExifData and load EXIF data from a JPEG file." alt="" coords="5,5,168,32"/>
+</map>

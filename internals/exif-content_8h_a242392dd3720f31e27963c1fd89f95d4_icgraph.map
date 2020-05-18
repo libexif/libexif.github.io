@@ -1,0 +1,4 @@
+<map id="exif_content_new_mem" name="exif_content_new_mem">
+<area shape="rect" id="node1" title="Reserve memory for and initialize new ExifContent using the specified memory allocator." alt="" coords="176,5,335,32"/>
+<area shape="rect" id="node2" href="$exif-content_8h.html#aebb572c40893d08ec2f418af397c48f4" title="Reserve memory for and initialize a new ExifContent." alt="" coords="5,5,128,32"/>
+</map>

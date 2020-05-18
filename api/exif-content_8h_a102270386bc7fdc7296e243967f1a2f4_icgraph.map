@@ -1,0 +1,4 @@
+<map id="exif_content_get_ifd" name="exif_content_get_ifd">
+<area shape="rect" id="node1" title="Return the IFD number in which the given ExifContent is found." alt="" coords="168,5,307,32"/>
+<area shape="rect" id="node2" href="$exif-content_8h.html#a16c54e0f88067820efd37cd3088a9c70" title="Fix the IFD to bring it into specification." alt="" coords="5,5,120,32"/>
+</map>
