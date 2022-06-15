@@ -1,7 +1,7 @@
 <HTML><HEAD><TITLE>Manpage of exif</TITLE>
 </HEAD><BODY>
 <H1>exif</H1>
-Section: command line front-end to libexif (1)<BR>Updated: 2012-06-27<BR><A HREF="#index">Index</A>
+Section: command line front-end to libexif (1)<BR>Updated: 2012-07-13<BR><A HREF="#index">Index</A>
 <A HREF="../index.html">Return to Main Contents</A><HR>
 
 <A NAME="lbAB">&nbsp;</A>
@@ -18,13 +18,16 @@ exif - shows EXIF information in JPEG files
 
 <B>exif</B>
 
-is a small command-line utility to show and change EXIF information in JPEG files.
+is a small command-line utility to show and change EXIF information in JPEG
+files.
 <P>
 
-Most digital cameras produce EXIF files, which are JPEG files with extra tags that contain information about the image. The
+Most digital cameras produce EXIF files, which are JPEG files with extra tags
+that contain information about the image. The
 <B>exif</B>
 
-command-line utility allows you to read EXIF information from and write EXIF information to those files.
+command-line utility allows you to read EXIF information from and write EXIF
+information to those files.
 <B>exif</B>
 
 internally uses the
@@ -257,13 +260,13 @@ specification:
 <P>
 
 <DL COMPACT><DT><DD>
-exif --show-description --ifd=EXIF --tag=0x9209 
+exif --show-description --ifd=EXIF --tag=0x9209
 </DL>
 
 <P>
 
-Add an Orientation tag with value &quot;bottom - left&quot; to an existing image, leaving
-the existing tags untouched:
+Add an Orientation tag with value &quot;Bottom-left&quot; (4) to an existing image,
+leaving the existing tags untouched:
 <P>
 
 <DL COMPACT><DT><DD>
@@ -278,6 +281,15 @@ existing image and fix the existing tags, if necessary:
 
 <DL COMPACT><DT><DD>
 exif --output=new.jpg --tag=YCbCrSubSampling --ifd=0 --set-value='2 1' image.jpg
+</DL>
+
+<P>
+
+Remove the &quot;User Comment&quot; tag from an image:
+<P>
+
+<DL COMPACT><DT><DD>
+exif --output=new.jpg --remove --tag=&quot;User Comment&quot; --ifd=EXIF image.jpg
 </DL>
 
 <P>
@@ -304,7 +316,7 @@ Dan Fandrich and others.
 <H2>SEE ALSO</H2>
 
 
-<B><A HREF="http://www.sourceforge.net/projects/libexif">http://www.sourceforge.net/projects/libexif</A></B>
+<B><A HREF="https://libexif.github.io/">https://libexif.github.io/</A></B>
 
 <P>
 
@@ -324,8 +336,8 @@ Dan Fandrich and others.
 </DL>
 <HR>
 This document was created by
-<A HREF="http://libexif.sourceforge.net/">man2html</A>,
+<A HREF="http://libexif.github.io/">man2html</A>,
 using the manual pages.<BR>
-Time: 18:10:32 GMT, July 12, 2012
+Time: 19:42:32 GMT, June 15, 2022
 </BODY>
 </HTML>
