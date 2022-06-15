@@ -2,7 +2,7 @@ var exif_log_8h =
 [
     [ "EXIF_LOG_NO_MEMORY", "exif-log_8h.html#a4221b964f5ee550f6166126b263d3b2f", null ],
     [ "ExifLog", "exif-log_8h.html#a6b225115984bb2016282923cb487f16b", null ],
-    [ "ExifLogFunc", "exif-log_8h.html#af32ad5a4b7e0a86a7a441463f3b15895", null ],
+    [ "ExifLogFunc", "exif-log_8h.html#ae724638edf6aa856cf28717ececd84c6", null ],
     [ "ExifLogCode", "exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652", [
       [ "EXIF_LOG_CODE_NONE", "exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652a3b611d0d574b7838c2d5173367d96ed3", null ],
       [ "EXIF_LOG_CODE_DEBUG", "exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652ae8772b1ad05481f996ae4ab831f22860", null ],

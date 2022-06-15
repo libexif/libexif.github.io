@@ -1,4 +1,0 @@
-<map id="exif_format_get_size" name="exif_format_get_size">
-<area shape="rect" id="node1" title="Return the raw size of the given EXIF data type." alt="" coords="196,5,339,32"/>
-<area shape="rect" id="node2" href="$exif-entry_8h.html#a24425f48dd75ec56f9ac758aaa6ef9c4" title="Return a localized textual representation of the value of the EXIF entry." alt="" coords="5,5,148,32"/>
-</map>

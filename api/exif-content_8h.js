@@ -3,7 +3,7 @@ var exif_content_8h =
     [ "_ExifContent", "struct__ExifContent.html", "struct__ExifContent" ],
     [ "exif_content_get_value", "exif-content_8h.html#a21e72202f0e6131ad6977d8025f72c2f", null ],
     [ "ExifContent", "exif-content_8h.html#ac046cba2f9c5cfabf3ad443303090855", null ],
-    [ "ExifContentForeachEntryFunc", "exif-content_8h.html#a4f0abb0a595ba1f0bda43849ceb1f9e7", null ],
+    [ "ExifContentForeachEntryFunc", "exif-content_8h.html#a40629fec357bc74a7399feca0ac56bc3", null ],
     [ "ExifContentPrivate", "exif-content_8h.html#a266517e3bf1c95cd7e4a10e24749fb35", null ],
     [ "exif_content_add_entry", "exif-content_8h.html#a89876388ea2f732f8c8cd2c8ef199908", null ],
     [ "exif_content_dump", "exif-content_8h.html#a941c3522a39280f44329eaf364645620", null ],

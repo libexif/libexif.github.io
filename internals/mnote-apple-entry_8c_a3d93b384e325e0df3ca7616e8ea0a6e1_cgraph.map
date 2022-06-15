@@ -1,0 +1,10 @@
+<map id="mnote_apple_entry_get_value" name="mnote_apple_entry_get_value">
+<area shape="rect" id="node1" title=" " alt="" coords="5,150,181,191"/>
+<area shape="rect" id="node2" href="$exif-format_8c.html#a924038efe0cd8ebade8f44619dd794f3" title="Return the raw size of the given EXIF data type." alt="" coords="229,5,388,32"/>
+<area shape="rect" id="node3" href="$exif-utils_8c.html#a4ad94614630897766dd0a5c9bc2a59bf" title="Retrieve an ExifLong value from memory." alt="" coords="450,107,561,133"/>
+<area shape="rect" id="node4" href="$exif-utils_8c.html#a56b96f076a13da6ed926e1ef29cb2dc3" title="Retrieve an ExifSLong value from memory." alt="" coords="623,157,740,184"/>
+<area shape="rect" id="node5" href="$exif-utils_8c.html#a1feb547c289aa57a4d2119338b03706c" title="Retrieve an ExifRational value from memory." alt="" coords="243,107,375,133"/>
+<area shape="rect" id="node6" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="251,208,366,235"/>
+<area shape="rect" id="node7" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="444,220,567,247"/>
+<area shape="rect" id="node8" href="$exif-utils_8c.html#adb97c3499488d5642a82df1cb16dc2cb" title="Retrieve an ExifSRational value from memory." alt="" coords="436,296,575,323"/>
+</map>

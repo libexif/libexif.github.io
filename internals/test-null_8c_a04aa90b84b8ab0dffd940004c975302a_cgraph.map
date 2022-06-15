@@ -1,0 +1,20 @@
+<map id="log_null_test" name="log_null_test">
+<area shape="rect" id="node1" title=" " alt="" coords="5,170,111,196"/>
+<area shape="rect" id="node2" href="$exif-log_8c.html#a025d4a5d96544913ea6f6ebbec69cb68" title=" " alt="" coords="189,43,264,70"/>
+<area shape="rect" id="node3" href="$exif-log_8c.html#a99101b5ad01b2d82ce9d43c9e8534627" title=" " alt="" coords="389,18,471,44"/>
+<area shape="rect" id="node4" href="$exif-log_8c.html#acd0808d6d5be73f28059797c2e2e67dc" title="Delete instance of ExifLog." alt="" coords="377,94,483,120"/>
+<area shape="rect" id="node7" href="$exif-log_8c.html#a92d3525981d3d604521ca74ce05d0add" title="Create a new logging instance." alt="" coords="173,195,281,222"/>
+<area shape="rect" id="node8" href="$exif-log_8c.html#ab81043226e5d0ea2cf2e0869f6063b58" title=" " alt="" coords="355,296,505,323"/>
+<area shape="rect" id="node16" href="$exif-log_8c.html#aafd7e5d40ca73440976a3b684bfa1059" title=" " alt="" coords="177,296,276,323"/>
+<area shape="rect" id="node17" href="$exif-log_8c.html#a493a369b7020265971cdaf8be9a2f6fe" title="Register log callback function." alt="" coords="159,347,295,374"/>
+<area shape="rect" id="node18" href="$exif-log_8c.html#a7a9b738a7429197d68c80ffedac7d8fb" title=" " alt="" coords="169,144,284,171"/>
+<area shape="rect" id="node5" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="788,68,909,95"/>
+<area shape="rect" id="node6" href="$exif-mem_8c.html#a66744e0987af08c443df247ce55f7d87" title="Unrefcount an ExifMem." alt="" coords="588,94,717,120"/>
+<area shape="rect" id="node11" href="$exif-mem_8c.html#acd2926c29b470c9d43f84567a84d5acb" title="Create a new ExifMem with default values for your convenience." alt="" coords="343,195,517,222"/>
+<area shape="rect" id="node9" href="$exif-mem_8c.html#ae8c09cfbcb95e435c4c4b7ec3bbd79e4" title=" " alt="" coords="589,347,716,374"/>
+<area shape="rect" id="node10" href="$exif-mem_8c.html#af28c61972f529be46907956e0b3e7a60" title="Refcount an ExifMem." alt="" coords="596,398,709,424"/>
+<area shape="rect" id="node12" href="$exif-mem_8c.html#ae96feb62e763070ed3d70ca66f15feaa" title="Default memory allocation function." alt="" coords="572,296,733,323"/>
+<area shape="rect" id="node13" href="$exif-mem_8c.html#a30e654456ffed5baaf5a23f1d8817aa6" title="Default memory free function." alt="" coords="575,144,731,171"/>
+<area shape="rect" id="node14" href="$exif-mem_8c.html#a5db78241cb6c1752209e8e28f295ea41" title="Create a new ExifMem." alt="" coords="591,195,714,222"/>
+<area shape="rect" id="node15" href="$exif-mem_8c.html#ace345dfcefc8f8a8aa04a7f47ab419c9" title="Default memory reallocation function." alt="" coords="565,246,740,272"/>
+</map>

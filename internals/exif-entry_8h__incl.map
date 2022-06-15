@@ -1,0 +1,16 @@
+<map id="libexif/exif&#45;entry.h" name="libexif/exif&#45;entry.h">
+<area shape="rect" id="node1" title="Handling EXIF entries." alt="" coords="650,5,789,32"/>
+<area shape="rect" id="node2" href="$exif-content_8h.html" title="Handling EXIF IFDs." alt="" coords="584,80,740,107"/>
+<area shape="rect" id="node9" href="$exif-mem_8h.html" title="Define the ExifMem data type and the associated functions." alt="" coords="586,393,727,420"/>
+<area shape="rect" id="node11" href="$exif-format_8h.html" title="Handling native EXIF data types." alt="" coords="751,543,901,569"/>
+<area shape="rect" id="node3" href="$exif-tag_8h.html" title="Handling EXIF tags." alt="" coords="95,237,223,263"/>
+<area shape="rect" id="node6" href="$exif-data_8h.html" title="Defines the ExifData type and the associated functions." alt="" coords="345,155,481,181"/>
+<area shape="rect" id="node8" href="$exif-log_8h.html" title="Log message infrastructure." alt="" coords="459,319,585,345"/>
+<area shape="rect" id="node4" href="$exif-ifd_8h.html" title=" " alt="" coords="5,319,129,345"/>
+<area shape="rect" id="node5" href="$exif-data-type_8h.html" title=" " alt="" coords="154,319,325,345"/>
+<area shape="rect" id="node7" href="$exif-byte-order_8h.html" title="Defines the ExifByteOrder enum and the associated functions." alt="" coords="331,543,505,569"/>
+<area shape="rect" id="node14" href="$exif-mnote-data_8h.html" title="Handling EXIF MakerNote tags." alt="" coords="451,229,588,271"/>
+<area shape="rect" id="node13" title=" " alt="" coords="485,393,559,420"/>
+<area shape="rect" id="node10" href="$exif-utils_8h.html" title="EXIF data manipulation functions and types." alt="" coords="589,468,724,495"/>
+<area shape="rect" id="node12" title=" " alt="" coords="595,543,718,569"/>
+</map>

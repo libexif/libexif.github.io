@@ -1,4 +1,0 @@
-<map id="exif_get_short" name="exif_get_short">
-<area shape="rect" id="node1" title="Retrieve an ExifShort value from memory." alt="" coords="183,13,287,39"/>
-<area shape="rect" id="node2" href="$exif-utils_8h.html#af43ad07a0e309c42ead4897c29319f4c" title="This function converts rather UCS&#45;2LE than UTF&#45;16 to UTF&#45;8." alt="" coords="5,5,135,47"/>
-</map>

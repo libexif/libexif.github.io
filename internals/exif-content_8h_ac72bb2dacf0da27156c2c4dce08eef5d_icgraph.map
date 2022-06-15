@@ -1,4 +1,0 @@
-<map id="exif_content_get_entry" name="exif_content_get_entry">
-<area shape="rect" id="node1" title="Return the ExifEntry in this IFD corresponding to the given tag." alt="" coords="211,5,365,32"/>
-<area shape="rect" id="node2" href="$exif-content_8h.html#a89876388ea2f732f8c8cd2c8ef199908" title="Add an EXIF tag to an IFD." alt="" coords="5,5,163,32"/>
-</map>

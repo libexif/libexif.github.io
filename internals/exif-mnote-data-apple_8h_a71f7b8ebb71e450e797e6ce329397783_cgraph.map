@@ -1,0 +1,37 @@
+<map id="exif_mnote_data_apple_new" name="exif_mnote_data_apple_new">
+<area shape="rect" id="node1" title=" " alt="" coords="5,467,215,493"/>
+<area shape="rect" id="node2" href="$exif-mem_8c.html#ae8c09cfbcb95e435c4c4b7ec3bbd79e4" title=" " alt="" coords="562,259,689,285"/>
+<area shape="rect" id="node3" href="$exif-mnote-data-apple_8c.html#ab43d0be8b2d2b3d703b307a91e6dbcfb" title=" " alt="" coords="281,491,455,533"/>
+<area shape="rect" id="node4" href="$exif-mnote-data-apple_8c.html#a777bb9ad0cb336b9994b3b820d6567a9" title=" " alt="" coords="521,5,729,32"/>
+<area shape="rect" id="node6" href="$exif-mnote-data-apple_8c.html#ab583ad6b1b71a02c2ff9da74c0fac9d1" title=" " alt="" coords="281,557,455,598"/>
+<area shape="rect" id="node8" href="$exif-mnote-data-apple_8c.html#aa0f18630bfaf4c224719ea7e7478734b" title=" " alt="" coords="281,622,455,663"/>
+<area shape="rect" id="node9" href="$exif-mnote-data-apple_8c.html#a5f73dde63e8f981e41bfb82c4927034e" title=" " alt="" coords="281,687,455,729"/>
+<area shape="rect" id="node11" href="$exif-mnote-data-apple_8c.html#a6dbeb59bcc5ddf090dc2f79bfcf65db2" title=" " alt="" coords="281,753,455,794"/>
+<area shape="rect" id="node13" href="$exif-mnote-data-apple_8c.html#a49279e0a93893973bdb8661059e41f1b" title=" " alt="" coords="281,361,455,402"/>
+<area shape="rect" id="node22" href="$exif-mnote-data-apple_8c.html#a422b74c28b6d2990183bf6ac43fb60c1" title=" " alt="" coords="263,157,473,184"/>
+<area shape="rect" id="node25" href="$exif-mnote-data-apple_8c.html#aeb7e2af3d82c2ff5e1cf5d633c3da145" title=" " alt="" coords="281,426,455,467"/>
+<area shape="rect" id="node33" href="$exif-mnote-data-apple_8c.html#a32a8f180504cd9a34fc7ac14a582ccee" title=" " alt="" coords="281,818,455,859"/>
+<area shape="rect" id="node34" href="$exif-mnote-data-priv_8h.html#a06db5604f65a97b1c5ea3fcc4bfec7dc" title=" " alt="" coords="269,309,467,336"/>
+<area shape="rect" id="node5" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="796,5,917,32"/>
+<area shape="rect" id="node7" href="$mnote-apple-tag_8c.html#adce703db6ea7cadc4528c3ee14432552" title=" " alt="" coords="544,621,707,662"/>
+<area shape="rect" id="node10" href="$mnote-apple-tag_8c.html#ae9adcc6e9b524c9b4a77ccce7d57e474" title=" " alt="" coords="522,695,729,721"/>
+<area shape="rect" id="node12" href="$mnote-apple-tag_8c.html#a9fe2f8ff66042ca20734bf6065ef4705" title=" " alt="" coords="544,753,707,794"/>
+<area shape="rect" id="node14" href="$mnote-apple-entry_8c.html#a3d93b384e325e0df3ca7616e8ea0a6e1" title=" " alt="" coords="537,361,713,402"/>
+<area shape="rect" id="node15" href="$exif-format_8c.html#a924038efe0cd8ebade8f44619dd794f3" title="Return the raw size of the given EXIF data type." alt="" coords="777,360,936,387"/>
+<area shape="rect" id="node16" href="$exif-utils_8c.html#a4ad94614630897766dd0a5c9bc2a59bf" title="Retrieve an ExifLong value from memory." alt="" coords="998,411,1109,437"/>
+<area shape="rect" id="node17" href="$exif-utils_8c.html#a56b96f076a13da6ed926e1ef29cb2dc3" title="Retrieve an ExifSLong value from memory." alt="" coords="1171,436,1288,463"/>
+<area shape="rect" id="node18" href="$exif-utils_8c.html#a1feb547c289aa57a4d2119338b03706c" title="Retrieve an ExifRational value from memory." alt="" coords="791,411,923,437"/>
+<area shape="rect" id="node19" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="799,208,914,235"/>
+<area shape="rect" id="node20" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="992,259,1115,285"/>
+<area shape="rect" id="node21" href="$exif-utils_8c.html#adb97c3499488d5642a82df1cb16dc2cb" title="Retrieve an ExifSRational value from memory." alt="" coords="787,461,926,488"/>
+<area shape="rect" id="node23" href="$exif-log_8c.html#a025d4a5d96544913ea6f6ebbec69cb68" title=" " alt="" coords="588,56,663,83"/>
+<area shape="rect" id="node24" href="$exif-log_8c.html#a99101b5ad01b2d82ce9d43c9e8534627" title=" " alt="" coords="815,56,898,83"/>
+<area shape="rect" id="node26" href="$exif-utils_8c.html#a54ef3b86ffeb643e9c4434b85ccf2992" title=" " alt="" coords="550,555,701,597"/>
+<area shape="rect" id="node27" href="$exif-utils_8c.html#ac90147d0cc97bec7a577bf9576191bf8" title="Store an ExifLong value into memory in EXIF format." alt="" coords="999,828,1108,855"/>
+<area shape="rect" id="node28" href="$exif-utils_8c.html#ae6e3b9d1663f9ab9bd462d73a310ca03" title="Store an ExifSLong value into memory in EXIF format." alt="" coords="1171,828,1287,855"/>
+<area shape="rect" id="node29" href="$exif-utils_8c.html#a400a16b1754150f721e9fca67ad89a52" title="Store an ExifRational value into memory in EXIF format." alt="" coords="791,867,922,893"/>
+<area shape="rect" id="node30" href="$exif-utils_8c.html#ad905d16e26b4052a1db34dbebdc37341" title="Store an ExifShort value into memory in EXIF format." alt="" coords="799,765,914,792"/>
+<area shape="rect" id="node31" href="$exif-utils_8c.html#a6504651147702fc6db9a5cd4aa997023" title="Store an ExifSShort value into memory in EXIF format." alt="" coords="993,740,1114,767"/>
+<area shape="rect" id="node32" href="$exif-utils_8c.html#aca1790a72b1833dff1b0bf728052c3c5" title="Store an ExifSRational value into memory in EXIF format." alt="" coords="984,904,1123,931"/>
+<area shape="rect" id="node35" href="$exif-mem_8c.html#af28c61972f529be46907956e0b3e7a60" title="Refcount an ExifMem." alt="" coords="569,309,682,336"/>
+</map>

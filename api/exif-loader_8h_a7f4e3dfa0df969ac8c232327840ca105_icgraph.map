@@ -1,4 +1,0 @@
-<map id="exif_loader_unref" name="exif_loader_unref">
-<area shape="rect" id="node1" title="Decrease the refcount of the ExifLoader." alt="" coords="216,5,337,32"/>
-<area shape="rect" id="node2" href="$exif-data_8h.html#ac3c2d86223d3b219bad7ab2d28d8b8d2" title="Allocate a new ExifData and load EXIF data from a JPEG file." alt="" coords="5,5,168,32"/>
-</map>

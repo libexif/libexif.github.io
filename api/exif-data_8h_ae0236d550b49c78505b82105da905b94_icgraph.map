@@ -1,7 +1,0 @@
-<map id="exif_data_new_mem" name="exif_data_new_mem">
-<area shape="rect" id="node1" title="Allocate a new ExifData using the given memory allocator." alt="" coords="415,31,556,57"/>
-<area shape="rect" id="node2" href="$exif-data_8h.html#a1b1570fbbb15d525a0dfde8db7c8b500" title="Allocate a new ExifData." alt="" coords="243,5,348,32"/>
-<area shape="rect" id="node4" href="$exif-loader_8h.html#abe54111cdaf5b0559a20e1e76c31a86c" title="Create an ExifData from the data in the loader." alt="" coords="224,56,367,83"/>
-<area shape="rect" id="node3" href="$exif-data_8h.html#a66a30ece3bdb6cfd8f2692df27ea2b87" title="Allocate a new ExifData and load EXIF data from a memory buffer." alt="" coords="5,5,176,32"/>
-<area shape="rect" id="node5" href="$exif-data_8h.html#ac3c2d86223d3b219bad7ab2d28d8b8d2" title="Allocate a new ExifData and load EXIF data from a JPEG file." alt="" coords="9,56,172,83"/>
-</map>

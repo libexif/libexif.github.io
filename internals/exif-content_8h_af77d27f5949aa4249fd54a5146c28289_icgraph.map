@@ -1,4 +1,0 @@
-<map id="exif_content_free" name="exif_content_free">
-<area shape="rect" id="node1" title="Actually free the ExifContent." alt="" coords="183,5,305,32"/>
-<area shape="rect" id="node2" href="$exif-content_8h.html#a5e72c0f223d5d1aa33b34f388a5c9d37" title="Decrease reference counter for ExifContent." alt="" coords="5,5,135,32"/>
-</map>

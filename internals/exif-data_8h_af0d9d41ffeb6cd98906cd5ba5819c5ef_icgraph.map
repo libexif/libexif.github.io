@@ -1,5 +1,0 @@
-<map id="exif_data_log" name="exif_data_log">
-<area shape="rect" id="node1" title="Set the log message object for all IFDs." alt="" coords="407,5,505,32"/>
-<area shape="rect" id="node2" href="$exif-loader_8h.html#abe54111cdaf5b0559a20e1e76c31a86c" title="Create an ExifData from the data in the loader." alt="" coords="216,5,359,32"/>
-<area shape="rect" id="node3" href="$exif-data_8h.html#ac3c2d86223d3b219bad7ab2d28d8b8d2" title="Allocate a new ExifData and load EXIF data from a JPEG file." alt="" coords="5,5,168,32"/>
-</map>

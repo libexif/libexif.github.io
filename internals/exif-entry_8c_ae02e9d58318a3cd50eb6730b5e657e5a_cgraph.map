@@ -1,0 +1,11 @@
+<map id="exif_entry_format_value" name="exif_entry_format_value">
+<area shape="rect" id="node1" title="Format the value of an ExifEntry for human display in a generic way." alt="" coords="5,198,188,225"/>
+<area shape="rect" id="node2" href="$exif-data_8c.html#a2d8d50e6a9c19d28fe8192ef7cc52777" title="Return the byte order in use by this EXIF structure." alt="" coords="242,5,389,47"/>
+<area shape="rect" id="node3" href="$exif-format_8c.html#a924038efe0cd8ebade8f44619dd794f3" title="Return the raw size of the given EXIF data type." alt="" coords="236,71,395,98"/>
+<area shape="rect" id="node4" href="$exif-utils_8c.html#a4ad94614630897766dd0a5c9bc2a59bf" title="Retrieve an ExifLong value from memory." alt="" coords="457,173,567,199"/>
+<area shape="rect" id="node5" href="$exif-utils_8c.html#a56b96f076a13da6ed926e1ef29cb2dc3" title="Retrieve an ExifSLong value from memory." alt="" coords="629,223,747,250"/>
+<area shape="rect" id="node6" href="$exif-utils_8c.html#a1feb547c289aa57a4d2119338b03706c" title="Retrieve an ExifRational value from memory." alt="" coords="249,173,381,199"/>
+<area shape="rect" id="node7" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="258,274,373,301"/>
+<area shape="rect" id="node8" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="451,286,573,313"/>
+<area shape="rect" id="node9" href="$exif-utils_8c.html#adb97c3499488d5642a82df1cb16dc2cb" title="Retrieve an ExifSRational value from memory." alt="" coords="443,362,581,389"/>
+</map>

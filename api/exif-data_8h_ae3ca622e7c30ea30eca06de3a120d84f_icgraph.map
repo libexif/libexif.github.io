@@ -1,6 +1,0 @@
-<map id="exif_data_load_data" name="exif_data_load_data">
-<area shape="rect" id="node1" title="Load the ExifData structure from the raw JPEG or EXIF data in the given memory buffer." alt="" coords="435,31,573,57"/>
-<area shape="rect" id="node2" href="$exif-data_8h.html#a66a30ece3bdb6cfd8f2692df27ea2b87" title="Allocate a new ExifData and load EXIF data from a memory buffer." alt="" coords="216,5,387,32"/>
-<area shape="rect" id="node3" href="$exif-loader_8h.html#abe54111cdaf5b0559a20e1e76c31a86c" title="Create an ExifData from the data in the loader." alt="" coords="230,56,373,83"/>
-<area shape="rect" id="node4" href="$exif-data_8h.html#ac3c2d86223d3b219bad7ab2d28d8b8d2" title="Allocate a new ExifData and load EXIF data from a JPEG file." alt="" coords="5,56,168,83"/>
-</map>

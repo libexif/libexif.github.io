@@ -1,0 +1,15 @@
+<map id="exif_mnote_data_canon_load" name="exif_mnote_data_canon_load">
+<area shape="rect" id="node1" title=" " alt="" coords="5,208,219,235"/>
+<area shape="rect" id="node2" href="$exif-format_8c.html#a924038efe0cd8ebade8f44619dd794f3" title="Return the raw size of the given EXIF data type." alt="" coords="293,5,451,32"/>
+<area shape="rect" id="node3" href="$exif-utils_8c.html#a4ad94614630897766dd0a5c9bc2a59bf" title="Retrieve an ExifLong value from memory." alt="" coords="317,56,427,83"/>
+<area shape="rect" id="node5" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="529,212,643,239"/>
+<area shape="rect" id="node7" href="$exif-log_8c.html#a025d4a5d96544913ea6f6ebbec69cb68" title=" " alt="" coords="335,107,409,133"/>
+<area shape="rect" id="node9" href="$exif-mem_8c.html#ae8c09cfbcb95e435c4c4b7ec3bbd79e4" title=" " alt="" coords="309,208,435,235"/>
+<area shape="rect" id="node10" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="525,355,647,381"/>
+<area shape="rect" id="node11" href="$exif-mnote-data-canon_8c.html#a9d89c4c6d3b77e8b33e0711b346d0613" title=" " alt="" coords="283,377,461,418"/>
+<area shape="rect" id="node12" href="$mnote-canon-entry_8c.html#a9d343f3faec828b2467bacbab0919f47" title=" " alt="" coords="275,259,469,301"/>
+<area shape="rect" id="node13" href="$mnote-canon-tag_8c.html#a43680cce7697f8a0360db694695b979b" title=" " alt="" coords="267,443,477,469"/>
+<area shape="rect" id="node4" href="$exif-utils_8c.html#a56b96f076a13da6ed926e1ef29cb2dc3" title="Retrieve an ExifSLong value from memory." alt="" coords="527,56,645,83"/>
+<area shape="rect" id="node6" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="695,212,817,239"/>
+<area shape="rect" id="node8" href="$exif-log_8c.html#a99101b5ad01b2d82ce9d43c9e8534627" title=" " alt="" coords="545,107,627,133"/>
+</map>

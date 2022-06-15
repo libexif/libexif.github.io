@@ -1,0 +1,10 @@
+<map id="exif_mnote_data_canon_save" name="exif_mnote_data_canon_save">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,221,133"/>
+<area shape="rect" id="node2" href="$exif-format_8c.html#a924038efe0cd8ebade8f44619dd794f3" title="Return the raw size of the given EXIF data type." alt="" coords="269,5,428,32"/>
+<area shape="rect" id="node3" href="$exif-mem_8c.html#ae8c09cfbcb95e435c4c4b7ec3bbd79e4" title=" " alt="" coords="285,56,412,83"/>
+<area shape="rect" id="node4" href="$exif-mem_8c.html#a3dcfe6794d82e79e92da5e2c62484b17" title=" " alt="" coords="279,107,418,133"/>
+<area shape="rect" id="node5" href="$exif-utils_8c.html#ac90147d0cc97bec7a577bf9576191bf8" title="Store an ExifLong value into memory in EXIF format." alt="" coords="294,157,403,184"/>
+<area shape="rect" id="node7" href="$exif-utils_8c.html#ad905d16e26b4052a1db34dbebdc37341" title="Store an ExifShort value into memory in EXIF format." alt="" coords="291,208,406,235"/>
+<area shape="rect" id="node6" href="$exif-utils_8c.html#ae6e3b9d1663f9ab9bd462d73a310ca03" title="Store an ExifSLong value into memory in EXIF format." alt="" coords="479,157,595,184"/>
+<area shape="rect" id="node8" href="$exif-utils_8c.html#a6504651147702fc6db9a5cd4aa997023" title="Store an ExifSShort value into memory in EXIF format." alt="" coords="476,208,597,235"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="dump_makernote" name="dump_makernote">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,141,133"/>
+<area shape="rect" id="node2" href="$exif-data_8c.html#a81091d71b36b90611e996106680d478f" title="Return the MakerNote data out of the EXIF data." alt="" coords="193,5,389,32"/>
+<area shape="rect" id="node3" href="$exif-mnote-data_8c.html#af61fbda7c717e86991b0eccf6976a5f4" title="Return the number of tags in the MakerNote." alt="" coords="204,56,379,83"/>
+<area shape="rect" id="node4" href="$exif-mnote-data_8c.html#a981bab235db2e156216d5cc43f48cac7" title="Return the MakerNote tag number for the tag at the specified index within the MakerNote." alt="" coords="202,107,381,133"/>
+<area shape="rect" id="node5" href="$exif-mnote-data_8c.html#a921ea2f4583325653d2207c6f1d98742" title="Returns textual name of the given MakerNote tag." alt="" coords="189,157,393,184"/>
+<area shape="rect" id="node6" href="$exif-mnote-data_8c.html#a56299b268a29ea7fa1301952cfe32ca4" title="Return a textual representation of the value of the MakerNote entry." alt="" coords="211,209,371,250"/>
+</map>

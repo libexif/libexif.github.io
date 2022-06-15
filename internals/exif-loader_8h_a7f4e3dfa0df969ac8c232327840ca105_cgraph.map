@@ -1,0 +1,9 @@
+<map id="exif_loader_unref" name="exif_loader_unref">
+<area shape="rect" id="node1" title="Decrease the refcount of the ExifLoader." alt="" coords="5,81,141,108"/>
+<area shape="rect" id="node2" href="$exif-loader_8c.html#a388dfe484e1ad9c424bf3f029ec50248" title=" " alt="" coords="189,81,317,108"/>
+<area shape="rect" id="node3" href="$exif-loader_8c.html#a080d8ebb5006c1306a3a798ff60253a5" title="Free any data previously loaded and reset the ExifLoader to its newly&#45;initialized state." alt="" coords="528,5,663,32"/>
+<area shape="rect" id="node4" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="888,81,1009,108"/>
+<area shape="rect" id="node5" href="$exif-log_8c.html#a7a9b738a7429197d68c80ffedac7d8fb" title=" " alt="" coords="365,107,480,133"/>
+<area shape="rect" id="node7" href="$exif-mem_8c.html#a66744e0987af08c443df247ce55f7d87" title="Unrefcount an ExifMem." alt="" coords="711,157,840,184"/>
+<area shape="rect" id="node6" href="$exif-log_8c.html#acd0808d6d5be73f28059797c2e2e67dc" title="Delete instance of ExifLog." alt="" coords="542,107,649,133"/>
+</map>

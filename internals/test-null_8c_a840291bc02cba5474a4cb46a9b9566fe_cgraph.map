@@ -1,0 +1,52 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1643,60,1669"/>
+<area shape="rect" id="node2" href="$test-null_8c.html#aada7bcc402f351b493ae2806ef0b9179" title=" " alt="" coords="313,300,448,327"/>
+<area shape="rect" id="node24" href="$test-null_8c.html#a352ec8ed012e7796f9c2d7d6a4feb968" title=" " alt="" coords="114,1541,229,1568"/>
+<area shape="rect" id="node41" href="$test-null_8c.html#ae558a43bd8a5f9c2e5a004d0824dc2d4" title=" " alt="" coords="321,984,440,1011"/>
+<area shape="rect" id="node44" href="$test-null_8c.html#aca39a29bf632de19fa9ad0aef2b8d884" title=" " alt="" coords="108,1744,235,1771"/>
+<area shape="rect" id="node49" href="$test-null_8c.html#a04aa90b84b8ab0dffd940004c975302a" title=" " alt="" coords="119,1795,224,1821"/>
+<area shape="rect" id="node50" href="$test-null_8c.html#a262f797d783ceb01cbdf120d004169c8" title=" " alt="" coords="108,1845,235,1872"/>
+<area shape="rect" id="node3" href="$exif-content_8c.html#a89876388ea2f732f8c8cd2c8ef199908" title="Add an EXIF tag to an IFD." alt="" coords="741,5,916,32"/>
+<area shape="rect" id="node4" href="$exif-content_8c.html#ac72bb2dacf0da27156c2c4dce08eef5d" title="Return the ExifEntry in this IFD corresponding to the given tag." alt="" coords="1211,427,1383,453"/>
+<area shape="rect" id="node6" href="$exif-content_8c.html#a941c3522a39280f44329eaf364645620" title="Dump contents of the IFD to stdout." alt="" coords="535,680,681,707"/>
+<area shape="rect" id="node10" href="$exif-content_8c.html#a16c54e0f88067820efd37cd3088a9c70" title="Fix the IFD to bring it into specification." alt="" coords="545,173,671,200"/>
+<area shape="rect" id="node11" href="$exif-content_8c.html#af7372b1342146e73a9d5b671c717a730" title="Executes function on each EXIF tag in this IFD in turn." alt="" coords="749,57,908,98"/>
+<area shape="rect" id="node12" href="$exif-content_8c.html#a102270386bc7fdc7296e243967f1a2f4" title="Return the IFD number in which the given ExifContent is found." alt="" coords="751,123,906,149"/>
+<area shape="rect" id="node17" href="$exif-content_8c.html#af77d27f5949aa4249fd54a5146c28289" title="Actually free the ExifContent." alt="" coords="761,595,897,621"/>
+<area shape="rect" id="node18" href="$exif-content_8c.html#acdc250f9237c430642c2c71ba022070a" title="Set the log message object for this IFD." alt="" coords="763,1187,894,1213"/>
+<area shape="rect" id="node19" href="$exif-content_8c.html#aebb572c40893d08ec2f418af397c48f4" title="Reserve memory for and initialize a new ExifContent." alt="" coords="539,275,677,301"/>
+<area shape="rect" id="node20" href="$exif-content_8c.html#a8a359560f5985ec0a74a28871675d902" title="Reserve memory for and initialize new ExifContent using the specified memory allocator." alt="" coords="976,325,1155,352"/>
+<area shape="rect" id="node21" href="$exif-content_8c.html#a5761c3d5d962d61a453b4f1a7cc53ab5" title="Increase reference counter for ExifContent." alt="" coords="544,123,672,149"/>
+<area shape="rect" id="node22" href="$exif-content_8c.html#a04f76832f82ea29ce05cd7c4e51932b1" title="Remove an EXIF tag from an IFD." alt="" coords="749,478,909,519"/>
+<area shape="rect" id="node23" href="$exif-content_8c.html#a5e72c0f223d5d1aa33b34f388a5c9d37" title="Decrease reference counter for ExifContent." alt="" coords="536,579,680,605"/>
+<area shape="rect" id="node5" href="$exif-entry_8c.html#afd537c2d20109a1ee3923584e969d3d7" title="Increase reference counter for ExifEntry." alt="" coords="1009,89,1122,116"/>
+<area shape="rect" id="node7" href="$exif-entry_8c.html#addd6fdf3f0e4bd8777aff249ebe25da5" title="Dump text representation of ExifEntry to stdout." alt="" coords="763,832,895,859"/>
+<area shape="rect" id="node8" href="$exif-entry_8c.html#afda0f9d242fd7db960778502414c9885" title="Return a localized textual representation of the value of the EXIF entry." alt="" coords="986,857,1145,884"/>
+<area shape="rect" id="node9" href="$exif-data_8c.html#a2d8d50e6a9c19d28fe8192ef7cc52777" title="Return the byte order in use by this EXIF structure." alt="" coords="1223,1057,1370,1098"/>
+<area shape="rect" id="node13" href="$exif-data_8c.html#a4fb5dada09c9fdcab3eb7fe7e840ec84" title="Return the data type for the given ExifData." alt="" coords="737,544,920,571"/>
+<area shape="rect" id="node14" href="$exif-entry_8c.html#ad7f9e3fd0fde760c332dfbef208589ed" title="Initialize an empty ExifEntry with default data in the correct format for the given tag." alt="" coords="753,1035,904,1061"/>
+<area shape="rect" id="node15" href="$exif-entry_8c.html#a82d5d923121488d847d341727cdd2ef4" title="Decrease reference counter for ExifEntry." alt="" coords="1001,595,1130,621"/>
+<area shape="rect" id="node16" href="$exif-entry_8c.html#a2879215e3863186650d3f32eb63bbaf4" title="Actually free the ExifEntry." alt="" coords="1236,789,1357,816"/>
+<area shape="rect" id="node25" href="$exif-data_8c.html#abbb8951da3fd646776ee4d8685b61162" title="Dump all EXIF data to stdout." alt="" coords="317,807,444,833"/>
+<area shape="rect" id="node26" href="$exif-data_8c.html#a9146930a0b3ef89375790e19e1bc55b2" title="Fix the EXIF data to bring it into specification." alt="" coords="775,1799,882,1825"/>
+<area shape="rect" id="node27" href="$exif-data_8c.html#ad3b39ab4a3117ca9fd7d9a1126b5d879" title="Execute a function on each IFD in turn." alt="" coords="968,1939,1163,1965"/>
+<area shape="rect" id="node28" href="$exif-data_8c.html#a81091d71b36b90611e996106680d478f" title="Return the MakerNote data out of the EXIF data." alt="" coords="283,1440,479,1467"/>
+<area shape="rect" id="node29" href="$exif-data_8c.html#a4cc59ba6da45cece28672c8d9c754dac" title="Load the ExifData structure from the raw JPEG or EXIF data in the given memory buffer." alt="" coords="531,1769,685,1796"/>
+<area shape="rect" id="node30" href="$exif-data_8c.html#af0d9d41ffeb6cd98906cd5ba5819c5ef" title="Set the log message object for all IFDs." alt="" coords="553,1237,663,1264"/>
+<area shape="rect" id="node31" href="$exif-data_8c.html#a1b1570fbbb15d525a0dfde8db7c8b500" title="Allocate a new ExifData." alt="" coords="549,1339,667,1365"/>
+<area shape="rect" id="node32" href="$exif-data_8c.html#abd793f6c516c5b92dd3b1bbd9e7f5ac6" title="Allocate a new ExifData using the given memory allocator." alt="" coords="749,1465,908,1492"/>
+<area shape="rect" id="node33" href="$exif-data_8c.html#abe6f9020e02df0d550545b50ddcafe24" title="Set the data type for the given ExifData." alt="" coords="974,1504,1157,1531"/>
+<area shape="rect" id="node34" href="$exif-data_8c.html#af3fd819c29391da3b444cc347b86a3d4" title="Set the given option on the given ExifData." alt="" coords="986,1717,1145,1744"/>
+<area shape="rect" id="node35" href="$exif-data_8c.html#a66a30ece3bdb6cfd8f2692df27ea2b87" title="Allocate a new ExifData and load EXIF data from a memory buffer." alt="" coords="285,1643,476,1669"/>
+<area shape="rect" id="node36" href="$exif-data_8c.html#a41f2b9713a153809c3a19cc7007ef4e1" title=" " alt="" coords="327,1491,435,1517"/>
+<area shape="rect" id="node37" href="$exif-data_8c.html#ac5700820c7d7e2a199a9170ed3833591" title="Store raw EXIF data representing the ExifData structure into a memory buffer." alt="" coords="302,1592,459,1619"/>
+<area shape="rect" id="node38" href="$exif-data_8c.html#a0cb36f43b46dabad15aca7378eefe75a" title="Set the byte order to use for this EXIF data." alt="" coords="755,1931,902,1973"/>
+<area shape="rect" id="node39" href="$exif-data_8c.html#a2a48cbedffbb7b2fcd74407fe68f09f6" title=" " alt="" coords="546,1187,670,1213"/>
+<area shape="rect" id="node40" href="$exif-data_8c.html#abe62de8c8f5a24f8847e65ca3a098da8" title="Clear the given option on the given ExifData." alt="" coords="293,1693,468,1720"/>
+<area shape="rect" id="node42" href="$exif-entry_8c.html#aa19ef4321004b1ce44187c12ff4f78c6" title="Fix the type or format of the given EXIF entry to bring it into spec." alt="" coords="1009,1085,1121,1112"/>
+<area shape="rect" id="node43" href="$exif-entry_8c.html#a67580bc5b16e6f2793f9a5e580569a7b" title="Reserve memory for and initialize new ExifEntry using the specified memory allocator." alt="" coords="527,933,689,960"/>
+<area shape="rect" id="node45" href="$exif-loader_8c.html#acb140c6f8bce84eb228592dcf202025d" title="Return the raw data read by the loader." alt="" coords="305,2149,456,2176"/>
+<area shape="rect" id="node46" href="$exif-loader_8c.html#abe54111cdaf5b0559a20e1e76c31a86c" title="Create an ExifData from the data in the loader." alt="" coords="301,1744,460,1771"/>
+<area shape="rect" id="node47" href="$exif-loader_8c.html#a0779beeb15d0c56ae7442f4740f1baf7" title="Set the log message object used by this ExifLoader." alt="" coords="319,2048,442,2075"/>
+<area shape="rect" id="node48" href="$exif-loader_8c.html#a2d4278edbd89b5af3e5a4fe29b5e085c" title="Allocate a new ExifLoader." alt="" coords="316,2099,445,2125"/>
+</map>

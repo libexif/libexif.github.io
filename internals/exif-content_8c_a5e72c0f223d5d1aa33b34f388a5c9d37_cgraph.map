@@ -1,0 +1,10 @@
+<map id="exif_content_unref" name="exif_content_unref">
+<area shape="rect" id="node1" title="Decrease reference counter for ExifContent." alt="" coords="5,66,149,93"/>
+<area shape="rect" id="node2" href="$exif-content_8c.html#af77d27f5949aa4249fd54a5146c28289" title="Actually free the ExifContent." alt="" coords="197,66,333,93"/>
+<area shape="rect" id="node3" href="$exif-entry_8c.html#a82d5d923121488d847d341727cdd2ef4" title="Decrease reference counter for ExifEntry." alt="" coords="381,41,511,68"/>
+<area shape="rect" id="node5" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="905,66,1027,93"/>
+<area shape="rect" id="node6" href="$exif-mem_8c.html#a66744e0987af08c443df247ce55f7d87" title="Unrefcount an ExifMem." alt="" coords="728,92,857,118"/>
+<area shape="rect" id="node7" href="$exif-log_8c.html#a7a9b738a7429197d68c80ffedac7d8fb" title=" " alt="" coords="389,142,503,169"/>
+<area shape="rect" id="node4" href="$exif-entry_8c.html#a2879215e3863186650d3f32eb63bbaf4" title="Actually free the ExifEntry." alt="" coords="559,41,680,68"/>
+<area shape="rect" id="node8" href="$exif-log_8c.html#acd0808d6d5be73f28059797c2e2e67dc" title="Delete instance of ExifLog." alt="" coords="566,142,673,169"/>
+</map>

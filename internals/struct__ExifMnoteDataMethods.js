@@ -1,14 +1,14 @@
 var struct__ExifMnoteDataMethods =
 [
-    [ "count", "struct__ExifMnoteDataMethods.html#a1a2e67e1fec64777ff7851d2e6fd683c", null ],
-    [ "free", "struct__ExifMnoteDataMethods.html#a517f154bc727e7f784cc6d0d1cb57462", null ],
-    [ "get_description", "struct__ExifMnoteDataMethods.html#afdc5ebc5729967376c9f1131ff6b45ed", null ],
-    [ "get_id", "struct__ExifMnoteDataMethods.html#ae965d64413040b869dd08cf1e0eda87b", null ],
-    [ "get_name", "struct__ExifMnoteDataMethods.html#ae46f3acef957033cb98d15a760ca0435", null ],
-    [ "get_title", "struct__ExifMnoteDataMethods.html#ac235dc391848c65a05217b6651b624d2", null ],
-    [ "get_value", "struct__ExifMnoteDataMethods.html#acf319ce2c4d7d3837b901a460ed7068d", null ],
-    [ "load", "struct__ExifMnoteDataMethods.html#a014ebfb395d75f21bbf3bb79cda400eb", null ],
-    [ "save", "struct__ExifMnoteDataMethods.html#aff5107265ab7be79a34162f459bb744f", null ],
-    [ "set_byte_order", "struct__ExifMnoteDataMethods.html#a3cc84bf78e93c0f88c89fc847d4da896", null ],
-    [ "set_offset", "struct__ExifMnoteDataMethods.html#af6e4932aac7d5bf18620cefac439b964", null ]
+    [ "count", "struct__ExifMnoteDataMethods.html#a8739a9b6e64330cbc490d4605250cc6f", null ],
+    [ "free", "struct__ExifMnoteDataMethods.html#ab4b3b981839b0c388aaa45b87d0f6487", null ],
+    [ "get_description", "struct__ExifMnoteDataMethods.html#a07ff7bba6d8e52b079796ebeab7a87d2", null ],
+    [ "get_id", "struct__ExifMnoteDataMethods.html#a803c811ab48b1469d9a6840421afbfde", null ],
+    [ "get_name", "struct__ExifMnoteDataMethods.html#a3a0a6c1ff1335d637d875ee94e7b71e9", null ],
+    [ "get_title", "struct__ExifMnoteDataMethods.html#a43ff41620091bf14f3bddc72840ecb46", null ],
+    [ "get_value", "struct__ExifMnoteDataMethods.html#a5d3082b6db316a9dc864a82100fb17be", null ],
+    [ "load", "struct__ExifMnoteDataMethods.html#a38e0f7c33f5d187fb7e9a87a6cf45dc3", null ],
+    [ "save", "struct__ExifMnoteDataMethods.html#a8260d4fd1ee82a4f3f2ffaa6b7085e23", null ],
+    [ "set_byte_order", "struct__ExifMnoteDataMethods.html#aa75536ba2316414de7cda31dae2935b1", null ],
+    [ "set_offset", "struct__ExifMnoteDataMethods.html#a87674a3f4b100ee546aa131f786d2a47", null ]
 ];

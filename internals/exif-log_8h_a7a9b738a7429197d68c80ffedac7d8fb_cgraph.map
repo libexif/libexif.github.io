@@ -1,0 +1,6 @@
+<map id="exif_log_unref" name="exif_log_unref">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,120,32"/>
+<area shape="rect" id="node2" href="$exif-log_8c.html#acd0808d6d5be73f28059797c2e2e67dc" title="Delete instance of ExifLog." alt="" coords="168,5,275,32"/>
+<area shape="rect" id="node3" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="500,5,621,32"/>
+<area shape="rect" id="node4" href="$exif-mem_8c.html#a66744e0987af08c443df247ce55f7d87" title="Unrefcount an ExifMem." alt="" coords="323,31,452,57"/>
+</map>

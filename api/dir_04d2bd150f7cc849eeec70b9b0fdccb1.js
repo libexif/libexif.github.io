@@ -6,6 +6,8 @@ var dir_04d2bd150f7cc849eeec70b9b0fdccb1 =
     [ "exif-data.h", "exif-data_8h.html", "exif-data_8h" ],
     [ "exif-entry.h", "exif-entry_8h.html", "exif-entry_8h" ],
     [ "exif-format.h", "exif-format_8h.html", "exif-format_8h" ],
+    [ "exif-gps-ifd.c", "exif-gps-ifd_8c.html", "exif-gps-ifd_8c" ],
+    [ "exif-gps-ifd.h", "exif-gps-ifd_8h.html", "exif-gps-ifd_8h" ],
     [ "exif-ifd.h", "exif-ifd_8h_source.html", null ],
     [ "exif-loader.h", "exif-loader_8h.html", "exif-loader_8h" ],
     [ "exif-log.h", "exif-log_8h.html", "exif-log_8h" ],
@@ -15,6 +17,6 @@ var dir_04d2bd150f7cc849eeec70b9b0fdccb1 =
     [ "exif-system.h", "exif-system_8h.html", "exif-system_8h" ],
     [ "exif-tag.h", "exif-tag_8h.html", "exif-tag_8h" ],
     [ "exif-utils.h", "exif-utils_8h.html", "exif-utils_8h" ],
-    [ "exif.h", "exif_8h.html", null ],
+    [ "exif.h", "exif_8h_source.html", null ],
     [ "i18n.h", "i18n_8h_source.html", null ]
 ];

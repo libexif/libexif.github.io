@@ -1,0 +1,12 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,60,61"/>
+<area shape="rect" id="node2" href="$test-tagtable_8c.html#a55414e595bbc6af1ec1491e84f67feaa" title=" " alt="" coords="134,8,193,35"/>
+<area shape="rect" id="node7" href="$test-tagtable_8c.html#a606425cf31ba79cee0e010e7c251c5b9" title=" " alt="" coords="108,60,219,87"/>
+<area shape="rect" id="node3" href="$exif-tag_8c.html#a82b5a88d44d27d432afb5a1db74268b0" title="Return a textual name of the given tag when found in the given IFD." alt="" coords="267,5,457,32"/>
+<area shape="rect" id="node4" href="$exif-tag_8c.html#a389f8ff3411e0525b28367892f1e78d3" title="Finds the first entry in the EXIF tag table with the given tag number using a binary search." alt="" coords="759,56,907,83"/>
+<area shape="rect" id="node5" href="$exif-tag_8c.html#a87563ee64809f5f0deb4d780098508c1" title="Return the number of entries in the EXIF tag table, including the terminating NULL entry." alt="" coords="955,31,1113,57"/>
+<area shape="rect" id="node6" href="$exif-tag_8c.html#a220c1b18832f113bc84ff9551754915f" title="Compares the tag with that in entry." alt="" coords="989,81,1079,108"/>
+<area shape="rect" id="node8" href="$exif-tag_8c.html#a90f76ad051d48ed87fafa8aca39f98e2" title="Return whether the given tag is mandatory or not in the given IFD and data type according to the EXIF..." alt="" coords="283,57,441,98"/>
+<area shape="rect" id="node9" href="$exif-tag_8c.html#a92f313f59c9f2fc4bebe2438be038bd9" title="Return the support level of a tag in the given IFD, regardless of the data type." alt="" coords="505,56,711,83"/>
+<area shape="rect" id="node10" href="$exif-tag_8c.html#a1581a40dbcb0f27d4a3f8181b272c55b" title="Return the support level of a tag in the given IFD with the given data type." alt="" coords="517,107,699,133"/>
+</map>

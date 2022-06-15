@@ -1,0 +1,21 @@
+<map id="exif_mnote_data_canon_identify" name="exif_mnote_data_canon_identify">
+<area shape="rect" id="node1" title="Detect if MakerNote is recognized as one handled by the Canon module." alt="" coords="5,293,184,334"/>
+<area shape="rect" id="node2" href="$exif-entry_8c.html#afda0f9d242fd7db960778502414c9885" title="Return a localized textual representation of the value of the EXIF entry." alt="" coords="232,300,391,327"/>
+<area shape="rect" id="node3" href="$exif-content_8c.html#ac72bb2dacf0da27156c2c4dce08eef5d" title="Return the ExifEntry in this IFD corresponding to the given tag." alt="" coords="444,5,616,32"/>
+<area shape="rect" id="node4" href="$exif-utils_8c.html#af43ad07a0e309c42ead4897c29319f4c" title="This function converts rather UCS&#45;2LE than UTF&#45;16 to UTF&#45;8." alt="" coords="458,107,602,149"/>
+<area shape="rect" id="node5" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="691,5,806,32"/>
+<area shape="rect" id="node7" href="$exif-data_8c.html#a2d8d50e6a9c19d28fe8192ef7cc52777" title="Return the byte order in use by this EXIF structure." alt="" coords="675,57,822,98"/>
+<area shape="rect" id="node8" href="$exif-entry_8c.html#ae02e9d58318a3cd50eb6730b5e657e5a" title="Format the value of an ExifEntry for human display in a generic way." alt="" coords="439,224,621,251"/>
+<area shape="rect" id="node9" href="$exif-format_8c.html#a924038efe0cd8ebade8f44619dd794f3" title="Return the raw size of the given EXIF data type." alt="" coords="669,275,828,301"/>
+<area shape="rect" id="node12" href="$exif-utils_8c.html#a1feb547c289aa57a4d2119338b03706c" title="Retrieve an ExifRational value from memory." alt="" coords="683,325,815,352"/>
+<area shape="rect" id="node13" href="$exif-utils_8c.html#adb97c3499488d5642a82df1cb16dc2cb" title="Retrieve an ExifSRational value from memory." alt="" coords="679,376,818,403"/>
+<area shape="rect" id="node14" href="$exif-entry_8c.html#ac416e8326bd687f5da299d1b15a731bf" title=" " alt="" coords="473,427,587,453"/>
+<area shape="rect" id="node17" href="$exif-mem_8c.html#ae8c09cfbcb95e435c4c4b7ec3bbd79e4" title=" " alt="" coords="467,477,593,504"/>
+<area shape="rect" id="node18" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="469,528,591,555"/>
+<area shape="rect" id="node19" href="$exif-entry_8c.html#acfe97d1f369d95332b6e796c690093e4" title="Check if a string consists entirely of a single, repeated character." alt="" coords="449,579,611,605"/>
+<area shape="rect" id="node6" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="876,64,999,91"/>
+<area shape="rect" id="node10" href="$exif-utils_8c.html#a4ad94614630897766dd0a5c9bc2a59bf" title="Retrieve an ExifLong value from memory." alt="" coords="882,275,993,301"/>
+<area shape="rect" id="node11" href="$exif-utils_8c.html#a56b96f076a13da6ed926e1ef29cb2dc3" title="Retrieve an ExifSLong value from memory." alt="" coords="1047,275,1164,301"/>
+<area shape="rect" id="node15" href="$exif-entry_8c.html#ad5b86e68c3c96618a946a5c6fcd5f394" title=" " alt="" coords="679,427,818,453"/>
+<area shape="rect" id="node16" href="$exif-log_8c.html#a99101b5ad01b2d82ce9d43c9e8534627" title=" " alt="" coords="707,477,790,504"/>
+</map>

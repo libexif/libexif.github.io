@@ -1,0 +1,52 @@
+<map id="exif_data_load_data" name="exif_data_load_data">
+<area shape="rect" id="node1" title="Load the ExifData structure from the raw JPEG or EXIF data in the given memory buffer." alt="" coords="5,850,160,876"/>
+<area shape="rect" id="node2" href="$exif-data_8c.html#a9146930a0b3ef89375790e19e1bc55b2" title="Fix the EXIF data to bring it into specification." alt="" coords="208,399,315,426"/>
+<area shape="rect" id="node9" href="$exif-log_8c.html#a025d4a5d96544913ea6f6ebbec69cb68" title=" " alt="" coords="1113,560,1188,587"/>
+<area shape="rect" id="node22" href="$exif-data_8c.html#ae14f4e1e9028c905fb31e0e6e3505810" title="Load data for an IFD." alt="" coords="608,704,763,745"/>
+<area shape="rect" id="node27" href="$exif-utils_8c.html#a4ad94614630897766dd0a5c9bc2a59bf" title="Retrieve an ExifLong value from memory." alt="" coords="1095,980,1206,1007"/>
+<area shape="rect" id="node29" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="1093,879,1208,906"/>
+<area shape="rect" id="node35" href="$exif-data_8c.html#a94ee61bc9f0fbffc70533cc61a8295e7" title="If MakerNote is recognized, load it." alt="" coords="819,1398,982,1424"/>
+<area shape="rect" id="node3" href="$exif-data_8c.html#ad3b39ab4a3117ca9fd7d9a1126b5d879" title="Execute a function on each IFD in turn." alt="" coords="363,399,557,426"/>
+<area shape="rect" id="node4" href="$exif-data_8c.html#a2653c9ecc572e610208ea02e398c58a2" title=" " alt="" coords="423,247,497,274"/>
+<area shape="rect" id="node5" href="$exif-content_8c.html#a16c54e0f88067820efd37cd3088a9c70" title="Fix the IFD to bring it into specification." alt="" coords="622,247,749,274"/>
+<area shape="rect" id="node16" href="$exif-content_8c.html#a102270386bc7fdc7296e243967f1a2f4" title="Return the IFD number in which the given ExifContent is found." alt="" coords="823,95,978,122"/>
+<area shape="rect" id="node21" href="$exif-content_8c.html#a04f76832f82ea29ce05cd7c4e51932b1" title="Remove an EXIF tag from an IFD." alt="" coords="605,61,765,102"/>
+<area shape="rect" id="node6" href="$exif-content_8c.html#a89876388ea2f732f8c8cd2c8ef199908" title="Add an EXIF tag to an IFD." alt="" coords="813,298,988,324"/>
+<area shape="rect" id="node7" href="$exif-content_8c.html#ac72bb2dacf0da27156c2c4dce08eef5d" title="Return the ExifEntry in this IFD corresponding to the given tag." alt="" coords="1065,247,1237,274"/>
+<area shape="rect" id="node13" href="$exif-tag_8c.html#a82b5a88d44d27d432afb5a1db74268b0" title="Return a textual name of the given tag when found in the given IFD." alt="" coords="1313,500,1504,527"/>
+<area shape="rect" id="node17" href="$exif-entry_8c.html#a82d5d923121488d847d341727cdd2ef4" title="Decrease reference counter for ExifEntry." alt="" coords="836,146,965,172"/>
+<area shape="rect" id="node20" href="$exif-ifd_8c.html#a57651cc68698f037cd9fb8f9d3a021a2" title="Return a textual name of the given IFD." alt="" coords="829,399,972,426"/>
+<area shape="rect" id="node8" href="$exif-entry_8c.html#afd537c2d20109a1ee3923584e969d3d7" title="Increase reference counter for ExifEntry." alt="" coords="1094,298,1207,324"/>
+<area shape="rect" id="node11" href="$exif-mem_8c.html#a3dcfe6794d82e79e92da5e2c62484b17" title=" " alt="" coords="1081,70,1220,96"/>
+<area shape="rect" id="node12" href="$exif-tag_8c.html#a09dab484396dbcd277161df07aa09cf1" title=" " alt="" coords="1077,690,1224,716"/>
+<area shape="rect" id="node10" href="$exif-log_8c.html#a99101b5ad01b2d82ce9d43c9e8534627" title=" " alt="" coords="1367,560,1450,587"/>
+<area shape="rect" id="node15" href="$exif-tag_8c.html#ab05bf3c8af3747529c62226eb35226bb" title=" " alt="" coords="1339,690,1479,716"/>
+<area shape="rect" id="node14" href="$exif-tag_8c.html#a389f8ff3411e0525b28367892f1e78d3" title="Finds the first entry in the EXIF tag table with the given tag number using a binary search." alt="" coords="1552,500,1700,527"/>
+<area shape="rect" id="node18" href="$exif-entry_8c.html#a2879215e3863186650d3f32eb63bbaf4" title="Actually free the ExifEntry." alt="" coords="1090,146,1211,172"/>
+<area shape="rect" id="node19" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="1348,298,1469,324"/>
+<area shape="rect" id="node23" href="$exif-data_8c.html#abf9859cd2ae8c4c67f927e633d9a5bce" title=" " alt="" coords="823,821,978,862"/>
+<area shape="rect" id="node31" href="$exif-data_8c.html#a0666b1f113a3ddf35cce04df20779cc8" title=" " alt="" coords="823,704,978,745"/>
+<area shape="rect" id="node32" href="$exif-entry_8c.html#a67580bc5b16e6f2793f9a5e580569a7b" title="Reserve memory for and initialize new ExifEntry using the specified memory allocator." alt="" coords="1069,930,1232,956"/>
+<area shape="rect" id="node34" href="$exif-data_8c.html#a06c7c2490aedda09581cbb6115532198" title="Calculate the recursion cost added by one level of IFD loading." alt="" coords="857,652,945,679"/>
+<area shape="rect" id="node24" href="$exif-data_8c.html#a77cbef422b7a511d6405285ad9e00152" title=" " alt="" coords="1090,778,1211,804"/>
+<area shape="rect" id="node26" href="$exif-format_8c.html#a924038efe0cd8ebade8f44619dd794f3" title="Return the raw size of the given EXIF data type." alt="" coords="1071,828,1230,855"/>
+<area shape="rect" id="node25" href="$exif-mem_8c.html#ae8c09cfbcb95e435c4c4b7ec3bbd79e4" title=" " alt="" coords="1345,1540,1472,1567"/>
+<area shape="rect" id="node28" href="$exif-utils_8c.html#a56b96f076a13da6ed926e1ef29cb2dc3" title="Retrieve an ExifSLong value from memory." alt="" coords="1350,980,1467,1007"/>
+<area shape="rect" id="node30" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="1347,879,1470,906"/>
+<area shape="rect" id="node33" href="$exif-mem_8c.html#af28c61972f529be46907956e0b3e7a60" title="Refcount an ExifMem." alt="" coords="1352,930,1465,956"/>
+<area shape="rect" id="node36" href="$exif-mnote-data-apple_8c.html#a3d1f73c8550ca9c60e42f51872ee74c8" title=" " alt="" coords="1063,1293,1238,1334"/>
+<area shape="rect" id="node37" href="$exif-mnote-data-apple_8c.html#a8c934065eca2d8a3b2f2889fa4854039" title=" " alt="" coords="1046,1743,1255,1770"/>
+<area shape="rect" id="node39" href="$exif-mnote-data-canon_8c.html#a71edaa84980b896bca9087a4425a6dc8" title="Detect if MakerNote is recognized as one handled by the Canon module." alt="" coords="1061,1358,1240,1400"/>
+<area shape="rect" id="node40" href="$exif-mnote-data-canon_8c.html#a10dd02716e51755c2b0c5789246b969f" title=" " alt="" coords="1045,1490,1257,1516"/>
+<area shape="rect" id="node41" href="$exif-mnote-data-fuji_8c.html#a8ef9f05966f6ed6ba13a02d88da1d6ee" title="Detect if MakerNote is recognized as one handled by the Fuji module." alt="" coords="1071,1424,1231,1465"/>
+<area shape="rect" id="node42" href="$exif-mnote-data-fuji_8c.html#a0684ec60ff5d04edecb01f5fcef3c4b6" title=" " alt="" coords="1053,1540,1248,1567"/>
+<area shape="rect" id="node43" href="$exif-mnote-data_8c.html#a263d51ca6b59fecb34199113b033f63f" title="Load the MakerNote data from a memory buffer." alt="" coords="1067,1692,1234,1719"/>
+<area shape="rect" id="node44" href="$exif-mnote-data_8c.html#af117ac759e75a7145d53847dfa8b4892" title=" " alt="" coords="1071,1794,1230,1820"/>
+<area shape="rect" id="node45" href="$exif-mnote-data-olympus_8c.html#ac2441cfd6bbc6ef3d8645721c26eca49" title="Detect if MakerNote is recognized as one handled by the Olympus module." alt="" coords="1053,1032,1248,1073"/>
+<area shape="rect" id="node46" href="$exif-mnote-data-olympus_8c.html#a5bc7c7fe506ea2d06188872d2e2ee716" title=" " alt="" coords="1036,1591,1265,1618"/>
+<area shape="rect" id="node47" href="$exif-mnote-data-pentax_8c.html#a0fa2e62e09d038f21b29261d45b71674" title="Detect if MakerNote is recognized as one handled by the Pentax module." alt="" coords="1059,1097,1243,1138"/>
+<area shape="rect" id="node48" href="$exif-mnote-data-pentax_8c.html#a0e2c726228df26028291868165509812" title=" " alt="" coords="1041,1642,1260,1668"/>
+<area shape="rect" id="node49" href="$exif-mnote-data-priv_8h.html#a1b67aad2ff49340ac3f0f15b3a726ce3" title=" " alt="" coords="1071,1162,1230,1204"/>
+<area shape="rect" id="node50" href="$exif-mnote-data-priv_8h.html#a17548c880619140855af60b037a8c730" title=" " alt="" coords="1071,1228,1230,1269"/>
+<area shape="rect" id="node38" href="$exif-mnote-data-apple_8c.html#ab43d0be8b2d2b3d703b307a91e6dbcfb" title=" " alt="" coords="1321,1736,1496,1777"/>
+</map>

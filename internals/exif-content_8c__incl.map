@@ -1,0 +1,22 @@
+<map id="libexif/exif&#45;content.c" name="libexif/exif&#45;content.c">
+<area shape="rect" id="node1" title=" " alt="" coords="503,5,657,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="155,80,229,107"/>
+<area shape="rect" id="node3" href="$exif-content_8h.html" title="Handling EXIF IFDs." alt="" coords="254,80,410,107"/>
+<area shape="rect" id="node17" href="$exif-system_8h.html" title="System specific definitions, not for installation!" alt="" coords="435,80,589,107"/>
+<area shape="rect" id="node18" title=" " alt="" coords="614,80,685,107"/>
+<area shape="rect" id="node19" title=" " alt="" coords="709,80,776,107"/>
+<area shape="rect" id="node20" title=" " alt="" coords="801,80,871,107"/>
+<area shape="rect" id="node4" href="$exif-tag_8h.html" title="Handling EXIF tags." alt="" coords="268,237,396,263"/>
+<area shape="rect" id="node7" href="$exif-entry_8h.html" title="Handling EXIF entries." alt="" coords="5,155,144,181"/>
+<area shape="rect" id="node9" href="$exif-mem_8h.html" title="Define the ExifMem data type and the associated functions." alt="" coords="297,393,439,420"/>
+<area shape="rect" id="node13" href="$exif-data_8h.html" title="Defines the ExifData type and the associated functions." alt="" coords="416,155,552,181"/>
+<area shape="rect" id="node14" href="$exif-log_8h.html" title="Log message infrastructure." alt="" coords="718,319,845,345"/>
+<area shape="rect" id="node5" href="$exif-ifd_8h.html" title=" " alt="" coords="214,319,338,345"/>
+<area shape="rect" id="node6" href="$exif-data-type_8h.html" title=" " alt="" coords="363,319,533,345"/>
+<area shape="rect" id="node8" href="$exif-format_8h.html" title="Handling native EXIF data types." alt="" coords="26,543,177,569"/>
+<area shape="rect" id="node10" href="$exif-utils_8h.html" title="EXIF data manipulation functions and types." alt="" coords="301,468,435,495"/>
+<area shape="rect" id="node11" href="$exif-byte-order_8h.html" title="Defines the ExifByteOrder enum and the associated functions." alt="" coords="507,543,682,569"/>
+<area shape="rect" id="node12" title=" " alt="" coords="307,543,429,569"/>
+<area shape="rect" id="node16" href="$exif-mnote-data_8h.html" title="Handling EXIF MakerNote tags." alt="" coords="659,229,797,271"/>
+<area shape="rect" id="node15" title=" " alt="" coords="744,393,819,420"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="exif_set_rational" name="exif_set_rational">
+<area shape="rect" id="node1" title="Store an ExifRational value into memory in EXIF format." alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node2" href="$exif-utils_8c.html#ac90147d0cc97bec7a577bf9576191bf8" title="Store an ExifLong value into memory in EXIF format." alt="" coords="184,5,293,32"/>
+<area shape="rect" id="node3" href="$exif-utils_8c.html#ae6e3b9d1663f9ab9bd462d73a310ca03" title="Store an ExifSLong value into memory in EXIF format." alt="" coords="341,5,457,32"/>
+</map>

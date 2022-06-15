@@ -1,13 +1,13 @@
 <map id="_ExifData" name="_ExifData">
-<area shape="rect" id="node1" title="Represents the entire EXIF data found in an image." alt="" coords="515,375,594,401"/>
-<area shape="rect" id="node8" href="$struct__ExifContent.html" title=" " alt="" coords="571,464,669,491"/>
-<area shape="rect" id="node2" title=" " alt="" coords="448,285,568,312"/>
-<area shape="rect" id="node3" href="$struct__ExifMnoteData.html" title=" " alt="" coords="288,196,403,223"/>
-<area shape="rect" id="node4" href="$struct__ExifMnoteDataMethods.html" title=" " alt="" coords="5,95,171,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="276,95,415,121"/>
-<area shape="rect" id="node6" title=" " alt="" coords="439,95,513,121"/>
-<area shape="rect" id="node9" title=" " alt="" coords="596,196,735,223"/>
-<area shape="rect" id="node7" title=" " alt="" coords="563,5,645,32"/>
-<area shape="rect" id="node11" title=" " alt="" coords="697,145,821,172"/>
-<area shape="rect" id="node10" href="$struct__ExifEntry.html" title="Data found in one EXIF tag." alt="" coords="651,553,733,580"/>
+<area shape="rect" id="node1" title="Represents the entire EXIF data found in an image." alt="" coords="546,375,631,401"/>
+<area shape="rect" id="node8" href="$struct__ExifContent.html" title=" " alt="" coords="605,464,711,491"/>
+<area shape="rect" id="node2" href="$struct__ExifDataPrivate.html" title=" " alt="" coords="477,285,607,312"/>
+<area shape="rect" id="node3" href="$struct__ExifMnoteData.html" title=" " alt="" coords="312,196,439,223"/>
+<area shape="rect" id="node4" href="$struct__ExifMnoteDataMethods.html" title=" " alt="" coords="5,95,188,121"/>
+<area shape="rect" id="node5" href="$struct__ExifMnoteDataPriv.html" title=" " alt="" coords="300,95,451,121"/>
+<area shape="rect" id="node6" href="$struct__ExifLog.html" title=" " alt="" coords="475,95,553,121"/>
+<area shape="rect" id="node9" href="$struct__ExifContentPrivate.html" title=" " alt="" coords="632,196,783,223"/>
+<area shape="rect" id="node7" href="$struct__ExifMem.html" title=" " alt="" coords="604,5,691,32"/>
+<area shape="rect" id="node11" href="$struct__ExifEntryPrivate.html" title=" " alt="" coords="741,145,876,172"/>
+<area shape="rect" id="node10" href="$struct__ExifEntry.html" title="Data found in one EXIF tag." alt="" coords="691,553,779,580"/>
 </map>

@@ -1,5 +1,0 @@
-<map id="exif_data_foreach_content" name="exif_data_foreach_content">
-<area shape="rect" id="node1" title="Execute a function on each IFD in turn." alt="" coords="185,35,360,61"/>
-<area shape="rect" id="node2" href="$exif-data_8h.html#a9146930a0b3ef89375790e19e1bc55b2" title="Fix the EXIF data to bring it into specification." alt="" coords="23,5,119,32"/>
-<area shape="rect" id="node3" href="$exif-data_8h.html#a0cb36f43b46dabad15aca7378eefe75a" title="Set the byte order to use for this EXIF data." alt="" coords="5,57,137,98"/>
-</map>

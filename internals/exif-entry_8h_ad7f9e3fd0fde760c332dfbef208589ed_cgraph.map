@@ -1,0 +1,16 @@
+<map id="exif_entry_initialize" name="exif_entry_initialize">
+<area shape="rect" id="node1" title="Initialize an empty ExifEntry with default data in the correct format for the given tag." alt="" coords="5,157,156,184"/>
+<area shape="rect" id="node2" href="$exif-entry_8c.html#a01d57aa3b858af0ffbbef108ed332939" title=" " alt="" coords="469,5,563,32"/>
+<area shape="rect" id="node3" href="$exif-data_8c.html#a2d8d50e6a9c19d28fe8192ef7cc52777" title="Return the byte order in use by this EXIF structure." alt="" coords="221,209,368,250"/>
+<area shape="rect" id="node4" href="$exif-entry_8c.html#a98d6b995e251f09b20036c0c9d66efdf" title=" " alt="" coords="453,56,579,83"/>
+<area shape="rect" id="node7" href="$exif-entry_8c.html#aee9f2576a834b5f74a420354201a07d0" title=" " alt="" coords="204,107,385,133"/>
+<area shape="rect" id="node8" href="$exif-format_8c.html#a924038efe0cd8ebade8f44619dd794f3" title="Return the raw size of the given EXIF data type." alt="" coords="437,157,595,184"/>
+<area shape="rect" id="node10" href="$exif-utils_8c.html#a400a16b1754150f721e9fca67ad89a52" title="Store an ExifRational value into memory in EXIF format." alt="" coords="229,275,360,301"/>
+<area shape="rect" id="node13" href="$exif-utils_8c.html#ad905d16e26b4052a1db34dbebdc37341" title="Store an ExifShort value into memory in EXIF format." alt="" coords="237,325,352,352"/>
+<area shape="rect" id="node5" href="$exif-entry_8c.html#ad5b86e68c3c96618a946a5c6fcd5f394" title=" " alt="" coords="647,81,785,108"/>
+<area shape="rect" id="node6" href="$exif-mem_8c.html#ae8c09cfbcb95e435c4c4b7ec3bbd79e4" title=" " alt="" coords="653,31,779,57"/>
+<area shape="rect" id="node9" href="$exif-gps-ifd_8c.html#a8942365f6de498cca0e81fce8cdf6e83" title=" " alt="" coords="433,107,599,133"/>
+<area shape="rect" id="node11" href="$exif-utils_8c.html#ac90147d0cc97bec7a577bf9576191bf8" title="Store an ExifLong value into memory in EXIF format." alt="" coords="461,275,571,301"/>
+<area shape="rect" id="node12" href="$exif-utils_8c.html#ae6e3b9d1663f9ab9bd462d73a310ca03" title="Store an ExifSLong value into memory in EXIF format." alt="" coords="658,275,774,301"/>
+<area shape="rect" id="node14" href="$exif-utils_8c.html#a6504651147702fc6db9a5cd4aa997023" title="Store an ExifSShort value into memory in EXIF format." alt="" coords="455,325,577,352"/>
+</map>
