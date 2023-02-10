@@ -5,8 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta name="referrer" content="no-referrer-when-downgrade" />
+<link rel="icon" href="penguin_turn_page.jpg" />
 <title>The libexif C EXIF library</title>
-<style type="text/css">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'nonce-bt6nPNf9Q5Mqrg'; script-src 'none'; img-src 'self' www.w3.org jigsaw.w3.org img.shields.io github.com ci.appveyor.com api.cirrus-ci.com scan.coverity.com coveralls.io s3.amazonaws.com oss-fuzz-build-logs.storage.googleapis.com;" />
+<style type="text/css" nonce="bt6nPNf9Q5Mqrg">
 body {
   color: black;
   background-color: white;
@@ -59,6 +61,12 @@ pre {
 div.block {
     display: inline-block;
 }
+
+.logo {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 1em;
+}
 </style>
 </head>
 
@@ -66,7 +74,7 @@ div.block {
 <h1>The libexif C EXIF library</h1>
 
 <div class="block">
-<img src="penguin_turn_page.jpg" alt="Photo of penguin with metadata on the back" width="127" height="177" style="float: left; padding-right: 2em; padding-bottom: 1em;" />
+<img src="penguin_turn_page.jpg" alt="Photo of penguin with metadata on the back" width="127" height="177" class="logo" />
 <ul>
 <li>is a library written in pure portable C.</li>
 <li>reads and writes <abbr title="Exchangeable Image File Format">EXIF</abbr>
@@ -114,7 +122,7 @@ and not to libexif project members, as we have nothing to do with them.
 </p>
 <ul>
 	<li>AIX:
-	<a href="https://www.perzl.org/aix/index.php?n=Main.Libexif">Michael Perzl</a>,
+	<a href="http://www.perzl.org/aix/index.php?n=Main.Libexif">Michael Perzl</a>,
 	</li>
 	<li>DragonFly BSD: <a href="https://avalon.dragonflybsd.org/dports/dragonfly:5.8:x86:64/LATEST/All/?C=N;O=A;P=*exif-*">DragonFly project</a></li>
 
@@ -130,18 +138,28 @@ and not to libexif project members, as we have nothing to do with them.
 	</li>
 
 	<li>Mac OS X:
-        <a href="https://pdb.finkproject.org/pdb/package.php/libexif12">Fink</a></li>
+        <a href="https://pdb.finkproject.org/pdb/package.php/libexif12">Fink</a>,
+        <a href="https://formulae.brew.sh/formula/libexif#default">Homebrew</a></li>
+
+	<li>MidnightBSD:
+    <a href="https://pub.allbsd.org/MidnightBSD/distfiles/?P=*exif*">MidnightBSD</a></li>
 
 	<li>Minix:
         <a href="https://git.minix3.org/index.cgi?p=pkgsrc-ng.git;a=blob;f=graphics/libexif/Makefile;hb=refs/heads/upstream">Minix3</a></li>
 
+	<li>OpenBSD:
+    <a href="https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/graphics/libexif/">OpenBSD ports</a></li>
+
 	<li>Solaris:
 	<a href="https://www.opencsw.org/packages/CSWlibexif12/">Open CSW</a>,
+	<a href="https://pkg.openindiana.org/hipster/en/search.shtml?token=exif&amp;action=Search">Open Indiana</a>,
 	<a href="https://unixpackages.com/packages/package-matrix/?frm_search=exif">Unix Packages</a> ($)
 	</li>
 
 	<li>Windows:
 	<a href="https://cygwin.com/cgi-bin2/package-grep.cgi?grep=exif">Cygwin</a>,
+	<a href="https://packages.msys2.org/search?q=exif">msys2</a>,
+	<a href="https://github.com/microsoft/vcpkg/tree/master/ports/libexif">VCPKG</a>
 	</li>
 </ul>
 
@@ -318,12 +336,11 @@ as well as many other bug fixes and enhancements.
 <a
       href="https://validator.w3.org/check?uri=referer" title="Verify this page is valid XHTML 1.0"><img
       src="https://www.w3.org/Icons/valid-xhtml10"
-      alt="Valid XHTML 1.0!" height="31" width="88" style="border:0;" /></a>
+      alt="Valid XHTML 1.0!" height="31" width="88" /></a>
 <a href="https://jigsaw.w3.org/css-validator/check/referer" title="Verify this page is valid CSS"><img
-      style="border:0;width:88px;height:31px"
       src="https://jigsaw.w3.org/css-validator/images/vcss"
-      alt="Valid CSS!" /></a>
-<span>Last update: 2023-01-21</span>
+      alt="Valid CSS!" height="31" width="88" /></a>
+<span>Last update: 2023-02-09</span>
 </div>
 
 </body>
