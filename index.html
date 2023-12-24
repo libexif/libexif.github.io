@@ -7,7 +7,7 @@
 <meta name="referrer" content="no-referrer-when-downgrade" />
 <link rel="icon" href="penguin_turn_page.jpg" />
 <title>The libexif C EXIF library</title>
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'nonce-bt6nPNf9Q5Mqrg'; script-src 'none'; img-src 'self' www.w3.org jigsaw.w3.org img.shields.io github.com ci.appveyor.com api.cirrus-ci.com scan.coverity.com coveralls.io s3.amazonaws.com oss-fuzz-build-logs.storage.googleapis.com api.reuse.software;" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'nonce-bt6nPNf9Q5Mqrg'; script-src 'none'; img-src 'self' www.w3.org jigsaw.w3.org img.shields.io github.com ci.appveyor.com api.cirrus-ci.com scan.coverity.com coveralls.io s3.amazonaws.com oss-fuzz-build-logs.storage.googleapis.com api.reuse.software; require-trusted-types-for 'script';" />
 <style type="text/css" nonce="bt6nPNf9Q5Mqrg">
 body {
   color: black;
@@ -119,7 +119,8 @@ around the world compile the source code and provide binaries for a
 number of platforms. Here is a list of some of the sites you can look.
 Please report any problems with these binaries to their respective maintainers
 and <em>not</em> to libexif project members, as <em>we have nothing to do with
-them</em>.
+them</em>. In particular, check the version as it may not be the latest and may
+therefore suffer from known security issues.
 </p>
 <ul>
 	<li>AIX:
@@ -135,36 +136,40 @@ them</em>.
 
 	<li>Linux: Chances are, exif and libexif are already supplied by your
         distribution provider. Use your distribution's package install
-        tool to find and install them.
+        tool to find and install them. Or, use a cross-distribution package from
+        <a href="https://conan.io/center/libexif">Conan</a> or
+        <a href="https://anaconda.org/conda-forge/libexif">Conda-forge</a>.
 	</li>
 
 	<li>Mac OS X:
+        <a href="https://conan.io/center/libexif">Conan</a>,
         <a href="https://pdb.finkproject.org/pdb/package.php/libexif12">Fink</a>,
         <a href="https://formulae.brew.sh/formula/libexif#default">Homebrew</a></li>
 
 	<li>MidnightBSD:
-    <a href="https://pub.allbsd.org/MidnightBSD/distfiles/?P=*exif*">MidnightBSD</a></li>
+        <a href="https://pub.allbsd.org/MidnightBSD/distfiles/?P=*exif*">MidnightBSD</a>
+    </li>
 
 	<li>Minix:
-        <a href="https://git.minix3.org/index.cgi?p=pkgsrc-ng.git;a=blob;f=graphics/libexif/Makefile;hb=refs/heads/upstream">Minix3</a></li>
+        <a href="https://git.minix3.org/index.cgi?p=pkgsrc-ng.git;a=blob;f=graphics/libexif/Makefile;hb=refs/heads/upstream">Minix3</a>
+    </li>
 
 	<li>OpenBSD:
-    <a href="https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/graphics/libexif/">OpenBSD ports</a></li>
+        <a href="https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/graphics/libexif/">OpenBSD ports</a>
+    </li>
 
-	<li>Solaris:
-	<a href="https://www.opencsw.org/packages/CSWlibexif12/">Open CSW</a>,
-	<a href="https://pkg.openindiana.org/hipster/en/search.shtml?token=exif&amp;action=Search">Open Indiana</a>,
-	<a href="https://unixpackages.com/packages/package-matrix/?frm_search=exif">Unix Packages</a> ($)
+	<li>Solaris/illumos:
+        <a href="https://www.opencsw.org/packages/CSWlibexif12/">Open CSW</a>,
+        <a href="https://pkg.openindiana.org/hipster/en/search.shtml?token=exif&amp;action=Search">Open Indiana</a>,
+        <a href="https://unixpackages.com/packages/package-matrix/?frm_search=exif">Unix Packages</a> ($)
 	</li>
 
 	<li>Windows:
-	<a href="https://cygwin.com/cgi-bin2/package-grep.cgi?grep=exif">Cygwin</a>,
-	<a href="https://packages.msys2.org/search?q=exif">msys2</a>,
-	<a href="https://github.com/microsoft/vcpkg/tree/master/ports/libexif">VCPKG</a>
-	</li>
-
-	<li>Conan library package (Linux/macOS/Windows):
-	<a href="https://conan.io/center/libexif">Conan</a>
+        <a href="https://conan.io/center/libexif">Conan</a>,
+        <a href="https://anaconda.org/conda-forge/libexif">Conda-forge</a>,
+        <a href="https://cygwin.com/cgi-bin2/package-grep.cgi?grep=exif">Cygwin</a>,
+        <a href="https://packages.msys2.org/search?q=exif">msys2</a>,
+        <a href="https://github.com/microsoft/vcpkg/tree/master/ports/libexif">VCPKG</a>
 	</li>
 </ul>
 
@@ -351,7 +356,7 @@ as well as many other bug fixes and enhancements.
 <a href="https://jigsaw.w3.org/css-validator/check/referer" title="Verify this page is valid CSS"><img
       src="https://jigsaw.w3.org/css-validator/images/vcss"
       alt="Valid CSS!" height="31" width="88" /></a>
-<span>Last update: 2023-10-02</span>
+<span>Last update: 2023-12-23</span>
 </div>
 
 </body>
