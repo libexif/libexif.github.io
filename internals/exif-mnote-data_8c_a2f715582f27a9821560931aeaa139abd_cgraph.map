@@ -1,7 +1,0 @@
-<map id="exif_mnote_data_free" name="exif_mnote_data_free">
-<area shape="rect" id="node1" title=" " alt="" coords="5,30,171,56"/>
-<area shape="rect" id="node2" href="$exif-log_8c.html#a7a9b738a7429197d68c80ffedac7d8fb" title=" " alt="" coords="219,30,333,56"/>
-<area shape="rect" id="node4" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="713,30,835,56"/>
-<area shape="rect" id="node5" href="$exif-mem_8c.html#a66744e0987af08c443df247ce55f7d87" title="Unrefcount an ExifMem." alt="" coords="536,80,665,107"/>
-<area shape="rect" id="node3" href="$exif-log_8c.html#acd0808d6d5be73f28059797c2e2e67dc" title="Delete instance of ExifLog." alt="" coords="381,30,488,56"/>
-</map>

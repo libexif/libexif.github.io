@@ -1,6 +1,0 @@
-<map id="data_foreach_func" name="data_foreach_func">
-<area shape="rect" id="node1" title=" " alt="" coords="5,64,148,91"/>
-<area shape="rect" id="node2" href="$test-fuzzer_8c.html#ae56e0ea2bf731ff79780244dae9a7751" title="Completely parse all files given on the command line." alt="" coords="196,5,359,32"/>
-<area shape="rect" id="node3" href="$exif-content_8c.html#af7372b1342146e73a9d5b671c717a730" title="Executes function on each EXIF tag in this IFD in turn." alt="" coords="198,57,357,98"/>
-<area shape="rect" id="node4" href="$exif-content_8c.html#a102270386bc7fdc7296e243967f1a2f4" title="Return the IFD number in which the given ExifContent is found." alt="" coords="200,123,355,149"/>
-</map>

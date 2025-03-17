@@ -1,9 +1,0 @@
-<map id="libexif/exif&#45;log.h" name="libexif/exif&#45;log.h">
-<area shape="rect" id="node1" title="Log message infrastructure." alt="" coords="281,5,408,32"/>
-<area shape="rect" id="node2" href="$exif-mem_8h.html" title="Define the ExifMem data type and the associated functions." alt="" coords="209,80,350,107"/>
-<area shape="rect" id="node7" title=" " alt="" coords="374,80,449,107"/>
-<area shape="rect" id="node3" href="$exif-utils_8h.html" title="EXIF data manipulation functions and types." alt="" coords="212,155,347,181"/>
-<area shape="rect" id="node4" href="$exif-byte-order_8h.html" title="Defines the ExifByteOrder enum and the associated functions." alt="" coords="5,229,180,256"/>
-<area shape="rect" id="node5" href="$exif-format_8h.html" title="Handling native EXIF data types." alt="" coords="204,229,355,256"/>
-<area shape="rect" id="node6" title=" " alt="" coords="379,229,502,256"/>
-</map>

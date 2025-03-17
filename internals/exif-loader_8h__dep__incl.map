@@ -1,9 +1,0 @@
-<map id="libexif/exif&#45;loader.h" name="libexif/exif&#45;loader.h">
-<area shape="rect" id="node1" title="Defines the ExifLoader type." alt="" coords="457,5,605,32"/>
-<area shape="rect" id="node2" href="$exif-data_8c.html" title=" " alt="" coords="5,80,140,107"/>
-<area shape="rect" id="node3" href="$exif-loader_8c.html" title=" " alt="" coords="165,80,311,107"/>
-<area shape="rect" id="node4" href="$test-fuzzer-persistent_8c.html" title=" " alt="" coords="336,80,537,107"/>
-<area shape="rect" id="node5" href="$test-fuzzer_8c.html" title=" " alt="" coords="561,80,693,107"/>
-<area shape="rect" id="node6" href="$test-mem_8c.html" title=" " alt="" coords="717,80,844,107"/>
-<area shape="rect" id="node7" href="$test-null_8c.html" title="Pass NULL values into libexif APIs and ensure it doesn&#39;t crash." alt="" coords="868,80,984,107"/>
-</map>

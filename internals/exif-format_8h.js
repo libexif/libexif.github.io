@@ -14,6 +14,6 @@ var exif_format_8h =
       [ "EXIF_FORMAT_FLOAT", "exif-format_8h.html#a761152047d73b4a9fcdc4e2051b817d2ab8b22c7e2195872fa934308cf7b2f688", null ],
       [ "EXIF_FORMAT_DOUBLE", "exif-format_8h.html#a761152047d73b4a9fcdc4e2051b817d2af89818d5f7b2f06f25baff4657565054", null ]
     ] ],
-    [ "exif_format_get_name", "exif-format_8h.html#a59375a5939c716b826311c22571680f3", null ],
+    [ "exif_format_get_name", "exif-format_8h.html#a513bc6b9980641d7e6ff1fe74810b3e0", null ],
     [ "exif_format_get_size", "exif-format_8h.html#a924038efe0cd8ebade8f44619dd794f3", null ]
 ];

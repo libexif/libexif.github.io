@@ -1,4 +1,0 @@
-<map id="exif_set_short" name="exif_set_short">
-<area shape="rect" id="node1" title="Store an ExifShort value into memory in EXIF format." alt="" coords="5,5,120,32"/>
-<area shape="rect" id="node2" href="$exif-utils_8c.html#a6504651147702fc6db9a5cd4aa997023" title="Store an ExifSShort value into memory in EXIF format." alt="" coords="168,5,289,32"/>
-</map>

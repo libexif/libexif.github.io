@@ -1,8 +1,0 @@
-<map id="exif_tag_get_support_level_in_ifd" name="exif_tag_get_support_level_in_ifd">
-<area shape="rect" id="node1" title="Return whether the given tag is mandatory or not in the given IFD and data type according to the EXIF..." alt="" coords="5,23,164,65"/>
-<area shape="rect" id="node2" href="$exif-tag_8c.html#a92f313f59c9f2fc4bebe2438be038bd9" title="Return the support level of a tag in the given IFD, regardless of the data type." alt="" coords="212,5,417,32"/>
-<area shape="rect" id="node6" href="$exif-tag_8c.html#a1581a40dbcb0f27d4a3f8181b272c55b" title="Return the support level of a tag in the given IFD with the given data type." alt="" coords="224,56,405,83"/>
-<area shape="rect" id="node3" href="$exif-tag_8c.html#a389f8ff3411e0525b28367892f1e78d3" title="Finds the first entry in the EXIF tag table with the given tag number using a binary search." alt="" coords="465,31,613,57"/>
-<area shape="rect" id="node4" href="$exif-tag_8c.html#a87563ee64809f5f0deb4d780098508c1" title="Return the number of entries in the EXIF tag table, including the terminating NULL entry." alt="" coords="661,5,820,32"/>
-<area shape="rect" id="node5" href="$exif-tag_8c.html#a220c1b18832f113bc84ff9551754915f" title="Compares the tag with that in entry." alt="" coords="695,56,786,83"/>
-</map>

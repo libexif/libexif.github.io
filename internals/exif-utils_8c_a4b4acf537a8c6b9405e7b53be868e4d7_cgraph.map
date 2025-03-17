@@ -1,4 +1,0 @@
-<map id="exif_get_short" name="exif_get_short">
-<area shape="rect" id="node1" title="Retrieve an ExifShort value from memory." alt="" coords="5,5,120,32"/>
-<area shape="rect" id="node2" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="168,5,291,32"/>
-</map>

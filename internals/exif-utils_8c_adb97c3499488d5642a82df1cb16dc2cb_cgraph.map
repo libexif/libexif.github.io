@@ -1,4 +1,0 @@
-<map id="exif_get_srational" name="exif_get_srational">
-<area shape="rect" id="node1" title="Retrieve an ExifSRational value from memory." alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node2" href="$exif-utils_8c.html#a56b96f076a13da6ed926e1ef29cb2dc3" title="Retrieve an ExifSLong value from memory." alt="" coords="192,5,309,32"/>
-</map>

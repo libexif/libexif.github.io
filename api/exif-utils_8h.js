@@ -1,10 +1,8 @@
 var exif_utils_8h =
 [
-    [ "ExifRational", "structExifRational.html", "structExifRational" ],
-    [ "ExifSRational", "structExifSRational.html", "structExifSRational" ],
+    [ "ExifRational", "structExifRational.html", null ],
+    [ "ExifSRational", "structExifSRational.html", null ],
     [ "EXIF_TAG_SUBSEC_TIME", "exif-utils_8h.html#ae25323c5bacc023eef01d895d89b5b9a", null ],
-    [ "MAX", "exif-utils_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f", null ],
-    [ "MIN", "exif-utils_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f", null ],
     [ "ExifAscii", "exif-utils_8h.html#a697f5af4295e78bc3c7f3f4262879b2f", null ],
     [ "ExifByte", "exif-utils_8h.html#a2bf005f30616ce5ae66b985624e6e96d", null ],
     [ "ExifLong", "exif-utils_8h.html#a34c5d7765ab2e6dec8308c5127a10afa", null ],
@@ -12,8 +10,6 @@ var exif_utils_8h =
     [ "ExifShort", "exif-utils_8h.html#a398536727127a9bc2206ffbdacaafaad", null ],
     [ "ExifSLong", "exif-utils_8h.html#a34d3e46cb03b44374e56984e6a983019", null ],
     [ "ExifSShort", "exif-utils_8h.html#a67d91a929ae0a1b734ced5f497428d3b", null ],
-    [ "ExifUndefined", "exif-utils_8h.html#af1a77ff12b7418e29f24258c9cdcbd0c", null ],
-    [ "exif_array_set_byte_order", "exif-utils_8h.html#a72ec39e4434b91da06044a5c5a1bc0a0", null ],
     [ "exif_convert_utf16_to_utf8", "exif-utils_8h.html#af43ad07a0e309c42ead4897c29319f4c", null ],
     [ "exif_get_long", "exif-utils_8h.html#aade6b72dc606bf6d36d684353ddc16dd", null ],
     [ "exif_get_rational", "exif-utils_8h.html#af813a7082b2eb2f24975d88b1a05f0df", null ],

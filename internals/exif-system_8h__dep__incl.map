@@ -1,9 +1,0 @@
-<map id="libexif/exif&#45;system.h" name="libexif/exif&#45;system.h">
-<area shape="rect" id="node1" title="System specific definitions, not for installation!" alt="" coords="461,5,616,32"/>
-<area shape="rect" id="node2" href="$exif-content_8c.html" title=" " alt="" coords="5,87,160,114"/>
-<area shape="rect" id="node3" href="$exif-data_8c.html" title=" " alt="" coords="185,87,319,114"/>
-<area shape="rect" id="node4" href="$test-fuzzer-persistent_8c.html" title=" " alt="" coords="343,87,545,114"/>
-<area shape="rect" id="node5" href="$test-fuzzer_8c.html" title=" " alt="" coords="569,87,701,114"/>
-<area shape="rect" id="node6" href="$test-parse-from-data_8c.html" title="Completely parse all files given on the command line." alt="" coords="725,80,878,121"/>
-<area shape="rect" id="node7" href="$test-parse_8c.html" title="Completely parse all files given on the command line." alt="" coords="903,87,1031,114"/>
-</map>

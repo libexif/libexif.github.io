@@ -1,5 +1,0 @@
-<map id="exif_entry_free" name="exif_entry_free">
-<area shape="rect" id="node1" title="Actually free the ExifEntry." alt="" coords="5,5,127,32"/>
-<area shape="rect" id="node2" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="352,5,473,32"/>
-<area shape="rect" id="node3" href="$exif-mem_8c.html#a66744e0987af08c443df247ce55f7d87" title="Unrefcount an ExifMem." alt="" coords="175,31,304,57"/>
-</map>

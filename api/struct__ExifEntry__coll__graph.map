@@ -1,13 +1,32 @@
 <map id="_ExifEntry" name="_ExifEntry">
-<area shape="rect" id="node1" title="Data found in one EXIF tag." alt="" coords="15,184,103,211"/>
-<area shape="rect" id="node4" href="$struct__ExifContent.html" title=" " alt="" coords="132,273,237,300"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,140,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="251,5,337,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="128,184,279,211"/>
-<area shape="rect" id="node6" title=" " alt="" coords="255,95,333,121"/>
-<area shape="rect" id="node8" title=" " alt="" coords="287,273,418,300"/>
-<area shape="rect" id="node9" href="$struct__ExifMnoteData.html" title=" " alt="" coords="465,184,592,211"/>
-<area shape="rect" id="node7" href="$struct__ExifData.html" title="Represents the entire EXIF data found in an image." alt="" coords="219,363,305,389"/>
-<area shape="rect" id="node10" href="$struct__ExifMnoteDataMethods.html" title=" " alt="" coords="552,95,735,121"/>
-<area shape="rect" id="node11" title=" " alt="" coords="759,95,909,121"/>
+<area shape="rect" id="Node000001" title="Data found in one EXIF tag." alt="" coords="747,181,835,207"/>
+<area shape="rect" id="Node000002" href="$struct__ExifContent.html" title=" " alt="" coords="602,269,708,295"/>
+<area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="741,215,707,233,684,252,667,271,663,267,681,248,704,228,739,210"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="721,263,759,243,774,225,784,206,789,209,779,228,762,247,724,268"/>
+<area shape="rect" id="Node000003" href="$struct__ExifData.html" title="Represents the entire EXIF data found in an image." alt="" coords="535,357,620,383"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="645,310,628,335,599,359,596,355,624,332,641,307"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="571,341,577,317,591,303,608,293,610,297,594,307,581,320,576,342"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="396,269,527,295"/>
+<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="492,302,563,355,560,359,489,306"/>
+<area shape="rect" id="Node000005" href="$struct__ExifMnoteData.html" title=" " alt="" coords="346,181,473,207"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="427,219,457,268,452,270,423,221"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="334,93,485,119"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="412,134,412,181,407,181,407,134"/>
+<area shape="rect" id="Node000007" href="$struct__ExifMnoteDataMethods.html" title=" " alt="" coords="40,93,222,119"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="154,128,172,143,192,155,230,169,271,179,346,189,346,194,270,184,229,174,190,160,169,147,150,132"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="510,93,587,119"/>
+<area shape="poly" id="edge13_Node000004_Node000008" title=" " alt="" coords="538,134,470,270,465,267,533,132"/>
+<area shape="poly" id="edge9_Node000005_Node000008" title=" " alt="" coords="510,128,479,145,426,183,423,179,476,140,508,123"/>
+<area shape="poly" id="edge10_Node000008_Node000008" title=" " alt="" coords="604,97,614,106,605,115,588,117,587,112,603,110,608,106,601,101"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="572,181,722,207"/>
+<area shape="poly" id="edge17_Node000010_Node000008" title=" " alt="" coords="575,127,635,179,632,183,572,131"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="505,5,592,31"/>
+<area shape="poly" id="edge14_Node000004_Node000009" title=" " alt="" coords="489,21,373,23,234,33,167,42,108,55,60,73,29,95,14,117,9,137,11,155,21,171,37,186,59,200,117,224,187,243,262,257,397,273,396,278,261,262,186,248,115,229,57,205,34,191,16,174,6,156,3,136,9,115,25,91,58,68,106,50,166,37,234,28,373,18,489,16"/>
+<area shape="poly" id="edge12_Node000005_Node000009" title=" " alt="" coords="490,30,432,40,370,55,317,73,298,84,285,95,279,108,280,120,287,132,300,143,334,163,371,178,370,183,332,168,296,148,283,135,275,122,274,107,281,92,295,79,315,68,369,50,431,35,490,25"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="551,46,551,93,546,93,546,46"/>
+<area shape="poly" id="edge16_Node000010_Node000009" title=" " alt="" coords="595,35,630,58,646,74,659,92,666,116,665,141,655,182,650,180,660,140,661,117,654,94,642,77,627,63,592,40"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="756,93,890,119"/>
+<area shape="poly" id="edge19_Node000011_Node000009" title=" " alt="" coords="608,26,659,37,712,52,760,71,801,90,799,95,758,76,710,57,657,42,606,32"/>
+<area shape="poly" id="edge15_Node000002_Node000010" title=" " alt="" coords="651,222,652,245,656,269,650,269,647,246,645,222"/>
+<area shape="poly" id="edge18_Node000001_Node000011" title=" " alt="" coords="816,134,798,182,793,180,811,132"/>
 </map>

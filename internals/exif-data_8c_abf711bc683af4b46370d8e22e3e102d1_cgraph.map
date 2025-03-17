@@ -1,6 +1,0 @@
-<map id="cmp_func_intel" name="cmp_func_intel">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,127,32"/>
-<area shape="rect" id="node2" href="$exif-data_8c.html#a0b662825b4c76063b1ba549bf1259a6d" title=" " alt="" coords="175,5,260,32"/>
-<area shape="rect" id="node3" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="308,5,423,32"/>
-<area shape="rect" id="node4" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="471,5,593,32"/>
-</map>

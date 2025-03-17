@@ -2,14 +2,11 @@ var exif_mnote_data_8h =
 [
     [ "ExifMnoteData", "exif-mnote-data_8h.html#ad274692c704f570122329ef1ab32ed31", null ],
     [ "exif_mnote_data_count", "exif-mnote-data_8h.html#af61fbda7c717e86991b0eccf6976a5f4", null ],
-    [ "exif_mnote_data_get_description", "exif-mnote-data_8h.html#aa21ac7dd1784e892ec482fe037fc646b", null ],
+    [ "exif_mnote_data_get_description", "exif-mnote-data_8h.html#a72397dfd279d52fb674a1abd5ed16ee2", null ],
     [ "exif_mnote_data_get_id", "exif-mnote-data_8h.html#a981bab235db2e156216d5cc43f48cac7", null ],
-    [ "exif_mnote_data_get_name", "exif-mnote-data_8h.html#a921ea2f4583325653d2207c6f1d98742", null ],
-    [ "exif_mnote_data_get_title", "exif-mnote-data_8h.html#abdf581cdc7ce672b44978ef993f22b78", null ],
-    [ "exif_mnote_data_get_value", "exif-mnote-data_8h.html#a56299b268a29ea7fa1301952cfe32ca4", null ],
+    [ "exif_mnote_data_get_name", "exif-mnote-data_8h.html#aac0686178cd4b8b5ec3b1c78b41acbf8", null ],
+    [ "exif_mnote_data_get_title", "exif-mnote-data_8h.html#a9ef3bec8c131fbde32702b475025e8f2", null ],
+    [ "exif_mnote_data_get_value", "exif-mnote-data_8h.html#a299e3e7c9ee3c79f3678872b8a6038c4", null ],
     [ "exif_mnote_data_load", "exif-mnote-data_8h.html#a263d51ca6b59fecb34199113b033f63f", null ],
-    [ "exif_mnote_data_log", "exif-mnote-data_8h.html#a9a6093f4cd64a11919f254851e54d92c", null ],
-    [ "exif_mnote_data_ref", "exif-mnote-data_8h.html#a6e4fab705cb33adde53dfff211dcd03c", null ],
-    [ "exif_mnote_data_save", "exif-mnote-data_8h.html#a704500ea880e6727d8b4a98ff38c0a25", null ],
-    [ "exif_mnote_data_unref", "exif-mnote-data_8h.html#ac51e0514ec846838697a460a24bb73fb", null ]
+    [ "exif_mnote_data_save", "exif-mnote-data_8h.html#a704500ea880e6727d8b4a98ff38c0a25", null ]
 ];

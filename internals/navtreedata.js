@@ -24,15 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "EXIF library (libexif) Internals", "index.html", [
-    [ "The libexif library", "index.html", [
-      [ "General Notes", "index.html#general_notes", null ],
-      [ "Using libexif", "index.html#using_libexif", null ],
-      [ "Primary Data Structures", "index.html#data_structures", null ],
-      [ "String Conventions", "index.html#string_conventions", null ],
-      [ "Memory Management Patterns", "index.html#memory_management", null ],
-      [ "Thread Safety", "index.html#thread_safety", null ]
-    ] ],
+  [ "EXIF library (libexif) API", "index.html", [
+    [ "The libexif library", "index.html", "index" ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Bug List", "bug.html", null ],
     [ "Data Structures", "annotated.html", [
@@ -46,12 +39,11 @@ var NAVTREE =
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "Globals", "globals.html", [
-        [ "All", "globals.html", "globals_dup" ],
-        [ "Functions", "globals_func.html", "globals_func" ],
-        [ "Variables", "globals_vars.html", null ],
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", "globals_eval" ],
+        [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -61,12 +53,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"exif-loader_8c.html",
-"exif-mnote-data_8c.html#a4970c2abd01866c4b366064c171cf524",
-"exif-tag_8h.html#af7f3a087e350763a4d7d202a3caaeb2d",
-"mnote-canon-tag_8h.html#aef5b4bff3b1e2938e0eabb6dafc5dba4ab11d8501c880e461ad957cb0977d4d28",
-"mnote-olympus-tag_8h.html#a4b8d8a90fb313de066b339db8a274686a9d1d57be47894b4f73bd5afd7a9646f0",
-"struct__ExifContentPrivate.html"
+"exif-tag_8h.html#a1a0ded93d47585f6889eb546915d0f41ad7c648d0ee1028791f00e11e3d8f2306"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

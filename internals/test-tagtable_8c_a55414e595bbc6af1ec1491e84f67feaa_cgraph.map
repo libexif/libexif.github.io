@@ -1,7 +1,0 @@
-<map id="name" name="name">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,64,57"/>
-<area shape="rect" id="node2" href="$exif-tag_8c.html#a82b5a88d44d27d432afb5a1db74268b0" title="Return a textual name of the given tag when found in the given IFD." alt="" coords="112,31,303,57"/>
-<area shape="rect" id="node3" href="$exif-tag_8c.html#a389f8ff3411e0525b28367892f1e78d3" title="Finds the first entry in the EXIF tag table with the given tag number using a binary search." alt="" coords="351,31,499,57"/>
-<area shape="rect" id="node4" href="$exif-tag_8c.html#a87563ee64809f5f0deb4d780098508c1" title="Return the number of entries in the EXIF tag table, including the terminating NULL entry." alt="" coords="547,5,705,32"/>
-<area shape="rect" id="node5" href="$exif-tag_8c.html#a220c1b18832f113bc84ff9551754915f" title="Compares the tag with that in entry." alt="" coords="581,56,671,83"/>
-</map>

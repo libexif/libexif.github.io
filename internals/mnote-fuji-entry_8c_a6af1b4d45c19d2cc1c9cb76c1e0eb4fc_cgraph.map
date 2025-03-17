@@ -1,9 +1,0 @@
-<map id="mnote_fuji_entry_get_value" name="mnote_fuji_entry_get_value">
-<area shape="rect" id="node1" title=" " alt="" coords="5,98,167,139"/>
-<area shape="rect" id="node2" href="$exif-utils_8c.html#a4ad94614630897766dd0a5c9bc2a59bf" title="Retrieve an ExifLong value from memory." alt="" coords="409,29,519,56"/>
-<area shape="rect" id="node3" href="$exif-utils_8c.html#a56b96f076a13da6ed926e1ef29cb2dc3" title="Retrieve an ExifSLong value from memory." alt="" coords="581,80,699,107"/>
-<area shape="rect" id="node4" href="$exif-utils_8c.html#a1feb547c289aa57a4d2119338b03706c" title="Retrieve an ExifRational value from memory." alt="" coords="215,29,347,56"/>
-<area shape="rect" id="node5" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="223,131,338,157"/>
-<area shape="rect" id="node6" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="403,143,525,169"/>
-<area shape="rect" id="node7" href="$exif-utils_8c.html#adb97c3499488d5642a82df1cb16dc2cb" title="Retrieve an ExifSRational value from memory." alt="" coords="395,219,533,245"/>
-</map>

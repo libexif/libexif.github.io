@@ -1,5 +1,0 @@
-<map id="exif_loader_new_mem" name="exif_loader_new_mem">
-<area shape="rect" id="node1" title="Allocate a new ExifLoader using the specified memory allocator." alt="" coords="5,31,176,57"/>
-<area shape="rect" id="node2" href="$exif-mem_8c.html#ae8c09cfbcb95e435c4c4b7ec3bbd79e4" title=" " alt="" coords="224,5,351,32"/>
-<area shape="rect" id="node3" href="$exif-mem_8c.html#af28c61972f529be46907956e0b3e7a60" title="Refcount an ExifMem." alt="" coords="231,56,344,83"/>
-</map>

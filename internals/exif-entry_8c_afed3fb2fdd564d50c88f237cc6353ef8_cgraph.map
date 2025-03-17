@@ -1,7 +1,0 @@
-<map id="exif_get_short_convert" name="exif_get_short_convert">
-<area shape="rect" id="node1" title="Get a value and convert it to an ExifShort." alt="" coords="5,81,176,108"/>
-<area shape="rect" id="node2" href="$exif-utils_8c.html#a4ad94614630897766dd0a5c9bc2a59bf" title="Retrieve an ExifLong value from memory." alt="" coords="226,5,337,32"/>
-<area shape="rect" id="node3" href="$exif-utils_8c.html#a56b96f076a13da6ed926e1ef29cb2dc3" title="Retrieve an ExifSLong value from memory." alt="" coords="389,44,507,71"/>
-<area shape="rect" id="node4" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="224,107,339,133"/>
-<area shape="rect" id="node5" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="387,120,509,147"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="exif_convert_utf16_to_utf8" name="exif_convert_utf16_to_utf8">
-<area shape="rect" id="node1" title="This function converts rather UCS&#45;2LE than UTF&#45;16 to UTF&#45;8." alt="" coords="5,5,149,47"/>
-<area shape="rect" id="node2" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="197,13,312,39"/>
-<area shape="rect" id="node3" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="360,13,483,39"/>
-</map>

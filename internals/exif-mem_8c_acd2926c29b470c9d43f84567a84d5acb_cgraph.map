@@ -1,7 +1,0 @@
-<map id="exif_mem_new_default" name="exif_mem_new_default">
-<area shape="rect" id="node1" title="Create a new ExifMem with default values for your convenience." alt="" coords="5,81,180,108"/>
-<area shape="rect" id="node2" href="$exif-mem_8c.html#ae96feb62e763070ed3d70ca66f15feaa" title="Default memory allocation function." alt="" coords="235,5,396,32"/>
-<area shape="rect" id="node3" href="$exif-mem_8c.html#a30e654456ffed5baaf5a23f1d8817aa6" title="Default memory free function." alt="" coords="237,56,393,83"/>
-<area shape="rect" id="node4" href="$exif-mem_8c.html#a5db78241cb6c1752209e8e28f295ea41" title="Create a new ExifMem." alt="" coords="254,107,377,133"/>
-<area shape="rect" id="node5" href="$exif-mem_8c.html#ace345dfcefc8f8a8aa04a7f47ab419c9" title="Default memory reallocation function." alt="" coords="228,157,403,184"/>
-</map>

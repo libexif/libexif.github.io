@@ -25,14 +25,7 @@
 var NAVTREE =
 [
   [ "EXIF library (libexif) API", "index.html", [
-    [ "The libexif library", "index.html", [
-      [ "General Notes", "index.html#general_notes", null ],
-      [ "Using libexif", "index.html#using_libexif", null ],
-      [ "Primary Data Structures", "index.html#data_structures", null ],
-      [ "String Conventions", "index.html#string_conventions", null ],
-      [ "Memory Management Patterns", "index.html#memory_management", null ],
-      [ "Thread Safety", "index.html#thread_safety", null ]
-    ] ],
+    [ "The libexif library", "index.html", "index" ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Bug List", "bug.html", null ],
     [ "Data Structures", "annotated.html", [
@@ -60,7 +53,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"exif-tag_8h.html#a1a0ded93d47585f6889eb546915d0f41a93faf08d85ff92386aa8dbedd6c90dac"
+"exif-tag_8h.html#a1a0ded93d47585f6889eb546915d0f41ad7c648d0ee1028791f00e11e3d8f2306"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

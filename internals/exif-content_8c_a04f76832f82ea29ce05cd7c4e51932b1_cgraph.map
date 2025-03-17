@@ -1,8 +1,0 @@
-<map id="exif_content_remove_entry" name="exif_content_remove_entry">
-<area shape="rect" id="node1" title="Remove an EXIF tag from an IFD." alt="" coords="5,66,165,107"/>
-<area shape="rect" id="node2" href="$exif-entry_8c.html#a82d5d923121488d847d341727cdd2ef4" title="Decrease reference counter for ExifEntry." alt="" coords="218,22,347,49"/>
-<area shape="rect" id="node4" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="747,22,868,49"/>
-<area shape="rect" id="node6" href="$exif-mem_8c.html#a3dcfe6794d82e79e92da5e2c62484b17" title=" " alt="" coords="213,124,352,150"/>
-<area shape="rect" id="node3" href="$exif-entry_8c.html#a2879215e3863186650d3f32eb63bbaf4" title="Actually free the ExifEntry." alt="" coords="400,22,521,49"/>
-<area shape="rect" id="node5" href="$exif-mem_8c.html#a66744e0987af08c443df247ce55f7d87" title="Unrefcount an ExifMem." alt="" coords="569,22,699,49"/>
-</map>

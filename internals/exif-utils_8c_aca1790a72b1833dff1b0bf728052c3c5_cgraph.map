@@ -1,4 +1,0 @@
-<map id="exif_set_srational" name="exif_set_srational">
-<area shape="rect" id="node1" title="Store an ExifSRational value into memory in EXIF format." alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node2" href="$exif-utils_8c.html#ae6e3b9d1663f9ab9bd462d73a310ca03" title="Store an ExifSLong value into memory in EXIF format." alt="" coords="192,5,308,32"/>
-</map>

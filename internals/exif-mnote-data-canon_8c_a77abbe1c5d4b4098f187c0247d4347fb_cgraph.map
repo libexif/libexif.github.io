@@ -1,8 +1,0 @@
-<map id="exif_mnote_data_canon_get_description" name="exif_mnote_data_canon_get_description">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,184,80"/>
-<area shape="rect" id="node2" href="$exif-mnote-data-canon_8c.html#ae9824e7901a9cd61dc6d81713af3d34b" title=" " alt="" coords="232,5,411,47"/>
-<area shape="rect" id="node6" href="$mnote-canon-tag_8c.html#a74e4d64803187610d0174fe315492d45" title=" " alt="" coords="238,71,405,112"/>
-<area shape="rect" id="node3" href="$mnote-canon-entry_8c.html#a9d343f3faec828b2467bacbab0919f47" title=" " alt="" coords="459,5,653,47"/>
-<area shape="rect" id="node4" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="701,13,816,39"/>
-<area shape="rect" id="node5" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="864,13,987,39"/>
-</map>

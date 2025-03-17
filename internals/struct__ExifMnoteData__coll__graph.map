@@ -1,7 +1,13 @@
 <map id="_ExifMnoteData" name="_ExifMnoteData">
-<area shape="rect" id="node1" title=" " alt="" coords="285,184,412,211"/>
-<area shape="rect" id="node2" href="$struct__ExifMnoteDataMethods.html" title=" " alt="" coords="5,95,188,121"/>
-<area shape="rect" id="node3" href="$struct__ExifMnoteDataPriv.html" title=" " alt="" coords="212,95,363,121"/>
-<area shape="rect" id="node4" href="$struct__ExifLog.html" title=" " alt="" coords="474,95,551,121"/>
-<area shape="rect" id="node5" href="$struct__ExifMem.html" title=" " alt="" coords="389,5,476,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="277,181,404,207"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,156,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,121,305,178,304,183,130,126"/>
+<area shape="rect" id="Node000003" href="$struct__ExifMnoteDataMethods.html" title=" " alt="" coords="180,93,363,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="293,129,333,179,329,183,288,133"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="474,93,551,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="484,130,431,160,376,183,374,178,429,155,481,125"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="568,97,578,106,570,115,552,117,552,112,567,110,573,106,565,101"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="389,5,476,31"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="428,47,410,100,380,159,358,183,354,179,376,156,405,98,423,45"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="456,40,504,91,500,95,452,44"/>
 </map>
