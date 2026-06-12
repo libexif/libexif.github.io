@@ -1,0 +1,10 @@
+<map id="exif_entry_unref" name="exif_entry_unref">
+<area shape="rect" id="Node000001" title="Decrease reference counter for ExifEntry." alt="" coords="5,5,135,31"/>
+<area shape="rect" id="Node000002" href="$exif-entry_8c.html#a2879215e3863186650d3f32eb63bbaf4" title="Actually free the ExifEntry." alt="" coords="183,5,304,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,15,167,15,167,21,135,21"/>
+<area shape="rect" id="Node000003" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="529,5,651,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="305,15,514,15,514,21,305,21"/>
+<area shape="rect" id="Node000004" href="$exif-mem_8c.html#a66744e0987af08c443df247ce55f7d87" title="Unrefcount an ExifMem." alt="" coords="352,31,481,56"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="305,24,337,29,337,34,304,29"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="481,31,514,26,514,32,482,37"/>
+</map>

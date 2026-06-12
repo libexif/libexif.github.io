@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "EXIF library (libexif) API", "index.html", [
+  [ "EXIF library (libexif) Internals", "index.html", [
     [ "The libexif library", "index.html", "index" ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Bug List", "bug.html", null ],
@@ -39,11 +39,12 @@ var NAVTREE =
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "Globals", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
+        [ "All", "globals.html", "globals_dup" ],
+        [ "Functions", "globals_func.html", "globals_func" ],
+        [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
+        [ "Enumerator", "globals_eval.html", "globals_eval" ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -53,7 +54,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"exif-tag_8h.html#a1a0ded93d47585f6889eb546915d0f41ad7c648d0ee1028791f00e11e3d8f2306"
+"exif-loader_8c.html",
+"exif-mnote-data_8c.html#a263d51ca6b59fecb34199113b033f63f",
+"exif-tag_8h.html#ad82d1607c673c27b7535b54c1d06e2b1",
+"mnote-canon-tag_8h.html#aef5b4bff3b1e2938e0eabb6dafc5dba4aa8954671a0ccf2fc3ae64ba3363fc9cb",
+"mnote-olympus-tag_8h.html#a4b8d8a90fb313de066b339db8a274686a983cc5c8842a3e833a8a92ca4136e191",
+"struct__ExifContent.html#aae965558ea5c98783c4c2418364aabea"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

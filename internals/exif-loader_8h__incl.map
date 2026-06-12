@@ -1,0 +1,45 @@
+<map id="libexif/exif&#45;loader.h" name="libexif/exif&#45;loader.h">
+<area shape="rect" id="Node000001" title="Defines the ExifLoader type." alt="" coords="151,5,299,31"/>
+<area shape="rect" id="Node000002" href="$exif-data_8h.html" title="Defines the ExifData type and the associated functions." alt="" coords="399,79,535,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="267,29,413,71,411,76,265,34"/>
+<area shape="rect" id="Node000006" href="$exif-log_8h.html" title="Log message infrastructure." alt="" coords="277,240,404,265"/>
+<area shape="poly" id="edge27_Node000001_Node000006" title=" " alt="" coords="230,30,252,101,270,146,292,191,320,227,316,230,288,193,265,148,247,102,225,32"/>
+<area shape="rect" id="Node000007" href="$exif-mem_8h.html" title="Define the ExifMem data type and the associated functions." alt="" coords="207,313,349,339"/>
+<area shape="poly" id="edge28_Node000001_Node000007" title=" " alt="" coords="228,31,238,128,247,196,261,265,271,298,265,299,255,266,242,197,232,129,223,32"/>
+<area shape="rect" id="Node000003" href="$exif-byte-order_8h.html" title="Defines the ExifByteOrder enum and the associated functions." alt="" coords="5,460,180,485"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="404,107,305,130,197,163,149,182,110,204,84,227,78,239,75,252,75,327,80,390,89,444,84,445,75,391,70,327,70,251,73,237,80,224,107,200,147,178,195,158,304,125,403,102"/>
+<area shape="rect" id="Node000004" href="$exif-data-type_8h.html" title=" " alt="" coords="591,313,762,339"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="536,97,594,115,621,130,644,150,666,186,677,226,682,265,682,298,676,298,676,265,672,227,661,188,640,154,618,134,591,119,535,102"/>
+<area shape="rect" id="Node000005" href="$exif-ifd_8h.html" title=" " alt="" coords="801,313,925,339"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="536,98,629,116,680,131,728,150,797,183,823,205,848,239,860,268,865,297,860,298,855,269,844,241,819,209,794,188,726,154,678,136,628,121,535,103"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="400,101,372,108,346,119,322,133,303,153,297,171,300,190,309,209,321,227,317,230,305,212,295,192,292,171,298,151,319,129,344,114,371,103,398,96"/>
+<area shape="poly" id="edge26_Node000002_Node000007" title=" " alt="" coords="400,103,342,120,315,135,292,154,273,179,264,204,264,231,267,265,273,298,268,299,262,266,259,231,259,203,268,177,288,150,312,130,340,115,398,98"/>
+<area shape="rect" id="Node000012" href="$exif-tag_8h.html" title="Handling EXIF tags." alt="" coords="706,240,834,265"/>
+<area shape="poly" id="edge12_Node000002_Node000012" title=" " alt="" coords="536,98,612,115,652,130,689,150,710,167,729,186,758,225,754,229,725,190,707,171,686,154,650,135,611,120,535,103"/>
+<area shape="rect" id="Node000013" href="$exif-content_8h.html" title="Handling EXIF IFDs." alt="" coords="475,159,631,185"/>
+<area shape="poly" id="edge15_Node000002_Node000013" title=" " alt="" coords="475,102,523,148,520,152,471,106"/>
+<area shape="rect" id="Node000015" href="$exif-mnote-data_8h.html" title="Handling EXIF MakerNote tags." alt="" coords="313,152,451,192"/>
+<area shape="poly" id="edge24_Node000002_Node000015" title=" " alt="" coords="456,106,416,143,412,139,453,103"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="332,267,301,303,297,300,328,264"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="373,313,447,339"/>
+<area shape="poly" id="edge11_Node000006_Node000011" title=" " alt="" coords="354,264,390,300,386,304,350,268"/>
+<area shape="rect" id="Node000008" href="$exif-utils_8h.html" title="EXIF data manipulation functions and types." alt="" coords="211,387,345,412"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="281,339,281,371,275,371,275,339"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="248,415,139,457,137,452,246,410"/>
+<area shape="rect" id="Node000009" href="$exif-format_8h.html" title="Handling native EXIF data types." alt="" coords="411,460,561,485"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="314,410,437,452,436,457,312,415"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="217,460,339,485"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="281,412,281,444,275,444,275,412"/>
+<area shape="poly" id="edge14_Node000012_Node000004" title=" " alt="" coords="756,268,706,306,703,302,753,264"/>
+<area shape="poly" id="edge13_Node000012_Node000005" title=" " alt="" coords="787,264,837,302,834,306,784,268"/>
+<area shape="poly" id="edge21_Node000013_Node000002" title=" " alt="" coords="544,161,497,116,501,112,548,157"/>
+<area shape="poly" id="edge22_Node000013_Node000006" title=" " alt="" coords="521,188,388,237,386,232,520,183"/>
+<area shape="poly" id="edge23_Node000013_Node000007" title=" " alt="" coords="539,187,486,225,417,268,325,310,323,305,414,263,483,220,536,183"/>
+<area shape="poly" id="edge16_Node000013_Node000012" title=" " alt="" coords="587,183,723,232,721,237,585,188"/>
+<area shape="rect" id="Node000014" href="$exif-entry_8h.html" title="Handling EXIF entries." alt="" coords="481,240,619,265"/>
+<area shape="poly" id="edge17_Node000013_Node000014" title=" " alt="" coords="548,185,545,225,540,225,543,185"/>
+<area shape="poly" id="edge20_Node000014_Node000007" title=" " alt="" coords="505,269,339,311,338,306,503,263"/>
+<area shape="poly" id="edge19_Node000014_Node000009" title=" " alt="" coords="549,266,496,446,491,444,544,265"/>
+<area shape="poly" id="edge18_Node000014_Node000013" title=" " alt="" coords="554,240,558,200,563,200,560,240"/>
+<area shape="poly" id="edge25_Node000015_Node000006" title=" " alt="" coords="374,194,356,228,352,225,369,191"/>
+</map>

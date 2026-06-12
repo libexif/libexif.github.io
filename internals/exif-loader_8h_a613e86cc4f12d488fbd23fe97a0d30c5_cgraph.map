@@ -1,0 +1,20 @@
+<map id="exif_loader_write_file" name="exif_loader_write_file">
+<area shape="rect" id="Node000001" title="Load a file into the given ExifLoader from the filesystem." alt="" coords="5,79,168,104"/>
+<area shape="rect" id="Node000002" href="$exif-loader_8c.html#ac25a1f0626855195944f53788284e32f" title="Load a buffer into the ExifLoader from a memory buffer." alt="" coords="216,53,351,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,78,200,74,201,79,169,83"/>
+<area shape="rect" id="Node000008" href="$exif-log_8c.html#a025d4a5d96544913ea6f6ebbec69cb68" title=" " alt="" coords="429,104,503,129"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="169,94,413,111,413,116,168,99"/>
+<area shape="rect" id="Node000003" href="$exif-loader_8c.html#ac83d06f410cd71f8ea82f3030707ec19" title=" " alt="" coords="399,5,533,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="334,50,400,33,401,38,335,55"/>
+<area shape="rect" id="Node000006" href="$exif-loader_8c.html#a080d8ebb5006c1306a3a798ff60253a5" title="Free any data previously loaded and reset the ExifLoader to its newly&#45;initialized state." alt="" coords="399,55,533,80"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="351,64,383,64,383,69,351,69"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="333,77,415,100,413,105,331,82"/>
+<area shape="rect" id="Node000004" href="$exif-loader_8c.html#a50370bbe54fefeb64dd9ac7be9194707" title=" " alt="" coords="581,5,715,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="533,15,566,15,566,21,533,21"/>
+<area shape="rect" id="Node000005" href="$exif-mem_8c.html#a68be7c7afc8cff75adc3b1a28b5ae9a2" title=" " alt="" coords="763,5,889,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="715,15,748,15,748,21,715,21"/>
+<area shape="rect" id="Node000007" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="587,55,709,80"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="534,65,572,65,572,70,534,70"/>
+<area shape="rect" id="Node000009" href="$exif-log_8c.html#a99101b5ad01b2d82ce9d43c9e8534627" title=" " alt="" coords="607,104,689,129"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="504,114,591,114,591,119,504,119"/>
+</map>

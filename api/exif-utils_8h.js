@@ -10,7 +10,7 @@ var exif_utils_8h =
     [ "ExifShort", "exif-utils_8h.html#a398536727127a9bc2206ffbdacaafaad", null ],
     [ "ExifSLong", "exif-utils_8h.html#a34d3e46cb03b44374e56984e6a983019", null ],
     [ "ExifSShort", "exif-utils_8h.html#a67d91a929ae0a1b734ced5f497428d3b", null ],
-    [ "exif_convert_utf16_to_utf8", "exif-utils_8h.html#af43ad07a0e309c42ead4897c29319f4c", null ],
+    [ "exif_convert_utf16_to_utf8", "exif-utils_8h.html#a0c51156312ff6ca97f4d587f776ded8f", null ],
     [ "exif_get_long", "exif-utils_8h.html#aade6b72dc606bf6d36d684353ddc16dd", null ],
     [ "exif_get_rational", "exif-utils_8h.html#af813a7082b2eb2f24975d88b1a05f0df", null ],
     [ "exif_get_short", "exif-utils_8h.html#a4294f7900ef8e5541470e2dd6659981e", null ],

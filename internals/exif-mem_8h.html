@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EXIF library (libexif) API: libexif/exif-mem.h File Reference</title>
+<title>EXIF library (libexif) Internals: libexif/exif-mem.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EXIF library (libexif) API<span id="projectnumber">&#160;0.6.25</span>
+   <div id="projectname">EXIF library (libexif) Internals<span id="projectnumber">&#160;0.6.26</span>
    </div>
   </td>
  </tr>
@@ -69,6 +69,16 @@ $(document).ready(function(){initNavTree('exif-mem_8h.html',''); initResizable()
 <p>Define the ExifMem data type and the associated functions.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="exif-utils_8h_source.html">libexif/exif-utils.h</a>&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for exif-mem.h:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-mem_8h__incl.svg" width="508" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-mem_8h__dep__incl.svg" width="3912" height="638"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <p><a href="exif-mem_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -83,9 +93,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a82bf96c57cc83eabdba1ad1ad0d69263"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-mem_8h.html#a82bf96c57cc83eabdba1ad1ad0d69263">ExifMemFreeFunc</a>) (void *p)</td></tr>
 <tr class="memdesc:a82bf96c57cc83eabdba1ad1ad0d69263"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free method for ExifMem.  <br /></td></tr>
 <tr class="separator:a82bf96c57cc83eabdba1ad1ad0d69263"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab8aacbc0ed6f11a1f022b7b1bf4750e"><td class="memItemLeft" align="right" valign="top"><a id="aab8aacbc0ed6f11a1f022b7b1bf4750e" name="aab8aacbc0ed6f11a1f022b7b1bf4750e"></a>
-typedef struct _ExifMem&#160;</td><td class="memItemRight" valign="bottom"><b>ExifMem</b></td></tr>
-<tr class="memdesc:aab8aacbc0ed6f11a1f022b7b1bf4750e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ExifMem define a memory allocator. <br /></td></tr>
+<tr class="memitem:aab8aacbc0ed6f11a1f022b7b1bf4750e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct__ExifMem.html">_ExifMem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a></td></tr>
+<tr class="memdesc:aab8aacbc0ed6f11a1f022b7b1bf4750e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ExifMem define a memory allocator.  <br /></td></tr>
 <tr class="separator:aab8aacbc0ed6f11a1f022b7b1bf4750e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -93,21 +102,17 @@ Functions</h2></td></tr>
 <tr class="memitem:ad56b5b9868ea77e681a903513c3b55f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-mem_8h.html#ad56b5b9868ea77e681a903513c3b55f3">exif_mem_new</a> (<a class="el" href="exif-mem_8h.html#a983dbcdc43d515ef6c7dc003240ef427">ExifMemAllocFunc</a> a, <a class="el" href="exif-mem_8h.html#aea07644ea9dc97d5572d85ef03827f65">ExifMemReallocFunc</a> r, <a class="el" href="exif-mem_8h.html#a82bf96c57cc83eabdba1ad1ad0d69263">ExifMemFreeFunc</a> f)</td></tr>
 <tr class="memdesc:ad56b5b9868ea77e681a903513c3b55f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new ExifMem.  <br /></td></tr>
 <tr class="separator:ad56b5b9868ea77e681a903513c3b55f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acedafabd958c9846ea3f908135715dcf"><td class="memItemLeft" align="right" valign="top"><a id="acedafabd958c9846ea3f908135715dcf" name="acedafabd958c9846ea3f908135715dcf"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_mem_ref</b> (<a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *)</td></tr>
-<tr class="memdesc:acedafabd958c9846ea3f908135715dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refcount an ExifMem. <br /></td></tr>
+<tr class="memitem:acedafabd958c9846ea3f908135715dcf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-mem_8h.html#acedafabd958c9846ea3f908135715dcf">exif_mem_ref</a> (<a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *)</td></tr>
+<tr class="memdesc:acedafabd958c9846ea3f908135715dcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refcount an ExifMem.  <br /></td></tr>
 <tr class="separator:acedafabd958c9846ea3f908135715dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adabd1345e1172ce379658cecfd3f7d70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-mem_8h.html#adabd1345e1172ce379658cecfd3f7d70">exif_mem_unref</a> (<a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *)</td></tr>
 <tr class="memdesc:adabd1345e1172ce379658cecfd3f7d70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unrefcount an ExifMem.  <br /></td></tr>
 <tr class="separator:adabd1345e1172ce379658cecfd3f7d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a49a0fff19d5784d3ee890a9ece7366"><td class="memItemLeft" align="right" valign="top"><a id="a6a49a0fff19d5784d3ee890a9ece7366" name="a6a49a0fff19d5784d3ee890a9ece7366"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><b>exif_mem_alloc</b> (<a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *m, <a class="el" href="exif-utils_8h.html#a34c5d7765ab2e6dec8308c5127a10afa">ExifLong</a> s)</td></tr>
+<tr class="memitem:a6a49a0fff19d5784d3ee890a9ece7366"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-mem_8h.html#a6a49a0fff19d5784d3ee890a9ece7366">exif_mem_alloc</a> (<a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *m, <a class="el" href="exif-utils_8h.html#a34c5d7765ab2e6dec8308c5127a10afa">ExifLong</a> s)</td></tr>
 <tr class="separator:a6a49a0fff19d5784d3ee890a9ece7366"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a082842bf500722f303c2f9435ea2c50f"><td class="memItemLeft" align="right" valign="top"><a id="a082842bf500722f303c2f9435ea2c50f" name="a082842bf500722f303c2f9435ea2c50f"></a>
-void *&#160;</td><td class="memItemRight" valign="bottom"><b>exif_mem_realloc</b> (<a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *m, void *p, <a class="el" href="exif-utils_8h.html#a34c5d7765ab2e6dec8308c5127a10afa">ExifLong</a> s)</td></tr>
+<tr class="memitem:a082842bf500722f303c2f9435ea2c50f"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-mem_8h.html#a082842bf500722f303c2f9435ea2c50f">exif_mem_realloc</a> (<a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *m, void *p, <a class="el" href="exif-utils_8h.html#a34c5d7765ab2e6dec8308c5127a10afa">ExifLong</a> s)</td></tr>
 <tr class="separator:a082842bf500722f303c2f9435ea2c50f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7ec7776593c6ffe5f49fec974f7cfe1"><td class="memItemLeft" align="right" valign="top"><a id="ab7ec7776593c6ffe5f49fec974f7cfe1" name="ab7ec7776593c6ffe5f49fec974f7cfe1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_mem_free</b> (<a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *m, void *p)</td></tr>
+<tr class="memitem:ab7ec7776593c6ffe5f49fec974f7cfe1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-mem_8h.html#ab7ec7776593c6ffe5f49fec974f7cfe1">exif_mem_free</a> (<a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *m, void *p)</td></tr>
 <tr class="separator:ab7ec7776593c6ffe5f49fec974f7cfe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc8fd4e1a319a790581975db6f1a7233"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-mem_8h.html#acc8fd4e1a319a790581975db6f1a7233">exif_mem_new_default</a> (void)</td></tr>
 <tr class="memdesc:acc8fd4e1a319a790581975db6f1a7233"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new ExifMem with default values for your convenience.  <br /></td></tr>
@@ -116,7 +121,27 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_mem_free</b> (<a
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Define the ExifMem data type and the associated functions. </p>
 <p>ExifMem defines the memory management functions used within libexif. </p>
+
+<p class="definition">Definition in file <a class="el" href="exif-mem_8h_source.html">exif-mem.h</a>.</p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
+<a id="aab8aacbc0ed6f11a1f022b7b1bf4750e" name="aab8aacbc0ed6f11a1f022b7b1bf4750e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab8aacbc0ed6f11a1f022b7b1bf4750e">&#9670;&#160;</a></span>ExifMem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="struct__ExifMem.html">_ExifMem</a> <a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ExifMem define a memory allocator. </p>
+
+<p class="definition">Definition at line <a class="el" href="exif-mem_8h_source.html#l00059">59</a> of file <a class="el" href="exif-mem_8h_source.html">exif-mem.h</a>.</p>
+
+</div>
+</div>
 <a id="a983dbcdc43d515ef6c7dc003240ef427" name="a983dbcdc43d515ef6c7dc003240ef427"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a983dbcdc43d515ef6c7dc003240ef427">&#9670;&#160;</a></span>ExifMemAllocFunc</h2>
 
@@ -137,6 +162,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_mem_free</b> (<a
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the allocated memory and initialized. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="exif-mem_8h_source.html#l00041">41</a> of file <a class="el" href="exif-mem_8h_source.html">exif-mem.h</a>.</p>
 
 </div>
 </div>
@@ -160,6 +187,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_mem_free</b> (<a
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the freed pointer </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="exif-mem_8h_source.html#l00056">56</a> of file <a class="el" href="exif-mem_8h_source.html">exif-mem.h</a>.</p>
 
 </div>
 </div>
@@ -185,9 +214,79 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_mem_free</b> (<a
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>allocated memory </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-mem_8h_source.html#l00049">49</a> of file <a class="el" href="exif-mem_8h_source.html">exif-mem.h</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a6a49a0fff19d5784d3ee890a9ece7366" name="a6a49a0fff19d5784d3ee890a9ece7366"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a49a0fff19d5784d3ee890a9ece7366">&#9670;&#160;</a></span>exif_mem_alloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * exif_mem_alloc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *&#160;</td>
+          <td class="paramname"><em>m</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="exif-utils_8h.html#a34c5d7765ab2e6dec8308c5127a10afa">ExifLong</a>&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-mem_8c_source.html#l00101">101</a> of file <a class="el" href="exif-mem_8c_source.html">exif-mem.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-mem_8c_source.html#l00029">_ExifMem::alloc_func</a>, and <a class="el" href="exif-mem_8c_source.html#l00030">_ExifMem::realloc_func</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-content_8c_source.html#l00056">exif_content_new_mem()</a>, <a class="el" href="exif-data_8c_source.html#l00076">exif_data_alloc()</a>, <a class="el" href="exif-data_8c_source.html#l00109">exif_data_new_mem()</a>, <a class="el" href="exif-entry_8c_source.html#l00077">exif_entry_alloc()</a>, <a class="el" href="exif-entry_8c_source.html#l00854">exif_entry_get_value()</a>, <a class="el" href="exif-entry_8c_source.html#l00124">exif_entry_new_mem()</a>, <a class="el" href="exif-loader_8c_source.html#l00107">exif_loader_alloc()</a>, <a class="el" href="exif-loader_8c_source.html#l00371">exif_loader_new_mem()</a>, <a class="el" href="exif-log_8c_source.html#l00073">exif_log_new_mem()</a>, <a class="el" href="exif-mnote-data-apple_8c_source.html#l00059">exif_mnote_data_apple_load()</a>, <a class="el" href="exif-mnote-data-apple_8c_source.html#l00270">exif_mnote_data_apple_new()</a>, <a class="el" href="exif-mnote-data-canon_8c_source.html#l00208">exif_mnote_data_canon_load()</a>, <a class="el" href="exif-mnote-data-canon_8c_source.html#l00412">exif_mnote_data_canon_new()</a>, <a class="el" href="exif-mnote-data-canon_8c_source.html#l00126">exif_mnote_data_canon_save()</a>, <a class="el" href="exif-mnote-data_8c_source.html#l00037">exif_mnote_data_construct()</a>, <a class="el" href="exif-mnote-data-fuji_8c_source.html#l00156">exif_mnote_data_fuji_load()</a>, <a class="el" href="exif-mnote-data-fuji_8c_source.html#l00352">exif_mnote_data_fuji_new()</a>, <a class="el" href="exif-mnote-data-fuji_8c_source.html#l00083">exif_mnote_data_fuji_save()</a>, <a class="el" href="exif-mnote-data-olympus_8c_source.html#l00240">exif_mnote_data_olympus_load()</a>, <a class="el" href="exif-mnote-data-olympus_8c_source.html#l00652">exif_mnote_data_olympus_new()</a>, <a class="el" href="exif-mnote-data-olympus_8c_source.html#l00101">exif_mnote_data_olympus_save()</a>, <a class="el" href="exif-mnote-data-pentax_8c_source.html#l00218">exif_mnote_data_pentax_load()</a>, <a class="el" href="exif-mnote-data-pentax_8c_source.html#l00452">exif_mnote_data_pentax_new()</a>, <a class="el" href="exif-mnote-data-pentax_8c_source.html#l00081">exif_mnote_data_pentax_save()</a>, and <a class="el" href="test-value_8c_source.html#l00120">main()</a>.</p>
+
+</div>
+</div>
+<a id="ab7ec7776593c6ffe5f49fec974f7cfe1" name="ab7ec7776593c6ffe5f49fec974f7cfe1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7ec7776593c6ffe5f49fec974f7cfe1">&#9670;&#160;</a></span>exif_mem_free()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exif_mem_free </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *&#160;</td>
+          <td class="paramname"><em>m</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-mem_8c_source.html#l00091">91</a> of file <a class="el" href="exif-mem_8c_source.html">exif-mem.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-mem_8c_source.html#l00031">_ExifMem::free_func</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-content_8c_source.html#l00101">exif_content_free()</a>, <a class="el" href="exif-content_8c_source.html#l00056">exif_content_new_mem()</a>, <a class="el" href="exif-content_8c_source.html#l00165">exif_content_remove_entry()</a>, <a class="el" href="exif-data_8c_source.html#l01121">exif_data_free()</a>, <a class="el" href="exif-data_8c_source.html#l00332">exif_data_load_data_thumbnail()</a>, <a class="el" href="exif-data_8c_source.html#l00109">exif_data_new_mem()</a>, <a class="el" href="exif-data_8c_source.html#l00241">exif_data_save_data_entry()</a>, <a class="el" href="exif-entry_8c_source.html#l00207">exif_entry_fix()</a>, <a class="el" href="exif-entry_8c_source.html#l00159">exif_entry_free()</a>, <a class="el" href="exif-entry_8c_source.html#l00854">exif_entry_get_value()</a>, <a class="el" href="exif-entry_8c_source.html#l00124">exif_entry_new_mem()</a>, <a class="el" href="exif-entry_8c_source.html#l00094">exif_entry_realloc()</a>, <a class="el" href="exif-loader_8c_source.html#l00397">exif_loader_free()</a>, <a class="el" href="exif-loader_8c_source.html#l00421">exif_loader_reset()</a>, <a class="el" href="exif-log_8c_source.html#l00114">exif_log_free()</a>, <a class="el" href="exif-mem_8c_source.html#l00083">exif_mem_unref()</a>, <a class="el" href="exif-mnote-data-apple_8c_source.html#l00034">exif_mnote_data_apple_free()</a>, <a class="el" href="exif-mnote-data-canon_8c_source.html#l00041">exif_mnote_data_canon_clear()</a>, <a class="el" href="exif-mnote-data-canon_8c_source.html#l00208">exif_mnote_data_canon_load()</a>, <a class="el" href="exif-mnote-data_8c_source.html#l00057">exif_mnote_data_free()</a>, <a class="el" href="exif-mnote-data-fuji_8c_source.html#l00040">exif_mnote_data_fuji_clear()</a>, <a class="el" href="exif-mnote-data-olympus_8c_source.html#l00048">exif_mnote_data_olympus_clear()</a>, and <a class="el" href="exif-mnote-data-pentax_8c_source.html#l00036">exif_mnote_data_pentax_clear()</a>.</p>
+
+</div>
+</div>
 <a id="ad56b5b9868ea77e681a903513c3b55f3" name="ad56b5b9868ea77e681a903513c3b55f3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad56b5b9868ea77e681a903513c3b55f3">&#9670;&#160;</a></span>exif_mem_new()</h2>
 
@@ -231,6 +330,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_mem_free</b> (<a
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>allocated <a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e" title="ExifMem define a memory allocator.">ExifMem</a>, or NULL on error </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-mem_8c_source.html#l00056">56</a> of file <a class="el" href="exif-mem_8c_source.html">exif-mem.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-mem_8c_source.html#l00029">_ExifMem::alloc_func</a>, <a class="el" href="exif-mem_8c_source.html#l00031">_ExifMem::free_func</a>, <a class="el" href="exif-mem_8c_source.html#l00030">_ExifMem::realloc_func</a>, and <a class="el" href="exif-mem_8c_source.html#l00028">_ExifMem::ref_count</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-mem_8c_source.html#l00117">exif_mem_new_default()</a>.</p>
+
 </div>
 </div>
 <a id="acc8fd4e1a319a790581975db6f1a7233" name="acc8fd4e1a319a790581975db6f1a7233"></a>
@@ -251,6 +356,83 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_mem_free</b> (<a
 
 <p>Create a new ExifMem with default values for your convenience. </p>
 <dl class="section return"><dt>Returns</dt><dd>return a new default ExifMem </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="exif-mem_8c_source.html#l00117">117</a> of file <a class="el" href="exif-mem_8c_source.html">exif-mem.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-mem_8c_source.html#l00036">exif_mem_alloc_func()</a>, <a class="el" href="exif-mem_8c_source.html#l00050">exif_mem_free_func()</a>, <a class="el" href="exif-mem_8c_source.html#l00056">exif_mem_new()</a>, and <a class="el" href="exif-mem_8c_source.html#l00043">exif_mem_realloc_func()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-content_8c_source.html#l00045">exif_content_new()</a>, <a class="el" href="exif-data_8c_source.html#l00098">exif_data_new()</a>, <a class="el" href="exif-entry_8c_source.html#l00113">exif_entry_new()</a>, <a class="el" href="exif-loader_8c_source.html#l00360">exif_loader_new()</a>, <a class="el" href="exif-log_8c_source.html#l00088">exif_log_new()</a>, and <a class="el" href="test-value_8c_source.html#l00120">main()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-mem_8h_acc8fd4e1a319a790581975db6f1a7233_cgraph.svg" width="408" height="184"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a082842bf500722f303c2f9435ea2c50f" name="a082842bf500722f303c2f9435ea2c50f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a082842bf500722f303c2f9435ea2c50f">&#9670;&#160;</a></span>exif_mem_realloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * exif_mem_realloc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *&#160;</td>
+          <td class="paramname"><em>m</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="exif-utils_8h.html#a34c5d7765ab2e6dec8308c5127a10afa">ExifLong</a>&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-mem_8c_source.html#l00111">111</a> of file <a class="el" href="exif-mem_8c_source.html">exif-mem.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-mem_8c_source.html#l00030">_ExifMem::realloc_func</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-content_8c_source.html#l00141">exif_content_add_entry()</a>, <a class="el" href="exif-content_8c_source.html#l00165">exif_content_remove_entry()</a>, <a class="el" href="exif-data_8c_source.html#l00573">exif_data_save_data_content()</a>, <a class="el" href="exif-data_8c_source.html#l00241">exif_data_save_data_entry()</a>, <a class="el" href="exif-entry_8c_source.html#l00094">exif_entry_realloc()</a>, <a class="el" href="exif-mnote-data-canon_8c_source.html#l00126">exif_mnote_data_canon_save()</a>, <a class="el" href="exif-mnote-data-fuji_8c_source.html#l00083">exif_mnote_data_fuji_save()</a>, <a class="el" href="exif-mnote-data-olympus_8c_source.html#l00101">exif_mnote_data_olympus_save()</a>, and <a class="el" href="exif-mnote-data-pentax_8c_source.html#l00081">exif_mnote_data_pentax_save()</a>.</p>
+
+</div>
+</div>
+<a id="acedafabd958c9846ea3f908135715dcf" name="acedafabd958c9846ea3f908135715dcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acedafabd958c9846ea3f908135715dcf">&#9670;&#160;</a></span>exif_mem_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exif_mem_ref </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *&#160;</td>
+          <td class="paramname"><em>mem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Refcount an ExifMem. </p>
+
+<p class="definition">Definition at line <a class="el" href="exif-mem_8c_source.html#l00076">76</a> of file <a class="el" href="exif-mem_8c_source.html">exif-mem.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-mem_8c_source.html#l00028">_ExifMem::ref_count</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-content_8c_source.html#l00056">exif_content_new_mem()</a>, <a class="el" href="exif-data_8c_source.html#l00109">exif_data_new_mem()</a>, <a class="el" href="exif-entry_8c_source.html#l00124">exif_entry_new_mem()</a>, <a class="el" href="exif-loader_8c_source.html#l00371">exif_loader_new_mem()</a>, <a class="el" href="exif-log_8c_source.html#l00073">exif_log_new_mem()</a>, and <a class="el" href="exif-mnote-data_8c_source.html#l00037">exif_mnote_data_construct()</a>.</p>
 
 </div>
 </div>
@@ -273,16 +455,29 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_mem_free</b> (<a
 <p>Unrefcount an ExifMem. </p>
 <p>If the refcount reaches 0, the ExifMem is freed </p>
 
+<p class="definition">Definition at line <a class="el" href="exif-mem_8c_source.html#l00083">83</a> of file <a class="el" href="exif-mem_8c_source.html">exif-mem.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-mem_8c_source.html#l00091">exif_mem_free()</a>, and <a class="el" href="exif-mem_8c_source.html#l00028">_ExifMem::ref_count</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-content_8c_source.html#l00101">exif_content_free()</a>, <a class="el" href="exif-content_8c_source.html#l00045">exif_content_new()</a>, <a class="el" href="exif-data_8c_source.html#l01121">exif_data_free()</a>, <a class="el" href="exif-data_8c_source.html#l00098">exif_data_new()</a>, <a class="el" href="exif-entry_8c_source.html#l00159">exif_entry_free()</a>, <a class="el" href="exif-entry_8c_source.html#l00113">exif_entry_new()</a>, <a class="el" href="exif-loader_8c_source.html#l00397">exif_loader_free()</a>, <a class="el" href="exif-loader_8c_source.html#l00360">exif_loader_new()</a>, <a class="el" href="exif-log_8c_source.html#l00114">exif_log_free()</a>, <a class="el" href="exif-log_8c_source.html#l00088">exif_log_new()</a>, <a class="el" href="exif-mnote-data_8c_source.html#l00057">exif_mnote_data_free()</a>, and <a class="el" href="test-value_8c_source.html#l00120">main()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-mem_8h_adabd1345e1172ce379658cecfd3f7d70_cgraph.svg" width="310" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_04d2bd150f7cc849eeec70b9b0fdccb1.html">libexif</a></li><li class="navelem"><a class="el" href="exif-mem_8h.html">exif-mem.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7 </li>
-  </ul>
-</div>
+
+<!-- Copyright (C) 2009-2017 Dan Fandrich <dan@coneharvesters.com>
+     SPDX-License-Identifier: LGPL-2.0-or-later -->
+<hr size="1">
+<address style="text-align: right;">
+<a href="https://libexif.github.io" target="_top">libexif</a>
+<small>Generated by&nbsp;<a href="http://www.doxygen.org/" target="_top"><img src="doxygen.png" alt="doxygen" align="middle" border="0">
+</a>
+</small></address>
 </body>
 </html>

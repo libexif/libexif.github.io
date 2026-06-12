@@ -1,0 +1,59 @@
+<map id="test_exif_data" name="test_exif_data">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,351,120,377"/>
+<area shape="rect" id="Node000002" href="$exif-byte-order_8c.html#aad3b2a9b64e66ccbecc792de26e29403" title="Return a short, localized, textual name for the given byte order." alt="" coords="172,57,368,82"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,351,69,302,85,233,98,195,116,157,138,123,166,93,172,88,175,92,170,97,143,126,121,160,103,197,90,234,74,303,68,351"/>
+<area shape="rect" id="Node000003" href="$exif-data_8c.html#a2d8d50e6a9c19d28fe8192ef7cc52777" title="Return the byte order in use by this EXIF structure." alt="" coords="197,107,343,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="64,350,75,312,95,260,124,205,144,179,166,157,181,146,184,151,170,161,148,183,129,208,99,262,80,314,69,351"/>
+<area shape="rect" id="Node000004" href="$exif-data_8c.html#a3781327036264237ef8dfd88c66bd399" title="Return the MakerNote data out of the EXIF data." alt="" coords="172,171,368,197"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="67,350,80,320,101,281,130,241,166,207,176,201,179,206,170,211,134,245,105,284,84,322,71,352"/>
+<area shape="rect" id="Node000005" href="$exif-data_8c.html#a2a48cbedffbb7b2fcd74407fe68f09f6" title=" " alt="" coords="208,221,332,246"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="72,349,111,307,137,284,167,263,196,249,198,254,169,268,141,288,115,311,76,353"/>
+<area shape="rect" id="Node000015" href="$exif-mnote-data_8c.html#af910e5c862e5aba351b84b2142d98192" title=" " alt="" coords="584,297,757,322"/>
+<area shape="poly" id="edge33_Node000001_Node000015" title=" " alt="" coords="82,349,120,326,167,308,273,290,381,284,482,287,569,293,569,299,482,292,381,290,274,296,169,313,122,331,84,353"/>
+<area shape="rect" id="Node000017" href="$exif-mnote-data_8c.html#af61fbda7c717e86991b0eccf6976a5f4" title="Return the number of tags in the MakerNote." alt="" coords="183,322,357,347"/>
+<area shape="poly" id="edge27_Node000001_Node000017" title=" " alt="" coords="120,353,167,347,168,352,121,359"/>
+<area shape="rect" id="Node000018" href="$exif-mnote-data_8c.html#a72397dfd279d52fb674a1abd5ed16ee2" title="Returns verbose textual description of the given MakerNote tag." alt="" coords="190,372,350,412"/>
+<area shape="poly" id="edge28_Node000001_Node000018" title=" " alt="" coords="121,369,175,376,174,382,120,374"/>
+<area shape="rect" id="Node000019" href="$exif-mnote-data_8c.html#aac0686178cd4b8b5ec3b1c78b41acbf8" title="Returns textual name of the given MakerNote tag." alt="" coords="168,437,372,462"/>
+<area shape="poly" id="edge29_Node000001_Node000019" title=" " alt="" coords="85,375,123,399,169,422,191,429,189,434,167,426,120,403,82,379"/>
+<area shape="rect" id="Node000020" href="$exif-mnote-data_8c.html#a9ef3bec8c131fbde32702b475025e8f2" title="Returns textual title of the given MakerNote tag." alt="" coords="190,487,350,527"/>
+<area shape="poly" id="edge30_Node000001_Node000020" title=" " alt="" coords="75,376,113,423,139,449,169,472,178,477,175,482,167,477,136,454,109,426,71,379"/>
+<area shape="rect" id="Node000021" href="$exif-mnote-data_8c.html#a299e3e7c9ee3c79f3678872b8a6038c4" title="Return a textual representation of the value of the MakerNote entry." alt="" coords="190,551,350,591"/>
+<area shape="poly" id="edge31_Node000001_Node000021" title=" " alt="" coords="71,376,83,409,103,452,132,497,170,537,178,542,175,547,166,541,128,501,99,455,78,411,66,378"/>
+<area shape="rect" id="Node000022" href="$exif-mnote-data_8c.html#a4a0d8d4bdca32c58f181913e6e262d77" title=" " alt="" coords="191,615,349,641"/>
+<area shape="poly" id="edge32_Node000001_Node000022" title=" " alt="" coords="68,377,76,420,94,481,124,546,145,575,170,601,179,607,176,612,166,605,141,579,120,548,89,483,71,421,63,378"/>
+<area shape="rect" id="Node000023" href="$test-mnote_8c.html#a59d4b66f277c52b0496ff1ec0062eabf" title=" " alt="" coords="232,665,308,690"/>
+<area shape="poly" id="edge34_Node000001_Node000023" title=" " alt="" coords="67,376,72,428,87,502,100,543,118,583,141,620,170,651,192,665,218,672,216,677,190,670,166,655,137,623,113,585,95,545,82,504,67,429,62,377"/>
+<area shape="rect" id="Node000006" href="$exif-data_8c.html#a2d2f8fee30176bd6460d51d33d080674" title=" " alt="" coords="420,209,536,234"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="332,227,404,223,404,228,333,232"/>
+<area shape="rect" id="Node000007" href="$exif-content_8c.html#a5e72c0f223d5d1aa33b34f388a5c9d37" title="Decrease reference counter for ExifContent." alt="" coords="599,145,743,170"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="518,206,615,173,616,178,520,211"/>
+<area shape="rect" id="Node000011" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="1543,133,1664,158"/>
+<area shape="poly" id="edge20_Node000006_Node000011" title=" " alt="" coords="490,206,547,155,590,122,640,87,696,55,757,28,821,10,887,3,1258,3,1328,7,1381,20,1432,42,1496,72,1538,96,1575,121,1572,125,1536,100,1493,77,1430,47,1379,25,1327,12,1258,8,887,8,822,15,759,33,699,60,643,92,593,126,551,159,494,210"/>
+<area shape="rect" id="Node000012" href="$exif-mem_8c.html#a66744e0987af08c443df247ce55f7d87" title="Unrefcount an ExifMem." alt="" coords="1365,183,1495,209"/>
+<area shape="poly" id="edge21_Node000006_Node000012" title=" " alt="" coords="537,216,694,209,887,205,1085,205,1350,198,1350,203,1085,211,887,211,694,214,537,221"/>
+<area shape="rect" id="Node000013" href="$exif-log_8c.html#a7a9b738a7429197d68c80ffedac7d8fb" title=" " alt="" coords="1026,246,1141,271"/>
+<area shape="poly" id="edge19_Node000006_Node000013" title=" " alt="" coords="537,222,1011,252,1010,257,536,228"/>
+<area shape="poly" id="edge22_Node000006_Node000015" title=" " alt="" coords="503,232,585,275,617,288,615,293,583,280,501,237"/>
+<area shape="rect" id="Node000008" href="$exif-content_8c.html#af77d27f5949aa4249fd54a5146c28289" title="Actually free the ExifContent." alt="" coords="820,145,956,170"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="743,155,804,155,804,160,743,160"/>
+<area shape="rect" id="Node000009" href="$exif-entry_8c.html#a82d5d923121488d847d341727cdd2ef4" title="Decrease reference counter for ExifEntry." alt="" coords="1019,94,1148,119"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="939,141,1016,121,1017,126,941,147"/>
+<area shape="poly" id="edge17_Node000008_Node000011" title=" " alt="" coords="904,142,952,108,984,91,1018,79,1089,62,1150,52,1205,49,1257,52,1363,72,1495,105,1556,124,1554,129,1494,111,1362,77,1256,57,1205,55,1151,58,1090,67,1019,84,986,96,955,113,907,146"/>
+<area shape="poly" id="edge18_Node000008_Node000012" title=" " alt="" coords="957,159,1350,188,1350,193,956,165"/>
+<area shape="poly" id="edge13_Node000008_Node000013" title=" " alt="" coords="916,168,1045,236,1042,241,913,173"/>
+<area shape="rect" id="Node000010" href="$exif-entry_8c.html#a2879215e3863186650d3f32eb63bbaf4" title="Actually free the ExifEntry." alt="" coords="1196,94,1317,119"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1148,104,1181,104,1181,109,1148,109"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="1318,111,1528,134,1527,140,1318,116"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="1284,117,1391,173,1389,178,1282,122"/>
+<area shape="poly" id="edge12_Node000012_Node000011" title=" " alt="" coords="1475,180,1542,160,1544,165,1477,185"/>
+<area shape="rect" id="Node000014" href="$exif-log_8c.html#acd0808d6d5be73f28059797c2e2e67dc" title="Delete instance of ExifLog." alt="" coords="1203,297,1310,322"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="1130,269,1197,289,1195,294,1129,275"/>
+<area shape="poly" id="edge15_Node000014_Node000011" title=" " alt="" coords="1304,293,1393,263,1493,219,1536,193,1573,166,1576,170,1539,197,1496,224,1395,268,1305,299"/>
+<area shape="poly" id="edge16_Node000014_Node000012" title=" " alt="" coords="1283,294,1316,275,1399,216,1402,220,1319,280,1286,298"/>
+<area shape="rect" id="Node000016" href="$exif-mnote-data_8c.html#a2f715582f27a9821560931aeaa139abd" title=" " alt="" coords="805,297,971,322"/>
+<area shape="poly" id="edge23_Node000015_Node000016" title=" " alt="" coords="757,307,790,307,790,312,757,312"/>
+<area shape="poly" id="edge25_Node000016_Node000011" title=" " alt="" coords="961,320,1035,330,1125,338,1221,340,1317,332,1410,318,1449,304,1493,278,1522,253,1548,225,1585,170,1590,173,1552,228,1526,257,1496,282,1451,309,1412,323,1318,337,1221,345,1124,343,1035,336,961,325"/>
+<area shape="poly" id="edge26_Node000016_Node000012" title=" " alt="" coords="971,303,1056,295,1147,281,1274,248,1379,212,1381,217,1275,253,1149,287,1057,301,971,308"/>
+<area shape="poly" id="edge24_Node000016_Node000013" title=" " alt="" coords="939,293,1016,273,1017,278,941,299"/>
+</map>

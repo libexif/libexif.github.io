@@ -1,0 +1,17 @@
+<map id="_ExifDataPrivate" name="_ExifDataPrivate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="217,269,347,295"/>
+<area shape="rect" id="Node000002" href="$struct__ExifMnoteData.html" title=" " alt="" coords="219,181,345,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="285,222,285,269,279,269,279,222"/>
+<area shape="rect" id="Node000003" href="$struct__ExifMnoteDataPriv.html" title=" " alt="" coords="112,93,263,119"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="213,127,271,179,267,183,210,131"/>
+<area shape="rect" id="Node000004" href="$struct__ExifMnoteDataMethods.html" title=" " alt="" coords="287,93,469,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="355,131,297,183,293,179,352,127"/>
+<area shape="rect" id="Node000005" href="$struct__ExifLog.html" title=" " alt="" coords="494,93,571,119"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="509,131,473,159,379,224,303,271,300,266,376,219,470,155,506,127"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="490,127,403,160,326,183,325,178,401,155,488,122"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="588,97,598,106,590,115,572,117,572,112,587,110,593,106,585,101"/>
+<area shape="rect" id="Node000006" href="$struct__ExifMem.html" title=" " alt="" coords="5,5,92,31"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="42,46,37,71,34,100,36,129,47,156,64,178,84,197,131,229,181,251,227,266,226,271,179,256,128,233,81,201,60,182,42,159,31,130,28,100,31,70,37,45"/>
+<area shape="poly" id="edge7_Node000002_Node000006" title=" " alt="" coords="48,46,49,83,55,101,64,117,97,146,137,166,179,179,219,186,218,192,177,184,135,171,94,150,60,120,50,103,44,83,42,46"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="108,26,276,53,483,91,494,93,493,98,481,96,275,59,107,31"/>
+</map>

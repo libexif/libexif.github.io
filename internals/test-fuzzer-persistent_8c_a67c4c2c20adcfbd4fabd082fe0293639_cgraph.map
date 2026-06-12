@@ -1,0 +1,9 @@
+<map id="data_foreach_func" name="data_foreach_func">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,63,148,88"/>
+<area shape="rect" id="Node000002" href="$test-fuzzer-persistent_8c.html#ae56e0ea2bf731ff79780244dae9a7751" title=" " alt="" coords="196,5,359,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,59,215,33,216,38,125,65"/>
+<area shape="rect" id="Node000003" href="$exif-content_8c.html#af7372b1342146e73a9d5b671c717a730" title="Executes function on each EXIF tag in this IFD in turn." alt="" coords="198,55,357,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,73,182,73,182,78,148,78"/>
+<area shape="rect" id="Node000004" href="$exif-content_8c.html#a102270386bc7fdc7296e243967f1a2f4" title="Return the IFD number in which the given ExifContent is found." alt="" coords="200,120,355,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="125,86,216,113,215,118,123,91"/>
+</map>

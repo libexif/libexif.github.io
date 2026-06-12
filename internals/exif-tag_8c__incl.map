@@ -1,0 +1,18 @@
+<map id="libexif/exif&#45;tag.c" name="libexif/exif&#45;tag.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="166,5,293,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,152,80,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,32,81,51,46,65,25,80,19,93,19,108,29,138,24,140,14,109,14,92,21,77,43,60,80,46,165,26"/>
+<area shape="rect" id="Node000003" href="$exif-tag_8h.html" title="Handling EXIF tags." alt="" coords="165,79,293,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="232,31,232,63,227,63,227,31"/>
+<area shape="rect" id="Node000006" href="$i18n_8h.html" title=" " alt="" coords="35,79,141,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="207,34,126,74,124,69,204,29"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="318,79,389,104"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="252,29,321,69,318,73,249,34"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="413,79,483,104"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="267,29,398,71,397,76,266,34"/>
+<area shape="rect" id="Node000004" href="$exif-ifd_8h.html" title=" " alt="" coords="135,152,259,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="226,105,211,139,207,137,222,103"/>
+<area shape="rect" id="Node000005" href="$exif-data-type_8h.html" title=" " alt="" coords="284,152,455,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="254,102,334,142,331,147,252,107"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="83,106,61,140,56,137,78,103"/>
+</map>

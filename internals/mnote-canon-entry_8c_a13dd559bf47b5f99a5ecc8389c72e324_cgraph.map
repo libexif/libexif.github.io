@@ -1,0 +1,23 @@
+<map id="mnote_canon_entry_get_value" name="mnote_canon_entry_get_value">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,233,184,273"/>
+<area shape="rect" id="Node000002" href="$mnote-canon-entry_8c.html#a06e73d7e72da3d1aa6914c8bf3d69c0d" title=" " alt="" coords="237,5,416,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,231,118,191,145,139,183,85,205,61,230,40,237,36,240,40,234,44,209,65,187,89,150,141,123,193,106,233"/>
+<area shape="rect" id="Node000003" href="$mnote-canon-entry_8c.html#a04ae2e21068f2ad8f6c7657cfddd9674" title=" " alt="" coords="232,55,421,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="106,230,154,162,189,123,231,90,242,84,245,89,233,95,193,127,158,165,110,234"/>
+<area shape="rect" id="Node000004" href="$mnote-canon-entry_8c.html#a1d6fc4e311ea9cd21992df9bd38c90ce" title=" " alt="" coords="241,105,412,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="119,230,169,192,231,154,243,149,245,153,233,159,172,197,122,234"/>
+<area shape="rect" id="Node000005" href="$mnote-canon-entry_8c.html#add2f1f2c87fe2684b11d79a9b6e43742" title=" " alt="" coords="251,169,402,209"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="169,229,237,211,238,216,171,235"/>
+<area shape="rect" id="Node000006" href="$mnote-canon-entry_8c.html#a8b4d32c58f704230c465d3af23f8501e" title=" " alt="" coords="251,233,402,273"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="185,250,236,250,236,255,185,255"/>
+<area shape="rect" id="Node000007" href="$exif-utils_8c.html#a4ad94614630897766dd0a5c9bc2a59bf" title="Retrieve an ExifLong value from memory." alt="" coords="271,297,382,323"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="179,271,258,290,257,296,178,276"/>
+<area shape="rect" id="Node000008" href="$exif-utils_8c.html#a56b96f076a13da6ed926e1ef29cb2dc3" title="Retrieve an ExifSLong value from memory." alt="" coords="472,323,589,348"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="122,271,171,304,201,320,233,331,290,343,349,347,457,343,457,348,349,353,290,348,231,337,199,325,169,309,119,275"/>
+<area shape="rect" id="Node000009" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="269,399,384,424"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="115,271,165,324,198,352,233,377,261,391,259,395,231,382,194,356,161,327,111,275"/>
+<area shape="rect" id="Node000010" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="469,424,592,449"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="106,272,123,309,150,355,187,400,209,419,233,434,261,446,290,454,351,460,411,458,463,450,464,456,411,463,351,466,289,459,259,451,231,439,206,423,183,404,146,358,119,312,101,274"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="383,314,457,324,456,329,382,320"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="385,416,454,425,454,430,384,421"/>
+</map>

@@ -1,0 +1,40 @@
+<map id="exif_mnote_data_apple_set_byte_order" name="exif_mnote_data_apple_set_byte_order">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,249,180,289"/>
+<area shape="rect" id="Node000002" href="$exif-utils_8c.html#a54ef3b86ffeb643e9c4434b85ccf2992" title=" " alt="" coords="228,277,379,317"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,278,213,282,212,287,180,283"/>
+<area shape="rect" id="Node000003" href="$exif-format_8c.html#a924038efe0cd8ebade8f44619dd794f3" title="Return the raw size of the given EXIF data type." alt="" coords="427,5,585,31"/>
+<area shape="poly" id="edge23_Node000001_Node000003" title=" " alt="" coords="126,246,425,62,468,37,471,41,428,67,128,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="312,275,376,146,388,118,395,94,405,72,425,48,442,36,445,40,428,52,410,74,400,96,393,119,381,148,317,278"/>
+<area shape="rect" id="Node000004" href="$exif-utils_8c.html#a4ad94614630897766dd0a5c9bc2a59bf" title="Retrieve an ExifLong value from memory." alt="" coords="647,107,758,132"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="311,275,363,174,395,123,410,104,425,92,454,79,485,72,516,70,548,71,608,82,658,98,656,103,607,87,547,77,516,75,486,77,456,84,428,96,414,108,399,126,367,176,316,277"/>
+<area shape="rect" id="Node000005" href="$exif-utils_8c.html#a56b96f076a13da6ed926e1ef29cb2dc3" title="Retrieve an ExifSLong value from memory." alt="" coords="820,157,937,183"/>
+<area shape="poly" id="edge9_Node000002_Node000005" title=" " alt="" coords="320,274,364,231,393,210,426,193,474,177,525,165,628,153,724,153,804,158,804,163,724,158,628,159,526,170,476,182,428,198,396,214,368,235,323,278"/>
+<area shape="rect" id="Node000006" href="$exif-utils_8c.html#a1feb547c289aa57a4d2119338b03706c" title="Retrieve an ExifRational value from memory." alt="" coords="440,107,572,132"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="315,275,359,214,390,180,425,149,447,136,450,141,428,153,394,183,363,217,319,278"/>
+<area shape="rect" id="Node000007" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="449,208,563,233"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="358,274,455,237,457,242,360,279"/>
+<area shape="rect" id="Node000008" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="641,233,764,259"/>
+<area shape="poly" id="edge12_Node000002_Node000008" title=" " alt="" coords="379,284,625,253,626,258,380,290"/>
+<area shape="rect" id="Node000009" href="$exif-utils_8c.html#adb97c3499488d5642a82df1cb16dc2cb" title="Retrieve an ExifSRational value from memory." alt="" coords="633,309,772,335"/>
+<area shape="poly" id="edge10_Node000002_Node000009" title=" " alt="" coords="379,299,618,314,618,319,379,304"/>
+<area shape="rect" id="Node000010" href="$exif-utils_8c.html#ac90147d0cc97bec7a577bf9576191bf8" title="Store an ExifLong value into memory in EXIF format." alt="" coords="648,411,757,436"/>
+<area shape="poly" id="edge13_Node000002_Node000010" title=" " alt="" coords="370,315,646,403,645,408,368,320"/>
+<area shape="rect" id="Node000011" href="$exif-utils_8c.html#ae6e3b9d1663f9ab9bd462d73a310ca03" title="Store an ExifSLong value into memory in EXIF format." alt="" coords="821,461,937,487"/>
+<area shape="poly" id="edge19_Node000002_Node000011" title=" " alt="" coords="316,316,333,346,358,382,389,418,428,445,475,465,524,479,576,488,627,493,724,492,805,484,806,489,724,497,626,498,575,493,523,484,473,470,425,450,386,421,353,386,329,349,312,318"/>
+<area shape="rect" id="Node000012" href="$exif-utils_8c.html#a400a16b1754150f721e9fca67ad89a52" title="Store an ExifRational value into memory in EXIF format." alt="" coords="441,411,571,436"/>
+<area shape="poly" id="edge15_Node000002_Node000012" title=" " alt="" coords="329,315,373,352,428,389,454,402,451,407,425,394,370,356,325,319"/>
+<area shape="rect" id="Node000013" href="$exif-utils_8c.html#ad905d16e26b4052a1db34dbebdc37341" title="Store an ExifShort value into memory in EXIF format." alt="" coords="449,512,563,537"/>
+<area shape="poly" id="edge17_Node000002_Node000013" title=" " alt="" coords="315,316,331,352,355,399,388,448,428,491,447,503,444,507,425,495,384,451,351,402,326,355,310,318"/>
+<area shape="rect" id="Node000014" href="$exif-utils_8c.html#a6504651147702fc6db9a5cd4aa997023" title="Store an ExifSShort value into memory in EXIF format." alt="" coords="642,525,763,551"/>
+<area shape="poly" id="edge22_Node000002_Node000014" title=" " alt="" coords="310,317,320,366,341,431,356,464,376,496,400,524,428,546,454,559,483,568,542,572,601,565,651,553,652,558,601,571,543,577,482,573,453,564,425,551,396,528,372,499,352,467,336,433,315,368,305,318"/>
+<area shape="rect" id="Node000015" href="$exif-utils_8c.html#aca1790a72b1833dff1b0bf728052c3c5" title="Store an ExifSRational value into memory in EXIF format." alt="" coords="633,600,772,625"/>
+<area shape="poly" id="edge20_Node000002_Node000015" title=" " alt="" coords="309,317,318,371,338,443,354,481,374,518,398,551,428,579,472,602,521,616,571,621,618,621,618,626,571,627,520,621,470,607,425,583,394,554,369,520,349,483,333,445,313,372,304,317"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="750,130,819,150,817,155,749,135"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="572,117,632,117,632,122,572,122"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="564,225,626,234,626,239,564,231"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="721,307,770,268,853,191,856,195,774,272,724,311"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="750,434,819,454,817,459,749,439"/>
+<area shape="poly" id="edge16_Node000012_Node000010" title=" " alt="" coords="572,421,632,421,632,426,572,426"/>
+<area shape="poly" id="edge18_Node000013_Node000014" title=" " alt="" coords="564,526,627,530,627,536,564,531"/>
+<area shape="poly" id="edge21_Node000015_Node000011" title=" " alt="" coords="720,597,770,560,849,495,853,499,774,564,724,602"/>
+</map>

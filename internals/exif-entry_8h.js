@@ -3,6 +3,7 @@ var exif_entry_8h =
     [ "_ExifEntry", "struct__ExifEntry.html", "struct__ExifEntry" ],
     [ "exif_entry_get_ifd", "exif-entry_8h.html#ae12a25769109d2339461b48c65637a64", null ],
     [ "ExifEntry", "exif-entry_8h.html#a1629f9c1b9c17765f4e5b297f91a6e45", null ],
+    [ "ExifEntryPrivate", "exif-entry_8h.html#a53b9c2327db6cd1852e0ea3ab8c44c0d", null ],
     [ "exif_entry_dump", "exif-entry_8h.html#a6d607d079472d7f5eed040c8f081406a", null ],
     [ "exif_entry_fix", "exif-entry_8h.html#a34e2cc8e5cbb928a55cd16de9ce71edf", null ],
     [ "exif_entry_free", "exif-entry_8h.html#a3ed3eba673475efc0625741cf5bf6d33", null ],

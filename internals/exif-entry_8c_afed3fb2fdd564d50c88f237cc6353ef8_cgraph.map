@@ -1,0 +1,13 @@
+<map id="exif_get_short_convert" name="exif_get_short_convert">
+<area shape="rect" id="Node000001" title="Get a value and convert it to an ExifShort." alt="" coords="5,81,176,107"/>
+<area shape="rect" id="Node000002" href="$exif-utils_8c.html#a4ad94614630897766dd0a5c9bc2a59bf" title="Retrieve an ExifLong value from memory." alt="" coords="226,5,337,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,78,232,34,234,39,126,83"/>
+<area shape="rect" id="Node000003" href="$exif-utils_8c.html#a56b96f076a13da6ed926e1ef29cb2dc3" title="Retrieve an ExifSLong value from memory." alt="" coords="389,31,507,56"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="176,79,373,51,374,56,177,85"/>
+<area shape="rect" id="Node000004" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="224,107,339,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="177,103,209,107,208,112,176,108"/>
+<area shape="rect" id="Node000005" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="387,132,509,157"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="119,105,167,125,225,142,300,150,371,149,371,154,299,155,223,147,165,130,117,110"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="338,24,374,29,374,35,337,29"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="340,125,372,130,371,136,339,131"/>
+</map>

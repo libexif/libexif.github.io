@@ -1,0 +1,15 @@
+<map id="exif_content_remove_entry" name="exif_content_remove_entry">
+<area shape="rect" id="Node000001" title="Remove an EXIF tag from an IFD." alt="" coords="5,65,165,105"/>
+<area shape="rect" id="Node000002" href="$exif-entry_8c.html#a82d5d923121488d847d341727cdd2ef4" title="Decrease reference counter for ExifEntry." alt="" coords="218,21,347,47"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,62,215,49,216,54,167,67"/>
+<area shape="rect" id="Node000004" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="747,21,868,47"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="166,84,405,80,552,72,698,57,743,48,744,54,699,62,552,77,405,86,166,89"/>
+<area shape="rect" id="Node000006" href="$exif-mem_8c.html#a7302da5374a74202e03a781b7c4b7ebe" title=" " alt="" coords="213,123,352,148"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="167,103,216,116,215,121,165,108"/>
+<area shape="rect" id="Node000003" href="$exif-entry_8c.html#a2879215e3863186650d3f32eb63bbaf4" title="Actually free the ExifEntry." alt="" coords="400,21,521,47"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="348,31,384,31,384,37,348,37"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="510,18,569,7,634,3,699,7,743,15,742,20,698,13,634,8,570,13,511,23"/>
+<area shape="rect" id="Node000005" href="$exif-mem_8c.html#a66744e0987af08c443df247ce55f7d87" title="Unrefcount an ExifMem." alt="" coords="569,21,699,47"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="522,31,554,31,554,37,522,37"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="699,31,731,31,731,37,699,37"/>
+</map>

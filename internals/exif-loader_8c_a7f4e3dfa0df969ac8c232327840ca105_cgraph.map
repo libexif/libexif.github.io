@@ -1,0 +1,19 @@
+<map id="exif_loader_unref" name="exif_loader_unref">
+<area shape="rect" id="Node000001" title="Decrease the refcount of the ExifLoader." alt="" coords="5,81,141,107"/>
+<area shape="rect" id="Node000002" href="$exif-loader_8c.html#a388dfe484e1ad9c424bf3f029ec50248" title=" " alt="" coords="189,81,317,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,91,174,91,174,97,142,97"/>
+<area shape="rect" id="Node000003" href="$exif-loader_8c.html#a080d8ebb5006c1306a3a798ff60253a5" title="Free any data previously loaded and reset the ExifLoader to its newly&#45;initialized state." alt="" coords="528,5,663,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="282,78,320,62,365,47,440,32,512,22,513,27,441,37,366,53,322,67,284,83"/>
+<area shape="rect" id="Node000004" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="888,81,1009,107"/>
+<area shape="poly" id="edge9_Node000002_Node000004" title=" " alt="" coords="318,89,548,85,840,86,873,87,872,92,840,91,548,90,318,95"/>
+<area shape="rect" id="Node000005" href="$exif-log_8c.html#a7a9b738a7429197d68c80ffedac7d8fb" title=" " alt="" coords="365,107,480,132"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="318,101,350,106,350,111,317,106"/>
+<area shape="rect" id="Node000007" href="$exif-mem_8c.html#a66744e0987af08c443df247ce55f7d87" title="Unrefcount an ExifMem." alt="" coords="711,157,840,183"/>
+<area shape="poly" id="edge10_Node000002_Node000007" title=" " alt="" coords="279,105,319,124,366,141,453,157,541,166,695,170,695,176,541,172,452,162,365,146,317,129,277,110"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="663,19,749,29,841,47,908,72,906,77,839,53,748,34,663,25"/>
+<area shape="rect" id="Node000006" href="$exif-log_8c.html#acd0808d6d5be73f28059797c2e2e67dc" title="Delete instance of ExifLog." alt="" coords="542,107,649,132"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="481,117,527,117,527,122,481,122"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="649,113,872,97,872,102,649,118"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="644,130,714,150,712,155,643,135"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="805,154,903,111,905,116,807,159"/>
+</map>

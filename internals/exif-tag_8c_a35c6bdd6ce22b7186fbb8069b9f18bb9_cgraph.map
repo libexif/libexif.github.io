@@ -1,0 +1,5 @@
+<map id="exif_tag_table_get_tag" name="exif_tag_table_get_tag">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,176,31"/>
+<area shape="rect" id="Node000002" href="$exif-tag_8c.html#a87563ee64809f5f0deb4d780098508c1" title="Return the number of entries in the EXIF tag table, including the terminating NULL entry." alt="" coords="224,5,383,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,15,209,15,209,21,176,21"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="mnote_olympus_entry_get_value" name="mnote_olympus_entry_get_value">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,98,173,138"/>
+<area shape="rect" id="Node000002" href="$exif-utils_8c.html#a4ad94614630897766dd0a5c9bc2a59bf" title="Retrieve an ExifLong value from memory." alt="" coords="415,30,526,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,96,154,52,186,31,220,15,272,4,325,4,376,12,419,22,418,27,375,17,325,10,273,9,222,20,189,35,158,56,110,100"/>
+<area shape="rect" id="Node000003" href="$exif-utils_8c.html#a56b96f076a13da6ed926e1ef29cb2dc3" title="Retrieve an ExifSLong value from memory." alt="" coords="588,80,705,106"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="174,112,572,94,573,99,174,117"/>
+<area shape="rect" id="Node000004" href="$exif-utils_8c.html#a1feb547c289aa57a4d2119338b03706c" title="Retrieve an ExifRational value from memory." alt="" coords="221,30,353,55"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="143,95,237,59,239,64,144,100"/>
+<area shape="rect" id="Node000005" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="230,131,345,156"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="174,127,215,132,214,137,173,132"/>
+<area shape="rect" id="Node000006" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="409,144,532,170"/>
+<area shape="poly" id="edge10_Node000001_Node000006" title=" " alt="" coords="134,136,176,153,222,165,266,171,310,172,394,166,394,172,311,177,265,176,221,170,174,158,132,141"/>
+<area shape="rect" id="Node000007" href="$exif-utils_8c.html#adb97c3499488d5642a82df1cb16dc2cb" title="Retrieve an ExifSRational value from memory." alt="" coords="401,219,540,244"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="129,137,173,159,222,179,306,202,387,217,386,223,305,207,220,184,171,163,126,141"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="518,53,587,73,585,78,517,58"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="354,40,400,40,400,45,354,45"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="345,145,394,149,394,154,345,151"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="488,217,538,179,617,114,621,118,542,183,492,221"/>
+</map>

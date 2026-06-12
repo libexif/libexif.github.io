@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EXIF library (libexif) API: libexif/exif-log.h File Reference</title>
+<title>EXIF library (libexif) Internals: libexif/exif-log.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EXIF library (libexif) API<span id="projectnumber">&#160;0.6.25</span>
+   <div id="projectname">EXIF library (libexif) Internals<span id="projectnumber">&#160;0.6.26</span>
    </div>
   </td>
  </tr>
@@ -72,32 +72,39 @@ $(document).ready(function(){initNavTree('exif-log_8h.html',''); initResizable()
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="exif-mem_8h_source.html">libexif/exif-mem.h</a>&gt;</code><br />
 <code>#include &lt;stdarg.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for exif-log.h:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-log_8h__incl.svg" width="508" height="256"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-log_8h__dep__incl.svg" width="3964" height="564"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <p><a href="exif-log_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a4221b964f5ee550f6166126b263d3b2f"><td class="memItemLeft" align="right" valign="top"><a id="a4221b964f5ee550f6166126b263d3b2f" name="a4221b964f5ee550f6166126b263d3b2f"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>EXIF_LOG_NO_MEMORY</b>(l,  d,  s)&#160;&#160;&#160;exif_log ((l), EXIF_LOG_CODE_NO_MEMORY, (d), &quot;Could not allocate %lu byte(s).&quot;, (unsigned long)(s))</td></tr>
+<tr class="memitem:a4221b964f5ee550f6166126b263d3b2f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-log_8h.html#a4221b964f5ee550f6166126b263d3b2f">EXIF_LOG_NO_MEMORY</a>(l,  d,  s)&#160;&#160;&#160;<a class="el" href="exif-log_8c.html#a025d4a5d96544913ea6f6ebbec69cb68">exif_log</a> ((l), <a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652a58e7ceb39d196fb60b18ec9713c74336">EXIF_LOG_CODE_NO_MEMORY</a>, (d), &quot;Could not allocate %lu byte(s).&quot;, (unsigned long)(s))</td></tr>
 <tr class="separator:a4221b964f5ee550f6166126b263d3b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a6b225115984bb2016282923cb487f16b"><td class="memItemLeft" align="right" valign="top"><a id="a6b225115984bb2016282923cb487f16b" name="a6b225115984bb2016282923cb487f16b"></a>
-typedef struct _ExifLog&#160;</td><td class="memItemRight" valign="bottom"><b>ExifLog</b></td></tr>
-<tr class="memdesc:a6b225115984bb2016282923cb487f16b"><td class="mdescLeft">&#160;</td><td class="mdescRight">State maintained by the logging interface. <br /></td></tr>
+<tr class="memitem:a6b225115984bb2016282923cb487f16b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct__ExifLog.html">_ExifLog</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a></td></tr>
+<tr class="memdesc:a6b225115984bb2016282923cb487f16b"><td class="mdescLeft">&#160;</td><td class="mdescRight">State maintained by the logging interface.  <br /></td></tr>
 <tr class="separator:a6b225115984bb2016282923cb487f16b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae724638edf6aa856cf28717ececd84c6"><td class="memItemLeft" align="right" valign="top"><a id="ae724638edf6aa856cf28717ececd84c6" name="ae724638edf6aa856cf28717ececd84c6"></a>
-typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><b>ExifLogFunc</b>) (<a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *log, ExifLogCode, const char *domain, const char *format, va_list args, void *data)</td></tr>
-<tr class="memdesc:ae724638edf6aa856cf28717ececd84c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log callback function prototype. <br /></td></tr>
+<tr class="memitem:ae724638edf6aa856cf28717ececd84c6"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-log_8h.html#ae724638edf6aa856cf28717ececd84c6">ExifLogFunc</a>) (<a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *log, <a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652">ExifLogCode</a>, const char *domain, const char *<a class="el" href="exif-format_8c.html#abd06ced5b3e334726a446807ba75b6c8">format</a>, va_list args, void *data)</td></tr>
+<tr class="memdesc:ae724638edf6aa856cf28717ececd84c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log callback function prototype.  <br /></td></tr>
 <tr class="separator:ae724638edf6aa856cf28717ececd84c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a36f42667fb0481f099dbc0628dae2652"><td class="memItemLeft" align="right" valign="top"><a id="a36f42667fb0481f099dbc0628dae2652" name="a36f42667fb0481f099dbc0628dae2652"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>ExifLogCode</b> { <b>EXIF_LOG_CODE_NONE</b>
-, <b>EXIF_LOG_CODE_DEBUG</b>
-, <b>EXIF_LOG_CODE_NO_MEMORY</b>
-, <b>EXIF_LOG_CODE_CORRUPT_DATA</b>
+<tr class="memitem:a36f42667fb0481f099dbc0628dae2652"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652">ExifLogCode</a> { <a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652a3b611d0d574b7838c2d5173367d96ed3">EXIF_LOG_CODE_NONE</a>
+, <a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652ae8772b1ad05481f996ae4ab831f22860">EXIF_LOG_CODE_DEBUG</a>
+, <a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652a58e7ceb39d196fb60b18ec9713c74336">EXIF_LOG_CODE_NO_MEMORY</a>
+, <a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652a84901c6bc122ed1de41cc8fb08b6ccc8">EXIF_LOG_CODE_CORRUPT_DATA</a>
  }</td></tr>
 <tr class="separator:a36f42667fb0481f099dbc0628dae2652"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -106,37 +113,188 @@ Functions</h2></td></tr>
 <tr class="memitem:a001a5e553782adb78dc6fa91728004d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-log_8h.html#a001a5e553782adb78dc6fa91728004d5">exif_log_new</a> (void)</td></tr>
 <tr class="memdesc:a001a5e553782adb78dc6fa91728004d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new logging instance.  <br /></td></tr>
 <tr class="separator:a001a5e553782adb78dc6fa91728004d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4193191b0bb76e71ac7fd6172b0c1a65"><td class="memItemLeft" align="right" valign="top"><a id="a4193191b0bb76e71ac7fd6172b0c1a65" name="a4193191b0bb76e71ac7fd6172b0c1a65"></a>
-<a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>exif_log_new_mem</b> (<a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *)</td></tr>
+<tr class="memitem:a4193191b0bb76e71ac7fd6172b0c1a65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-log_8h.html#a4193191b0bb76e71ac7fd6172b0c1a65">exif_log_new_mem</a> (<a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *)</td></tr>
 <tr class="separator:a4193191b0bb76e71ac7fd6172b0c1a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafd7e5d40ca73440976a3b684bfa1059"><td class="memItemLeft" align="right" valign="top"><a id="aafd7e5d40ca73440976a3b684bfa1059" name="aafd7e5d40ca73440976a3b684bfa1059"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_log_ref</b> (<a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *log)</td></tr>
+<tr class="memitem:aafd7e5d40ca73440976a3b684bfa1059"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-log_8h.html#aafd7e5d40ca73440976a3b684bfa1059">exif_log_ref</a> (<a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *log)</td></tr>
 <tr class="separator:aafd7e5d40ca73440976a3b684bfa1059"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a9b738a7429197d68c80ffedac7d8fb"><td class="memItemLeft" align="right" valign="top"><a id="a7a9b738a7429197d68c80ffedac7d8fb" name="a7a9b738a7429197d68c80ffedac7d8fb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_log_unref</b> (<a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *log)</td></tr>
+<tr class="memitem:a7a9b738a7429197d68c80ffedac7d8fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-log_8h.html#a7a9b738a7429197d68c80ffedac7d8fb">exif_log_unref</a> (<a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *log)</td></tr>
 <tr class="separator:a7a9b738a7429197d68c80ffedac7d8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd0808d6d5be73f28059797c2e2e67dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-log_8h.html#acd0808d6d5be73f28059797c2e2e67dc">exif_log_free</a> (<a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *log)</td></tr>
 <tr class="memdesc:acd0808d6d5be73f28059797c2e2e67dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete instance of <a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b" title="State maintained by the logging interface.">ExifLog</a>.  <br /></td></tr>
 <tr class="separator:acd0808d6d5be73f28059797c2e2e67dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a342d1759ec4d86896fb24fd369e758f3"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-log_8h.html#a342d1759ec4d86896fb24fd369e758f3">exif_log_code_get_title</a> (ExifLogCode code)</td></tr>
+<tr class="memitem:a342d1759ec4d86896fb24fd369e758f3"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-log_8h.html#a342d1759ec4d86896fb24fd369e758f3">exif_log_code_get_title</a> (<a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652">ExifLogCode</a> <a class="el" href="exif-log_8c.html#a1af18795ea58910152268a087852f327">code</a>)</td></tr>
 <tr class="memdesc:a342d1759ec4d86896fb24fd369e758f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a textual description of the given class of error log.  <br /></td></tr>
 <tr class="separator:a342d1759ec4d86896fb24fd369e758f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcbdf4fa0b146bb0040c21b3f4969e7c"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-log_8h.html#afcbdf4fa0b146bb0040c21b3f4969e7c">exif_log_code_get_message</a> (ExifLogCode code)</td></tr>
+<tr class="memitem:afcbdf4fa0b146bb0040c21b3f4969e7c"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-log_8h.html#afcbdf4fa0b146bb0040c21b3f4969e7c">exif_log_code_get_message</a> (<a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652">ExifLogCode</a> <a class="el" href="exif-log_8c.html#a1af18795ea58910152268a087852f327">code</a>)</td></tr>
 <tr class="memdesc:afcbdf4fa0b146bb0040c21b3f4969e7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a verbose description of the given class of error log.  <br /></td></tr>
 <tr class="separator:afcbdf4fa0b146bb0040c21b3f4969e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a493a369b7020265971cdaf8be9a2f6fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-log_8h.html#a493a369b7020265971cdaf8be9a2f6fe">exif_log_set_func</a> (<a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *log, <a class="el" href="exif-log_8h.html#ae724638edf6aa856cf28717ececd84c6">ExifLogFunc</a> func, void *data)</td></tr>
 <tr class="memdesc:a493a369b7020265971cdaf8be9a2f6fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register log callback function.  <br /></td></tr>
 <tr class="separator:a493a369b7020265971cdaf8be9a2f6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3317c341014d6ed3ea726f66116d5de0"><td class="memItemLeft" align="right" valign="top"><a id="a3317c341014d6ed3ea726f66116d5de0" name="a3317c341014d6ed3ea726f66116d5de0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_log</b> (<a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *log, ExifLogCode, const char *domain, const char *format,...)</td></tr>
+<tr class="memitem:a3317c341014d6ed3ea726f66116d5de0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-log_8h.html#a3317c341014d6ed3ea726f66116d5de0">exif_log</a> (<a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *log, <a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652">ExifLogCode</a>, const char *domain, const char *<a class="el" href="exif-format_8c.html#abd06ced5b3e334726a446807ba75b6c8">format</a>,...)</td></tr>
 <tr class="separator:a3317c341014d6ed3ea726f66116d5de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5f451d1ffd6538a88ca59798799af41"><td class="memItemLeft" align="right" valign="top"><a id="af5f451d1ffd6538a88ca59798799af41" name="af5f451d1ffd6538a88ca59798799af41"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_logv</b> (<a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *log, ExifLogCode, const char *domain, const char *format, va_list args)</td></tr>
+<tr class="memitem:af5f451d1ffd6538a88ca59798799af41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-log_8h.html#af5f451d1ffd6538a88ca59798799af41">exif_logv</a> (<a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *log, <a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652">ExifLogCode</a>, const char *domain, const char *<a class="el" href="exif-format_8c.html#abd06ced5b3e334726a446807ba75b6c8">format</a>, va_list args)</td></tr>
 <tr class="separator:af5f451d1ffd6538a88ca59798799af41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Log message infrastructure. </p>
-</div><h2 class="groupheader">Function Documentation</h2>
+
+<p class="definition">Definition in file <a class="el" href="exif-log_8h_source.html">exif-log.h</a>.</p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a4221b964f5ee550f6166126b263d3b2f" name="a4221b964f5ee550f6166126b263d3b2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4221b964f5ee550f6166126b263d3b2f">&#9670;&#160;</a></span>EXIF_LOG_NO_MEMORY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EXIF_LOG_NO_MEMORY</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">l, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">d, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">s&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="exif-log_8c.html#a025d4a5d96544913ea6f6ebbec69cb68">exif_log</a> ((l), <a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652a58e7ceb39d196fb60b18ec9713c74336">EXIF_LOG_CODE_NO_MEMORY</a>, (d), &quot;Could not allocate %lu byte(s).&quot;, (unsigned long)(s))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-log_8h_source.html#l00112">112</a> of file <a class="el" href="exif-log_8h_source.html">exif-log.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a6b225115984bb2016282923cb487f16b" name="a6b225115984bb2016282923cb487f16b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b225115984bb2016282923cb487f16b">&#9670;&#160;</a></span>ExifLog</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="struct__ExifLog.html">_ExifLog</a> <a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>State maintained by the logging interface. </p>
+
+<p class="definition">Definition at line <a class="el" href="exif-log_8h_source.html#l00036">36</a> of file <a class="el" href="exif-log_8h_source.html">exif-log.h</a>.</p>
+
+</div>
+</div>
+<a id="ae724638edf6aa856cf28717ececd84c6" name="ae724638edf6aa856cf28717ececd84c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae724638edf6aa856cf28717ececd84c6">&#9670;&#160;</a></span>ExifLogFunc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* ExifLogFunc) (<a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *log, <a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652">ExifLogCode</a>, const char *domain, const char *<a class="el" href="exif-format_8c.html#abd06ced5b3e334726a446807ba75b6c8">format</a>, va_list args, void *data)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Log callback function prototype. </p>
+
+<p class="definition">Definition at line <a class="el" href="exif-log_8h_source.html#l00079">79</a> of file <a class="el" href="exif-log_8h_source.html">exif-log.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a36f42667fb0481f099dbc0628dae2652" name="a36f42667fb0481f099dbc0628dae2652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36f42667fb0481f099dbc0628dae2652">&#9670;&#160;</a></span>ExifLogCode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652">ExifLogCode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a36f42667fb0481f099dbc0628dae2652a3b611d0d574b7838c2d5173367d96ed3" name="a36f42667fb0481f099dbc0628dae2652a3b611d0d574b7838c2d5173367d96ed3"></a>EXIF_LOG_CODE_NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36f42667fb0481f099dbc0628dae2652ae8772b1ad05481f996ae4ab831f22860" name="a36f42667fb0481f099dbc0628dae2652ae8772b1ad05481f996ae4ab831f22860"></a>EXIF_LOG_CODE_DEBUG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36f42667fb0481f099dbc0628dae2652a58e7ceb39d196fb60b18ec9713c74336" name="a36f42667fb0481f099dbc0628dae2652a58e7ceb39d196fb60b18ec9713c74336"></a>EXIF_LOG_CODE_NO_MEMORY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a36f42667fb0481f099dbc0628dae2652a84901c6bc122ed1de41cc8fb08b6ccc8" name="a36f42667fb0481f099dbc0628dae2652a84901c6bc122ed1de41cc8fb08b6ccc8"></a>EXIF_LOG_CODE_CORRUPT_DATA&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="exif-log_8h_source.html#l00056">56</a> of file <a class="el" href="exif-log_8h_source.html">exif-log.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a3317c341014d6ed3ea726f66116d5de0" name="a3317c341014d6ed3ea726f66116d5de0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3317c341014d6ed3ea726f66116d5de0">&#9670;&#160;</a></span>exif_log()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exif_log </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *&#160;</td>
+          <td class="paramname"><em>log</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652">ExifLogCode</a>&#160;</td>
+          <td class="paramname"><em>code</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>domain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-log_8c_source.html#l00137">137</a> of file <a class="el" href="exif-log_8c_source.html">exif-log.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-log_8c_source.html#l00041">code</a>, <a class="el" href="exif-log_8c_source.html#l00148">exif_logv()</a>, and <a class="el" href="exif-format_8c_source.html#l00035">format</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-content_8c_source.html#l00141">exif_content_add_entry()</a>, <a class="el" href="exif-content_8c_source.html#l00286">exif_content_fix()</a>, <a class="el" href="exif-data_8c_source.html#l00856">exif_data_load_data()</a>, <a class="el" href="exif-data_8c_source.html#l00398">exif_data_load_data_content()</a>, <a class="el" href="exif-data_8c_source.html#l00166">exif_data_load_data_entry()</a>, <a class="el" href="exif-data_8c_source.html#l00332">exif_data_load_data_thumbnail()</a>, <a class="el" href="exif-data_8c_source.html#l01042">exif_data_save_data()</a>, <a class="el" href="exif-data_8c_source.html#l00573">exif_data_save_data_content()</a>, <a class="el" href="exif-data_8c_source.html#l00241">exif_data_save_data_entry()</a>, <a class="el" href="exif-loader_8c_source.html#l00450">exif_loader_get_buf()</a>, <a class="el" href="exif-loader_8c_source.html#l00169">exif_loader_write()</a>, <a class="el" href="exif-loader_8c_source.html#l00123">exif_loader_write_file()</a>, <a class="el" href="exif-mnote-data-apple_8c_source.html#l00059">exif_mnote_data_apple_load()</a>, <a class="el" href="exif-mnote-data-canon_8c_source.html#l00208">exif_mnote_data_canon_load()</a>, <a class="el" href="exif-mnote-data-fuji_8c_source.html#l00156">exif_mnote_data_fuji_load()</a>, <a class="el" href="exif-mnote-data-olympus_8c_source.html#l00240">exif_mnote_data_olympus_load()</a>, <a class="el" href="exif-mnote-data-pentax_8c_source.html#l00218">exif_mnote_data_pentax_load()</a>, <a class="el" href="exif-mnote-data-pentax_8c_source.html#l00081">exif_mnote_data_pentax_save()</a>, <a class="el" href="exif-data_8c_source.html#l01326">fix_func()</a>, <a class="el" href="exif-data_8c_source.html#l00801">interpret_maker_note()</a>, <a class="el" href="test-null_8c_source.html#l00307">log_null_test()</a>, and <a class="el" href="exif-content_8c_source.html#l00268">remove_not_recorded()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-log_8h_a3317c341014d6ed3ea726f66116d5de0_cgraph.svg" width="216" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 <a id="afcbdf4fa0b146bb0040c21b3f4969e7c" name="afcbdf4fa0b146bb0040c21b3f4969e7c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afcbdf4fa0b146bb0040c21b3f4969e7c">&#9670;&#160;</a></span>exif_log_code_get_message()</h2>
 
@@ -146,7 +304,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_logv</b> (<a cla
         <tr>
           <td class="memname">const char * exif_log_code_get_message </td>
           <td>(</td>
-          <td class="paramtype">ExifLogCode&#160;</td>
+          <td class="paramtype"><a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652">ExifLogCode</a>&#160;</td>
           <td class="paramname"><em>code</em></td><td>)</td>
           <td></td>
         </tr>
@@ -162,6 +320,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_logv</b> (<a cla
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>verbose description of the log class, or NULL if unknown </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-log_8c_source.html#l00064">64</a> of file <a class="el" href="exif-log_8c_source.html">exif-log.c</a>.</p>
+
+<p class="reference">References <a class="el" href="i18n_8h_source.html#l00050">_</a>, <a class="el" href="exif-log_8c_source.html#l00041">code</a>, <a class="el" href="exif-log_8c.html#aba124929e94c24ce9732627115eca3f8">codes</a>, and <a class="el" href="exif-log_8c_source.html#l00043">message</a>.</p>
+
 </div>
 </div>
 <a id="a342d1759ec4d86896fb24fd369e758f3" name="a342d1759ec4d86896fb24fd369e758f3"></a>
@@ -173,7 +335,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_logv</b> (<a cla
         <tr>
           <td class="memname">const char * exif_log_code_get_title </td>
           <td>(</td>
-          <td class="paramtype">ExifLogCode&#160;</td>
+          <td class="paramtype"><a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652">ExifLogCode</a>&#160;</td>
           <td class="paramname"><em>code</em></td><td>)</td>
           <td></td>
         </tr>
@@ -188,6 +350,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_logv</b> (<a cla
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>textual description of the log class, or NULL if unknown </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="exif-log_8c_source.html#l00055">55</a> of file <a class="el" href="exif-log_8c_source.html">exif-log.c</a>.</p>
+
+<p class="reference">References <a class="el" href="i18n_8h_source.html#l00050">_</a>, <a class="el" href="exif-log_8c_source.html#l00041">code</a>, <a class="el" href="exif-log_8c.html#aba124929e94c24ce9732627115eca3f8">codes</a>, and <a class="el" href="exif-log_8c_source.html#l00042">title</a>.</p>
 
 </div>
 </div>
@@ -217,6 +383,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_logv</b> (<a cla
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new instance of <a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b" title="State maintained by the logging interface.">ExifLog</a> </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-log_8c_source.html#l00114">114</a> of file <a class="el" href="exif-log_8c_source.html">exif-log.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-mem_8c_source.html#l00091">exif_mem_free()</a>, <a class="el" href="exif-mem_8c_source.html#l00083">exif_mem_unref()</a>, and <a class="el" href="exif-log_8c_source.html#l00037">_ExifLog::mem</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-log_8c_source.html#l00106">exif_log_unref()</a>, and <a class="el" href="test-null_8c_source.html#l00307">log_null_test()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-log_8h_acd0808d6d5be73f28059797c2e2e67dc_cgraph.svg" width="464" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
 <a id="a001a5e553782adb78dc6fa91728004d5" name="a001a5e553782adb78dc6fa91728004d5"></a>
@@ -238,6 +415,70 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_logv</b> (<a cla
 <p>Create a new logging instance. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="exif-log_8h.html#acd0808d6d5be73f28059797c2e2e67dc" title="Delete instance of ExifLog.">exif_log_free</a></dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>new instance of <a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b" title="State maintained by the logging interface.">ExifLog</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="exif-log_8c_source.html#l00088">88</a> of file <a class="el" href="exif-log_8c_source.html">exif-log.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-log_8c_source.html#l00073">exif_log_new_mem()</a>, <a class="el" href="exif-mem_8c_source.html#l00117">exif_mem_new_default()</a>, and <a class="el" href="exif-mem_8c_source.html#l00083">exif_mem_unref()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00307">log_null_test()</a>, <a class="el" href="test-fuzzer-persistent_8c_source.html#l00107">main()</a>, and <a class="el" href="test-fuzzer_8c_source.html#l00106">test_parse()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-log_8h_a001a5e553782adb78dc6fa91728004d5_cgraph.svg" width="564" height="332"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a4193191b0bb76e71ac7fd6172b0c1a65" name="a4193191b0bb76e71ac7fd6172b0c1a65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4193191b0bb76e71ac7fd6172b0c1a65">&#9670;&#160;</a></span>exif_log_new_mem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> * exif_log_new_mem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *&#160;</td>
+          <td class="paramname"><em>mem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-log_8c_source.html#l00073">73</a> of file <a class="el" href="exif-log_8c_source.html">exif-log.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-mem_8c_source.html#l00101">exif_mem_alloc()</a>, <a class="el" href="exif-mem_8c_source.html#l00076">exif_mem_ref()</a>, <a class="el" href="exif-log_8c_source.html#l00037">_ExifLog::mem</a>, and <a class="el" href="exif-log_8c_source.html#l00032">_ExifLog::ref_count</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-log_8c_source.html#l00088">exif_log_new()</a>, and <a class="el" href="test-null_8c_source.html#l00307">log_null_test()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-log_8h_a4193191b0bb76e71ac7fd6172b0c1a65_cgraph.svg" width="335" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aafd7e5d40ca73440976a3b684bfa1059" name="aafd7e5d40ca73440976a3b684bfa1059"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafd7e5d40ca73440976a3b684bfa1059">&#9670;&#160;</a></span>exif_log_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exif_log_ref </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *&#160;</td>
+          <td class="paramname"><em>log</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-log_8c_source.html#l00099">99</a> of file <a class="el" href="exif-log_8c_source.html">exif-log.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-log_8c_source.html#l00032">_ExifLog::ref_count</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-content_8c_source.html#l00231">exif_content_log()</a>, <a class="el" href="exif-data_8c_source.html#l01245">exif_data_log()</a>, <a class="el" href="exif-loader_8c_source.html#l00473">exif_loader_log()</a>, <a class="el" href="exif-mnote-data_8c_source.html#l00154">exif_mnote_data_log()</a>, and <a class="el" href="test-null_8c_source.html#l00307">log_null_test()</a>.</p>
 
 </div>
 </div>
@@ -284,16 +525,105 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_logv</b> (<a cla
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-log_8c_source.html#l00125">125</a> of file <a class="el" href="exif-log_8c_source.html">exif-log.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-log_8c_source.html#l00035">_ExifLog::data</a>, and <a class="el" href="exif-log_8c_source.html#l00034">_ExifLog::func</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00307">log_null_test()</a>, <a class="el" href="test-fuzzer-persistent_8c_source.html#l00107">main()</a>, and <a class="el" href="test-fuzzer_8c_source.html#l00106">test_parse()</a>.</p>
+
+</div>
+</div>
+<a id="a7a9b738a7429197d68c80ffedac7d8fb" name="a7a9b738a7429197d68c80ffedac7d8fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a9b738a7429197d68c80ffedac7d8fb">&#9670;&#160;</a></span>exif_log_unref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exif_log_unref </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *&#160;</td>
+          <td class="paramname"><em>log</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-log_8c_source.html#l00106">106</a> of file <a class="el" href="exif-log_8c_source.html">exif-log.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-log_8c_source.html#l00114">exif_log_free()</a>, and <a class="el" href="exif-log_8c_source.html#l00032">_ExifLog::ref_count</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-content_8c_source.html#l00101">exif_content_free()</a>, <a class="el" href="exif-content_8c_source.html#l00231">exif_content_log()</a>, <a class="el" href="exif-data_8c_source.html#l01121">exif_data_free()</a>, <a class="el" href="exif-data_8c_source.html#l01245">exif_data_log()</a>, <a class="el" href="exif-loader_8c_source.html#l00397">exif_loader_free()</a>, <a class="el" href="exif-loader_8c_source.html#l00473">exif_loader_log()</a>, <a class="el" href="exif-mnote-data_8c_source.html#l00057">exif_mnote_data_free()</a>, <a class="el" href="exif-mnote-data_8c_source.html#l00154">exif_mnote_data_log()</a>, and <a class="el" href="test-null_8c_source.html#l00307">log_null_test()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-log_8h_a7a9b738a7429197d68c80ffedac7d8fb_cgraph.svg" width="627" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="af5f451d1ffd6538a88ca59798799af41" name="af5f451d1ffd6538a88ca59798799af41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5f451d1ffd6538a88ca59798799af41">&#9670;&#160;</a></span>exif_logv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exif_logv </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="exif-log_8h.html#a6b225115984bb2016282923cb487f16b">ExifLog</a> *&#160;</td>
+          <td class="paramname"><em>log</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="exif-log_8h.html#a36f42667fb0481f099dbc0628dae2652">ExifLogCode</a>&#160;</td>
+          <td class="paramname"><em>code</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>domain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">va_list&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-log_8c_source.html#l00148">148</a> of file <a class="el" href="exif-log_8c_source.html">exif-log.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-log_8c_source.html#l00041">code</a>, <a class="el" href="exif-log_8c_source.html#l00035">_ExifLog::data</a>, <a class="el" href="exif-format_8c_source.html#l00035">format</a>, and <a class="el" href="exif-log_8c_source.html#l00034">_ExifLog::func</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-entry_8c_source.html#l00055">exif_entry_log()</a>, <a class="el" href="exif-log_8c_source.html#l00137">exif_log()</a>, and <a class="el" href="test-null_8c_source.html#l00307">log_null_test()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_04d2bd150f7cc849eeec70b9b0fdccb1.html">libexif</a></li><li class="navelem"><a class="el" href="exif-log_8h.html">exif-log.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7 </li>
-  </ul>
-</div>
+
+<!-- Copyright (C) 2009-2017 Dan Fandrich <dan@coneharvesters.com>
+     SPDX-License-Identifier: LGPL-2.0-or-later -->
+<hr size="1">
+<address style="text-align: right;">
+<a href="https://libexif.github.io" target="_top">libexif</a>
+<small>Generated by&nbsp;<a href="http://www.doxygen.org/" target="_top"><img src="doxygen.png" alt="doxygen" align="middle" border="0">
+</a>
+</small></address>
 </body>
 </html>

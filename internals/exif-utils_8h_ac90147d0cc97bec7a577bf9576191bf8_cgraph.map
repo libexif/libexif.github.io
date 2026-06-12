@@ -1,0 +1,5 @@
+<map id="exif_set_long" name="exif_set_long">
+<area shape="rect" id="Node000001" title="Store an ExifLong value into memory in EXIF format." alt="" coords="5,5,115,31"/>
+<area shape="rect" id="Node000002" href="$exif-utils_8c.html#ae6e3b9d1663f9ab9bd462d73a310ca03" title="Store an ExifSLong value into memory in EXIF format." alt="" coords="163,5,279,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,15,147,15,147,21,115,21"/>
+</map>

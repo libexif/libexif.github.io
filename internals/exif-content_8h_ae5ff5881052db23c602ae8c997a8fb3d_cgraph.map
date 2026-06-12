@@ -1,0 +1,9 @@
+<map id="exif_content_new_mem" name="exif_content_new_mem">
+<area shape="rect" id="Node000001" title="Reserve memory for and initialize new ExifContent using the specified memory allocator." alt="" coords="5,55,184,80"/>
+<area shape="rect" id="Node000002" href="$exif-mem_8c.html#a68be7c7afc8cff75adc3b1a28b5ae9a2" title=" " alt="" coords="232,5,359,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,52,225,32,227,38,150,57"/>
+<area shape="rect" id="Node000003" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="235,55,356,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,65,219,65,219,70,185,70"/>
+<area shape="rect" id="Node000004" href="$exif-mem_8c.html#af28c61972f529be46907956e0b3e7a60" title="Refcount an ExifMem." alt="" coords="239,104,352,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="150,78,227,97,225,102,148,83"/>
+</map>

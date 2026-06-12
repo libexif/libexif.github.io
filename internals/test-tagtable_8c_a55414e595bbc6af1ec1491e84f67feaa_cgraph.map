@@ -1,0 +1,11 @@
+<map id="name" name="name">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,64,56"/>
+<area shape="rect" id="Node000002" href="$exif-tag_8c.html#a6b4f26f6f8f243e1f8a9e123b9cca589" title="Return a textual name of the given tag when found in the given IFD." alt="" coords="112,31,303,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,41,96,41,96,46,64,46"/>
+<area shape="rect" id="Node000003" href="$exif-tag_8c.html#a389f8ff3411e0525b28367892f1e78d3" title="Finds the first entry in the EXIF tag table with the given tag number using a binary search." alt="" coords="351,31,499,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="303,41,336,41,336,46,303,46"/>
+<area shape="rect" id="Node000004" href="$exif-tag_8c.html#a87563ee64809f5f0deb4d780098508c1" title="Return the number of entries in the EXIF tag table, including the terminating NULL entry." alt="" coords="547,5,705,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="499,31,531,27,531,33,499,37"/>
+<area shape="rect" id="Node000005" href="$exif-tag_8c.html#a220c1b18832f113bc84ff9551754915f" title="Compares the tag with that in entry." alt="" coords="581,55,671,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="499,49,566,58,565,63,499,55"/>
+</map>

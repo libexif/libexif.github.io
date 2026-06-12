@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EXIF library (libexif) API: _ExifEntry Struct Reference</title>
+<title>EXIF library (libexif) Internals: _ExifEntry Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EXIF library (libexif) API<span id="projectnumber">&#160;0.6.25</span>
+   <div id="projectname">EXIF library (libexif) Internals<span id="projectnumber">&#160;0.6.26</span>
    </div>
   </td>
  </tr>
@@ -77,13 +77,11 @@ Collaboration diagram for _ExifEntry:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:aa03a4dc9fa98c8bbc447c19a4d0536e9"><td class="memItemLeft" align="right" valign="top"><a id="aa03a4dc9fa98c8bbc447c19a4d0536e9" name="aa03a4dc9fa98c8bbc447c19a4d0536e9"></a>
-<a class="el" href="exif-tag_8h.html#a1a0ded93d47585f6889eb546915d0f41">ExifTag</a>&#160;</td><td class="memItemRight" valign="bottom"><b>tag</b></td></tr>
-<tr class="memdesc:aa03a4dc9fa98c8bbc447c19a4d0536e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">EXIF tag for this entry. <br /></td></tr>
+<tr class="memitem:aa03a4dc9fa98c8bbc447c19a4d0536e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exif-tag_8h.html#a1a0ded93d47585f6889eb546915d0f41">ExifTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__ExifEntry.html#aa03a4dc9fa98c8bbc447c19a4d0536e9">tag</a></td></tr>
+<tr class="memdesc:aa03a4dc9fa98c8bbc447c19a4d0536e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">EXIF tag for this entry.  <br /></td></tr>
 <tr class="separator:aa03a4dc9fa98c8bbc447c19a4d0536e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6129f19697eff3ab581e0a8455d9fbae"><td class="memItemLeft" align="right" valign="top"><a id="a6129f19697eff3ab581e0a8455d9fbae" name="a6129f19697eff3ab581e0a8455d9fbae"></a>
-<a class="el" href="exif-format_8h.html#a761152047d73b4a9fcdc4e2051b817d2">ExifFormat</a>&#160;</td><td class="memItemRight" valign="bottom"><b>format</b></td></tr>
-<tr class="memdesc:a6129f19697eff3ab581e0a8455d9fbae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of data in this entry. <br /></td></tr>
+<tr class="memitem:a6129f19697eff3ab581e0a8455d9fbae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exif-format_8h.html#a761152047d73b4a9fcdc4e2051b817d2">ExifFormat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__ExifEntry.html#a6129f19697eff3ab581e0a8455d9fbae">format</a></td></tr>
+<tr class="memdesc:a6129f19697eff3ab581e0a8455d9fbae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of data in this entry.  <br /></td></tr>
 <tr class="separator:a6129f19697eff3ab581e0a8455d9fbae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d1cd87a5c3f43b3d14b087a44582c06"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__ExifEntry.html#a4d1cd87a5c3f43b3d14b087a44582c06">components</a></td></tr>
 <tr class="memdesc:a4d1cd87a5c3f43b3d14b087a44582c06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of elements in the array, if this is an array entry.  <br /></td></tr>
@@ -97,13 +95,14 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a6a4cb064a2c7d60f3fd439e2b3cab2a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exif-content_8h.html#ac046cba2f9c5cfabf3ad443303090855">ExifContent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__ExifEntry.html#a6a4cb064a2c7d60f3fd439e2b3cab2a6">parent</a></td></tr>
 <tr class="memdesc:a6a4cb064a2c7d60f3fd439e2b3cab2a6"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="exif-content_8h.html#ac046cba2f9c5cfabf3ad443303090855" title="Holds all EXIF tags in a single IFD.">ExifContent</a> containing this entry.  <br /></td></tr>
 <tr class="separator:a6a4cb064a2c7d60f3fd439e2b3cab2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab596479b192bc474d77a98600d4201e2"><td class="memItemLeft" align="right" valign="top"><a id="ab596479b192bc474d77a98600d4201e2" name="ab596479b192bc474d77a98600d4201e2"></a>
-ExifEntryPrivate *&#160;</td><td class="memItemRight" valign="bottom"><b>priv</b></td></tr>
-<tr class="memdesc:ab596479b192bc474d77a98600d4201e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal data to be used by libexif itself. <br /></td></tr>
+<tr class="memitem:ab596479b192bc474d77a98600d4201e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exif-entry_8h.html#a53b9c2327db6cd1852e0ea3ab8c44c0d">ExifEntryPrivate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__ExifEntry.html#ab596479b192bc474d77a98600d4201e2">priv</a></td></tr>
+<tr class="memdesc:ab596479b192bc474d77a98600d4201e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal data to be used by libexif itself.  <br /></td></tr>
 <tr class="separator:ab596479b192bc474d77a98600d4201e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Data found in one EXIF tag. </p>
+
+<p class="definition">Definition at line <a class="el" href="exif-entry_8h_source.html#l00045">45</a> of file <a class="el" href="exif-entry_8h_source.html">exif-entry.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
 <a id="a4d1cd87a5c3f43b3d14b087a44582c06" name="a4d1cd87a5c3f43b3d14b087a44582c06"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4d1cd87a5c3f43b3d14b087a44582c06">&#9670;&#160;</a></span>components</h2>
@@ -120,7 +119,9 @@ ExifEntryPrivate *&#160;</td><td class="memItemRight" valign="bottom"><b>priv</b
 <p>Number of elements in the array, if this is an array entry. </p>
 <p>Contains 1 for non-array data types. </p>
 
-<p class="reference">Referenced by <a class="el" href="exif-entry_8h.html#a6d607d079472d7f5eed040c8f081406a">exif_entry_dump()</a>, <a class="el" href="exif-entry_8h.html#a34e2cc8e5cbb928a55cd16de9ce71edf">exif_entry_fix()</a>, <a class="el" href="exif-entry_8h.html#a140a8b7b3ec7f2405719204584d53b7e">exif_entry_get_value()</a>, and <a class="el" href="exif-entry_8h.html#ad7f9e3fd0fde760c332dfbef208589ed">exif_entry_initialize()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exif-entry_8h_source.html#l00054">54</a> of file <a class="el" href="exif-entry_8h_source.html">exif-entry.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-gps_8c_source.html#l00077">check_entry_format()</a>, <a class="el" href="exif-entry_8c_source.html#l00174">clear_entry()</a>, <a class="el" href="test-parse-from-data_8c_source.html#l00038">content_foreach_func()</a>, <a class="el" href="test-parse_8c_source.html#l00034">content_foreach_func()</a>, <a class="el" href="exif-data_8c_source.html#l01212">entry_set_byte_order()</a>, <a class="el" href="exif-data_8c_source.html#l00166">exif_data_load_data_entry()</a>, <a class="el" href="exif-data_8c_source.html#l00241">exif_data_save_data_entry()</a>, <a class="el" href="exif-entry_8c_source.html#l00600">exif_entry_dump()</a>, <a class="el" href="exif-entry_8c_source.html#l00207">exif_entry_fix()</a>, <a class="el" href="exif-entry_8c_source.html#l00453">exif_entry_format_value()</a>, <a class="el" href="exif-entry_8c_source.html#l00854">exif_entry_get_value()</a>, <a class="el" href="exif-entry_8c_source.html#l01468">exif_entry_initialize()</a>, <a class="el" href="exif-entry_8c_source.html#l01431">exif_entry_initialize_gps()</a>, and <a class="el" href="test-value_8c_source.html#l00120">main()</a>.</p>
 
 </div>
 </div>
@@ -137,9 +138,31 @@ ExifEntryPrivate *&#160;</td><td class="memItemRight" valign="bottom"><b>priv</b
 </div><div class="memdoc">
 
 <p>Pointer to the raw EXIF data for this entry. </p>
-<p>It is allocated by exif_entry_initialize and is NULL beforehand. Data contained here may be manipulated using the functions in <a class="el" href="exif-utils_8h.html" title="EXIF data manipulation functions and types.">exif-utils.h</a> </p>
+<p>It is allocated by <a class="el" href="exif-entry_8c.html#ad7f9e3fd0fde760c332dfbef208589ed" title="Initialize an empty ExifEntry with default data in the correct format for the given tag.">exif_entry_initialize</a> and is NULL beforehand. Data contained here may be manipulated using the functions in <a class="el" href="exif-utils_8h.html" title="EXIF data manipulation functions and types.">exif-utils.h</a> </p>
 
-<p class="reference">Referenced by <a class="el" href="exif-entry_8h.html#a34e2cc8e5cbb928a55cd16de9ce71edf">exif_entry_fix()</a>, <a class="el" href="exif-entry_8h.html#a3ed3eba673475efc0625741cf5bf6d33">exif_entry_free()</a>, <a class="el" href="exif-entry_8h.html#a140a8b7b3ec7f2405719204584d53b7e">exif_entry_get_value()</a>, and <a class="el" href="exif-entry_8h.html#ad7f9e3fd0fde760c332dfbef208589ed">exif_entry_initialize()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exif-entry_8h_source.html#l00059">59</a> of file <a class="el" href="exif-entry_8h_source.html">exif-entry.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-gps_8c_source.html#l00077">check_entry_format()</a>, <a class="el" href="exif-data_8c_source.html#l01212">entry_set_byte_order()</a>, <a class="el" href="exif-data_8c_source.html#l00166">exif_data_load_data_entry()</a>, <a class="el" href="exif-data_8c_source.html#l00241">exif_data_save_data_entry()</a>, <a class="el" href="exif-entry_8c_source.html#l00207">exif_entry_fix()</a>, <a class="el" href="exif-entry_8c_source.html#l00453">exif_entry_format_value()</a>, <a class="el" href="exif-entry_8c_source.html#l00159">exif_entry_free()</a>, <a class="el" href="exif-entry_8c_source.html#l00854">exif_entry_get_value()</a>, <a class="el" href="exif-entry_8c_source.html#l01468">exif_entry_initialize()</a>, <a class="el" href="exif-entry_8c_source.html#l01431">exif_entry_initialize_gps()</a>, <a class="el" href="exif-mnote-data-apple_8c_source.html#l00260">exif_mnote_data_apple_identify()</a>, <a class="el" href="exif-mnote-data-fuji_8c_source.html#l00345">exif_mnote_data_fuji_identify()</a>, <a class="el" href="exif-mnote-data-olympus_8c_source.html#l00626">exif_mnote_data_olympus_identify()</a>, <a class="el" href="exif-mnote-data-pentax_8c_source.html#l00428">exif_mnote_data_pentax_identify()</a>, and <a class="el" href="test-value_8c_source.html#l00120">main()</a>.</p>
+
+</div>
+</div>
+<a id="a6129f19697eff3ab581e0a8455d9fbae" name="a6129f19697eff3ab581e0a8455d9fbae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6129f19697eff3ab581e0a8455d9fbae">&#9670;&#160;</a></span>format</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exif-format_8h.html#a761152047d73b4a9fcdc4e2051b817d2">ExifFormat</a> _ExifEntry::format</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type of data in this entry. </p>
+
+<p class="definition">Definition at line <a class="el" href="exif-entry_8h_source.html#l00050">50</a> of file <a class="el" href="exif-entry_8h_source.html">exif-entry.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-gps_8c_source.html#l00077">check_entry_format()</a>, <a class="el" href="test-fuzzer-persistent_8c_source.html#l00053">content_foreach_func()</a>, <a class="el" href="test-parse-from-data_8c_source.html#l00038">content_foreach_func()</a>, <a class="el" href="test-parse_8c_source.html#l00034">content_foreach_func()</a>, <a class="el" href="exif-data_8c_source.html#l01212">entry_set_byte_order()</a>, <a class="el" href="exif-data_8c_source.html#l00166">exif_data_load_data_entry()</a>, <a class="el" href="exif-data_8c_source.html#l00241">exif_data_save_data_entry()</a>, <a class="el" href="exif-entry_8c_source.html#l00600">exif_entry_dump()</a>, <a class="el" href="exif-entry_8c_source.html#l00207">exif_entry_fix()</a>, <a class="el" href="exif-entry_8c_source.html#l00453">exif_entry_format_value()</a>, <a class="el" href="exif-entry_8c_source.html#l00854">exif_entry_get_value()</a>, <a class="el" href="exif-entry_8c_source.html#l01468">exif_entry_initialize()</a>, <a class="el" href="exif-entry_8c_source.html#l01431">exif_entry_initialize_gps()</a>, and <a class="el" href="test-value_8c_source.html#l00120">main()</a>.</p>
 
 </div>
 </div>
@@ -158,7 +181,29 @@ ExifEntryPrivate *&#160;</td><td class="memItemRight" valign="bottom"><b>priv</b
 <p><a class="el" href="exif-content_8h.html#ac046cba2f9c5cfabf3ad443303090855" title="Holds all EXIF tags in a single IFD.">ExifContent</a> containing this entry. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="exif-entry_8h.html#ae12a25769109d2339461b48c65637a64" title="Return the IFD number of the given ExifEntry.">exif_entry_get_ifd</a> </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="exif-content_8h.html#a89876388ea2f732f8c8cd2c8ef199908">exif_content_add_entry()</a>, <a class="el" href="exif-content_8h.html#a04f76832f82ea29ce05cd7c4e51932b1">exif_content_remove_entry()</a>, <a class="el" href="exif-entry_8h.html#a34e2cc8e5cbb928a55cd16de9ce71edf">exif_entry_fix()</a>, <a class="el" href="exif-entry_8h.html#a140a8b7b3ec7f2405719204584d53b7e">exif_entry_get_value()</a>, and <a class="el" href="exif-entry_8h.html#ad7f9e3fd0fde760c332dfbef208589ed">exif_entry_initialize()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exif-entry_8h_source.html#l00067">67</a> of file <a class="el" href="exif-entry_8h_source.html">exif-entry.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-content_8c_source.html#l00141">exif_content_add_entry()</a>, <a class="el" href="exif-content_8c_source.html#l00165">exif_content_remove_entry()</a>, <a class="el" href="exif-entry_8c_source.html#l00077">exif_entry_alloc()</a>, <a class="el" href="exif-entry_8c_source.html#l00207">exif_entry_fix()</a>, <a class="el" href="exif-entry_8c_source.html#l00453">exif_entry_format_value()</a>, <a class="el" href="exif-entry_8c_source.html#l00854">exif_entry_get_value()</a>, <a class="el" href="exif-entry_8c_source.html#l01468">exif_entry_initialize()</a>, <a class="el" href="exif-entry_8c_source.html#l00055">exif_entry_log()</a>, <a class="el" href="exif-entry_8c_source.html#l00094">exif_entry_realloc()</a>, and <a class="el" href="exif-content_8c_source.html#l00268">remove_not_recorded()</a>.</p>
+
+</div>
+</div>
+<a id="ab596479b192bc474d77a98600d4201e2" name="ab596479b192bc474d77a98600d4201e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab596479b192bc474d77a98600d4201e2">&#9670;&#160;</a></span>priv</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exif-entry_8h.html#a53b9c2327db6cd1852e0ea3ab8c44c0d">ExifEntryPrivate</a>* _ExifEntry::priv</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Internal data to be used by libexif itself. </p>
+
+<p class="definition">Definition at line <a class="el" href="exif-entry_8h_source.html#l00070">70</a> of file <a class="el" href="exif-entry_8h_source.html">exif-entry.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-entry_8c_source.html#l00077">exif_entry_alloc()</a>, <a class="el" href="exif-entry_8c_source.html#l00207">exif_entry_fix()</a>, <a class="el" href="exif-entry_8c_source.html#l00159">exif_entry_free()</a>, <a class="el" href="exif-entry_8c_source.html#l00854">exif_entry_get_value()</a>, <a class="el" href="exif-entry_8c_source.html#l00124">exif_entry_new_mem()</a>, <a class="el" href="exif-entry_8c_source.html#l00094">exif_entry_realloc()</a>, <a class="el" href="exif-entry_8c_source.html#l00141">exif_entry_ref()</a>, and <a class="el" href="exif-entry_8c_source.html#l00149">exif_entry_unref()</a>.</p>
 
 </div>
 </div>
@@ -177,7 +222,29 @@ ExifEntryPrivate *&#160;</td><td class="memItemRight" valign="bottom"><b>priv</b
 <p>Number of bytes in the buffer at <code>data</code>. </p>
 <p>This must be no less than exif_format_get_size(format)*components </p>
 
-<p class="reference">Referenced by <a class="el" href="exif-entry_8h.html#a6d607d079472d7f5eed040c8f081406a">exif_entry_dump()</a>, <a class="el" href="exif-entry_8h.html#a34e2cc8e5cbb928a55cd16de9ce71edf">exif_entry_fix()</a>, <a class="el" href="exif-entry_8h.html#a140a8b7b3ec7f2405719204584d53b7e">exif_entry_get_value()</a>, and <a class="el" href="exif-entry_8h.html#ad7f9e3fd0fde760c332dfbef208589ed">exif_entry_initialize()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exif-entry_8h_source.html#l00063">63</a> of file <a class="el" href="exif-entry_8h_source.html">exif-entry.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-gps_8c_source.html#l00077">check_entry_format()</a>, <a class="el" href="exif-entry_8c_source.html#l00174">clear_entry()</a>, <a class="el" href="test-parse-from-data_8c_source.html#l00038">content_foreach_func()</a>, <a class="el" href="test-parse_8c_source.html#l00034">content_foreach_func()</a>, <a class="el" href="exif-data_8c_source.html#l00166">exif_data_load_data_entry()</a>, <a class="el" href="exif-data_8c_source.html#l00241">exif_data_save_data_entry()</a>, <a class="el" href="exif-entry_8c_source.html#l00600">exif_entry_dump()</a>, <a class="el" href="exif-entry_8c_source.html#l00207">exif_entry_fix()</a>, <a class="el" href="exif-entry_8c_source.html#l00453">exif_entry_format_value()</a>, <a class="el" href="exif-entry_8c_source.html#l00854">exif_entry_get_value()</a>, <a class="el" href="exif-entry_8c_source.html#l01468">exif_entry_initialize()</a>, <a class="el" href="exif-entry_8c_source.html#l01431">exif_entry_initialize_gps()</a>, <a class="el" href="exif-mnote-data-apple_8c_source.html#l00260">exif_mnote_data_apple_identify()</a>, <a class="el" href="exif-mnote-data-fuji_8c_source.html#l00345">exif_mnote_data_fuji_identify()</a>, <a class="el" href="exif-mnote-data-olympus_8c_source.html#l00626">exif_mnote_data_olympus_identify()</a>, <a class="el" href="exif-mnote-data-pentax_8c_source.html#l00428">exif_mnote_data_pentax_identify()</a>, and <a class="el" href="test-value_8c_source.html#l00120">main()</a>.</p>
+
+</div>
+</div>
+<a id="aa03a4dc9fa98c8bbc447c19a4d0536e9" name="aa03a4dc9fa98c8bbc447c19a4d0536e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa03a4dc9fa98c8bbc447c19a4d0536e9">&#9670;&#160;</a></span>tag</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exif-tag_8h.html#a1a0ded93d47585f6889eb546915d0f41">ExifTag</a> _ExifEntry::tag</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>EXIF tag for this entry. </p>
+
+<p class="definition">Definition at line <a class="el" href="exif-entry_8h_source.html#l00047">47</a> of file <a class="el" href="exif-entry_8h_source.html">exif-entry.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-gps_8c_source.html#l00077">check_entry_format()</a>, <a class="el" href="test-value_8c_source.html#l00094">check_entry_trunc()</a>, <a class="el" href="test-fuzzer-persistent_8c_source.html#l00053">content_foreach_func()</a>, <a class="el" href="test-parse-from-data_8c_source.html#l00038">content_foreach_func()</a>, <a class="el" href="test-parse_8c_source.html#l00034">content_foreach_func()</a>, <a class="el" href="exif-content_8c_source.html#l00141">exif_content_add_entry()</a>, <a class="el" href="exif-content_8c_source.html#l00204">exif_content_get_entry()</a>, <a class="el" href="exif-data_8c_source.html#l00166">exif_data_load_data_entry()</a>, <a class="el" href="exif-data_8c_source.html#l00241">exif_data_save_data_entry()</a>, <a class="el" href="exif-entry_8c_source.html#l00600">exif_entry_dump()</a>, <a class="el" href="exif-entry_8c_source.html#l00207">exif_entry_fix()</a>, <a class="el" href="exif-entry_8c_source.html#l00854">exif_entry_get_value()</a>, <a class="el" href="exif-entry_8c_source.html#l01468">exif_entry_initialize()</a>, and <a class="el" href="exif-content_8c_source.html#l00268">remove_not_recorded()</a>.</p>
 
 </div>
 </div>
@@ -186,12 +253,14 @@ ExifEntryPrivate *&#160;</td><td class="memItemRight" valign="bottom"><b>priv</b
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="struct__ExifEntry.html">_ExifEntry</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7 </li>
-  </ul>
-</div>
+
+<!-- Copyright (C) 2009-2017 Dan Fandrich <dan@coneharvesters.com>
+     SPDX-License-Identifier: LGPL-2.0-or-later -->
+<hr size="1">
+<address style="text-align: right;">
+<a href="https://libexif.github.io" target="_top">libexif</a>
+<small>Generated by&nbsp;<a href="http://www.doxygen.org/" target="_top"><img src="doxygen.png" alt="doxygen" align="middle" border="0">
+</a>
+</small></address>
 </body>
 </html>

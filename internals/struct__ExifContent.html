@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EXIF library (libexif) API: _ExifContent Struct Reference</title>
+<title>EXIF library (libexif) Internals: _ExifContent Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EXIF library (libexif) API<span id="projectnumber">&#160;0.6.25</span>
+   <div id="projectname">EXIF library (libexif) Internals<span id="projectnumber">&#160;0.6.26</span>
    </div>
   </td>
  </tr>
@@ -64,6 +64,8 @@ $(document).ready(function(){initNavTree('struct__ExifContent.html',''); initRes
   <div class="headertitle"><div class="title">_ExifContent Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="exif-content_8h_source.html">exif-content.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for _ExifContent:</div>
 <div class="dyncontent">
@@ -72,31 +74,107 @@ Collaboration diagram for _ExifContent:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:abfcd8677a7e44b7eaf5ce9c65e7a0ed0"><td class="memItemLeft" align="right" valign="top"><a id="abfcd8677a7e44b7eaf5ce9c65e7a0ed0" name="abfcd8677a7e44b7eaf5ce9c65e7a0ed0"></a>
-<a class="el" href="exif-entry_8h.html#a1629f9c1b9c17765f4e5b297f91a6e45">ExifEntry</a> **&#160;</td><td class="memItemRight" valign="bottom"><b>entries</b></td></tr>
+<tr class="memitem:abfcd8677a7e44b7eaf5ce9c65e7a0ed0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exif-entry_8h.html#a1629f9c1b9c17765f4e5b297f91a6e45">ExifEntry</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__ExifContent.html#abfcd8677a7e44b7eaf5ce9c65e7a0ed0">entries</a></td></tr>
 <tr class="separator:abfcd8677a7e44b7eaf5ce9c65e7a0ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83e0ab89fd53da23fec28563450b7c02"><td class="memItemLeft" align="right" valign="top"><a id="a83e0ab89fd53da23fec28563450b7c02" name="a83e0ab89fd53da23fec28563450b7c02"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>count</b></td></tr>
+<tr class="memitem:a83e0ab89fd53da23fec28563450b7c02"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__ExifContent.html#a83e0ab89fd53da23fec28563450b7c02">count</a></td></tr>
 <tr class="separator:a83e0ab89fd53da23fec28563450b7c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae965558ea5c98783c4c2418364aabea"><td class="memItemLeft" align="right" valign="top"><a id="aae965558ea5c98783c4c2418364aabea" name="aae965558ea5c98783c4c2418364aabea"></a>
-<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>parent</b></td></tr>
-<tr class="memdesc:aae965558ea5c98783c4c2418364aabea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data containing this content. <br /></td></tr>
+<tr class="memitem:aae965558ea5c98783c4c2418364aabea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__ExifContent.html#aae965558ea5c98783c4c2418364aabea">parent</a></td></tr>
+<tr class="memdesc:aae965558ea5c98783c4c2418364aabea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data containing this content.  <br /></td></tr>
 <tr class="separator:aae965558ea5c98783c4c2418364aabea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a2a4c21095d7954b5f45600306be24b"><td class="memItemLeft" align="right" valign="top"><a id="a9a2a4c21095d7954b5f45600306be24b" name="a9a2a4c21095d7954b5f45600306be24b"></a>
-ExifContentPrivate *&#160;</td><td class="memItemRight" valign="bottom"><b>priv</b></td></tr>
+<tr class="memitem:a9a2a4c21095d7954b5f45600306be24b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exif-content_8h.html#a266517e3bf1c95cd7e4a10e24749fb35">ExifContentPrivate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__ExifContent.html#a9a2a4c21095d7954b5f45600306be24b">priv</a></td></tr>
 <tr class="separator:a9a2a4c21095d7954b5f45600306be24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="exif-content_8h_source.html#l00042">42</a> of file <a class="el" href="exif-content_8h_source.html">exif-content.h</a>.</p>
+</div><h2 class="groupheader">Field Documentation</h2>
+<a id="a83e0ab89fd53da23fec28563450b7c02" name="a83e0ab89fd53da23fec28563450b7c02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83e0ab89fd53da23fec28563450b7c02">&#9670;&#160;</a></span>count</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int _ExifContent::count</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-content_8h_source.html#l00045">45</a> of file <a class="el" href="exif-content_8h_source.html">exif-content.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-content_8c_source.html#l00141">exif_content_add_entry()</a>, <a class="el" href="exif-content_8c_source.html#l00122">exif_content_dump()</a>, <a class="el" href="exif-content_8c_source.html#l00286">exif_content_fix()</a>, <a class="el" href="exif-content_8c_source.html#l00218">exif_content_foreach_entry()</a>, <a class="el" href="exif-content_8c_source.html#l00101">exif_content_free()</a>, <a class="el" href="exif-content_8c_source.html#l00204">exif_content_get_entry()</a>, <a class="el" href="exif-content_8c_source.html#l00165">exif_content_remove_entry()</a>, <a class="el" href="exif-data_8c_source.html#l01158">exif_data_dump()</a>, <a class="el" href="exif-data_8c_source.html#l00573">exif_data_save_data_content()</a>, and <a class="el" href="exif-data_8c_source.html#l01326">fix_func()</a>.</p>
+
+</div>
+</div>
+<a id="abfcd8677a7e44b7eaf5ce9c65e7a0ed0" name="abfcd8677a7e44b7eaf5ce9c65e7a0ed0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfcd8677a7e44b7eaf5ce9c65e7a0ed0">&#9670;&#160;</a></span>entries</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exif-entry_8h.html#a1629f9c1b9c17765f4e5b297f91a6e45">ExifEntry</a>** _ExifContent::entries</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-content_8h_source.html#l00044">44</a> of file <a class="el" href="exif-content_8h_source.html">exif-content.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-content_8c_source.html#l00141">exif_content_add_entry()</a>, <a class="el" href="exif-content_8c_source.html#l00122">exif_content_dump()</a>, <a class="el" href="exif-content_8c_source.html#l00218">exif_content_foreach_entry()</a>, <a class="el" href="exif-content_8c_source.html#l00101">exif_content_free()</a>, <a class="el" href="exif-content_8c_source.html#l00204">exif_content_get_entry()</a>, <a class="el" href="exif-content_8c_source.html#l00165">exif_content_remove_entry()</a>, and <a class="el" href="exif-data_8c_source.html#l01326">fix_func()</a>.</p>
+
+</div>
+</div>
+<a id="aae965558ea5c98783c4c2418364aabea" name="aae965558ea5c98783c4c2418364aabea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae965558ea5c98783c4c2418364aabea">&#9670;&#160;</a></span>parent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a>* _ExifContent::parent</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Data containing this content. </p>
+
+<p class="definition">Definition at line <a class="el" href="exif-content_8h_source.html#l00048">48</a> of file <a class="el" href="exif-content_8h_source.html">exif-content.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-content_8c_source.html#l00286">exif_content_fix()</a>, <a class="el" href="exif-content_8c_source.html#l00242">exif_content_get_ifd()</a>, <a class="el" href="exif-data_8c_source.html#l00109">exif_data_new_mem()</a>, <a class="el" href="exif-entry_8c_source.html#l00077">exif_entry_alloc()</a>, <a class="el" href="exif-entry_8c_source.html#l00207">exif_entry_fix()</a>, <a class="el" href="exif-entry_8c_source.html#l00453">exif_entry_format_value()</a>, <a class="el" href="exif-entry_8c_source.html#l00854">exif_entry_get_value()</a>, <a class="el" href="exif-entry_8c_source.html#l01468">exif_entry_initialize()</a>, <a class="el" href="exif-entry_8c_source.html#l00055">exif_entry_log()</a>, <a class="el" href="exif-entry_8c_source.html#l00094">exif_entry_realloc()</a>, <a class="el" href="exif-data_8c_source.html#l01326">fix_func()</a>, and <a class="el" href="exif-content_8c_source.html#l00268">remove_not_recorded()</a>.</p>
+
+</div>
+</div>
+<a id="a9a2a4c21095d7954b5f45600306be24b" name="a9a2a4c21095d7954b5f45600306be24b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a2a4c21095d7954b5f45600306be24b">&#9670;&#160;</a></span>priv</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exif-content_8h.html#a266517e3bf1c95cd7e4a10e24749fb35">ExifContentPrivate</a>* _ExifContent::priv</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-content_8h_source.html#l00050">50</a> of file <a class="el" href="exif-content_8h_source.html">exif-content.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-content_8c_source.html#l00141">exif_content_add_entry()</a>, <a class="el" href="exif-content_8c_source.html#l00286">exif_content_fix()</a>, <a class="el" href="exif-content_8c_source.html#l00101">exif_content_free()</a>, <a class="el" href="exif-content_8c_source.html#l00231">exif_content_log()</a>, <a class="el" href="exif-content_8c_source.html#l00056">exif_content_new_mem()</a>, <a class="el" href="exif-content_8c_source.html#l00081">exif_content_ref()</a>, <a class="el" href="exif-content_8c_source.html#l00165">exif_content_remove_entry()</a>, <a class="el" href="exif-content_8c_source.html#l00090">exif_content_unref()</a>, and <a class="el" href="exif-content_8c_source.html#l00268">remove_not_recorded()</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>libexif/<a class="el" href="exif-content_8h_source.html">exif-content.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="struct__ExifContent.html">_ExifContent</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7 </li>
-  </ul>
-</div>
+
+<!-- Copyright (C) 2009-2017 Dan Fandrich <dan@coneharvesters.com>
+     SPDX-License-Identifier: LGPL-2.0-or-later -->
+<hr size="1">
+<address style="text-align: right;">
+<a href="https://libexif.github.io" target="_top">libexif</a>
+<small>Generated by&nbsp;<a href="http://www.doxygen.org/" target="_top"><img src="doxygen.png" alt="doxygen" align="middle" border="0">
+</a>
+</small></address>
 </body>
 </html>

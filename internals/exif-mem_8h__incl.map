@@ -1,0 +1,11 @@
+<map id="libexif/exif&#45;mem.h" name="libexif/exif&#45;mem.h">
+<area shape="rect" id="Node000001" title="Define the ExifMem data type and the associated functions." alt="" coords="209,5,350,31"/>
+<area shape="rect" id="Node000002" href="$exif-utils_8h.html" title="EXIF data manipulation functions and types." alt="" coords="212,79,347,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="282,31,282,63,277,63,277,31"/>
+<area shape="rect" id="Node000003" href="$exif-byte-order_8h.html" title="Defines the ExifByteOrder enum and the associated functions." alt="" coords="5,152,180,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="249,107,139,149,137,144,247,102"/>
+<area shape="rect" id="Node000004" href="$exif-format_8h.html" title="Handling native EXIF data types." alt="" coords="204,152,355,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="282,104,282,136,277,136,277,104"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="379,152,502,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="308,102,401,143,399,148,306,107"/>
+</map>

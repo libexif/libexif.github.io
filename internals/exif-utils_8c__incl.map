@@ -1,0 +1,13 @@
+<map id="libexif/exif&#45;utils.c" name="libexif/exif&#45;utils.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="147,5,281,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="113,79,187,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,33,173,69,169,65,201,29"/>
+<area shape="rect" id="Node000003" href="$exif-utils_8h.html" title="EXIF data manipulation functions and types." alt="" coords="212,79,347,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="227,29,260,65,256,69,223,33"/>
+<area shape="rect" id="Node000004" href="$exif-byte-order_8h.html" title="Defines the ExifByteOrder enum and the associated functions." alt="" coords="5,152,180,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="249,107,139,149,137,144,247,102"/>
+<area shape="rect" id="Node000005" href="$exif-format_8h.html" title="Handling native EXIF data types." alt="" coords="204,152,355,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="282,104,282,136,277,136,277,104"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="379,152,502,177"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="308,102,401,143,399,148,306,107"/>
+</map>

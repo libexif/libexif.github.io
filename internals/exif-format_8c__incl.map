@@ -1,0 +1,12 @@
+<map id="libexif/exif&#45;format.c" name="libexif/exif&#45;format.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="100,5,250,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="82,152,156,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,30,52,48,30,62,13,80,9,90,9,99,20,116,42,131,69,144,66,149,39,136,16,120,4,100,4,89,9,77,27,58,49,43,98,25"/>
+<area shape="rect" id="Node000003" href="$exif-format_8h.html" title="Handling native EXIF data types." alt="" coords="24,79,174,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,33,125,70,121,66,160,29"/>
+<area shape="rect" id="Node000004" href="$i18n_8h.html" title=" " alt="" coords="199,79,306,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="190,29,230,66,226,70,186,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="330,79,401,104"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="208,29,321,70,319,75,206,34"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="231,107,156,147,154,142,229,102"/>
+</map>

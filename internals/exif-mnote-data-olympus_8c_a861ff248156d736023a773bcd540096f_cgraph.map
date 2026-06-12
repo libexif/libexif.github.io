@@ -1,0 +1,21 @@
+<map id="exif_mnote_data_olympus_get_value" name="exif_mnote_data_olympus_get_value">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,98,200,138"/>
+<area shape="rect" id="Node000002" href="$mnote-olympus-entry_8c.html#a212180e89fa24eb4b0ac52bc5b87a137" title=" " alt="" coords="248,98,416,138"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,116,233,116,233,121,200,121"/>
+<area shape="rect" id="Node000003" href="$exif-utils_8c.html#a4ad94614630897766dd0a5c9bc2a59bf" title="Retrieve an ExifLong value from memory." alt="" coords="658,30,769,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="349,96,397,52,429,31,463,15,515,4,568,4,618,12,662,22,660,27,617,17,568,10,515,9,465,20,431,35,400,56,353,100"/>
+<area shape="rect" id="Node000004" href="$exif-utils_8c.html#a56b96f076a13da6ed926e1ef29cb2dc3" title="Retrieve an ExifSLong value from memory." alt="" coords="831,80,948,106"/>
+<area shape="poly" id="edge8_Node000002_Node000004" title=" " alt="" coords="416,112,815,94,815,99,416,117"/>
+<area shape="rect" id="Node000005" href="$exif-utils_8c.html#a1feb547c289aa57a4d2119338b03706c" title="Retrieve an ExifRational value from memory." alt="" coords="464,30,596,55"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="385,95,480,59,482,64,387,100"/>
+<area shape="rect" id="Node000006" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="473,131,587,156"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="417,127,458,132,457,137,416,132"/>
+<area shape="rect" id="Node000007" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="652,144,775,170"/>
+<area shape="poly" id="edge11_Node000002_Node000007" title=" " alt="" coords="377,136,419,153,465,165,508,171,553,172,636,166,637,172,553,177,508,176,463,170,417,158,375,141"/>
+<area shape="rect" id="Node000008" href="$exif-utils_8c.html#adb97c3499488d5642a82df1cb16dc2cb" title="Retrieve an ExifSRational value from memory." alt="" coords="644,219,783,244"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="371,137,415,159,465,179,549,202,629,217,628,223,548,207,463,184,413,163,369,141"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="761,53,829,73,828,78,759,58"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="597,40,642,40,642,45,597,45"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="588,145,637,149,636,154,587,151"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="731,217,781,179,860,114,863,118,784,183,734,221"/>
+</map>

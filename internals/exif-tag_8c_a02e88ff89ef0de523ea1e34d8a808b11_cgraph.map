@@ -1,0 +1,9 @@
+<map id="exif_tag_get_description_in_ifd" name="exif_tag_get_description_in_ifd">
+<area shape="rect" id="Node000001" title="Return a verbose textual description of the given tag when found in the given IFD." alt="" coords="5,23,188,63"/>
+<area shape="rect" id="Node000002" href="$exif-tag_8c.html#a389f8ff3411e0525b28367892f1e78d3" title="Finds the first entry in the EXIF tag table with the given tag number using a binary search." alt="" coords="236,31,384,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,41,221,41,221,46,189,46"/>
+<area shape="rect" id="Node000003" href="$exif-tag_8c.html#a87563ee64809f5f0deb4d780098508c1" title="Return the number of entries in the EXIF tag table, including the terminating NULL entry." alt="" coords="432,5,591,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="384,31,416,27,417,33,385,37"/>
+<area shape="rect" id="Node000004" href="$exif-tag_8c.html#a220c1b18832f113bc84ff9551754915f" title="Compares the tag with that in entry." alt="" coords="466,55,557,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="385,49,451,58,450,63,384,55"/>
+</map>

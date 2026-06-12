@@ -1,0 +1,17 @@
+<map id="libexif/exif&#45;gps&#45;ifd.c" name="libexif/exif&#45;gps&#45;ifd.c">
+<area shape="rect" id="Node000001" title="Info about GPS tags." alt="" coords="43,5,193,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="23,79,98,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,33,82,68,78,65,106,29"/>
+<area shape="rect" id="Node000003" href="$exif-gps-ifd_8h.html" title="Info about GPS tags." alt="" coords="122,79,229,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="130,29,158,65,154,68,125,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,152,76,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="154,107,78,147,75,142,151,102"/>
+<area shape="rect" id="Node000005" href="$exif-format_8h.html" title="Handling native EXIF data types." alt="" coords="100,152,251,177"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="178,104,178,136,173,136,173,104"/>
+<area shape="rect" id="Node000006" href="$exif-tag_8h.html" title="Handling EXIF tags." alt="" coords="275,152,403,177"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="204,102,299,143,297,148,202,107"/>
+<area shape="rect" id="Node000007" href="$exif-ifd_8h.html" title=" " alt="" coords="191,225,315,251"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="326,180,280,217,277,213,323,176"/>
+<area shape="rect" id="Node000008" href="$exif-data-type_8h.html" title=" " alt="" coords="339,225,510,251"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="356,176,401,213,397,217,352,180"/>
+</map>

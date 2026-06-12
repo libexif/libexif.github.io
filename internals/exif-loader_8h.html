@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EXIF library (libexif) API: libexif/exif-loader.h File Reference</title>
+<title>EXIF library (libexif) Internals: libexif/exif-loader.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EXIF library (libexif) API<span id="projectnumber">&#160;0.6.25</span>
+   <div id="projectname">EXIF library (libexif) Internals<span id="projectnumber">&#160;0.6.26</span>
    </div>
   </td>
  </tr>
@@ -71,14 +71,23 @@ $(document).ready(function(){initNavTree('exif-loader_8h.html',''); initResizabl
 <div class="textblock"><code>#include &lt;<a class="el" href="exif-data_8h_source.html">libexif/exif-data.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exif-log_8h_source.html">libexif/exif-log.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exif-mem_8h_source.html">libexif/exif-mem.h</a>&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for exif-loader.h:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-loader_8h__incl.svg" width="931" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-loader_8h__dep__incl.svg" width="990" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <p><a href="exif-loader_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a2b96cbffaf0f92340a960f887026eced"><td class="memItemLeft" align="right" valign="top"><a id="a2b96cbffaf0f92340a960f887026eced" name="a2b96cbffaf0f92340a960f887026eced"></a>
-typedef struct _ExifLoader&#160;</td><td class="memItemRight" valign="bottom"><b>ExifLoader</b></td></tr>
-<tr class="memdesc:a2b96cbffaf0f92340a960f887026eced"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data used by the loader interface. <br /></td></tr>
+<tr class="memitem:a2b96cbffaf0f92340a960f887026eced"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct__ExifLoader.html">_ExifLoader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-loader_8h.html#a2b96cbffaf0f92340a960f887026eced">ExifLoader</a></td></tr>
+<tr class="memdesc:a2b96cbffaf0f92340a960f887026eced"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data used by the loader interface.  <br /></td></tr>
 <tr class="separator:a2b96cbffaf0f92340a960f887026eced"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -116,7 +125,28 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines the ExifLoader type. </p>
-</div><h2 class="groupheader">Function Documentation</h2>
+
+<p class="definition">Definition in file <a class="el" href="exif-loader_8h_source.html">exif-loader.h</a>.</p>
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a id="a2b96cbffaf0f92340a960f887026eced" name="a2b96cbffaf0f92340a960f887026eced"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b96cbffaf0f92340a960f887026eced">&#9670;&#160;</a></span>ExifLoader</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="struct__ExifLoader.html">_ExifLoader</a> <a class="el" href="exif-loader_8h.html#a2b96cbffaf0f92340a960f887026eced">ExifLoader</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Data used by the loader interface. </p>
+
+<p class="definition">Definition at line <a class="el" href="exif-loader_8h_source.html#l00037">37</a> of file <a class="el" href="exif-loader_8h_source.html">exif-loader.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
 <a id="acb140c6f8bce84eb228592dcf202025d" name="acb140c6f8bce84eb228592dcf202025d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acb140c6f8bce84eb228592dcf202025d">&#9670;&#160;</a></span>exif_loader_get_buf()</h2>
 
@@ -160,6 +190,17 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-loader_8c_source.html#l00450">450</a> of file <a class="el" href="exif-loader_8c_source.html">exif-loader.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-loader_8c_source.html#l00094">_ExifLoader::buf</a>, <a class="el" href="exif-loader_8c_source.html#l00095">_ExifLoader::bytes_read</a>, <a class="el" href="exif-loader_8c_source.html#l00085">_ExifLoader::data_format</a>, <a class="el" href="exif-loader_8c_source.html#l00076">EL_DATA_FORMAT_UNKNOWN</a>, <a class="el" href="exif-log_8c_source.html#l00137">exif_log()</a>, <a class="el" href="exif-log_8h_source.html#l00058">EXIF_LOG_CODE_DEBUG</a>, and <a class="el" href="exif-loader_8c_source.html#l00099">_ExifLoader::log</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00032">loader_null_test()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-loader_8h_acb140c6f8bce84eb228592dcf202025d_cgraph.svg" width="415" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
 <a id="a7cb80cf65868ced391b0b20f7c70ecb1" name="a7cb80cf65868ced391b0b20f7c70ecb1"></a>
@@ -189,6 +230,17 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>allocated ExifData</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="exif-loader_8h.html#acb140c6f8bce84eb228592dcf202025d" title="Return the raw data read by the loader.">exif_loader_get_buf</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="exif-loader_8c_source.html#l00434">434</a> of file <a class="el" href="exif-loader_8c_source.html">exif-loader.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-loader_8c_source.html#l00094">_ExifLoader::buf</a>, <a class="el" href="exif-loader_8c_source.html#l00095">_ExifLoader::bytes_read</a>, <a class="el" href="exif-loader_8c_source.html#l00085">_ExifLoader::data_format</a>, <a class="el" href="exif-loader_8c_source.html#l00076">EL_DATA_FORMAT_UNKNOWN</a>, <a class="el" href="exif-data_8c_source.html#l00856">exif_data_load_data()</a>, <a class="el" href="exif-data_8c_source.html#l01245">exif_data_log()</a>, <a class="el" href="exif-data_8c_source.html#l00109">exif_data_new_mem()</a>, <a class="el" href="exif-loader_8c_source.html#l00099">_ExifLoader::log</a>, and <a class="el" href="exif-loader_8c_source.html#l00100">_ExifLoader::mem</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-data_8c_source.html#l01087">exif_data_new_from_file()</a>, <a class="el" href="test-null_8c_source.html#l00032">loader_null_test()</a>, <a class="el" href="test-fuzzer-persistent_8c_source.html#l00107">main()</a>, <a class="el" href="test-mem_8c_source.html#l00033">main()</a>, and <a class="el" href="test-fuzzer_8c_source.html#l00106">test_parse()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-loader_8h_a7cb80cf65868ced391b0b20f7c70ecb1_cgraph.svg" width="1667" height="2110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -227,6 +279,17 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-loader_8c_source.html#l00473">473</a> of file <a class="el" href="exif-loader_8c_source.html">exif-loader.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-log_8c_source.html#l00099">exif_log_ref()</a>, <a class="el" href="exif-log_8c_source.html#l00106">exif_log_unref()</a>, and <a class="el" href="exif-loader_8c_source.html#l00099">_ExifLoader::log</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00032">loader_null_test()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-loader_8h_a0779beeb15d0c56ae7442f4740f1baf7_cgraph.svg" width="798" height="111"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
 <a id="a3ab2d009d755d39f4192c2f49580bed7" name="a3ab2d009d755d39f4192c2f49580bed7"></a>
@@ -247,6 +310,17 @@ Functions</h2></td></tr>
 
 <p>Allocate a new <a class="el" href="exif-loader_8h.html#a2b96cbffaf0f92340a960f887026eced" title="Data used by the loader interface.">ExifLoader</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>allocated ExifLoader </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="exif-loader_8c_source.html#l00360">360</a> of file <a class="el" href="exif-loader_8c_source.html">exif-loader.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-loader_8c_source.html#l00371">exif_loader_new_mem()</a>, <a class="el" href="exif-mem_8c_source.html#l00117">exif_mem_new_default()</a>, and <a class="el" href="exif-mem_8c_source.html#l00083">exif_mem_unref()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-data_8c_source.html#l01087">exif_data_new_from_file()</a>, <a class="el" href="test-null_8c_source.html#l00032">loader_null_test()</a>, <a class="el" href="test-fuzzer-persistent_8c_source.html#l00107">main()</a>, <a class="el" href="test-mem_8c_source.html#l00033">main()</a>, and <a class="el" href="test-fuzzer_8c_source.html#l00106">test_parse()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-loader_8h_a3ab2d009d755d39f4192c2f49580bed7_cgraph.svg" width="586" height="332"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -275,6 +349,17 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>allocated ExifLoader </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-loader_8c_source.html#l00371">371</a> of file <a class="el" href="exif-loader_8c_source.html">exif-loader.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-mem_8c_source.html#l00101">exif_mem_alloc()</a>, <a class="el" href="exif-mem_8c_source.html#l00076">exif_mem_ref()</a>, <a class="el" href="exif-loader_8c_source.html#l00100">_ExifLoader::mem</a>, and <a class="el" href="exif-loader_8c_source.html#l00097">_ExifLoader::ref_count</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-loader_8c_source.html#l00360">exif_loader_new()</a>, and <a class="el" href="test-null_8c_source.html#l00032">loader_null_test()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-loader_8h_a96529c4ed68a4b7085f179f8bc96829d_cgraph.svg" width="356" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
 <a id="ac5e7a899a7499b56772b671add54fcde" name="ac5e7a899a7499b56772b671add54fcde"></a>
@@ -300,6 +385,12 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="exif-loader_8c_source.html#l00390">390</a> of file <a class="el" href="exif-loader_8c_source.html">exif-loader.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-loader_8c_source.html#l00097">_ExifLoader::ref_count</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00032">loader_null_test()</a>.</p>
 
 </div>
 </div>
@@ -327,6 +418,17 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-loader_8c_source.html#l00421">421</a> of file <a class="el" href="exif-loader_8c_source.html">exif-loader.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-loader_8c_source.html#l00091">_ExifLoader::b_len</a>, <a class="el" href="exif-loader_8c_source.html#l00094">_ExifLoader::buf</a>, <a class="el" href="exif-loader_8c_source.html#l00095">_ExifLoader::bytes_read</a>, <a class="el" href="exif-loader_8c_source.html#l00085">_ExifLoader::data_format</a>, <a class="el" href="exif-loader_8c_source.html#l00076">EL_DATA_FORMAT_UNKNOWN</a>, <a class="el" href="exif-mem_8c_source.html#l00091">exif_mem_free()</a>, <a class="el" href="exif-loader_8c_source.html#l00100">_ExifLoader::mem</a>, <a class="el" href="exif-loader_8c_source.html#l00093">_ExifLoader::size</a>, and <a class="el" href="exif-loader_8c_source.html#l00084">_ExifLoader::state</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-loader_8c_source.html#l00397">exif_loader_free()</a>, <a class="el" href="exif-loader_8c_source.html#l00169">exif_loader_write()</a>, and <a class="el" href="test-null_8c_source.html#l00032">loader_null_test()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-loader_8h_a080d8ebb5006c1306a3a798ff60253a5_cgraph.svg" width="315" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
 <a id="a7f4e3dfa0df969ac8c232327840ca105" name="a7f4e3dfa0df969ac8c232327840ca105"></a>
@@ -353,6 +455,17 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="exif-loader_8c_source.html#l00412">412</a> of file <a class="el" href="exif-loader_8c_source.html">exif-loader.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-loader_8c_source.html#l00397">exif_loader_free()</a>, and <a class="el" href="exif-loader_8c_source.html#l00097">_ExifLoader::ref_count</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-data_8c_source.html#l01087">exif_data_new_from_file()</a>, <a class="el" href="test-null_8c_source.html#l00032">loader_null_test()</a>, <a class="el" href="test-fuzzer-persistent_8c_source.html#l00107">main()</a>, <a class="el" href="test-mem_8c_source.html#l00033">main()</a>, and <a class="el" href="test-fuzzer_8c_source.html#l00106">test_parse()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-loader_8h_a7f4e3dfa0df969ac8c232327840ca105_cgraph.svg" width="1015" height="188"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -400,6 +513,17 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>1 while EXIF data is read (or while there is still hope that there will be EXIF data later on), 0 otherwise. </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-loader_8c_source.html#l00169">169</a> of file <a class="el" href="exif-loader_8c_source.html">exif-loader.c</a>.</p>
+
+<p class="reference">References <a class="el" href="i18n_8h_source.html#l00050">_</a>, <a class="el" href="exif-loader_8c_source.html#l00088">_ExifLoader::b</a>, <a class="el" href="exif-loader_8c_source.html#l00091">_ExifLoader::b_len</a>, <a class="el" href="exif-loader_8c_source.html#l00085">_ExifLoader::data_format</a>, <a class="el" href="exif-loader_8c_source.html#l00077">EL_DATA_FORMAT_EXIF</a>, <a class="el" href="exif-loader_8c_source.html#l00079">EL_DATA_FORMAT_FUJI_RAW</a>, <a class="el" href="exif-loader_8c_source.html#l00078">EL_DATA_FORMAT_JPEG</a>, <a class="el" href="exif-loader_8c_source.html#l00076">EL_DATA_FORMAT_UNKNOWN</a>, <a class="el" href="exif-loader_8c_source.html#l00072">EL_EXIF_FOUND</a>, <a class="el" href="exif-loader_8c_source.html#l00066">EL_READ</a>, <a class="el" href="exif-loader_8c_source.html#l00070">EL_READ_SIZE_BYTE_00</a>, <a class="el" href="exif-loader_8c_source.html#l00069">EL_READ_SIZE_BYTE_08</a>, <a class="el" href="exif-loader_8c_source.html#l00068">EL_READ_SIZE_BYTE_16</a>, <a class="el" href="exif-loader_8c_source.html#l00067">EL_READ_SIZE_BYTE_24</a>, <a class="el" href="exif-loader_8c_source.html#l00071">EL_SKIP_BYTES</a>, <a class="el" href="exif-loader_8c_source.html#l00149">exif_loader_copy()</a>, <a class="el" href="exif-loader_8c_source.html#l00421">exif_loader_reset()</a>, <a class="el" href="exif-log_8c_source.html#l00137">exif_log()</a>, <a class="el" href="exif-log_8h_source.html#l00060">EXIF_LOG_CODE_CORRUPT_DATA</a>, <a class="el" href="exif-log_8h_source.html#l00058">EXIF_LOG_CODE_DEBUG</a>, <a class="el" href="exif-loader_8c_source.html#l00104">ExifHeader</a>, <a class="el" href="exif-loader_8c_source.html#l00043">JPEG_MARKER_APP0</a>, <a class="el" href="exif-loader_8c_source.html#l00045">JPEG_MARKER_APP1</a>, <a class="el" href="exif-loader_8c_source.html#l00055">JPEG_MARKER_APP10</a>, <a class="el" href="exif-loader_8c_source.html#l00057">JPEG_MARKER_APP11</a>, <a class="el" href="exif-loader_8c_source.html#l00059">JPEG_MARKER_APP13</a>, <a class="el" href="exif-loader_8c_source.html#l00061">JPEG_MARKER_APP14</a>, <a class="el" href="exif-loader_8c_source.html#l00047">JPEG_MARKER_APP2</a>, <a class="el" href="exif-loader_8c_source.html#l00049">JPEG_MARKER_APP3</a>, <a class="el" href="exif-loader_8c_source.html#l00051">JPEG_MARKER_APP4</a>, <a class="el" href="exif-loader_8c_source.html#l00053">JPEG_MARKER_APP5</a>, <a class="el" href="exif-loader_8c_source.html#l00063">JPEG_MARKER_COM</a>, <a class="el" href="exif-loader_8c_source.html#l00035">JPEG_MARKER_DCT</a>, <a class="el" href="exif-loader_8c_source.html#l00037">JPEG_MARKER_DHT</a>, <a class="el" href="exif-loader_8c_source.html#l00041">JPEG_MARKER_DQT</a>, <a class="el" href="exif-loader_8c_source.html#l00039">JPEG_MARKER_SOI</a>, <a class="el" href="exif-loader_8c_source.html#l00099">_ExifLoader::log</a>, <a class="el" href="exif-utils_8h_source.html#l00185">MAX</a>, <a class="el" href="exif-utils_8h_source.html#l00182">MIN</a>, <a class="el" href="exif-loader_8c_source.html#l00093">_ExifLoader::size</a>, and <a class="el" href="exif-loader_8c_source.html#l00084">_ExifLoader::state</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-loader_8c_source.html#l00123">exif_loader_write_file()</a>, <a class="el" href="test-null_8c_source.html#l00032">loader_null_test()</a>, <a class="el" href="test-fuzzer-persistent_8c_source.html#l00107">main()</a>, <a class="el" href="test-mem_8c_source.html#l00033">main()</a>, and <a class="el" href="test-fuzzer_8c_source.html#l00106">test_parse()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-loader_8h_ad1b65ac6288f5f28aa2b4b3d2bf3f56f_cgraph.svg" width="684" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
 <a id="a613e86cc4f12d488fbd23fe97a0d30c5" name="a613e86cc4f12d488fbd23fe97a0d30c5"></a>
@@ -438,16 +562,29 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-loader_8c_source.html#l00123">123</a> of file <a class="el" href="exif-loader_8c_source.html">exif-loader.c</a>.</p>
+
+<p class="reference">References <a class="el" href="i18n_8h_source.html#l00050">_</a>, <a class="el" href="exif-loader_8c_source.html#l00169">exif_loader_write()</a>, <a class="el" href="exif-log_8c_source.html#l00137">exif_log()</a>, <a class="el" href="exif-log_8h_source.html#l00057">EXIF_LOG_CODE_NONE</a>, <a class="el" href="exif-loader_8c_source.html#l00099">_ExifLoader::log</a>, and <a class="el" href="exif-format_8c_source.html#l00037">size</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-data_8c_source.html#l01087">exif_data_new_from_file()</a>, and <a class="el" href="test-null_8c_source.html#l00032">loader_null_test()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-loader_8h_a613e86cc4f12d488fbd23fe97a0d30c5_cgraph.svg" width="895" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_04d2bd150f7cc849eeec70b9b0fdccb1.html">libexif</a></li><li class="navelem"><a class="el" href="exif-loader_8h.html">exif-loader.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7 </li>
-  </ul>
-</div>
+
+<!-- Copyright (C) 2009-2017 Dan Fandrich <dan@coneharvesters.com>
+     SPDX-License-Identifier: LGPL-2.0-or-later -->
+<hr size="1">
+<address style="text-align: right;">
+<a href="https://libexif.github.io" target="_top">libexif</a>
+<small>Generated by&nbsp;<a href="http://www.doxygen.org/" target="_top"><img src="doxygen.png" alt="doxygen" align="middle" border="0">
+</a>
+</small></address>
 </body>
 </html>

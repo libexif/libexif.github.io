@@ -1,0 +1,16 @@
+<map id="exif_mnote_data_unref" name="exif_mnote_data_unref">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,179,54"/>
+<area shape="rect" id="Node000002" href="$exif-mnote-data_8c.html#a2f715582f27a9821560931aeaa139abd" title=" " alt="" coords="227,29,392,54"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,39,211,39,211,44,179,44"/>
+<area shape="rect" id="Node000003" href="$exif-log_8c.html#a7a9b738a7429197d68c80ffedac7d8fb" title=" " alt="" coords="440,29,555,54"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="392,39,425,39,425,44,392,44"/>
+<area shape="rect" id="Node000005" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="935,29,1056,54"/>
+<area shape="poly" id="edge7_Node000002_Node000005" title=" " alt="" coords="369,26,440,15,565,5,663,3,762,8,887,20,919,24,919,30,886,26,761,14,663,9,566,11,440,20,370,31"/>
+<area shape="rect" id="Node000006" href="$exif-mem_8c.html#a66744e0987af08c443df247ce55f7d87" title="Unrefcount an ExifMem." alt="" coords="757,80,887,105"/>
+<area shape="poly" id="edge8_Node000002_Node000006" title=" " alt="" coords="371,52,440,64,601,80,742,87,741,93,600,85,440,70,370,58"/>
+<area shape="rect" id="Node000004" href="$exif-log_8c.html#acd0808d6d5be73f28059797c2e2e67dc" title="Delete instance of ExifLog." alt="" coords="603,29,709,54"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="555,39,587,39,587,44,555,44"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="710,39,919,39,919,44,710,44"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="701,52,764,72,763,77,699,57"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="867,76,934,57,936,62,869,81"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="exif_mnote_data_pentax_get_value" name="exif_mnote_data_pentax_get_value">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,74,189,114"/>
+<area shape="rect" id="Node000002" href="$mnote-pentax-entry_8c.html#a1cf7e845c11aac083637f202f15630e0" title=" " alt="" coords="237,74,395,114"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,91,221,91,221,97,190,97"/>
+<area shape="rect" id="Node000003" href="$exif-utils_8c.html#a4ad94614630897766dd0a5c9bc2a59bf" title="Retrieve an ExifLong value from memory." alt="" coords="445,5,555,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="365,71,452,35,454,39,367,76"/>
+<area shape="rect" id="Node000004" href="$exif-utils_8c.html#a56b96f076a13da6ed926e1ef29cb2dc3" title="Retrieve an ExifSLong value from memory." alt="" coords="608,31,725,56"/>
+<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="395,80,592,51,593,57,395,85"/>
+<area shape="rect" id="Node000005" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="443,107,557,132"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="396,102,428,107,427,112,395,108"/>
+<area shape="rect" id="Node000006" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="605,132,728,157"/>
+<area shape="poly" id="edge7_Node000002_Node000006" title=" " alt="" coords="358,112,398,129,443,142,518,150,590,149,590,154,518,155,442,147,397,134,356,117"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="556,24,593,29,592,35,556,29"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="558,125,590,130,589,136,557,131"/>
+</map>

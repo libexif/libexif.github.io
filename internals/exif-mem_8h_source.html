@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EXIF library (libexif) API: libexif/exif-mem.h Source File</title>
+<title>EXIF library (libexif) Internals: libexif/exif-mem.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EXIF library (libexif) API<span id="projectnumber">&#160;0.6.25</span>
+   <div id="projectname">EXIF library (libexif) Internals<span id="projectnumber">&#160;0.6.26</span>
    </div>
   </td>
  </tr>
@@ -100,43 +100,48 @@ $(document).ready(function(){initNavTree('exif-mem_8h_source.html',''); initResi
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="exif-mem_8h.html#a82bf96c57cc83eabdba1ad1ad0d69263">   56</a></span><span class="keyword">typedef</span> void   (* <a class="code hl_typedef" href="exif-mem_8h.html#a82bf96c57cc83eabdba1ad1ad0d69263">ExifMemFreeFunc</a>)    (<span class="keywordtype">void</span> *p);</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">   59</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>_ExifMem <a class="code hl_typedef" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">   59</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct__ExifMem.html">_ExifMem</a> <a class="code hl_struct" href="struct__ExifMem.html">ExifMem</a>;</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><a class="code hl_typedef" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *<a class="code hl_function" href="exif-mem_8h.html#ad56b5b9868ea77e681a903513c3b55f3">exif_mem_new</a>   (<a class="code hl_typedef" href="exif-mem_8h.html#a983dbcdc43d515ef6c7dc003240ef427">ExifMemAllocFunc</a> a, <a class="code hl_typedef" href="exif-mem_8h.html#aea07644ea9dc97d5572d85ef03827f65">ExifMemReallocFunc</a> r,</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><a class="code hl_struct" href="struct__ExifMem.html">ExifMem</a> *<a class="code hl_function" href="exif-mem_8h.html#ad56b5b9868ea77e681a903513c3b55f3">exif_mem_new</a>   (<a class="code hl_typedef" href="exif-mem_8h.html#a983dbcdc43d515ef6c7dc003240ef427">ExifMemAllocFunc</a> a, <a class="code hl_typedef" href="exif-mem_8h.html#aea07644ea9dc97d5572d85ef03827f65">ExifMemReallocFunc</a> r,</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>                         <a class="code hl_typedef" href="exif-mem_8h.html#a82bf96c57cc83eabdba1ad1ad0d69263">ExifMemFreeFunc</a> f);</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keywordtype">void</span>     <a class="code hl_function" href="exif-mem_8h.html#acedafabd958c9846ea3f908135715dcf">exif_mem_ref</a>   (<a class="code hl_typedef" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keywordtype">void</span>     <a class="code hl_function" href="exif-mem_8h.html#acedafabd958c9846ea3f908135715dcf">exif_mem_ref</a>   (<a class="code hl_struct" href="struct__ExifMem.html">ExifMem</a> *);</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keywordtype">void</span>     <a class="code hl_function" href="exif-mem_8h.html#adabd1345e1172ce379658cecfd3f7d70">exif_mem_unref</a> (<a class="code hl_typedef" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keywordtype">void</span>     <a class="code hl_function" href="exif-mem_8h.html#adabd1345e1172ce379658cecfd3f7d70">exif_mem_unref</a> (<a class="code hl_struct" href="struct__ExifMem.html">ExifMem</a> *);</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="keywordtype">void</span> *exif_mem_alloc   (<a class="code hl_typedef" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *m, <a class="code hl_typedef" href="exif-utils_8h.html#a34c5d7765ab2e6dec8308c5127a10afa">ExifLong</a> s);</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="keywordtype">void</span> *exif_mem_realloc (<a class="code hl_typedef" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *m, <span class="keywordtype">void</span> *p, <a class="code hl_typedef" href="exif-utils_8h.html#a34c5d7765ab2e6dec8308c5127a10afa">ExifLong</a> s);</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="keywordtype">void</span>  exif_mem_free    (<a class="code hl_typedef" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *m, <span class="keywordtype">void</span> *p);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="keywordtype">void</span> *<a class="code hl_function" href="exif-mem_8h.html#a6a49a0fff19d5784d3ee890a9ece7366">exif_mem_alloc</a>   (<a class="code hl_struct" href="struct__ExifMem.html">ExifMem</a> *m, <a class="code hl_typedef" href="exif-utils_8h.html#a34c5d7765ab2e6dec8308c5127a10afa">ExifLong</a> s);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="keywordtype">void</span> *<a class="code hl_function" href="exif-mem_8h.html#a082842bf500722f303c2f9435ea2c50f">exif_mem_realloc</a> (<a class="code hl_struct" href="struct__ExifMem.html">ExifMem</a> *m, <span class="keywordtype">void</span> *p, <a class="code hl_typedef" href="exif-utils_8h.html#a34c5d7765ab2e6dec8308c5127a10afa">ExifLong</a> s);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="keywordtype">void</span>  <a class="code hl_function" href="exif-mem_8h.html#ab7ec7776593c6ffe5f49fec974f7cfe1">exif_mem_free</a>    (<a class="code hl_struct" href="struct__ExifMem.html">ExifMem</a> *m, <span class="keywordtype">void</span> *p);</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><a class="code hl_typedef" href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a> *<a class="code hl_function" href="exif-mem_8h.html#acc8fd4e1a319a790581975db6f1a7233">exif_mem_new_default</a> (<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><a class="code hl_struct" href="struct__ExifMem.html">ExifMem</a> *<a class="code hl_function" href="exif-mem_8h.html#acc8fd4e1a319a790581975db6f1a7233">exif_mem_new_default</a> (<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>}</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span><span class="preprocessor"></span></div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="preprocessor">#endif </span><span class="comment">/* !defined(LIBEXIF_EXIF_MEM_H) */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="aexif-mem_8h_html_a82bf96c57cc83eabdba1ad1ad0d69263"><div class="ttname"><a href="exif-mem_8h.html#a82bf96c57cc83eabdba1ad1ad0d69263">ExifMemFreeFunc</a></div><div class="ttdeci">void(* ExifMemFreeFunc)(void *p)</div><div class="ttdoc">Free method for ExifMem.</div><div class="ttdef"><b>Definition</b> exif-mem.h:56</div></div>
-<div class="ttc" id="aexif-mem_8h_html_a983dbcdc43d515ef6c7dc003240ef427"><div class="ttname"><a href="exif-mem_8h.html#a983dbcdc43d515ef6c7dc003240ef427">ExifMemAllocFunc</a></div><div class="ttdeci">void *(* ExifMemAllocFunc)(ExifLong s)</div><div class="ttdoc">Should work like calloc()</div><div class="ttdef"><b>Definition</b> exif-mem.h:41</div></div>
-<div class="ttc" id="aexif-mem_8h_html_aab8aacbc0ed6f11a1f022b7b1bf4750e"><div class="ttname"><a href="exif-mem_8h.html#aab8aacbc0ed6f11a1f022b7b1bf4750e">ExifMem</a></div><div class="ttdeci">struct _ExifMem ExifMem</div><div class="ttdoc">ExifMem define a memory allocator.</div><div class="ttdef"><b>Definition</b> exif-mem.h:59</div></div>
-<div class="ttc" id="aexif-mem_8h_html_acc8fd4e1a319a790581975db6f1a7233"><div class="ttname"><a href="exif-mem_8h.html#acc8fd4e1a319a790581975db6f1a7233">exif_mem_new_default</a></div><div class="ttdeci">ExifMem * exif_mem_new_default(void)</div><div class="ttdoc">Create a new ExifMem with default values for your convenience.</div><div class="ttdef"><b>Definition</b> exif-mem.c:117</div></div>
-<div class="ttc" id="aexif-mem_8h_html_acedafabd958c9846ea3f908135715dcf"><div class="ttname"><a href="exif-mem_8h.html#acedafabd958c9846ea3f908135715dcf">exif_mem_ref</a></div><div class="ttdeci">void exif_mem_ref(ExifMem *)</div><div class="ttdoc">Refcount an ExifMem.</div><div class="ttdef"><b>Definition</b> exif-mem.c:76</div></div>
-<div class="ttc" id="aexif-mem_8h_html_ad56b5b9868ea77e681a903513c3b55f3"><div class="ttname"><a href="exif-mem_8h.html#ad56b5b9868ea77e681a903513c3b55f3">exif_mem_new</a></div><div class="ttdeci">ExifMem * exif_mem_new(ExifMemAllocFunc a, ExifMemReallocFunc r, ExifMemFreeFunc f)</div><div class="ttdoc">Create a new ExifMem.</div><div class="ttdef"><b>Definition</b> exif-mem.c:56</div></div>
-<div class="ttc" id="aexif-mem_8h_html_adabd1345e1172ce379658cecfd3f7d70"><div class="ttname"><a href="exif-mem_8h.html#adabd1345e1172ce379658cecfd3f7d70">exif_mem_unref</a></div><div class="ttdeci">void exif_mem_unref(ExifMem *)</div><div class="ttdoc">Unrefcount an ExifMem.</div><div class="ttdef"><b>Definition</b> exif-mem.c:83</div></div>
-<div class="ttc" id="aexif-mem_8h_html_aea07644ea9dc97d5572d85ef03827f65"><div class="ttname"><a href="exif-mem_8h.html#aea07644ea9dc97d5572d85ef03827f65">ExifMemReallocFunc</a></div><div class="ttdeci">void *(* ExifMemReallocFunc)(void *p, ExifLong s)</div><div class="ttdoc">Should work like realloc()</div><div class="ttdef"><b>Definition</b> exif-mem.h:49</div></div>
+<div class="ttc" id="aexif-mem_8h_html_a082842bf500722f303c2f9435ea2c50f"><div class="ttname"><a href="exif-mem_8h.html#a082842bf500722f303c2f9435ea2c50f">exif_mem_realloc</a></div><div class="ttdeci">void * exif_mem_realloc(ExifMem *m, void *p, ExifLong s)</div><div class="ttdef"><b>Definition</b> <a href="exif-mem_8c_source.html#l00111">exif-mem.c:111</a></div></div>
+<div class="ttc" id="aexif-mem_8h_html_a6a49a0fff19d5784d3ee890a9ece7366"><div class="ttname"><a href="exif-mem_8h.html#a6a49a0fff19d5784d3ee890a9ece7366">exif_mem_alloc</a></div><div class="ttdeci">void * exif_mem_alloc(ExifMem *m, ExifLong s)</div><div class="ttdef"><b>Definition</b> <a href="exif-mem_8c_source.html#l00101">exif-mem.c:101</a></div></div>
+<div class="ttc" id="aexif-mem_8h_html_a82bf96c57cc83eabdba1ad1ad0d69263"><div class="ttname"><a href="exif-mem_8h.html#a82bf96c57cc83eabdba1ad1ad0d69263">ExifMemFreeFunc</a></div><div class="ttdeci">void(* ExifMemFreeFunc)(void *p)</div><div class="ttdoc">Free method for ExifMem.</div><div class="ttdef"><b>Definition</b> <a href="exif-mem_8h_source.html#l00056">exif-mem.h:56</a></div></div>
+<div class="ttc" id="aexif-mem_8h_html_a983dbcdc43d515ef6c7dc003240ef427"><div class="ttname"><a href="exif-mem_8h.html#a983dbcdc43d515ef6c7dc003240ef427">ExifMemAllocFunc</a></div><div class="ttdeci">void *(* ExifMemAllocFunc)(ExifLong s)</div><div class="ttdoc">Should work like calloc()</div><div class="ttdef"><b>Definition</b> <a href="exif-mem_8h_source.html#l00041">exif-mem.h:41</a></div></div>
+<div class="ttc" id="aexif-mem_8h_html_ab7ec7776593c6ffe5f49fec974f7cfe1"><div class="ttname"><a href="exif-mem_8h.html#ab7ec7776593c6ffe5f49fec974f7cfe1">exif_mem_free</a></div><div class="ttdeci">void exif_mem_free(ExifMem *m, void *p)</div><div class="ttdef"><b>Definition</b> <a href="exif-mem_8c_source.html#l00091">exif-mem.c:91</a></div></div>
+<div class="ttc" id="aexif-mem_8h_html_acc8fd4e1a319a790581975db6f1a7233"><div class="ttname"><a href="exif-mem_8h.html#acc8fd4e1a319a790581975db6f1a7233">exif_mem_new_default</a></div><div class="ttdeci">ExifMem * exif_mem_new_default(void)</div><div class="ttdoc">Create a new ExifMem with default values for your convenience.</div><div class="ttdef"><b>Definition</b> <a href="exif-mem_8c_source.html#l00117">exif-mem.c:117</a></div></div>
+<div class="ttc" id="aexif-mem_8h_html_acedafabd958c9846ea3f908135715dcf"><div class="ttname"><a href="exif-mem_8h.html#acedafabd958c9846ea3f908135715dcf">exif_mem_ref</a></div><div class="ttdeci">void exif_mem_ref(ExifMem *)</div><div class="ttdoc">Refcount an ExifMem.</div><div class="ttdef"><b>Definition</b> <a href="exif-mem_8c_source.html#l00076">exif-mem.c:76</a></div></div>
+<div class="ttc" id="aexif-mem_8h_html_ad56b5b9868ea77e681a903513c3b55f3"><div class="ttname"><a href="exif-mem_8h.html#ad56b5b9868ea77e681a903513c3b55f3">exif_mem_new</a></div><div class="ttdeci">ExifMem * exif_mem_new(ExifMemAllocFunc a, ExifMemReallocFunc r, ExifMemFreeFunc f)</div><div class="ttdoc">Create a new ExifMem.</div><div class="ttdef"><b>Definition</b> <a href="exif-mem_8c_source.html#l00056">exif-mem.c:56</a></div></div>
+<div class="ttc" id="aexif-mem_8h_html_adabd1345e1172ce379658cecfd3f7d70"><div class="ttname"><a href="exif-mem_8h.html#adabd1345e1172ce379658cecfd3f7d70">exif_mem_unref</a></div><div class="ttdeci">void exif_mem_unref(ExifMem *)</div><div class="ttdoc">Unrefcount an ExifMem.</div><div class="ttdef"><b>Definition</b> <a href="exif-mem_8c_source.html#l00083">exif-mem.c:83</a></div></div>
+<div class="ttc" id="aexif-mem_8h_html_aea07644ea9dc97d5572d85ef03827f65"><div class="ttname"><a href="exif-mem_8h.html#aea07644ea9dc97d5572d85ef03827f65">ExifMemReallocFunc</a></div><div class="ttdeci">void *(* ExifMemReallocFunc)(void *p, ExifLong s)</div><div class="ttdoc">Should work like realloc()</div><div class="ttdef"><b>Definition</b> <a href="exif-mem_8h_source.html#l00049">exif-mem.h:49</a></div></div>
 <div class="ttc" id="aexif-utils_8h_html"><div class="ttname"><a href="exif-utils_8h.html">exif-utils.h</a></div><div class="ttdoc">EXIF data manipulation functions and types.</div></div>
-<div class="ttc" id="aexif-utils_8h_html_a34c5d7765ab2e6dec8308c5127a10afa"><div class="ttname"><a href="exif-utils_8h.html#a34c5d7765ab2e6dec8308c5127a10afa">ExifLong</a></div><div class="ttdeci">uint32_t ExifLong</div><div class="ttdoc">EXIF Unsigned Long data type.</div><div class="ttdef"><b>Definition</b> exif-utils.h:56</div></div>
+<div class="ttc" id="aexif-utils_8h_html_a34c5d7765ab2e6dec8308c5127a10afa"><div class="ttname"><a href="exif-utils_8h.html#a34c5d7765ab2e6dec8308c5127a10afa">ExifLong</a></div><div class="ttdeci">uint32_t ExifLong</div><div class="ttdoc">EXIF Unsigned Long data type.</div><div class="ttdef"><b>Definition</b> <a href="exif-utils_8h_source.html#l00056">exif-utils.h:56</a></div></div>
+<div class="ttc" id="astruct__ExifMem_html"><div class="ttname"><a href="struct__ExifMem.html">_ExifMem</a></div><div class="ttdef"><b>Definition</b> <a href="exif-mem_8c_source.html#l00027">exif-mem.c:27</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_04d2bd150f7cc849eeec70b9b0fdccb1.html">libexif</a></li><li class="navelem"><a class="el" href="exif-mem_8h.html">exif-mem.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7 </li>
-  </ul>
-</div>
+
+<!-- Copyright (C) 2009-2017 Dan Fandrich <dan@coneharvesters.com>
+     SPDX-License-Identifier: LGPL-2.0-or-later -->
+<hr size="1">
+<address style="text-align: right;">
+<a href="https://libexif.github.io" target="_top">libexif</a>
+<small>Generated by&nbsp;<a href="http://www.doxygen.org/" target="_top"><img src="doxygen.png" alt="doxygen" align="middle" border="0">
+</a>
+</small></address>
 </body>
 </html>

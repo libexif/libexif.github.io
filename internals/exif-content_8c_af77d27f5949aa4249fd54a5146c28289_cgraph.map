@@ -1,0 +1,20 @@
+<map id="exif_content_free" name="exif_content_free">
+<area shape="rect" id="Node000001" title="Actually free the ExifContent." alt="" coords="5,67,141,92"/>
+<area shape="rect" id="Node000002" href="$exif-entry_8c.html#a82d5d923121488d847d341727cdd2ef4" title="Decrease reference counter for ExifEntry." alt="" coords="189,42,319,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,68,174,63,174,68,142,73"/>
+<area shape="rect" id="Node000004" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="713,67,835,92"/>
+<area shape="poly" id="edge10_Node000001_Node000004" title=" " alt="" coords="96,64,138,43,189,27,322,5,376,3,427,5,533,20,666,47,718,60,717,65,665,52,532,25,427,10,376,8,322,11,190,32,140,48,98,69"/>
+<area shape="rect" id="Node000005" href="$exif-mem_8c.html#a66744e0987af08c443df247ce55f7d87" title="Unrefcount an ExifMem." alt="" coords="536,92,665,118"/>
+<area shape="poly" id="edge11_Node000001_Node000005" title=" " alt="" coords="142,80,520,99,520,104,142,86"/>
+<area shape="rect" id="Node000006" href="$exif-log_8c.html#a7a9b738a7429197d68c80ffedac7d8fb" title=" " alt="" coords="197,143,311,168"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="107,91,209,134,207,139,105,96"/>
+<area shape="rect" id="Node000003" href="$exif-entry_8c.html#a2879215e3863186650d3f32eb63bbaf4" title="Actually free the ExifEntry." alt="" coords="367,42,488,67"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="319,52,351,52,351,57,319,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="489,56,698,72,698,77,488,62"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="474,65,541,85,539,90,473,70"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="665,93,698,88,698,94,666,98"/>
+<area shape="rect" id="Node000007" href="$exif-log_8c.html#acd0808d6d5be73f28059797c2e2e67dc" title="Delete instance of ExifLog." alt="" coords="374,143,481,168"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="312,153,359,153,359,158,312,158"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="481,153,568,146,617,139,665,128,702,114,736,98,739,103,704,119,666,133,618,144,569,151,482,158"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="473,140,539,120,541,125,474,145"/>
+</map>

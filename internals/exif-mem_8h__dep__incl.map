@@ -1,0 +1,136 @@
+<map id="libexif/exif&#45;mem.h" name="libexif/exif&#45;mem.h">
+<area shape="rect" id="Node000001" title="Define the ExifMem data type and the associated functions." alt="" coords="2003,5,2145,31"/>
+<area shape="rect" id="Node000002" href="$exif-mnote-data-apple_8h.html" title=" " alt="" coords="2619,328,2775,368"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2111,36,2661,325,2659,330,2109,41"/>
+<area shape="rect" id="Node000004" href="$exif-mnote-data-canon_8h.html" title=" " alt="" coords="972,504,1131,544"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1988,22,1748,24,1435,31,1275,39,1126,49,999,63,904,81,842,93,787,103,765,112,748,125,738,144,734,171,734,349,734,382,737,408,746,431,766,454,800,473,852,488,972,510,971,516,851,494,798,478,763,458,742,433,732,409,729,382,729,349,729,170,733,142,744,121,762,107,785,98,841,88,903,76,999,58,1126,44,1274,34,1434,26,1748,18,1988,16"/>
+<area shape="rect" id="Node000007" href="$exif-content_8h.html" title="Handling EXIF IFDs." alt="" coords="769,159,925,185"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1988,23,1734,28,1409,38,1113,56,1007,67,946,81,917,98,892,119,857,161,853,157,888,116,914,93,944,76,1006,62,1113,50,1409,33,1734,23,1988,18"/>
+<area shape="rect" id="Node000009" href="$exif-data_8h.html" title="Defines the ExifData type and the associated functions." alt="" coords="2031,247,2167,273"/>
+<area shape="poly" id="edge60_Node000001_Node000009" title=" " alt="" coords="2079,46,2101,246,2095,247,2074,46"/>
+<area shape="rect" id="Node000014" href="$exif-loader_8h.html" title="Defines the ExifLoader type." alt="" coords="1073,335,1221,361"/>
+<area shape="poly" id="edge62_Node000001_Node000014" title=" " alt="" coords="2027,39,1182,337,1180,332,2025,34"/>
+<area shape="rect" id="Node000027" href="$exif-mnote-data-olympus_8h.html" title=" " alt="" coords="3461,328,3637,368"/>
+<area shape="poly" id="edge87_Node000001_Node000027" title=" " alt="" coords="2160,23,2368,43,2657,82,2819,111,2986,146,3152,188,3314,237,3424,282,3513,325,3511,330,3421,287,3312,243,3151,193,2985,151,2818,116,2656,88,2367,48,2160,28"/>
+<area shape="rect" id="Node000028" href="$exif-mnote-data-pentax_8h.html" title=" " alt="" coords="3661,328,3826,368"/>
+<area shape="poly" id="edge88_Node000001_Node000028" title=" " alt="" coords="2160,22,2408,42,2560,57,2712,76,2908,106,3103,149,3271,194,3436,243,3688,325,3686,330,3435,248,3270,199,3101,155,2907,111,2711,81,2559,62,2408,47,2160,27"/>
+<area shape="rect" id="Node000036" href="$exif-entry_8h.html" title="Handling EXIF entries." alt="" coords="555,247,694,273"/>
+<area shape="poly" id="edge61_Node000001_Node000036" title=" " alt="" coords="1988,23,1674,30,1262,41,894,58,771,69,733,75,714,81,694,98,676,119,651,166,636,213,629,247,624,246,631,211,646,164,672,116,690,94,711,76,732,70,771,64,893,53,1261,36,1674,24,1988,18"/>
+<area shape="rect" id="Node000041" href="$exif-log_8h.html" title="Log message infrastructure." alt="" coords="2436,79,2563,104"/>
+<area shape="poly" id="edge63_Node000001_Node000041" title=" " alt="" coords="2160,31,2436,77,2435,82,2160,36"/>
+<area shape="rect" id="Node000046" href="$exif-mem_8c.html" title=" " alt="" coords="3709,79,3849,104"/>
+<area shape="poly" id="edge86_Node000001_Node000046" title=" " alt="" coords="2160,17,2419,20,2797,29,3239,47,3690,76,3709,78,3708,83,3690,81,3239,52,2797,35,2419,26,2160,22"/>
+<area shape="rect" id="Node000003" href="$exif-mnote-data-apple_8c.html" title=" " alt="" coords="2567,416,2722,456"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="2680,383,2658,417,2654,414,2675,380"/>
+<area shape="rect" id="Node000005" href="$exif-mnote-data-canon_8c.html" title=" " alt="" coords="913,592,1072,632"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1032,558,1008,593,1003,590,1027,555"/>
+<area shape="rect" id="Node000006" href="$exif-data_8c.html" title=" " alt="" coords="3300,599,3435,625"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="1146,531,1290,541,1901,569,2493,589,3300,607,3300,612,2493,594,1900,575,1290,547,1146,536"/>
+<area shape="rect" id="Node000008" href="$exif-content_8c.html" title=" " alt="" coords="770,247,925,273"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="850,200,850,247,845,247,845,200"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="941,177,2031,252,2031,257,941,183"/>
+<area shape="poly" id="edge53_Node000007_Node000036" title=" " alt="" coords="797,193,650,249,648,244,795,188"/>
+<area shape="poly" id="edge10_Node000009_Node000002" title=" " alt="" coords="2183,272,2221,277,2411,300,2600,325,2619,329,2618,334,2599,331,2410,305,2220,283,2183,277"/>
+<area shape="poly" id="edge9_Node000009_Node000003" title=" " alt="" coords="2184,272,2221,277,2271,283,2315,284,2391,283,2427,285,2464,292,2504,304,2550,326,2578,345,2602,368,2636,414,2631,417,2598,372,2574,349,2547,330,2502,309,2462,297,2426,291,2391,289,2315,290,2271,288,2220,283,2183,277"/>
+<area shape="poly" id="edge12_Node000009_Node000004" title=" " alt="" coords="2016,263,1777,264,1475,271,1330,279,1205,291,1112,308,1081,319,1062,330,1048,349,1040,371,1034,419,1039,466,1048,503,1042,504,1033,467,1028,419,1034,369,1044,346,1059,326,1079,314,1110,303,1204,286,1330,274,1475,266,1777,258,2016,258"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="2016,264,1773,267,1466,277,1317,285,1188,297,1090,312,1056,321,1035,330,1013,348,998,366,987,384,980,404,971,449,962,504,959,524,962,543,971,568,983,590,978,593,966,571,957,545,954,524,957,504,966,448,974,402,982,382,993,363,1010,344,1033,326,1055,316,1089,306,1187,291,1317,280,1465,272,1773,262,2015,259"/>
+<area shape="poly" id="edge19_Node000009_Node000006" title=" " alt="" coords="2183,263,2270,270,2365,282,2449,300,2482,312,2506,326,2521,341,2529,358,2533,391,2537,424,2544,439,2557,454,2606,490,2651,512,2695,524,2739,529,2834,530,2889,533,2952,541,3141,574,3300,598,3299,604,3140,579,2951,547,2889,538,2834,535,2738,534,2694,529,2649,517,2603,494,2554,458,2540,442,2532,425,2528,392,2524,359,2516,344,2503,330,2480,317,2448,305,2364,287,2270,275,2182,268"/>
+<area shape="poly" id="edge18_Node000009_Node000007" title=" " alt="" coords="2015,255,926,181,926,176,2016,250"/>
+<area shape="rect" id="Node000010" href="$mnote-canon-tag_8h.html" title=" " alt="" coords="2341,328,2493,368"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="2159,275,2346,325,2344,330,2158,280"/>
+<area shape="poly" id="edge20_Node000009_Node000014" title=" " alt="" coords="2036,279,2013,283,1895,296,1794,303,1623,306,1451,310,1351,317,1233,331,1196,337,1195,332,1232,325,1351,311,1451,304,1623,301,1794,298,1894,291,2012,277,2035,274"/>
+<area shape="rect" id="Node000016" href="$test-fuzzer-persistent_8c.html" title=" " alt="" coords="1353,423,1555,449"/>
+<area shape="poly" id="edge44_Node000009_Node000016" title=" " alt="" coords="2031,279,2013,283,1940,293,1883,296,1827,305,1796,315,1761,330,1748,339,1739,349,1731,360,1717,370,1675,390,1630,405,1545,425,1544,420,1629,400,1673,385,1714,366,1727,356,1735,346,1744,335,1758,326,1794,310,1826,300,1882,291,1940,287,2012,277,2030,274"/>
+<area shape="rect" id="Node000017" href="$test-fuzzer_8c.html" title=" " alt="" coords="1591,423,1723,449"/>
+<area shape="poly" id="edge45_Node000009_Node000017" title=" " alt="" coords="2030,279,1920,305,1835,330,1758,374,1676,425,1673,421,1755,369,1833,326,1919,300,2028,274"/>
+<area shape="rect" id="Node000018" href="$test-mem_8c.html" title=" " alt="" coords="1753,423,1880,449"/>
+<area shape="poly" id="edge47_Node000009_Node000018" title=" " alt="" coords="2035,280,1933,307,1891,320,1869,330,1850,352,1836,378,1821,424,1816,422,1831,376,1846,349,1866,326,1889,315,1931,302,2034,274"/>
+<area shape="rect" id="Node000019" href="$test-null_8c.html" title="Pass NULL values into libexif APIs and ensure it doesn&#39;t crash." alt="" coords="777,423,893,449"/>
+<area shape="poly" id="edge49_Node000009_Node000019" title=" " alt="" coords="2016,266,1762,273,1435,286,1137,305,1029,317,967,331,929,351,895,377,847,425,843,421,891,373,926,346,965,325,1028,312,1136,300,1435,281,1762,268,2016,261"/>
+<area shape="rect" id="Node000020" href="$exif-mnote-data-fuji_8h.html" title=" " alt="" coords="3061,328,3223,368"/>
+<area shape="poly" id="edge27_Node000009_Node000020" title=" " alt="" coords="2183,263,2538,286,2998,325,3061,333,3060,338,2998,331,2538,292,2183,269"/>
+<area shape="rect" id="Node000024" href="$mnote-fuji-tag_8h.html" title=" " alt="" coords="2851,328,2985,368"/>
+<area shape="poly" id="edge33_Node000009_Node000024" title=" " alt="" coords="2183,266,2452,290,2788,325,2851,334,2850,339,2787,331,2452,295,2183,271"/>
+<area shape="rect" id="Node000026" href="$exif-mnote-data-olympus_8c.html" title=" " alt="" coords="3405,416,3580,456"/>
+<area shape="poly" id="edge36_Node000009_Node000026" title=" " alt="" coords="2183,261,2437,268,2765,282,3064,301,3173,312,3236,325,3253,334,3264,345,3274,355,3289,366,3351,393,3413,413,3411,418,3349,398,3286,370,3270,359,3260,349,3250,339,3234,331,3172,318,3064,306,2764,287,2437,274,2183,266"/>
+<area shape="poly" id="edge37_Node000009_Node000027" title=" " alt="" coords="2183,259,2403,262,2717,272,3080,292,3266,306,3449,325,3461,327,3460,332,3448,331,3266,312,3079,297,2717,277,2403,267,2183,264"/>
+<area shape="poly" id="edge40_Node000009_Node000028" title=" " alt="" coords="2183,258,2432,258,2795,266,3218,287,3436,303,3649,325,3661,327,3660,332,3648,331,3435,309,3217,292,2794,271,2432,264,2183,263"/>
+<area shape="rect" id="Node000030" href="$test-extract_8c.html" title="Extract EXIF data from a file and write it to another file." alt="" coords="1879,335,2018,361"/>
+<area shape="poly" id="edge43_Node000009_Node000030" title=" " alt="" coords="2067,283,1971,337,1968,333,2064,278"/>
+<area shape="rect" id="Node000031" href="$test-gps_8c.html" title=" " alt="" coords="2042,335,2157,361"/>
+<area shape="poly" id="edge46_Node000009_Node000031" title=" " alt="" coords="2102,288,2102,335,2097,335,2097,288"/>
+<area shape="rect" id="Node000032" href="$test-mnote_8c.html" title=" " alt="" coords="2181,335,2316,361"/>
+<area shape="poly" id="edge48_Node000009_Node000032" title=" " alt="" coords="2135,278,2229,333,2227,337,2132,283"/>
+<area shape="rect" id="Node000033" href="$test-parse-from-data_8c.html" title="Completely parse all files given on the command line." alt="" coords="1245,328,1399,368"/>
+<area shape="poly" id="edge50_Node000009_Node000033" title=" " alt="" coords="2035,279,2013,283,1844,301,1712,307,1580,313,1412,331,1399,333,1398,327,1411,325,1580,307,1712,302,1844,296,2012,277,2034,274"/>
+<area shape="rect" id="Node000034" href="$test-parse_8c.html" title="Completely parse all files given on the command line." alt="" coords="1423,335,1551,361"/>
+<area shape="poly" id="edge51_Node000009_Node000034" title=" " alt="" coords="2034,279,2013,283,1887,299,1788,306,1689,313,1564,331,1532,337,1531,332,1563,325,1689,308,1788,300,1886,293,2012,277,2033,274"/>
+<area shape="rect" id="Node000035" href="$test-value_8c.html" title=" " alt="" coords="1575,335,1703,361"/>
+<area shape="poly" id="edge52_Node000009_Node000035" title=" " alt="" coords="2032,279,2013,283,1868,306,1722,331,1690,337,1689,332,1722,325,1867,301,2012,277,2031,274"/>
+<area shape="rect" id="Node000011" href="$mnote-canon-entry_8h.html" title=" " alt="" coords="2341,416,2493,456"/>
+<area shape="poly" id="edge14_Node000010_Node000011" title=" " alt="" coords="2419,383,2419,416,2414,416,2414,383"/>
+<area shape="rect" id="Node000013" href="$mnote-canon-tag_8c.html" title=" " alt="" coords="2165,416,2317,456"/>
+<area shape="poly" id="edge17_Node000010_Node000013" title=" " alt="" coords="2365,377,2281,418,2279,413,2362,373"/>
+<area shape="poly" id="edge15_Node000011_Node000004" title=" " alt="" coords="2326,459,2151,479,1974,494,1631,514,1338,523,1131,526,1131,520,1338,518,1631,509,1973,489,2151,473,2325,454"/>
+<area shape="rect" id="Node000012" href="$mnote-canon-entry_8c.html" title=" " alt="" coords="2341,504,2493,544"/>
+<area shape="poly" id="edge16_Node000011_Node000012" title=" " alt="" coords="2419,471,2419,504,2414,504,2414,471"/>
+<area shape="poly" id="edge21_Node000014_Node000006" title=" " alt="" coords="1177,368,1249,413,1294,436,1341,453,1422,474,1521,493,1763,525,2046,551,2347,571,2917,597,3300,607,3299,612,2916,602,2346,576,2045,556,1763,531,1520,498,1421,479,1340,459,1292,440,1247,418,1174,372"/>
+<area shape="rect" id="Node000015" href="$exif-loader_8c.html" title=" " alt="" coords="1074,423,1221,449"/>
+<area shape="poly" id="edge22_Node000014_Node000015" title=" " alt="" coords="1150,376,1150,423,1145,423,1145,376"/>
+<area shape="poly" id="edge23_Node000014_Node000016" title=" " alt="" coords="1205,363,1412,420,1411,425,1204,368"/>
+<area shape="poly" id="edge24_Node000014_Node000017" title=" " alt="" coords="1214,362,1233,365,1400,390,1566,413,1602,420,1601,425,1566,419,1399,395,1232,371,1213,367"/>
+<area shape="poly" id="edge25_Node000014_Node000018" title=" " alt="" coords="1213,362,1233,365,1373,382,1484,389,1594,396,1734,413,1769,420,1768,425,1734,419,1593,401,1483,394,1373,388,1232,371,1212,367"/>
+<area shape="poly" id="edge26_Node000014_Node000019" title=" " alt="" coords="1090,368,880,425,878,420,1089,363"/>
+<area shape="poly" id="edge28_Node000020_Node000006" title=" " alt="" coords="3239,369,3303,389,3328,401,3344,414,3359,437,3369,462,3378,516,3377,564,3372,599,3367,599,3372,564,3372,516,3364,464,3354,440,3340,418,3325,406,3301,394,3238,374"/>
+<area shape="rect" id="Node000021" href="$exif-mnote-data-fuji_8c.html" title=" " alt="" coords="3167,416,3330,456"/>
+<area shape="poly" id="edge29_Node000020_Node000021" title=" " alt="" coords="3179,376,3226,413,3223,418,3176,380"/>
+<area shape="rect" id="Node000022" href="$mnote-fuji-entry_8h.html" title=" " alt="" coords="3008,416,3143,456"/>
+<area shape="poly" id="edge30_Node000020_Node000022" title=" " alt="" coords="3112,381,3085,417,3080,414,3108,378"/>
+<area shape="poly" id="edge31_Node000022_Node000020" title=" " alt="" coords="3106,403,3133,367,3137,370,3110,406"/>
+<area shape="rect" id="Node000023" href="$mnote-fuji-entry_8c.html" title=" " alt="" coords="3008,504,3143,544"/>
+<area shape="poly" id="edge32_Node000022_Node000023" title=" " alt="" coords="3078,471,3078,504,3073,504,3073,471"/>
+<area shape="poly" id="edge34_Node000024_Node000022" title=" " alt="" coords="2968,373,3041,413,3039,418,2965,378"/>
+<area shape="rect" id="Node000025" href="$mnote-fuji-tag_8c.html" title=" " alt="" coords="2797,416,2932,456"/>
+<area shape="poly" id="edge35_Node000024_Node000025" title=" " alt="" coords="2900,383,2879,417,2874,414,2896,380"/>
+<area shape="poly" id="edge38_Node000027_Node000006" title=" " alt="" coords="3578,379,3598,416,3600,437,3595,457,3577,485,3555,510,3504,551,3450,581,3403,601,3401,596,3447,576,3501,546,3551,506,3573,482,3590,455,3595,437,3592,418,3573,381"/>
+<area shape="poly" id="edge39_Node000027_Node000026" title=" " alt="" coords="3530,382,3507,417,3503,414,3526,379"/>
+<area shape="poly" id="edge41_Node000028_Node000006" title=" " alt="" coords="3793,374,3815,392,3833,412,3842,434,3841,446,3835,458,3795,501,3748,536,3696,562,3640,582,3584,596,3529,606,3436,614,3435,608,3529,600,3583,591,3638,577,3693,557,3745,531,3792,497,3830,454,3835,445,3836,435,3829,415,3812,396,3790,379"/>
+<area shape="rect" id="Node000029" href="$exif-mnote-data-pentax_8c.html" title=" " alt="" coords="3656,416,3820,456"/>
+<area shape="poly" id="edge42_Node000028_Node000029" title=" " alt="" coords="3744,384,3742,416,3737,416,3739,383"/>
+<area shape="poly" id="edge55_Node000036_Node000007" title=" " alt="" coords="675,239,822,183,824,188,677,244"/>
+<area shape="poly" id="edge59_Node000036_Node000019" title=" " alt="" coords="652,281,708,326,823,421,819,425,704,330,649,285"/>
+<area shape="rect" id="Node000037" href="$mnote-apple-entry_8c.html" title=" " alt="" coords="382,328,531,368"/>
+<area shape="poly" id="edge54_Node000036_Node000037" title=" " alt="" coords="589,282,496,330,493,325,587,278"/>
+<area shape="rect" id="Node000038" href="$exif-entry_8c.html" title=" " alt="" coords="555,335,694,361"/>
+<area shape="poly" id="edge56_Node000036_Node000038" title=" " alt="" coords="627,288,627,335,622,335,622,288"/>
+<area shape="rect" id="Node000039" href="$mnote-olympus-entry_8c.html" title=" " alt="" coords="5,328,175,368"/>
+<area shape="poly" id="edge57_Node000036_Node000039" title=" " alt="" coords="541,276,186,331,176,333,175,327,186,325,540,270"/>
+<area shape="rect" id="Node000040" href="$mnote-pentax-entry_8c.html" title=" " alt="" coords="199,328,357,368"/>
+<area shape="poly" id="edge58_Node000036_Node000040" title=" " alt="" coords="562,280,357,330,356,325,561,274"/>
+<area shape="poly" id="edge65_Node000041_Node000006" title=" " alt="" coords="2578,92,2866,106,3055,120,3255,142,3451,172,3543,191,3629,212,3707,236,3774,263,3830,293,3872,326,3893,354,3906,384,3910,414,3906,444,3894,473,3876,500,3852,525,3822,546,3791,560,3750,572,3646,590,3533,602,3435,610,3435,604,3532,597,3645,585,3748,566,3789,555,3819,542,3848,521,3872,497,3889,471,3900,443,3904,414,3901,385,3889,357,3868,330,3827,297,3772,268,3705,241,3628,217,3542,196,3450,177,3254,147,3055,126,2866,111,2578,97"/>
+<area shape="poly" id="edge64_Node000041_Node000007" title=" " alt="" coords="2421,99,926,170,926,164,2420,94"/>
+<area shape="poly" id="edge66_Node000041_Node000009" title=" " alt="" coords="2457,113,2129,249,2127,244,2455,108"/>
+<area shape="poly" id="edge67_Node000041_Node000014" title=" " alt="" coords="2421,109,1921,199,1233,331,1201,337,1200,332,1232,325,1920,194,2420,104"/>
+<area shape="rect" id="Node000042" href="$exif-log_8c.html" title=" " alt="" coords="2716,159,2843,185"/>
+<area shape="poly" id="edge68_Node000041_Node000042" title=" " alt="" coords="2557,106,2737,156,2736,161,2556,111"/>
+<area shape="rect" id="Node000043" href="$exif-mnote-data-priv_8h.html" title=" " alt="" coords="3163,240,3300,280"/>
+<area shape="poly" id="edge69_Node000041_Node000043" title=" " alt="" coords="2578,101,2709,121,2856,149,3029,194,3172,237,3171,242,3027,199,2855,155,2708,126,2577,106"/>
+<area shape="rect" id="Node000045" href="$exif-mnote-data_8h.html" title="Handling EXIF MakerNote tags." alt="" coords="2555,152,2692,192"/>
+<area shape="poly" id="edge77_Node000041_Node000045" title=" " alt="" coords="2532,110,2594,149,2591,154,2530,115"/>
+<area shape="poly" id="edge70_Node000043_Node000002" title=" " alt="" coords="3148,276,2794,331,2776,334,2775,329,2794,325,3147,271"/>
+<area shape="poly" id="edge71_Node000043_Node000004" title=" " alt="" coords="3148,271,2976,294,2896,310,2841,330,2821,345,2807,360,2790,395,2771,429,2757,445,2735,458,2708,465,2658,472,2499,483,2027,503,1508,516,1131,524,1131,519,1508,511,2027,497,2498,478,2657,466,2707,460,2733,454,2753,441,2767,426,2785,392,2803,357,2817,341,2838,326,2894,305,2975,288,3147,266"/>
+<area shape="poly" id="edge72_Node000043_Node000006" title=" " alt="" coords="3315,262,3458,271,3622,284,3763,302,3812,313,3840,326,3862,353,3874,383,3876,414,3870,444,3856,474,3835,501,3809,526,3778,546,3750,558,3714,568,3622,586,3435,608,3435,603,3622,581,3713,563,3749,553,3775,542,3806,522,3831,498,3851,471,3865,443,3871,413,3869,384,3858,356,3836,330,3810,318,3762,307,3621,289,3458,276,3315,268"/>
+<area shape="poly" id="edge74_Node000043_Node000020" title=" " alt="" coords="3203,292,3164,330,3160,326,3199,289"/>
+<area shape="poly" id="edge75_Node000043_Node000027" title=" " alt="" coords="3316,281,3478,325,3476,330,3314,286"/>
+<area shape="poly" id="edge76_Node000043_Node000028" title=" " alt="" coords="3316,271,3649,325,3661,327,3660,333,3648,331,3315,277"/>
+<area shape="rect" id="Node000044" href="$exif-mnote-data_8c.html" title=" " alt="" coords="3299,328,3436,368"/>
+<area shape="poly" id="edge73_Node000043_Node000044" title=" " alt="" coords="3276,286,3338,325,3335,330,3273,291"/>
+<area shape="poly" id="edge78_Node000045_Node000004" title=" " alt="" coords="2539,178,2187,190,1954,202,1709,217,1475,237,1271,263,1186,277,1117,293,1066,311,1036,330,1022,349,1015,370,1013,394,1016,418,1028,465,1044,502,1039,504,1023,467,1010,419,1008,394,1010,369,1018,346,1032,326,1064,306,1116,288,1185,272,1270,257,1474,232,1709,212,1953,196,2187,185,2539,173"/>
+<area shape="poly" id="edge79_Node000045_Node000006" title=" " alt="" coords="2708,194,2791,219,2878,252,2954,288,2982,307,3000,327,3005,338,3004,347,3001,368,2993,421,2981,463,2977,483,2978,502,2985,521,2999,542,3018,557,3047,570,3127,589,3217,600,3300,606,3299,611,3217,605,3126,594,3046,575,3015,562,2995,546,2980,524,2973,503,2972,482,2976,462,2988,419,2995,368,2999,347,3000,338,2996,329,2978,311,2951,293,2876,257,2789,224,2706,199"/>
+<area shape="poly" id="edge80_Node000045_Node000009" title=" " alt="" coords="2540,190,2168,250,2167,245,2539,184"/>
+<area shape="poly" id="edge85_Node000045_Node000019" title=" " alt="" coords="2539,177,2197,183,1731,195,1296,215,1138,228,1045,243,1000,258,966,274,936,297,901,330,881,354,865,380,843,424,838,422,860,377,877,351,897,326,933,293,963,270,998,253,1044,237,1137,222,1295,209,1731,190,2196,178,2539,172"/>
+<area shape="poly" id="edge83_Node000045_Node000020" title=" " alt="" coords="2708,190,2760,196,2804,198,2882,197,2919,199,2956,205,2997,217,3043,238,3072,257,3097,280,3132,326,3128,329,3093,284,3068,261,3041,242,2995,222,2955,210,2918,204,2882,203,2804,203,2759,201,2707,195"/>
+<area shape="poly" id="edge84_Node000045_Node000028" title=" " alt="" coords="2708,190,2800,201,2878,208,3012,212,3145,217,3223,225,3313,237,3415,257,3515,280,3680,325,3679,330,3514,285,3413,262,3312,243,3222,230,3145,223,3012,218,2878,213,2799,207,2707,195"/>
+<area shape="poly" id="edge81_Node000045_Node000043" title=" " alt="" coords="2708,190,2831,206,2927,214,3023,222,3144,237,3163,241,3162,246,3143,243,3022,227,2927,219,2830,211,2707,195"/>
+<area shape="poly" id="edge82_Node000045_Node000044" title=" " alt="" coords="2708,190,2815,201,2901,203,2984,211,3031,221,3086,238,3106,247,3120,257,3153,278,3227,306,3299,327,3297,332,3226,311,3150,282,3117,261,3103,251,3084,242,3030,226,2983,216,2900,209,2815,206,2707,195"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="libexif/olympus/mnote&#45;olympus&#45;tag.c" name="libexif/olympus/mnote&#45;olympus&#45;tag.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="191,5,361,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,167,80,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,41,92,62,51,77,26,95,20,108,20,122,30,152,25,154,15,123,15,107,22,92,48,73,90,57,190,35"/>
+<area shape="rect" id="Node000003" href="$mnote-olympus-tag_8h.html" title=" " alt="" coords="36,93,199,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="238,48,156,89,154,84,236,44"/>
+<area shape="rect" id="Node000004" href="$i18n_8h.html" title=" " alt="" coords="223,93,329,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="279,46,279,78,273,78,273,46"/>
+<area shape="rect" id="Node000005" href="$exif-utils_8h.html" title="EXIF data manipulation functions and types." alt="" coords="354,93,489,119"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="313,44,388,84,385,88,311,48"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="513,93,583,119"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="344,43,499,88,497,93,343,49"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="237,122,96,165,94,160,236,117"/>
+<area shape="rect" id="Node000006" href="$exif-byte-order_8h.html" title="Defines the ExifByteOrder enum and the associated functions." alt="" coords="147,167,322,192"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="391,122,281,163,279,158,389,117"/>
+<area shape="rect" id="Node000007" href="$exif-format_8h.html" title="Handling native EXIF data types." alt="" coords="346,167,497,192"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="424,119,424,151,419,151,419,119"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="521,167,644,192"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="450,117,543,158,541,163,448,122"/>
+</map>

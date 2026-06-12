@@ -1,0 +1,15 @@
+<map id="exif_entry_initialize_gps" name="exif_entry_initialize_gps">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,187,105"/>
+<area shape="rect" id="Node000002" href="$exif-entry_8c.html#a01d57aa3b858af0ffbbef108ed332939" title=" " alt="" coords="270,5,365,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,77,234,39,254,33,255,38,236,45,132,82"/>
+<area shape="rect" id="Node000003" href="$exif-entry_8c.html#acba1916cfb1741aa17f022d2e5b8bccc" title=" " alt="" coords="254,55,381,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,80,238,74,239,79,187,85"/>
+<area shape="rect" id="Node000006" href="$exif-format_8c.html#a924038efe0cd8ebade8f44619dd794f3" title="Return the raw size of the given EXIF data type." alt="" coords="238,104,397,129"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="187,100,223,104,222,109,187,105"/>
+<area shape="rect" id="Node000007" href="$exif-gps-ifd_8c.html#a5355c877082ce0f6f54482ed8a079079" title=" " alt="" coords="235,153,400,179"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="135,103,236,138,259,146,258,151,234,143,133,108"/>
+<area shape="rect" id="Node000004" href="$exif-data_8c.html#a9403ed4fde8ef603e9db173eb122efaf" title=" " alt="" coords="448,31,587,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="381,57,432,51,433,56,381,62"/>
+<area shape="rect" id="Node000005" href="$exif-mem_8c.html#a68be7c7afc8cff75adc3b1a28b5ae9a2" title=" " alt="" coords="454,80,581,105"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="381,73,439,80,438,85,381,78"/>
+</map>

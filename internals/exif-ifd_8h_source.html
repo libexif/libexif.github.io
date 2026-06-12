@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EXIF library (libexif) API: libexif/exif-ifd.h Source File</title>
+<title>EXIF library (libexif) Internals: libexif/exif-ifd.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EXIF library (libexif) API<span id="projectnumber">&#160;0.6.25</span>
+   <div id="projectname">EXIF library (libexif) Internals<span id="projectnumber">&#160;0.6.26</span>
    </div>
   </td>
  </tr>
@@ -62,7 +62,7 @@ $(document).ready(function(){initNavTree('exif-ifd_8h_source.html',''); initResi
   <div class="headertitle"><div class="title">exif-ifd.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* exif-ifd.h</span></div>
+<a href="exif-ifd_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* exif-ifd.h</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * Copyright (c) 2002 Lutz Mueller &lt;lutz@users.sourceforge.net&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> *</span></div>
@@ -91,30 +91,41 @@ $(document).ready(function(){initNavTree('exif-ifd_8h_source.html',''); initResi
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span><span class="preprocessor"></span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        EXIF_IFD_0 = 0,                </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        EXIF_IFD_1,                    </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        EXIF_IFD_EXIF,                 </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        EXIF_IFD_GPS,                  </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        EXIF_IFD_INTEROPERABILITY,     </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        EXIF_IFD_COUNT                 </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>} ExifIfd;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523">   31</a></span><span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523adba1cc10dacaad97ca9ba61d391e218c">   32</a></span>        <a class="code hl_enumvalue" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523adba1cc10dacaad97ca9ba61d391e218c">EXIF_IFD_0</a> = 0,                </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a9ecbe6f6d48d2d5702aab804e3196409">   33</a></span>        <a class="code hl_enumvalue" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a9ecbe6f6d48d2d5702aab804e3196409">EXIF_IFD_1</a>,                    </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a9dce0091318fd65e7c05f1b39fa9a177">   34</a></span>        <a class="code hl_enumvalue" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a9dce0091318fd65e7c05f1b39fa9a177">EXIF_IFD_EXIF</a>,                 </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a0ef0053cc0238dfea6770310ec478270">   35</a></span>        <a class="code hl_enumvalue" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a0ef0053cc0238dfea6770310ec478270">EXIF_IFD_GPS</a>,                  </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a87105b7ad04d314b1f8fc8478874cc29">   36</a></span>        <a class="code hl_enumvalue" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a87105b7ad04d314b1f8fc8478874cc29">EXIF_IFD_INTEROPERABILITY</a>,     </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <a class="code hl_enumvalue" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523aaef6c6dfc79dbd02383ed6719f9ecca5">EXIF_IFD_COUNT</a>                 </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523aaef6c6dfc79dbd02383ed6719f9ecca5">   38</a></span>} <a class="code hl_enumeration" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523">ExifIfd</a>;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">const</span> <span class="keywordtype">char</span> *exif_ifd_get_name (ExifIfd ifd);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="exif-ifd_8h.html#a7877a28898c084bd8311812d550181f2">exif_ifd_get_name</a> (<a class="code hl_enumeration" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523">ExifIfd</a> <a class="code hl_variable" href="exif-ifd_8c.html#a557f08b1d90e26e072167911210c9eb1">ifd</a>);</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span><span class="preprocessor"></span></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#endif </span><span class="comment">/* !defined(LIBEXIF_EXIF_IFD_H) */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="aexif-ifd_8c_html_a557f08b1d90e26e072167911210c9eb1"><div class="ttname"><a href="exif-ifd_8c.html#a557f08b1d90e26e072167911210c9eb1">ifd</a></div><div class="ttdeci">ExifIfd ifd</div><div class="ttdef"><b>Definition</b> <a href="exif-ifd_8c_source.html#l00030">exif-ifd.c:30</a></div></div>
+<div class="ttc" id="aexif-ifd_8h_html_a7877a28898c084bd8311812d550181f2"><div class="ttname"><a href="exif-ifd_8h.html#a7877a28898c084bd8311812d550181f2">exif_ifd_get_name</a></div><div class="ttdeci">const char * exif_ifd_get_name(ExifIfd ifd)</div><div class="ttdoc">Return a textual name of the given IFD.</div><div class="ttdef"><b>Definition</b> <a href="exif-ifd_8c_source.html#l00042">exif-ifd.c:42</a></div></div>
+<div class="ttc" id="aexif-ifd_8h_html_a7d1ed13ce50db58b739185faa1faf523"><div class="ttname"><a href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523">ExifIfd</a></div><div class="ttdeci">ExifIfd</div><div class="ttdoc">Possible EXIF Image File Directories.</div><div class="ttdef"><b>Definition</b> <a href="exif-ifd_8h_source.html#l00031">exif-ifd.h:31</a></div></div>
+<div class="ttc" id="aexif-ifd_8h_html_a7d1ed13ce50db58b739185faa1faf523a0ef0053cc0238dfea6770310ec478270"><div class="ttname"><a href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a0ef0053cc0238dfea6770310ec478270">EXIF_IFD_GPS</a></div><div class="ttdeci">@ EXIF_IFD_GPS</div><div class="ttdef"><b>Definition</b> <a href="exif-ifd_8h_source.html#l00035">exif-ifd.h:35</a></div></div>
+<div class="ttc" id="aexif-ifd_8h_html_a7d1ed13ce50db58b739185faa1faf523a87105b7ad04d314b1f8fc8478874cc29"><div class="ttname"><a href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a87105b7ad04d314b1f8fc8478874cc29">EXIF_IFD_INTEROPERABILITY</a></div><div class="ttdeci">@ EXIF_IFD_INTEROPERABILITY</div><div class="ttdef"><b>Definition</b> <a href="exif-ifd_8h_source.html#l00036">exif-ifd.h:36</a></div></div>
+<div class="ttc" id="aexif-ifd_8h_html_a7d1ed13ce50db58b739185faa1faf523a9dce0091318fd65e7c05f1b39fa9a177"><div class="ttname"><a href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a9dce0091318fd65e7c05f1b39fa9a177">EXIF_IFD_EXIF</a></div><div class="ttdeci">@ EXIF_IFD_EXIF</div><div class="ttdef"><b>Definition</b> <a href="exif-ifd_8h_source.html#l00034">exif-ifd.h:34</a></div></div>
+<div class="ttc" id="aexif-ifd_8h_html_a7d1ed13ce50db58b739185faa1faf523a9ecbe6f6d48d2d5702aab804e3196409"><div class="ttname"><a href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a9ecbe6f6d48d2d5702aab804e3196409">EXIF_IFD_1</a></div><div class="ttdeci">@ EXIF_IFD_1</div><div class="ttdef"><b>Definition</b> <a href="exif-ifd_8h_source.html#l00033">exif-ifd.h:33</a></div></div>
+<div class="ttc" id="aexif-ifd_8h_html_a7d1ed13ce50db58b739185faa1faf523aaef6c6dfc79dbd02383ed6719f9ecca5"><div class="ttname"><a href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523aaef6c6dfc79dbd02383ed6719f9ecca5">EXIF_IFD_COUNT</a></div><div class="ttdeci">@ EXIF_IFD_COUNT</div><div class="ttdoc">Not a real value, just (max_value + 1).</div><div class="ttdef"><b>Definition</b> <a href="exif-ifd_8h_source.html#l00038">exif-ifd.h:37</a></div></div>
+<div class="ttc" id="aexif-ifd_8h_html_a7d1ed13ce50db58b739185faa1faf523adba1cc10dacaad97ca9ba61d391e218c"><div class="ttname"><a href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523adba1cc10dacaad97ca9ba61d391e218c">EXIF_IFD_0</a></div><div class="ttdeci">@ EXIF_IFD_0</div><div class="ttdef"><b>Definition</b> <a href="exif-ifd_8h_source.html#l00032">exif-ifd.h:32</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_04d2bd150f7cc849eeec70b9b0fdccb1.html">libexif</a></li><li class="navelem"><b>exif-ifd.h</b></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7 </li>
-  </ul>
-</div>
+
+<!-- Copyright (C) 2009-2017 Dan Fandrich <dan@coneharvesters.com>
+     SPDX-License-Identifier: LGPL-2.0-or-later -->
+<hr size="1">
+<address style="text-align: right;">
+<a href="https://libexif.github.io" target="_top">libexif</a>
+<small>Generated by&nbsp;<a href="http://www.doxygen.org/" target="_top"><img src="doxygen.png" alt="doxygen" align="middle" border="0">
+</a>
+</small></address>
 </body>
 </html>

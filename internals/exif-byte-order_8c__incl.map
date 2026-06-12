@@ -1,0 +1,12 @@
+<map id="libexif/exif&#45;byte&#45;order.c" name="libexif/exif&#45;byte&#45;order.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="107,5,282,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="94,152,169,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,28,81,36,55,46,32,61,14,80,9,91,9,100,23,119,49,134,80,147,78,152,46,139,19,122,4,102,4,90,9,77,29,57,53,41,79,30,106,23"/>
+<area shape="rect" id="Node000003" href="$exif-byte-order_8h.html" title="Defines the ExifByteOrder enum and the associated functions." alt="" coords="24,79,199,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,33,139,70,135,66,179,29"/>
+<area shape="rect" id="Node000004" href="$i18n_8h.html" title=" " alt="" coords="224,79,330,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="210,29,253,66,250,70,207,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="355,79,426,104"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="228,29,344,71,343,76,227,34"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="253,107,171,147,168,143,251,102"/>
+</map>

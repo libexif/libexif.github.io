@@ -1,0 +1,15 @@
+<map id="libexif/exif&#45;loader.h" name="libexif/exif&#45;loader.h">
+<area shape="rect" id="Node000001" title="Defines the ExifLoader type." alt="" coords="457,5,605,31"/>
+<area shape="rect" id="Node000002" href="$exif-data_8c.html" title=" " alt="" coords="5,79,140,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="443,36,141,82,140,77,442,30"/>
+<area shape="rect" id="Node000003" href="$exif-loader_8c.html" title=" " alt="" coords="165,79,311,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="468,37,288,81,287,75,466,32"/>
+<area shape="rect" id="Node000004" href="$test-fuzzer-persistent_8c.html" title=" " alt="" coords="336,79,537,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="505,43,454,80,451,76,501,38"/>
+<area shape="rect" id="Node000005" href="$test-fuzzer_8c.html" title=" " alt="" coords="561,79,693,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="561,38,613,76,610,80,558,42"/>
+<area shape="rect" id="Node000006" href="$test-mem_8c.html" title=" " alt="" coords="717,79,844,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="589,33,739,76,738,81,587,38"/>
+<area shape="rect" id="Node000007" href="$test-null_8c.html" title="Pass NULL values into libexif APIs and ensure it doesn&#39;t crash." alt="" coords="868,79,984,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="613,31,868,77,867,82,613,37"/>
+</map>

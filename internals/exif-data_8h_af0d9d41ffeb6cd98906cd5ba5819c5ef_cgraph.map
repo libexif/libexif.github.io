@@ -1,0 +1,18 @@
+<map id="exif_data_log" name="exif_data_log">
+<area shape="rect" id="Node000001" title="Set the log message object for all IFDs." alt="" coords="5,29,116,55"/>
+<area shape="rect" id="Node000002" href="$exif-content_8c.html#acdc250f9237c430642c2c71ba022070a" title="Set the log message object for this IFD." alt="" coords="164,29,295,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,39,148,39,148,45,116,45"/>
+<area shape="rect" id="Node000003" href="$exif-log_8c.html#aafd7e5d40ca73440976a3b684bfa1059" title=" " alt="" coords="351,5,449,31"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="105,26,164,14,253,9,335,11,335,16,253,14,164,19,106,31"/>
+<area shape="rect" id="Node000004" href="$exif-log_8c.html#a7a9b738a7429197d68c80ffedac7d8fb" title=" " alt="" coords="343,55,457,80"/>
+<area shape="poly" id="edge9_Node000001_Node000004" title=" " alt="" coords="106,53,164,65,248,70,327,69,327,75,248,75,164,70,105,58"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="295,30,335,24,336,30,296,35"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="296,49,328,54,327,59,295,54"/>
+<area shape="rect" id="Node000005" href="$exif-log_8c.html#acd0808d6d5be73f28059797c2e2e67dc" title="Delete instance of ExifLog." alt="" coords="505,55,612,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="458,65,489,65,489,70,458,70"/>
+<area shape="rect" id="Node000006" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="837,55,959,80"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="613,65,822,65,822,70,613,70"/>
+<area shape="rect" id="Node000007" href="$exif-mem_8c.html#a66744e0987af08c443df247ce55f7d87" title="Unrefcount an ExifMem." alt="" coords="660,80,789,105"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="613,73,645,78,644,83,612,78"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="789,81,822,76,822,81,790,86"/>
+</map>

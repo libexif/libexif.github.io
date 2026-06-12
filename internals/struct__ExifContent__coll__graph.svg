@@ -68,8 +68,8 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="101,-188 0,-188 0,-169 101,-169 101,-188"/>
+<g id="a_Node000003"><a xlink:href="struct__ExifEntryPrivate.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="101,-188 0,-188 0,-169 101,-169 101,-188"/>
 <text text-anchor="middle" x="50.5" y="-176" font-family="Helvetica,sans-Serif" font-size="10.00">_ExifEntryPrivate</text>
 </a>
 </g>
@@ -87,8 +87,8 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="225,-291 160,-291 160,-272 225,-272 225,-291"/>
+<g id="a_Node000004"><a xlink:href="struct__ExifMem.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="225,-291 160,-291 160,-272 225,-272 225,-291"/>
 <text text-anchor="middle" x="192.5" y="-279" font-family="Helvetica,sans-Serif" font-size="10.00">_ExifMem</text>
 </a>
 </g>
@@ -106,8 +106,8 @@
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="367.5,-85 269.5,-85 269.5,-66 367.5,-66 367.5,-85"/>
+<g id="a_Node000006"><a xlink:href="struct__ExifDataPrivate.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="367.5,-85 269.5,-85 269.5,-66 367.5,-66 367.5,-85"/>
 <text text-anchor="middle" x="318.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">_ExifDataPrivate</text>
 </a>
 </g>
@@ -126,7 +126,7 @@
 <g id="Node000007" class="node">
 <title>Node7</title>
 <g id="a_Node000007"><a xlink:href="struct__ExifMnoteData.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="387,-151 292,-151 292,-132 387,-132 387,-151"/>
+<polygon fill="white" stroke="#666666" points="387,-151 292,-151 292,-132 387,-132 387,-151"/>
 <text text-anchor="middle" x="339.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">_ExifMnoteData</text>
 </a>
 </g>
@@ -144,8 +144,8 @@
 <!-- Node10 -->
 <g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_Node000010"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="221.5,-225 163.5,-225 163.5,-206 221.5,-206 221.5,-225"/>
+<g id="a_Node000010"><a xlink:href="struct__ExifLog.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="221.5,-225 163.5,-225 163.5,-206 221.5,-206 221.5,-225"/>
 <text text-anchor="middle" x="192.5" y="-213" font-family="Helvetica,sans-Serif" font-size="10.00">_ExifLog</text>
 </a>
 </g>
@@ -163,8 +163,8 @@
 <!-- Node11 -->
 <g id="Node000011" class="node">
 <title>Node11</title>
-<g id="a_Node000011"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="215,-151 102,-151 102,-132 215,-132 215,-151"/>
+<g id="a_Node000011"><a xlink:href="struct__ExifContentPrivate.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="215,-151 102,-151 102,-132 215,-132 215,-151"/>
 <text text-anchor="middle" x="158.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">_ExifContentPrivate</text>
 </a>
 </g>
@@ -212,8 +212,8 @@
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="396,-225 283,-225 283,-206 396,-206 396,-225"/>
+<g id="a_Node000008"><a xlink:href="struct__ExifMnoteDataPriv.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="396,-225 283,-225 283,-206 396,-206 396,-225"/>
 <text text-anchor="middle" x="339.5" y="-213" font-family="Helvetica,sans-Serif" font-size="10.00">_ExifMnoteDataPriv</text>
 </a>
 </g>
@@ -232,7 +232,7 @@
 <g id="Node000009" class="node">
 <title>Node9</title>
 <g id="a_Node000009"><a xlink:href="struct__ExifMnoteDataMethods.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="551,-225 414,-225 414,-206 551,-206 551,-225"/>
+<polygon fill="white" stroke="#666666" points="551,-225 414,-225 414,-206 551,-206 551,-225"/>
 <text text-anchor="middle" x="482.5" y="-213" font-family="Helvetica,sans-Serif" font-size="10.00">_ExifMnoteDataMethods</text>
 </a>
 </g>

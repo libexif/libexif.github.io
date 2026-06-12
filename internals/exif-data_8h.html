@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EXIF library (libexif) API: libexif/exif-data.h File Reference</title>
+<title>EXIF library (libexif) Internals: libexif/exif-data.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EXIF library (libexif) API<span id="projectnumber">&#160;0.6.25</span>
+   <div id="projectname">EXIF library (libexif) Internals<span id="projectnumber">&#160;0.6.26</span>
    </div>
   </td>
  </tr>
@@ -72,13 +72,23 @@ $(document).ready(function(){initNavTree('exif-data_8h.html',''); initResizable(
 <p>Defines the ExifData type and the associated functions.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="exif-byte-order_8h_source.html">libexif/exif-byte-order.h</a>&gt;</code><br />
-<code>#include &lt;libexif/exif-data-type.h&gt;</code><br />
-<code>#include &lt;libexif/exif-ifd.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exif-data-type_8h_source.html">libexif/exif-data-type.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="exif-ifd_8h_source.html">libexif/exif-ifd.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exif-log_8h_source.html">libexif/exif-log.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exif-tag_8h_source.html">libexif/exif-tag.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exif-content_8h_source.html">libexif/exif-content.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exif-mnote-data_8h_source.html">libexif/exif-mnote-data.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exif-mem_8h_source.html">libexif/exif-mem.h</a>&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for exif-data.h:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-data_8h__incl.svg" width="827" height="418"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-data_8h__dep__incl.svg" width="3727" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <p><a href="exif-data_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -96,15 +106,12 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ae62aab6698d7c078e38cd445ddcb8abf"><td class="memItemLeft" align="right" valign="top"><a id="ae62aab6698d7c078e38cd445ddcb8abf" name="ae62aab6698d7c078e38cd445ddcb8abf"></a>
-typedef struct <a class="el" href="struct__ExifData.html">_ExifData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ExifData</b></td></tr>
-<tr class="memdesc:ae62aab6698d7c078e38cd445ddcb8abf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents the entire EXIF data found in an image. <br /></td></tr>
+<tr class="memitem:ae62aab6698d7c078e38cd445ddcb8abf"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct__ExifData.html">_ExifData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a></td></tr>
+<tr class="memdesc:ae62aab6698d7c078e38cd445ddcb8abf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents the entire EXIF data found in an image.  <br /></td></tr>
 <tr class="separator:ae62aab6698d7c078e38cd445ddcb8abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97b20650f53066bfad2fcaafbaf04ff0"><td class="memItemLeft" align="right" valign="top"><a id="a97b20650f53066bfad2fcaafbaf04ff0" name="a97b20650f53066bfad2fcaafbaf04ff0"></a>
-typedef struct _ExifDataPrivate&#160;</td><td class="memItemRight" valign="bottom"><b>ExifDataPrivate</b></td></tr>
+<tr class="memitem:a97b20650f53066bfad2fcaafbaf04ff0"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct__ExifDataPrivate.html">_ExifDataPrivate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#a97b20650f53066bfad2fcaafbaf04ff0">ExifDataPrivate</a></td></tr>
 <tr class="separator:a97b20650f53066bfad2fcaafbaf04ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abca0fdd71c80ad39f90bffb27c7b3fd0"><td class="memItemLeft" align="right" valign="top"><a id="abca0fdd71c80ad39f90bffb27c7b3fd0" name="abca0fdd71c80ad39f90bffb27c7b3fd0"></a>
-typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><b>ExifDataForeachContentFunc</b>) (<a class="el" href="exif-content_8h.html#ac046cba2f9c5cfabf3ad443303090855">ExifContent</a> *, void *user_data)</td></tr>
+<tr class="memitem:abca0fdd71c80ad39f90bffb27c7b3fd0"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#abca0fdd71c80ad39f90bffb27c7b3fd0">ExifDataForeachContentFunc</a>) (<a class="el" href="exif-content_8h.html#ac046cba2f9c5cfabf3ad443303090855">ExifContent</a> *, void *user_data)</td></tr>
 <tr class="separator:abca0fdd71c80ad39f90bffb27c7b3fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
@@ -127,23 +134,20 @@ Functions</h2></td></tr>
 <tr class="memitem:abf357512a9cf7d1ef75eadef7547c227"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#abf357512a9cf7d1ef75eadef7547c227">exif_data_new_from_file</a> (const char *path)</td></tr>
 <tr class="memdesc:abf357512a9cf7d1ef75eadef7547c227"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a new <a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf" title="Represents the entire EXIF data found in an image.">ExifData</a> and load EXIF data from a JPEG file.  <br /></td></tr>
 <tr class="separator:abf357512a9cf7d1ef75eadef7547c227"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a839a01a9f7bf88ef92f9399e336832cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#a839a01a9f7bf88ef92f9399e336832cf">exif_data_new_from_data</a> (const unsigned char *data, unsigned int size)</td></tr>
+<tr class="memitem:a839a01a9f7bf88ef92f9399e336832cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#a839a01a9f7bf88ef92f9399e336832cf">exif_data_new_from_data</a> (const unsigned char *data, unsigned int <a class="el" href="exif-format_8c.html#aac71ffe03c84523594a575b2062849c3">size</a>)</td></tr>
 <tr class="memdesc:a839a01a9f7bf88ef92f9399e336832cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a new <a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf" title="Represents the entire EXIF data found in an image.">ExifData</a> and load EXIF data from a memory buffer.  <br /></td></tr>
 <tr class="separator:a839a01a9f7bf88ef92f9399e336832cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3ca622e7c30ea30eca06de3a120d84f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#ae3ca622e7c30ea30eca06de3a120d84f">exif_data_load_data</a> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *data, const unsigned char *d, unsigned int size)</td></tr>
+<tr class="memitem:ae3ca622e7c30ea30eca06de3a120d84f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#ae3ca622e7c30ea30eca06de3a120d84f">exif_data_load_data</a> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *data, const unsigned char *d, unsigned int <a class="el" href="exif-format_8c.html#aac71ffe03c84523594a575b2062849c3">size</a>)</td></tr>
 <tr class="memdesc:ae3ca622e7c30ea30eca06de3a120d84f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the <a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf" title="Represents the entire EXIF data found in an image.">ExifData</a> structure from the raw JPEG or EXIF data in the given memory buffer.  <br /></td></tr>
 <tr class="separator:ae3ca622e7c30ea30eca06de3a120d84f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5700820c7d7e2a199a9170ed3833591"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#ac5700820c7d7e2a199a9170ed3833591">exif_data_save_data</a> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *data, unsigned char **d, unsigned int *ds)</td></tr>
 <tr class="memdesc:ac5700820c7d7e2a199a9170ed3833591"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store raw EXIF data representing the <a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf" title="Represents the entire EXIF data found in an image.">ExifData</a> structure into a memory buffer.  <br /></td></tr>
 <tr class="separator:ac5700820c7d7e2a199a9170ed3833591"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41f2b9713a153809c3a19cc7007ef4e1"><td class="memItemLeft" align="right" valign="top"><a id="a41f2b9713a153809c3a19cc7007ef4e1" name="a41f2b9713a153809c3a19cc7007ef4e1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_ref</b> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *data)</td></tr>
+<tr class="memitem:a41f2b9713a153809c3a19cc7007ef4e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#a41f2b9713a153809c3a19cc7007ef4e1">exif_data_ref</a> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *data)</td></tr>
 <tr class="separator:a41f2b9713a153809c3a19cc7007ef4e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a48cbedffbb7b2fcd74407fe68f09f6"><td class="memItemLeft" align="right" valign="top"><a id="a2a48cbedffbb7b2fcd74407fe68f09f6" name="a2a48cbedffbb7b2fcd74407fe68f09f6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_unref</b> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *data)</td></tr>
+<tr class="memitem:a2a48cbedffbb7b2fcd74407fe68f09f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#a2a48cbedffbb7b2fcd74407fe68f09f6">exif_data_unref</a> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *data)</td></tr>
 <tr class="separator:a2a48cbedffbb7b2fcd74407fe68f09f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d2f8fee30176bd6460d51d33d080674"><td class="memItemLeft" align="right" valign="top"><a id="a2d2f8fee30176bd6460d51d33d080674" name="a2d2f8fee30176bd6460d51d33d080674"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *data)</td></tr>
+<tr class="memitem:a2d2f8fee30176bd6460d51d33d080674"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#a2d2f8fee30176bd6460d51d33d080674">exif_data_free</a> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *data)</td></tr>
 <tr class="separator:a2d2f8fee30176bd6460d51d33d080674"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d8d50e6a9c19d28fe8192ef7cc52777"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exif-byte-order_8h.html#af966227d69ff74eea7ecd69ca645155b">ExifByteOrder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#a2d8d50e6a9c19d28fe8192ef7cc52777">exif_data_get_byte_order</a> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *data)</td></tr>
 <tr class="memdesc:a2d8d50e6a9c19d28fe8192ef7cc52777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the byte order in use by this EXIF structure.  <br /></td></tr>
@@ -157,7 +161,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
 <tr class="memitem:a9146930a0b3ef89375790e19e1bc55b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#a9146930a0b3ef89375790e19e1bc55b2">exif_data_fix</a> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *d)</td></tr>
 <tr class="memdesc:a9146930a0b3ef89375790e19e1bc55b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fix the EXIF data to bring it into specification.  <br /></td></tr>
 <tr class="separator:a9146930a0b3ef89375790e19e1bc55b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3b39ab4a3117ca9fd7d9a1126b5d879"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#ad3b39ab4a3117ca9fd7d9a1126b5d879">exif_data_foreach_content</a> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *data, ExifDataForeachContentFunc func, void *user_data)</td></tr>
+<tr class="memitem:ad3b39ab4a3117ca9fd7d9a1126b5d879"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#ad3b39ab4a3117ca9fd7d9a1126b5d879">exif_data_foreach_content</a> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *data, <a class="el" href="exif-data_8h.html#abca0fdd71c80ad39f90bffb27c7b3fd0">ExifDataForeachContentFunc</a> func, void *user_data)</td></tr>
 <tr class="memdesc:ad3b39ab4a3117ca9fd7d9a1126b5d879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute a function on each IFD in turn.  <br /></td></tr>
 <tr class="separator:ad3b39ab4a3117ca9fd7d9a1126b5d879"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ba9149b6530d627f0074f48ca76fe3e"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#a7ba9149b6530d627f0074f48ca76fe3e">exif_data_option_get_name</a> (<a class="el" href="exif-data_8h.html#a324f86ac1d053b37aaee45d2cfbda96d">ExifDataOption</a> o)</td></tr>
@@ -172,10 +176,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
 <tr class="memitem:abe62de8c8f5a24f8847e65ca3a098da8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#abe62de8c8f5a24f8847e65ca3a098da8">exif_data_unset_option</a> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *d, <a class="el" href="exif-data_8h.html#a324f86ac1d053b37aaee45d2cfbda96d">ExifDataOption</a> o)</td></tr>
 <tr class="memdesc:abe62de8c8f5a24f8847e65ca3a098da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the given option on the given <a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf" title="Represents the entire EXIF data found in an image.">ExifData</a>.  <br /></td></tr>
 <tr class="separator:abe62de8c8f5a24f8847e65ca3a098da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe6f9020e02df0d550545b50ddcafe24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#abe6f9020e02df0d550545b50ddcafe24">exif_data_set_data_type</a> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *d, ExifDataType dt)</td></tr>
+<tr class="memitem:abe6f9020e02df0d550545b50ddcafe24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#abe6f9020e02df0d550545b50ddcafe24">exif_data_set_data_type</a> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *d, <a class="el" href="exif-data-type_8h.html#ab7d01513ff048ac5d8ae50a3e0235ce8">ExifDataType</a> dt)</td></tr>
 <tr class="memdesc:abe6f9020e02df0d550545b50ddcafe24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the data type for the given <a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf" title="Represents the entire EXIF data found in an image.">ExifData</a>.  <br /></td></tr>
 <tr class="separator:abe6f9020e02df0d550545b50ddcafe24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fb5dada09c9fdcab3eb7fe7e840ec84"><td class="memItemLeft" align="right" valign="top">ExifDataType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#a4fb5dada09c9fdcab3eb7fe7e840ec84">exif_data_get_data_type</a> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *d)</td></tr>
+<tr class="memitem:a4fb5dada09c9fdcab3eb7fe7e840ec84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exif-data-type_8h.html#ab7d01513ff048ac5d8ae50a3e0235ce8">ExifDataType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#a4fb5dada09c9fdcab3eb7fe7e840ec84">exif_data_get_data_type</a> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *d)</td></tr>
 <tr class="memdesc:a4fb5dada09c9fdcab3eb7fe7e840ec84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the data type for the given <a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf" title="Represents the entire EXIF data found in an image.">ExifData</a>.  <br /></td></tr>
 <tr class="separator:a4fb5dada09c9fdcab3eb7fe7e840ec84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbb8951da3fd646776ee4d8685b61162"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-data_8h.html#abbb8951da3fd646776ee4d8685b61162">exif_data_dump</a> (<a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *data)</td></tr>
@@ -187,6 +191,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines the ExifData type and the associated functions. </p>
+
+<p class="definition">Definition in file <a class="el" href="exif-data_8h_source.html">exif-data.h</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a984540c607eb7cfce58cf34e7374ab47" name="a984540c607eb7cfce58cf34e7374ab47"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a984540c607eb7cfce58cf34e7374ab47">&#9670;&#160;</a></span>exif_data_get_entry</h2>
@@ -213,16 +219,23 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">        (exif_content_get_entry(d-&gt;ifd[EXIF_IFD_0],t) ?                 \</div>
-<div class="line">         exif_content_get_entry(d-&gt;ifd[EXIF_IFD_0],t) :                 \</div>
-<div class="line">         exif_content_get_entry(d-&gt;ifd[EXIF_IFD_1],t) ?                 \</div>
-<div class="line">         exif_content_get_entry(d-&gt;ifd[EXIF_IFD_1],t) :                 \</div>
-<div class="line">         exif_content_get_entry(d-&gt;ifd[EXIF_IFD_EXIF],t) ?              \</div>
-<div class="line">         exif_content_get_entry(d-&gt;ifd[EXIF_IFD_EXIF],t) :              \</div>
-<div class="line">         exif_content_get_entry(d-&gt;ifd[EXIF_IFD_GPS],t) ?               \</div>
-<div class="line">         exif_content_get_entry(d-&gt;ifd[EXIF_IFD_GPS],t) :               \</div>
-<div class="line">         exif_content_get_entry(d-&gt;ifd[EXIF_IFD_INTEROPERABILITY],t) ?  \</div>
-<div class="line">         exif_content_get_entry(d-&gt;ifd[EXIF_IFD_INTEROPERABILITY],t) : NULL)</div>
+<b>Value:</b><div class="fragment"><div class="line">        (<a class="code hl_function" href="exif-content_8c.html#a5d98a5c58c31b49691694b010b29117d">exif_content_get_entry</a>(d-&gt;ifd[<a class="code hl_enumvalue" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523adba1cc10dacaad97ca9ba61d391e218c">EXIF_IFD_0</a>],t) ?                 \</div>
+<div class="line">         exif_content_get_entry(d-&gt;ifd[<a class="code hl_enumvalue" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523adba1cc10dacaad97ca9ba61d391e218c">EXIF_IFD_0</a>],t) :                 \</div>
+<div class="line">         <a class="code hl_function" href="exif-content_8c.html#a5d98a5c58c31b49691694b010b29117d">exif_content_get_entry</a>(d-&gt;<a class="code hl_variable" href="exif-ifd_8c.html#a557f08b1d90e26e072167911210c9eb1">ifd</a>[<a class="code hl_enumvalue" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a9ecbe6f6d48d2d5702aab804e3196409">EXIF_IFD_1</a>],t) ?                 \</div>
+<div class="line">         <a class="code hl_function" href="exif-content_8c.html#a5d98a5c58c31b49691694b010b29117d">exif_content_get_entry</a>(d-&gt;<a class="code hl_variable" href="exif-ifd_8c.html#a557f08b1d90e26e072167911210c9eb1">ifd</a>[<a class="code hl_enumvalue" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a9ecbe6f6d48d2d5702aab804e3196409">EXIF_IFD_1</a>],t) :                 \</div>
+<div class="line">         <a class="code hl_function" href="exif-content_8c.html#a5d98a5c58c31b49691694b010b29117d">exif_content_get_entry</a>(d-&gt;<a class="code hl_variable" href="exif-ifd_8c.html#a557f08b1d90e26e072167911210c9eb1">ifd</a>[<a class="code hl_enumvalue" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a9dce0091318fd65e7c05f1b39fa9a177">EXIF_IFD_EXIF</a>],t) ?              \</div>
+<div class="line">         <a class="code hl_function" href="exif-content_8c.html#a5d98a5c58c31b49691694b010b29117d">exif_content_get_entry</a>(d-&gt;<a class="code hl_variable" href="exif-ifd_8c.html#a557f08b1d90e26e072167911210c9eb1">ifd</a>[<a class="code hl_enumvalue" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a9dce0091318fd65e7c05f1b39fa9a177">EXIF_IFD_EXIF</a>],t) :              \</div>
+<div class="line">         <a class="code hl_function" href="exif-content_8c.html#a5d98a5c58c31b49691694b010b29117d">exif_content_get_entry</a>(d-&gt;<a class="code hl_variable" href="exif-ifd_8c.html#a557f08b1d90e26e072167911210c9eb1">ifd</a>[<a class="code hl_enumvalue" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a0ef0053cc0238dfea6770310ec478270">EXIF_IFD_GPS</a>],t) ?               \</div>
+<div class="line">         <a class="code hl_function" href="exif-content_8c.html#a5d98a5c58c31b49691694b010b29117d">exif_content_get_entry</a>(d-&gt;<a class="code hl_variable" href="exif-ifd_8c.html#a557f08b1d90e26e072167911210c9eb1">ifd</a>[<a class="code hl_enumvalue" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a0ef0053cc0238dfea6770310ec478270">EXIF_IFD_GPS</a>],t) :               \</div>
+<div class="line">         <a class="code hl_function" href="exif-content_8c.html#a5d98a5c58c31b49691694b010b29117d">exif_content_get_entry</a>(d-&gt;<a class="code hl_variable" href="exif-ifd_8c.html#a557f08b1d90e26e072167911210c9eb1">ifd</a>[<a class="code hl_enumvalue" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a87105b7ad04d314b1f8fc8478874cc29">EXIF_IFD_INTEROPERABILITY</a>],t) ?  \</div>
+<div class="line">         <a class="code hl_function" href="exif-content_8c.html#a5d98a5c58c31b49691694b010b29117d">exif_content_get_entry</a>(d-&gt;<a class="code hl_variable" href="exif-ifd_8c.html#a557f08b1d90e26e072167911210c9eb1">ifd</a>[<a class="code hl_enumvalue" href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a87105b7ad04d314b1f8fc8478874cc29">EXIF_IFD_INTEROPERABILITY</a>],t) : NULL)</div>
+<div class="ttc" id="aexif-content_8c_html_a5d98a5c58c31b49691694b010b29117d"><div class="ttname"><a href="exif-content_8c.html#a5d98a5c58c31b49691694b010b29117d">exif_content_get_entry</a></div><div class="ttdeci">ExifEntry * exif_content_get_entry(ExifContent *content, ExifTag tag)</div><div class="ttdoc">Return the ExifEntry in this IFD corresponding to the given tag.</div><div class="ttdef"><b>Definition</b> <a href="exif-content_8c_source.html#l00204">exif-content.c:204</a></div></div>
+<div class="ttc" id="aexif-ifd_8c_html_a557f08b1d90e26e072167911210c9eb1"><div class="ttname"><a href="exif-ifd_8c.html#a557f08b1d90e26e072167911210c9eb1">ifd</a></div><div class="ttdeci">ExifIfd ifd</div><div class="ttdef"><b>Definition</b> <a href="exif-ifd_8c_source.html#l00030">exif-ifd.c:30</a></div></div>
+<div class="ttc" id="aexif-ifd_8h_html_a7d1ed13ce50db58b739185faa1faf523a0ef0053cc0238dfea6770310ec478270"><div class="ttname"><a href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a0ef0053cc0238dfea6770310ec478270">EXIF_IFD_GPS</a></div><div class="ttdeci">@ EXIF_IFD_GPS</div><div class="ttdef"><b>Definition</b> <a href="exif-ifd_8h_source.html#l00035">exif-ifd.h:35</a></div></div>
+<div class="ttc" id="aexif-ifd_8h_html_a7d1ed13ce50db58b739185faa1faf523a87105b7ad04d314b1f8fc8478874cc29"><div class="ttname"><a href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a87105b7ad04d314b1f8fc8478874cc29">EXIF_IFD_INTEROPERABILITY</a></div><div class="ttdeci">@ EXIF_IFD_INTEROPERABILITY</div><div class="ttdef"><b>Definition</b> <a href="exif-ifd_8h_source.html#l00036">exif-ifd.h:36</a></div></div>
+<div class="ttc" id="aexif-ifd_8h_html_a7d1ed13ce50db58b739185faa1faf523a9dce0091318fd65e7c05f1b39fa9a177"><div class="ttname"><a href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a9dce0091318fd65e7c05f1b39fa9a177">EXIF_IFD_EXIF</a></div><div class="ttdeci">@ EXIF_IFD_EXIF</div><div class="ttdef"><b>Definition</b> <a href="exif-ifd_8h_source.html#l00034">exif-ifd.h:34</a></div></div>
+<div class="ttc" id="aexif-ifd_8h_html_a7d1ed13ce50db58b739185faa1faf523a9ecbe6f6d48d2d5702aab804e3196409"><div class="ttname"><a href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523a9ecbe6f6d48d2d5702aab804e3196409">EXIF_IFD_1</a></div><div class="ttdeci">@ EXIF_IFD_1</div><div class="ttdef"><b>Definition</b> <a href="exif-ifd_8h_source.html#l00033">exif-ifd.h:33</a></div></div>
+<div class="ttc" id="aexif-ifd_8h_html_a7d1ed13ce50db58b739185faa1faf523adba1cc10dacaad97ca9ba61d391e218c"><div class="ttname"><a href="exif-ifd_8h.html#a7d1ed13ce50db58b739185faa1faf523adba1cc10dacaad97ca9ba61d391e218c">EXIF_IFD_0</a></div><div class="ttdeci">@ EXIF_IFD_0</div><div class="ttdef"><b>Definition</b> <a href="exif-ifd_8h_source.html#l00032">exif-ifd.h:32</a></div></div>
 </div><!-- fragment -->
 <p>Return an <a class="el" href="exif-entry_8h.html#a1629f9c1b9c17765f4e5b297f91a6e45" title="Data found in one EXIF tag.">ExifEntry</a> for the given tag if found in any IFD. </p>
 <p>Each IFD is searched in turn and the first containing a tag with this number is returned.</p>
@@ -234,6 +247,59 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="exif-entry_8h.html#a1629f9c1b9c17765f4e5b297f91a6e45" title="Data found in one EXIF tag.">ExifEntry</a>* if found, else NULL if not found </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="exif-data_8h_source.html#l00252">252</a> of file <a class="el" href="exif-data_8h_source.html">exif-data.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ae62aab6698d7c078e38cd445ddcb8abf" name="ae62aab6698d7c078e38cd445ddcb8abf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae62aab6698d7c078e38cd445ddcb8abf">&#9670;&#160;</a></span>ExifData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="struct__ExifData.html">_ExifData</a> <a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Represents the entire EXIF data found in an image. </p>
+
+<p class="definition">Definition at line <a class="el" href="exif-data_8h_source.html#l00039">39</a> of file <a class="el" href="exif-data_8h_source.html">exif-data.h</a>.</p>
+
+</div>
+</div>
+<a id="abca0fdd71c80ad39f90bffb27c7b3fd0" name="abca0fdd71c80ad39f90bffb27c7b3fd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abca0fdd71c80ad39f90bffb27c7b3fd0">&#9670;&#160;</a></span>ExifDataForeachContentFunc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* ExifDataForeachContentFunc) (<a class="el" href="exif-content_8h.html#ac046cba2f9c5cfabf3ad443303090855">ExifContent</a> *, void *user_data)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-data_8h_source.html#l00162">162</a> of file <a class="el" href="exif-data_8h_source.html">exif-data.h</a>.</p>
+
+</div>
+</div>
+<a id="a97b20650f53066bfad2fcaafbaf04ff0" name="a97b20650f53066bfad2fcaafbaf04ff0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97b20650f53066bfad2fcaafbaf04ff0">&#9670;&#160;</a></span>ExifDataPrivate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="struct__ExifDataPrivate.html">_ExifDataPrivate</a> <a class="el" href="exif-data_8h.html#a97b20650f53066bfad2fcaafbaf04ff0">ExifDataPrivate</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-data_8h_source.html#l00040">40</a> of file <a class="el" href="exif-data_8h_source.html">exif-data.h</a>.</p>
 
 </div>
 </div>
@@ -259,6 +325,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
 <tr><td class="fieldname"><a id="a324f86ac1d053b37aaee45d2cfbda96da02a9ae63a51323c42968d1612e8215e7" name="a324f86ac1d053b37aaee45d2cfbda96da02a9ae63a51323c42968d1612e8215e7"></a>EXIF_DATA_OPTION_DONT_CHANGE_MAKER_NOTE&#160;</td><td class="fielddoc"><p>Leave the MakerNote alone, which could cause it to be corrupted. </p>
 </td></tr>
 </table>
+
+<p class="definition">Definition at line <a class="el" href="exif-data_8h_source.html#l00175">175</a> of file <a class="el" href="exif-data_8h_source.html">exif-data.h</a>.</p>
 
 </div>
 </div>
@@ -288,7 +356,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
   </dd>
 </dl>
 
-<p class="reference">References <a class="el" href="struct__ExifData.html#a6adaa7f443903d8fc2d2b232c67bf660">_ExifData::data</a>, <a class="el" href="struct__ExifData.html#a93efef6710d8b867b743ed0a152d5293">_ExifData::ifd</a>, and <a class="el" href="struct__ExifData.html#a83a9d29c7769854ea86dd48979f8b21b">_ExifData::size</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01158">1158</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-content_8h_source.html#l00045">_ExifContent::count</a>, <a class="el" href="exif-data_8h_source.html#l00053">_ExifData::data</a>, <a class="el" href="exif-content_8c_source.html#l00122">exif_content_dump()</a>, <a class="el" href="exif-ifd_8h_source.html#l00037">EXIF_IFD_COUNT</a>, <a class="el" href="exif-ifd_8c_source.html#l00042">exif_ifd_get_name()</a>, <a class="el" href="exif-data_8h_source.html#l00050">_ExifData::ifd</a>, and <a class="el" href="exif-data_8h_source.html#l00056">_ExifData::size</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>, and <a class="el" href="test-mem_8c_source.html#l00033">main()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-data_8h_abbb8951da3fd646776ee4d8685b61162_cgraph.svg" width="1524" height="700"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -309,13 +386,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
 </div><div class="memdoc">
 
 <p>Fix the EXIF data to bring it into specification. </p>
-<p>Call exif_content_fix on each IFD to fix existing entries, create any new entries that are mandatory but do not yet exist, and remove any entries that are not allowed.</p>
+<p>Call <a class="el" href="exif-content_8c.html#a16c54e0f88067820efd37cd3088a9c70" title="Fix the IFD to bring it into specification.">exif_content_fix</a> on each IFD to fix existing entries, create any new entries that are mandatory but do not yet exist, and remove any entries that are not allowed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">d</td><td>EXIF data </td></tr>
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01354">1354</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-data_8c_source.html#l01194">exif_data_foreach_content()</a>, and <a class="el" href="exif-data_8c_source.html#l01326">fix_func()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>, <a class="el" href="test-null_8c_source.html#l00222">entry_null_test()</a>, <a class="el" href="exif-data_8c_source.html#l00856">exif_data_load_data()</a>, and <a class="el" href="test-mem_8c_source.html#l00033">main()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-data_8h_a9146930a0b3ef89375790e19e1bc55b2_cgraph.svg" width="1827" height="1271"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -334,7 +422,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ExifDataForeachContentFunc&#160;</td>
+          <td class="paramtype"><a class="el" href="exif-data_8h.html#abca0fdd71c80ad39f90bffb27c7b3fd0">ExifDataForeachContentFunc</a>&#160;</td>
           <td class="paramname"><em>func</em>, </td>
         </tr>
         <tr>
@@ -361,7 +449,40 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
   </dd>
 </dl>
 
-<p class="reference">References <a class="el" href="struct__ExifData.html#a93efef6710d8b867b743ed0a152d5293">_ExifData::ifd</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01194">1194</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-ifd_8h_source.html#l00037">EXIF_IFD_COUNT</a>, and <a class="el" href="exif-data_8h_source.html#l00050">_ExifData::ifd</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>, <a class="el" href="exif-data_8c_source.html#l01354">exif_data_fix()</a>, <a class="el" href="exif-data_8c_source.html#l01229">exif_data_set_byte_order()</a>, <a class="el" href="test-fuzzer-persistent_8c_source.html#l00107">main()</a>, <a class="el" href="test-fuzzer_8c_source.html#l00106">test_parse()</a>, <a class="el" href="test-parse-from-data_8c_source.html#l00087">test_parse()</a>, and <a class="el" href="test-parse_8c_source.html#l00083">test_parse()</a>.</p>
+
+</div>
+</div>
+<a id="a2d2f8fee30176bd6460d51d33d080674" name="a2d2f8fee30176bd6460d51d33d080674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d2f8fee30176bd6460d51d33d080674">&#9670;&#160;</a></span>exif_data_free()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exif_data_free </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01121">1121</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-data_8h_source.html#l00053">_ExifData::data</a>, <a class="el" href="exif-content_8c_source.html#l00090">exif_content_unref()</a>, <a class="el" href="exif-ifd_8h_source.html#l00037">EXIF_IFD_COUNT</a>, <a class="el" href="exif-log_8c_source.html#l00106">exif_log_unref()</a>, <a class="el" href="exif-mem_8c_source.html#l00091">exif_mem_free()</a>, <a class="el" href="exif-mem_8c_source.html#l00083">exif_mem_unref()</a>, <a class="el" href="exif-mnote-data_8c_source.html#l00073">exif_mnote_data_unref()</a>, <a class="el" href="exif-data_8h_source.html#l00050">_ExifData::ifd</a>, <a class="el" href="exif-data_8c_source.html#l00063">_ExifDataPrivate::log</a>, <a class="el" href="exif-data_8c_source.html#l00061">_ExifDataPrivate::md</a>, <a class="el" href="exif-data_8c_source.html#l00064">_ExifDataPrivate::mem</a>, and <a class="el" href="exif-data_8h_source.html#l00058">_ExifData::priv</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="exif-data_8c_source.html#l00109">exif_data_new_mem()</a>, and <a class="el" href="exif-data_8c_source.html#l01110">exif_data_unref()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-data_8h_a2d2f8fee30176bd6460d51d33d080674_cgraph.svg" width="1255" height="362"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -390,6 +511,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>byte order </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01185">1185</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-data_8c_source.html#l00059">_ExifDataPrivate::order</a>, and <a class="el" href="exif-data_8h_source.html#l00058">_ExifData::priv</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>, <a class="el" href="exif-entry_8c_source.html#l00207">exif_entry_fix()</a>, <a class="el" href="exif-entry_8c_source.html#l00453">exif_entry_format_value()</a>, <a class="el" href="exif-entry_8c_source.html#l00854">exif_entry_get_value()</a>, <a class="el" href="exif-entry_8c_source.html#l01468">exif_entry_initialize()</a>, <a class="el" href="test-value_8c_source.html#l00120">main()</a>, <a class="el" href="test-fuzzer-persistent_8c_source.html#l00075">test_exif_data()</a>, <a class="el" href="test-fuzzer_8c_source.html#l00072">test_exif_data()</a>, <a class="el" href="test-mnote_8c_source.html#l00037">test_exif_data()</a>, <a class="el" href="test-parse-from-data_8c_source.html#l00087">test_parse()</a>, and <a class="el" href="test-parse_8c_source.html#l00083">test_parse()</a>.</p>
+
 </div>
 </div>
 <a id="a4fb5dada09c9fdcab3eb7fe7e840ec84" name="a4fb5dada09c9fdcab3eb7fe7e840ec84"></a>
@@ -399,7 +526,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ExifDataType exif_data_get_data_type </td>
+          <td class="memname"><a class="el" href="exif-data-type_8h.html#ab7d01513ff048ac5d8ae50a3e0235ce8">ExifDataType</a> exif_data_get_data_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *&#160;</td>
           <td class="paramname"><em>d</em></td><td>)</td>
@@ -415,7 +542,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>data type, or EXIF_DATA_TYPE_UNKNOWN on error </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>data type, or <a class="el" href="exif-data-type_8h.html#ab7d01513ff048ac5d8ae50a3e0235ce8a82dbfdab370714537d6a62d1c0355ed6">EXIF_DATA_TYPE_UNKNOWN</a> on error </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01369">1369</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-data_8c_source.html#l00072">_ExifDataPrivate::data_type</a>, <a class="el" href="exif-data-type_8h_source.html#l00041">EXIF_DATA_TYPE_UNKNOWN</a>, and <a class="el" href="exif-data_8h_source.html#l00058">_ExifData::priv</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>, <a class="el" href="exif-content_8c_source.html#l00286">exif_content_fix()</a>, and <a class="el" href="exif-content_8c_source.html#l00268">remove_not_recorded()</a>.</p>
 
 </div>
 </div>
@@ -444,6 +577,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>MakerNote data, or NULL if not found or not supported </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l00092">92</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-data_8c_source.html#l00061">_ExifDataPrivate::md</a>, and <a class="el" href="exif-data_8h_source.html#l00058">_ExifData::priv</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>, <a class="el" href="test-parse-from-data_8c_source.html#l00065">dump_makernote()</a>, <a class="el" href="test-parse_8c_source.html#l00061">dump_makernote()</a>, <a class="el" href="test-fuzzer-persistent_8c_source.html#l00075">test_exif_data()</a>, <a class="el" href="test-fuzzer_8c_source.html#l00072">test_exif_data()</a>, and <a class="el" href="test-mnote_8c_source.html#l00037">test_exif_data()</a>.</p>
 
 </div>
 </div>
@@ -490,7 +629,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
   </dd>
 </dl>
 
-<p class="reference">References <a class="el" href="exif-byte-order_8h.html#af966227d69ff74eea7ecd69ca645155ba851fef40a65a105b066115210a6b40b9">EXIF_BYTE_ORDER_INTEL</a>, <a class="el" href="exif-byte-order_8h.html#af966227d69ff74eea7ecd69ca645155bad71d87054b55fd62b0eed2c2c5e879b1">EXIF_BYTE_ORDER_MOTOROLA</a>, and <a class="el" href="exif-data_8h.html#a324f86ac1d053b37aaee45d2cfbda96dae8470cc4acd5755528f7ff36ba168023">EXIF_DATA_OPTION_FOLLOW_SPECIFICATION</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l00856">856</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="i18n_8h_source.html#l00050">_</a>, <a class="el" href="exif-byte-order_8h_source.html#l00037">EXIF_BYTE_ORDER_INTEL</a>, <a class="el" href="exif-byte-order_8h_source.html#l00035">EXIF_BYTE_ORDER_MOTOROLA</a>, <a class="el" href="exif-data_8c_source.html#l01354">exif_data_fix()</a>, <a class="el" href="exif-data_8c_source.html#l00398">exif_data_load_data_content()</a>, <a class="el" href="exif-data_8h_source.html#l00180">EXIF_DATA_OPTION_FOLLOW_SPECIFICATION</a>, <a class="el" href="exif-utils_8c_source.html#l00167">exif_get_long()</a>, <a class="el" href="exif-utils_8c_source.html#l00104">exif_get_short()</a>, <a class="el" href="exif-ifd_8h_source.html#l00032">EXIF_IFD_0</a>, <a class="el" href="exif-ifd_8h_source.html#l00033">EXIF_IFD_1</a>, <a class="el" href="exif-log_8c_source.html#l00137">exif_log()</a>, <a class="el" href="exif-log_8h_source.html#l00060">EXIF_LOG_CODE_CORRUPT_DATA</a>, <a class="el" href="exif-log_8h_source.html#l00058">EXIF_LOG_CODE_DEBUG</a>, <a class="el" href="exif-data_8c_source.html#l00055">ExifHeader</a>, <a class="el" href="exif-data_8c_source.html#l00801">interpret_maker_note()</a>, <a class="el" href="exif-data_8c_source.html#l00051">JPEG_MARKER_APP1</a>, <a class="el" href="exif-data_8c_source.html#l00047">JPEG_MARKER_SOI</a>, <a class="el" href="exif-data_8c_source.html#l00063">_ExifDataPrivate::log</a>, <a class="el" href="exif-data_8c_source.html#l00851">LOG_TOO_SMALL</a>, <a class="el" href="exif-data_8c_source.html#l00071">_ExifDataPrivate::options</a>, <a class="el" href="exif-data_8c_source.html#l00059">_ExifDataPrivate::order</a>, and <a class="el" href="exif-data_8h_source.html#l00058">_ExifData::priv</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>, <a class="el" href="exif-data_8c_source.html#l00156">exif_data_new_from_data()</a>, and <a class="el" href="exif-loader_8c_source.html#l00434">exif_loader_get_data()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-data_8h_ae3ca622e7c30ea30eca06de3a120d84f_cgraph.svg" width="1746" height="1882"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -529,7 +677,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
   </dd>
 </dl>
 
-<p class="reference">References <a class="el" href="struct__ExifData.html#a93efef6710d8b867b743ed0a152d5293">_ExifData::ifd</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01245">1245</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-content_8c_source.html#l00231">exif_content_log()</a>, <a class="el" href="exif-ifd_8h_source.html#l00037">EXIF_IFD_COUNT</a>, <a class="el" href="exif-log_8c_source.html#l00099">exif_log_ref()</a>, <a class="el" href="exif-log_8c_source.html#l00106">exif_log_unref()</a>, <a class="el" href="exif-data_8h_source.html#l00050">_ExifData::ifd</a>, <a class="el" href="exif-data_8c_source.html#l00063">_ExifDataPrivate::log</a>, and <a class="el" href="exif-data_8h_source.html#l00058">_ExifData::priv</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>, <a class="el" href="exif-loader_8c_source.html#l00434">exif_loader_get_data()</a>, <a class="el" href="test-fuzzer-persistent_8c_source.html#l00107">main()</a>, and <a class="el" href="test-fuzzer_8c_source.html#l00106">test_parse()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-data_8h_af0d9d41ffeb6cd98906cd5ba5819c5ef_cgraph.svg" width="964" height="111"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -552,6 +709,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
 <p>Allocate a new <a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf" title="Represents the entire EXIF data found in an image.">ExifData</a>. </p>
 <p>The <a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf" title="Represents the entire EXIF data found in an image.">ExifData</a> contains an empty <a class="el" href="exif-content_8h.html#ac046cba2f9c5cfabf3ad443303090855" title="Holds all EXIF tags in a single IFD.">ExifContent</a> for each IFD and the default set of options, which has <a class="el" href="exif-data_8h.html#a324f86ac1d053b37aaee45d2cfbda96da37a62c4c36dfb4d533338062a4040dee" title="Act as though unknown tags are not present.">EXIF_DATA_OPTION_IGNORE_UNKNOWN_TAGS</a> and <a class="el" href="exif-data_8h.html#a324f86ac1d053b37aaee45d2cfbda96dae8470cc4acd5755528f7ff36ba168023" title="Fix the EXIF tags to follow the spec.">EXIF_DATA_OPTION_FOLLOW_SPECIFICATION</a> set.</p>
 <dl class="section return"><dt>Returns</dt><dd>allocated <a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf" title="Represents the entire EXIF data found in an image.">ExifData</a>, or NULL on error </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l00098">98</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-data_8c_source.html#l00109">exif_data_new_mem()</a>, <a class="el" href="exif-mem_8c_source.html#l00117">exif_mem_new_default()</a>, and <a class="el" href="exif-mem_8c_source.html#l00083">exif_mem_unref()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>, <a class="el" href="test-null_8c_source.html#l00222">entry_null_test()</a>, <a class="el" href="exif-data_8c_source.html#l00156">exif_data_new_from_data()</a>, and <a class="el" href="test-gps_8c_source.html#l00116">main()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-data_8h_a7ff9a56ae2fe853f58f693152471e4a5_cgraph.svg" width="1710" height="924"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -591,6 +759,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>allocated <a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf" title="Represents the entire EXIF data found in an image.">ExifData</a>, or NULL on error </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l00156">156</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-data_8c_source.html#l00856">exif_data_load_data()</a>, <a class="el" href="exif-data_8c_source.html#l00098">exif_data_new()</a>, and <a class="el" href="exif-format_8c_source.html#l00037">size</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>, <a class="el" href="test-fuzzer-persistent_8c_source.html#l00107">main()</a>, <a class="el" href="test-mnote_8c_source.html#l00079">main()</a>, and <a class="el" href="test-parse-from-data_8c_source.html#l00087">test_parse()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-data_8h_a839a01a9f7bf88ef92f9399e336832cf_cgraph.svg" width="1754" height="1983"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
 <a id="abf357512a9cf7d1ef75eadef7547c227" name="abf357512a9cf7d1ef75eadef7547c227"></a>
@@ -619,6 +798,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>allocated <a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf" title="Represents the entire EXIF data found in an image.">ExifData</a>, or NULL on error </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01087">1087</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-loader_8c_source.html#l00434">exif_loader_get_data()</a>, <a class="el" href="exif-loader_8c_source.html#l00360">exif_loader_new()</a>, <a class="el" href="exif-loader_8c_source.html#l00412">exif_loader_unref()</a>, and <a class="el" href="exif-loader_8c_source.html#l00123">exif_loader_write_file()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-extract_8c_source.html#l00033">main()</a>, <a class="el" href="test-mnote_8c_source.html#l00079">main()</a>, <a class="el" href="test-fuzzer_8c_source.html#l00106">test_parse()</a>, <a class="el" href="test-parse-from-data_8c_source.html#l00087">test_parse()</a>, and <a class="el" href="test-parse_8c_source.html#l00083">test_parse()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-data_8h_abf357512a9cf7d1ef75eadef7547c227_cgraph.svg" width="1546" height="1775"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
 <a id="adc0bf3d93963caf8fd68cc9fbba2b4a5" name="adc0bf3d93963caf8fd68cc9fbba2b4a5"></a>
@@ -641,7 +831,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
 <p>The <a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf" title="Represents the entire EXIF data found in an image.">ExifData</a> contains an empty <a class="el" href="exif-content_8h.html#ac046cba2f9c5cfabf3ad443303090855" title="Holds all EXIF tags in a single IFD.">ExifContent</a> for each IFD and the default set of options, which has <a class="el" href="exif-data_8h.html#a324f86ac1d053b37aaee45d2cfbda96da37a62c4c36dfb4d533338062a4040dee" title="Act as though unknown tags are not present.">EXIF_DATA_OPTION_IGNORE_UNKNOWN_TAGS</a> and <a class="el" href="exif-data_8h.html#a324f86ac1d053b37aaee45d2cfbda96dae8470cc4acd5755528f7ff36ba168023" title="Fix the EXIF tags to follow the spec.">EXIF_DATA_OPTION_FOLLOW_SPECIFICATION</a> set.</p>
 <dl class="section return"><dt>Returns</dt><dd>allocated <a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf" title="Represents the entire EXIF data found in an image.">ExifData</a>, or NULL on error </dd></dl>
 
-<p class="reference">References <a class="el" href="exif-data_8h.html#a324f86ac1d053b37aaee45d2cfbda96dae8470cc4acd5755528f7ff36ba168023">EXIF_DATA_OPTION_FOLLOW_SPECIFICATION</a>, <a class="el" href="exif-data_8h.html#a324f86ac1d053b37aaee45d2cfbda96da37a62c4c36dfb4d533338062a4040dee">EXIF_DATA_OPTION_IGNORE_UNKNOWN_TAGS</a>, <a class="el" href="struct__ExifData.html#a93efef6710d8b867b743ed0a152d5293">_ExifData::ifd</a>, and <a class="el" href="struct__ExifContent.html#aae965558ea5c98783c4c2418364aabea">_ExifContent::parent</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l00109">109</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-content_8c_source.html#l00056">exif_content_new_mem()</a>, <a class="el" href="exif-data_8c_source.html#l01121">exif_data_free()</a>, <a class="el" href="exif-data_8h_source.html#l00180">EXIF_DATA_OPTION_FOLLOW_SPECIFICATION</a>, <a class="el" href="exif-data_8h_source.html#l00177">EXIF_DATA_OPTION_IGNORE_UNKNOWN_TAGS</a>, <a class="el" href="exif-data_8c_source.html#l01360">exif_data_set_data_type()</a>, <a class="el" href="exif-data_8c_source.html#l01308">exif_data_set_option()</a>, <a class="el" href="exif-data-type_8h_source.html#l00039">EXIF_DATA_TYPE_COUNT</a>, <a class="el" href="exif-ifd_8h_source.html#l00037">EXIF_IFD_COUNT</a>, <a class="el" href="exif-mem_8c_source.html#l00101">exif_mem_alloc()</a>, <a class="el" href="exif-mem_8c_source.html#l00091">exif_mem_free()</a>, <a class="el" href="exif-mem_8c_source.html#l00076">exif_mem_ref()</a>, <a class="el" href="exif-data_8h_source.html#l00050">_ExifData::ifd</a>, <a class="el" href="exif-data_8c_source.html#l00064">_ExifDataPrivate::mem</a>, <a class="el" href="exif-content_8h_source.html#l00048">_ExifContent::parent</a>, <a class="el" href="exif-data_8h_source.html#l00058">_ExifData::priv</a>, and <a class="el" href="exif-data_8c_source.html#l00066">_ExifDataPrivate::ref_count</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>, <a class="el" href="exif-data_8c_source.html#l00098">exif_data_new()</a>, and <a class="el" href="exif-loader_8c_source.html#l00434">exif_loader_get_data()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-data_8h_adc0bf3d93963caf8fd68cc9fbba2b4a5_cgraph.svg" width="1528" height="531"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -670,6 +869,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>verbose localized textual description of the option, or NULL if unknown </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01297">1297</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="i18n_8h_source.html#l00050">_</a>, <a class="el" href="exif-data_8c_source.html#l01272">description</a>, <a class="el" href="exif-data_8c.html#ab19360fe4502a3b2c6d9b67f81133565">exif_data_option</a>, and <a class="el" href="exif-data_8c_source.html#l01270">option</a>.</p>
+
 </div>
 </div>
 <a id="a7ba9149b6530d627f0074f48ca76fe3e" name="a7ba9149b6530d627f0074f48ca76fe3e"></a>
@@ -696,6 +899,34 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>localized textual description of the option, or NULL if unknown </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01286">1286</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="i18n_8h_source.html#l00050">_</a>, <a class="el" href="exif-data_8c.html#ab19360fe4502a3b2c6d9b67f81133565">exif_data_option</a>, <a class="el" href="exif-data_8c_source.html#l01271">name</a>, and <a class="el" href="exif-data_8c_source.html#l01270">option</a>.</p>
+
+</div>
+</div>
+<a id="a41f2b9713a153809c3a19cc7007ef4e1" name="a41f2b9713a153809c3a19cc7007ef4e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41f2b9713a153809c3a19cc7007ef4e1">&#9670;&#160;</a></span>exif_data_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exif_data_ref </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01101">1101</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-data_8h_source.html#l00058">_ExifData::priv</a>, and <a class="el" href="exif-data_8c_source.html#l00066">_ExifDataPrivate::ref_count</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>.</p>
 
 </div>
 </div>
@@ -742,7 +973,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
   </dd>
 </dl>
 
-<p class="reference">References <a class="el" href="exif-byte-order_8h.html#af966227d69ff74eea7ecd69ca645155ba851fef40a65a105b066115210a6b40b9">EXIF_BYTE_ORDER_INTEL</a>, and <a class="el" href="struct__ExifData.html#a93efef6710d8b867b743ed0a152d5293">_ExifData::ifd</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01042">1042</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-byte-order_8h_source.html#l00037">EXIF_BYTE_ORDER_INTEL</a>, <a class="el" href="exif-data_8c_source.html#l00076">exif_data_alloc()</a>, <a class="el" href="exif-data_8c_source.html#l00573">exif_data_save_data_content()</a>, <a class="el" href="exif-ifd_8h_source.html#l00032">EXIF_IFD_0</a>, <a class="el" href="exif-log_8c_source.html#l00137">exif_log()</a>, <a class="el" href="exif-log_8h_source.html#l00058">EXIF_LOG_CODE_DEBUG</a>, <a class="el" href="exif-utils_8c_source.html#l00173">exif_set_long()</a>, <a class="el" href="exif-utils_8c_source.html#l00126">exif_set_short()</a>, <a class="el" href="exif-data_8c_source.html#l00055">ExifHeader</a>, <a class="el" href="exif-data_8h_source.html#l00050">_ExifData::ifd</a>, <a class="el" href="exif-data_8c_source.html#l00063">_ExifDataPrivate::log</a>, <a class="el" href="exif-data_8c_source.html#l00059">_ExifDataPrivate::order</a>, and <a class="el" href="exif-data_8h_source.html#l00058">_ExifData::priv</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>, <a class="el" href="test-extract_8c_source.html#l00033">main()</a>, <a class="el" href="test-mnote_8c_source.html#l00079">main()</a>, <a class="el" href="test-mem_8c_source.html#l00033">main()</a>, and <a class="el" href="test-fuzzer_8c_source.html#l00106">test_parse()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-data_8h_ac5700820c7d7e2a199a9170ed3833591_cgraph.svg" width="1138" height="606"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 
 </div>
 </div>
@@ -782,6 +1022,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01229">1229</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-data_8c_source.html#l01223">content_set_byte_order()</a>, <a class="el" href="exif-data_8c_source.html#l01194">exif_data_foreach_content()</a>, <a class="el" href="exif-mnote-data_8c_source.html#l00098">exif_mnote_data_set_byte_order()</a>, <a class="el" href="exif-data_8c_source.html#l00061">_ExifDataPrivate::md</a>, <a class="el" href="exif-data_8c_source.html#l01208">_ByteOrderChangeData::new</a>, <a class="el" href="exif-data_8c_source.html#l01208">_ByteOrderChangeData::old</a>, <a class="el" href="exif-data_8c_source.html#l00059">_ExifDataPrivate::order</a>, and <a class="el" href="exif-data_8h_source.html#l00058">_ExifData::priv</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>, <a class="el" href="test-fuzzer-persistent_8c_source.html#l00107">main()</a>, <a class="el" href="test-fuzzer_8c_source.html#l00106">test_parse()</a>, <a class="el" href="test-parse-from-data_8c_source.html#l00087">test_parse()</a>, and <a class="el" href="test-parse_8c_source.html#l00083">test_parse()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-data_8h_a0cb36f43b46dabad15aca7378eefe75a_cgraph.svg" width="1366" height="631"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
 <a id="abe6f9020e02df0d550545b50ddcafe24" name="abe6f9020e02df0d550545b50ddcafe24"></a>
@@ -799,7 +1050,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ExifDataType&#160;</td>
+          <td class="paramtype"><a class="el" href="exif-data-type_8h.html#ab7d01513ff048ac5d8ae50a3e0235ce8">ExifDataType</a>&#160;</td>
           <td class="paramname"><em>dt</em>&#160;</td>
         </tr>
         <tr>
@@ -818,6 +1069,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01360">1360</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-data_8c_source.html#l00072">_ExifDataPrivate::data_type</a>, and <a class="el" href="exif-data_8h_source.html#l00058">_ExifData::priv</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>, <a class="el" href="exif-data_8c_source.html#l00109">exif_data_new_mem()</a>, and <a class="el" href="test-mem_8c_source.html#l00033">main()</a>.</p>
 
 </div>
 </div>
@@ -856,6 +1113,41 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01308">1308</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-data_8c_source.html#l00071">_ExifDataPrivate::options</a>, and <a class="el" href="exif-data_8h_source.html#l00058">_ExifData::priv</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>, and <a class="el" href="exif-data_8c_source.html#l00109">exif_data_new_mem()</a>.</p>
+
+</div>
+</div>
+<a id="a2a48cbedffbb7b2fcd74407fe68f09f6" name="a2a48cbedffbb7b2fcd74407fe68f09f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a48cbedffbb7b2fcd74407fe68f09f6">&#9670;&#160;</a></span>exif_data_unref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exif_data_unref </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="exif-data_8h.html#ae62aab6698d7c078e38cd445ddcb8abf">ExifData</a> *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01110">1110</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-data_8c_source.html#l01121">exif_data_free()</a>, <a class="el" href="exif-data_8h_source.html#l00058">_ExifData::priv</a>, and <a class="el" href="exif-data_8c_source.html#l00066">_ExifDataPrivate::ref_count</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>, <a class="el" href="test-null_8c_source.html#l00222">entry_null_test()</a>, <a class="el" href="test-extract_8c_source.html#l00033">main()</a>, <a class="el" href="test-mnote_8c_source.html#l00079">main()</a>, <a class="el" href="test-gps_8c_source.html#l00116">main()</a>, <a class="el" href="test-mnote_8c_source.html#l00037">test_exif_data()</a>, <a class="el" href="test-fuzzer_8c_source.html#l00106">test_parse()</a>, <a class="el" href="test-parse-from-data_8c_source.html#l00087">test_parse()</a>, and <a class="el" href="test-parse_8c_source.html#l00083">test_parse()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="exif-data_8h_a2a48cbedffbb7b2fcd74407fe68f09f6_cgraph.svg" width="1427" height="362"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
 </div>
 </div>
 <a id="abe62de8c8f5a24f8847e65ca3a098da8" name="abe62de8c8f5a24f8847e65ca3a098da8"></a>
@@ -893,16 +1185,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_data_free</b> (<
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="exif-data_8c_source.html#l01317">1317</a> of file <a class="el" href="exif-data_8c_source.html">exif-data.c</a>.</p>
+
+<p class="reference">References <a class="el" href="exif-data_8c_source.html#l00071">_ExifDataPrivate::options</a>, and <a class="el" href="exif-data_8h_source.html#l00058">_ExifData::priv</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="test-null_8c_source.html#l00094">data_null_test()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="dir_04d2bd150f7cc849eeec70b9b0fdccb1.html">libexif</a></li><li class="navelem"><a class="el" href="exif-data_8h.html">exif-data.h</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7 </li>
-  </ul>
-</div>
+
+<!-- Copyright (C) 2009-2017 Dan Fandrich <dan@coneharvesters.com>
+     SPDX-License-Identifier: LGPL-2.0-or-later -->
+<hr size="1">
+<address style="text-align: right;">
+<a href="https://libexif.github.io" target="_top">libexif</a>
+<small>Generated by&nbsp;<a href="http://www.doxygen.org/" target="_top"><img src="doxygen.png" alt="doxygen" align="middle" border="0">
+</a>
+</small></address>
 </body>
 </html>

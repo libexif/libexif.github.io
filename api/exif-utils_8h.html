@@ -22,7 +22,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EXIF library (libexif) API<span id="projectnumber">&#160;0.6.25</span>
+   <div id="projectname">EXIF library (libexif) API<span id="projectnumber">&#160;0.6.26</span>
    </div>
   </td>
  </tr>
@@ -168,9 +168,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aa88a2d05131c7073aafdc4cd4ae709b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-utils_8h.html#aa88a2d05131c7073aafdc4cd4ae709b3">exif_set_srational</a> (unsigned char *b, <a class="el" href="exif-byte-order_8h.html#af966227d69ff74eea7ecd69ca645155b">ExifByteOrder</a> order, <a class="el" href="structExifSRational.html">ExifSRational</a> value)</td></tr>
 <tr class="memdesc:aa88a2d05131c7073aafdc4cd4ae709b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store an <a class="el" href="structExifSRational.html" title="EXIF Signed Rational data type.">ExifSRational</a> value into memory in EXIF format.  <br /></td></tr>
 <tr class="separator:aa88a2d05131c7073aafdc4cd4ae709b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af43ad07a0e309c42ead4897c29319f4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-utils_8h.html#af43ad07a0e309c42ead4897c29319f4c">exif_convert_utf16_to_utf8</a> (char *out, const unsigned char *in, int maxlen)</td></tr>
-<tr class="memdesc:af43ad07a0e309c42ead4897c29319f4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function converts rather UCS-2LE than UTF-16 to UTF-8.  <br /></td></tr>
-<tr class="separator:af43ad07a0e309c42ead4897c29319f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c51156312ff6ca97f4d587f776ded8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exif-utils_8h.html#a0c51156312ff6ca97f4d587f776ded8f">exif_convert_utf16_to_utf8</a> (char *out, unsigned int outlen, const unsigned char *in, unsigned int inlen)</td></tr>
+<tr class="memdesc:a0c51156312ff6ca97f4d587f776ded8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function converts rather UCS-2LE than UTF-16 to UTF-8.  <br /></td></tr>
+<tr class="separator:a0c51156312ff6ca97f4d587f776ded8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72ec39e4434b91da06044a5c5a1bc0a0"><td class="memItemLeft" align="right" valign="top"><a id="a72ec39e4434b91da06044a5c5a1bc0a0" name="a72ec39e4434b91da06044a5c5a1bc0a0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_array_set_byte_order</b> (<a class="el" href="exif-format_8h.html#a761152047d73b4a9fcdc4e2051b817d2">ExifFormat</a>, unsigned char *, unsigned int, <a class="el" href="exif-byte-order_8h.html#af966227d69ff74eea7ecd69ca645155b">ExifByteOrder</a> o_orig, <a class="el" href="exif-byte-order_8h.html#af966227d69ff74eea7ecd69ca645155b">ExifByteOrder</a> o_new)</td></tr>
 <tr class="separator:a72ec39e4434b91da06044a5c5a1bc0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,8 +194,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_array_set_byte_o
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="af43ad07a0e309c42ead4897c29319f4c" name="af43ad07a0e309c42ead4897c29319f4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af43ad07a0e309c42ead4897c29319f4c">&#9670;&#160;</a></span>exif_convert_utf16_to_utf8()</h2>
+<a id="a0c51156312ff6ca97f4d587f776ded8f" name="a0c51156312ff6ca97f4d587f776ded8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c51156312ff6ca97f4d587f776ded8f">&#9670;&#160;</a></span>exif_convert_utf16_to_utf8()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -209,14 +209,20 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>exif_array_set_byte_o
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>outlen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const unsigned char *&#160;</td>
           <td class="paramname"><em>in</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>maxlen</em>&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>inlen</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

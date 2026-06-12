@@ -1,0 +1,133 @@
+<map id="fix_func" name="fix_func">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,359,80,384"/>
+<area shape="rect" id="Node000002" href="$exif-content_8c.html#a16c54e0f88067820efd37cd3088a9c70" title="Fix the IFD to bring it into specification." alt="" coords="128,409,255,435"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,381,139,401,137,406,80,387"/>
+<area shape="rect" id="Node000006" href="$exif-log_8c.html#a025d4a5d96544913ea6f6ebbec69cb68" title=" " alt="" coords="579,407,654,432"/>
+<area shape="poly" id="edge81_Node000001_Node000006" title=" " alt="" coords="80,367,252,364,364,368,478,379,565,400,564,405,477,385,364,373,252,369,80,372"/>
+<area shape="rect" id="Node000016" href="$exif-content_8c.html#a102270386bc7fdc7296e243967f1a2f4" title="Return the IFD number in which the given ExifContent is found." alt="" coords="313,5,467,31"/>
+<area shape="poly" id="edge79_Node000001_Node000016" title=" " alt="" coords="48,357,80,299,134,214,170,167,209,121,253,78,301,41,311,35,314,40,304,46,257,82,213,125,174,171,139,217,84,302,53,360"/>
+<area shape="rect" id="Node000063" href="$exif-content_8c.html#a04f76832f82ea29ce05cd7c4e51932b1" title="Remove an EXIF tag from an IFD." alt="" coords="537,625,697,665"/>
+<area shape="poly" id="edge80_Node000001_Node000063" title=" " alt="" coords="54,383,87,432,143,500,177,537,216,571,259,602,304,626,357,644,414,653,470,656,521,654,522,660,470,661,414,659,356,649,302,631,256,606,213,575,174,540,139,504,83,435,50,386"/>
+<area shape="rect" id="Node000003" href="$exif-content_8c.html#a89876388ea2f732f8c8cd2c8ef199908" title="Add an EXIF tag to an IFD." alt="" coords="303,257,477,283"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="208,407,358,290,361,294,211,411"/>
+<area shape="rect" id="Node000004" href="$exif-content_8c.html#a5d98a5c58c31b49691694b010b29117d" title="Return the ExifEntry in this IFD corresponding to the given tag." alt="" coords="531,207,703,232"/>
+<area shape="poly" id="edge14_Node000002_Node000004" title=" " alt="" coords="194,408,206,374,227,328,259,281,279,261,301,244,352,220,408,208,463,203,515,203,515,209,463,208,408,213,354,225,304,248,282,265,263,285,232,331,211,376,199,410"/>
+<area shape="poly" id="edge50_Node000002_Node000006" title=" " alt="" coords="255,407,302,401,390,397,478,401,564,409,564,415,477,406,390,402,303,406,256,412"/>
+<area shape="rect" id="Node000010" href="$exif-tag_8c.html#a6b4f26f6f8f243e1f8a9e123b9cca589" title="Return a textual name of the given tag when found in the given IFD." alt="" coords="763,256,954,281"/>
+<area shape="poly" id="edge51_Node000002_Node000010" title=" " alt="" coords="192,408,202,367,221,310,235,280,253,251,275,225,301,204,355,173,404,155,451,146,496,146,543,152,593,163,709,193,773,216,826,245,824,250,771,221,707,198,591,169,542,158,496,151,451,152,406,160,357,178,304,208,279,229,257,254,240,282,226,312,207,368,197,409"/>
+<area shape="rect" id="Node000012" href="$exif-tag_8c.html#a87563ee64809f5f0deb4d780098508c1" title="Return the number of entries in the EXIF tag table, including the terminating NULL entry." alt="" coords="1232,105,1391,131"/>
+<area shape="poly" id="edge57_Node000002_Node000012" title=" " alt="" coords="194,408,236,276,267,203,284,175,301,156,341,130,378,113,413,105,448,103,523,110,615,115,860,115,1216,115,1216,121,860,121,615,121,523,115,448,109,414,111,380,118,344,134,304,160,288,178,272,205,241,278,199,410"/>
+<area shape="rect" id="Node000015" href="$exif-content_8c.html#af7372b1342146e73a9d5b671c717a730" title="Executes function on each EXIF tag in this IFD in turn." alt="" coords="311,459,469,499"/>
+<area shape="poly" id="edge13_Node000002_Node000015" title=" " alt="" coords="239,433,304,452,303,457,237,438"/>
+<area shape="poly" id="edge15_Node000002_Node000016" title=" " alt="" coords="193,408,242,212,274,102,288,63,301,42,305,37,309,41,305,45,293,65,279,104,247,213,198,409"/>
+<area shape="rect" id="Node000017" href="$exif-data_8c.html#a4fb5dada09c9fdcab3eb7fe7e840ec84" title="Return the data type for the given ExifData." alt="" coords="525,457,708,483"/>
+<area shape="poly" id="edge16_Node000002_Node000017" title=" " alt="" coords="255,424,478,445,526,452,525,457,477,450,255,429"/>
+<area shape="rect" id="Node000018" href="$exif-entry_8c.html#ad7f9e3fd0fde760c332dfbef208589ed" title="Initialize an empty ExifEntry with default data in the correct format for the given tag." alt="" coords="315,917,465,943"/>
+<area shape="poly" id="edge17_Node000002_Node000018" title=" " alt="" coords="196,435,203,502,220,606,234,666,253,728,276,789,305,846,330,879,359,905,356,909,326,882,300,849,271,791,248,730,229,668,215,607,198,502,191,435"/>
+<area shape="rect" id="Node000032" href="$exif-entry_8c.html#a82a37b1528ffe3c16dda84a422f87e35" title="Reserve memory for and initialize a new ExifEntry." alt="" coords="555,1188,678,1213"/>
+<area shape="poly" id="edge33_Node000002_Node000032" title=" " alt="" coords="195,435,196,517,207,651,221,727,240,806,268,882,305,954,333,993,366,1030,440,1094,514,1144,575,1178,573,1183,511,1148,437,1098,362,1034,329,997,300,957,263,885,235,807,215,728,202,651,190,518,190,435"/>
+<area shape="rect" id="Node000042" href="$exif-entry_8c.html#a82d5d923121488d847d341727cdd2ef4" title="Decrease reference counter for ExifEntry." alt="" coords="794,689,923,715"/>
+<area shape="poly" id="edge45_Node000002_Node000042" title=" " alt="" coords="198,434,209,473,229,525,261,581,281,605,304,627,360,661,421,686,485,703,550,713,614,718,674,719,778,711,778,717,675,724,613,724,549,719,484,708,419,691,357,666,301,631,277,609,256,584,225,528,204,475,193,436"/>
+<area shape="rect" id="Node000044" href="$exif-ifd_8c.html#a7877a28898c084bd8311812d550181f2" title="Return a textual name of the given IFD." alt="" coords="545,575,688,600"/>
+<area shape="poly" id="edge49_Node000002_Node000044" title=" " alt="" coords="198,434,209,471,229,521,260,571,280,593,304,610,321,617,345,620,405,619,473,612,538,601,539,606,474,617,405,625,344,625,320,622,301,615,277,597,256,575,224,524,204,473,193,436"/>
+<area shape="rect" id="Node000045" href="$exif-tag_8c.html#a90f76ad051d48ed87fafa8aca39f98e2" title="Return whether the given tag is mandatory or not in the given IFD and data type according to the EXIF..." alt="" coords="537,509,696,549"/>
+<area shape="poly" id="edge52_Node000002_Node000045" title=" " alt="" coords="205,433,245,472,273,493,304,509,358,525,415,533,470,536,521,536,521,541,470,542,414,539,357,530,302,514,270,498,242,477,201,437"/>
+<area shape="rect" id="Node000048" href="$exif-tag_8c.html#a35c6bdd6ce22b7186fbb8069b9f18bb9" title=" " alt="" coords="305,55,475,80"/>
+<area shape="poly" id="edge58_Node000002_Node000048" title=" " alt="" coords="191,409,196,353,213,270,227,224,246,179,270,136,301,97,316,85,319,90,305,101,274,139,250,181,232,226,218,271,202,354,196,409"/>
+<area shape="rect" id="Node000049" href="$exif-content_8c.html#a39cce30da3fd02f124a79f586fae5022" title=" " alt="" coords="353,809,427,835"/>
+<area shape="poly" id="edge60_Node000002_Node000049" title=" " alt="" coords="197,434,205,490,224,573,256,667,278,714,305,756,327,780,352,799,349,803,323,784,301,760,273,716,251,669,219,574,200,490,191,435"/>
+<area shape="rect" id="Node000062" href="$exif-content_8c.html#ae77241fdcf19533298cf543e55d1d640" title="Check if this entry is unknown and if so, delete it." alt="" coords="308,575,472,600"/>
+<area shape="poly" id="edge70_Node000002_Node000062" title=" " alt="" coords="203,434,242,491,271,524,304,553,327,566,325,571,301,558,267,528,237,494,198,437"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="450,254,541,233,542,239,451,259"/>
+<area shape="rect" id="Node000005" href="$exif-entry_8c.html#afd537c2d20109a1ee3923584e969d3d7" title="Increase reference counter for ExifEntry." alt="" coords="560,305,673,331"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="454,281,545,300,544,305,453,286"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="446,281,479,300,496,322,504,344,511,365,527,385,545,397,565,406,563,411,543,402,524,389,506,367,499,346,492,325,476,304,443,286"/>
+<area shape="rect" id="Node000008" href="$exif-mem_8c.html#a7302da5374a74202e03a781b7c4b7ebe" title=" " alt="" coords="789,356,928,381"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="437,281,479,300,493,311,503,322,512,332,526,341,589,360,654,371,717,375,774,374,774,379,717,380,653,376,587,365,524,346,509,336,499,326,490,315,476,304,435,286"/>
+<area shape="rect" id="Node000009" href="$exif-tag_8c.html#aad15f6b821d77857c42c1514ba8bf930" title=" " alt="" coords="543,256,690,281"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="478,267,527,267,527,272,478,272"/>
+<area shape="rect" id="Node000007" href="$exif-log_8c.html#a99101b5ad01b2d82ce9d43c9e8534627" title=" " alt="" coords="817,407,900,432"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="654,417,802,417,802,422,654,422"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="690,266,748,266,748,271,690,271"/>
+<area shape="rect" id="Node000014" href="$exif-tag_8c.html#a51b998fa5d181e968cdd4cc2666150e2" title=" " alt="" coords="789,305,929,331"/>
+<area shape="poly" id="edge12_Node000009_Node000014" title=" " alt="" coords="683,279,779,299,778,304,682,284"/>
+<area shape="rect" id="Node000011" href="$exif-tag_8c.html#a389f8ff3411e0525b28367892f1e78d3" title="Finds the first entry in the EXIF tag table with the given tag number using a binary search." alt="" coords="1023,357,1171,383"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="925,279,962,292,1018,318,1065,346,1062,351,1015,323,960,296,923,284"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1107,355,1288,140,1292,144,1111,359"/>
+<area shape="rect" id="Node000019" href="$exif-entry_8c.html#a01d57aa3b858af0ffbbef108ed332939" title=" " alt="" coords="811,940,906,965"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="466,931,796,947,796,952,466,936"/>
+<area shape="rect" id="Node000020" href="$exif-data_8c.html#a2d8d50e6a9c19d28fe8192ef7cc52777" title="Return the byte order in use by this EXIF structure." alt="" coords="785,1089,932,1129"/>
+<area shape="poly" id="edge19_Node000018_Node000020" title=" " alt="" coords="402,941,450,1002,485,1035,527,1062,587,1085,650,1100,713,1107,770,1109,769,1115,713,1112,650,1105,585,1091,524,1067,482,1039,446,1005,398,945"/>
+<area shape="rect" id="Node000021" href="$exif-entry_8c.html#acba1916cfb1741aa17f022d2e5b8bccc" title=" " alt="" coords="795,1039,922,1064"/>
+<area shape="poly" id="edge20_Node000018_Node000021" title=" " alt="" coords="405,941,455,987,489,1010,526,1029,591,1047,658,1056,723,1058,780,1056,780,1062,723,1063,658,1061,590,1052,524,1034,486,1015,451,991,402,945"/>
+<area shape="rect" id="Node000024" href="$exif-entry_8c.html#aee9f2576a834b5f74a420354201a07d0" title=" " alt="" coords="526,993,707,1019"/>
+<area shape="poly" id="edge23_Node000018_Node000024" title=" " alt="" coords="431,941,563,985,561,990,429,946"/>
+<area shape="rect" id="Node000025" href="$exif-format_8c.html#a924038efe0cd8ebade8f44619dd794f3" title="Return the raw size of the given EXIF data type." alt="" coords="779,891,938,916"/>
+<area shape="poly" id="edge28_Node000018_Node000025" title=" " alt="" coords="466,923,764,906,764,911,466,928"/>
+<area shape="rect" id="Node000027" href="$exif-utils_8c.html#a400a16b1754150f721e9fca67ad89a52" title="Store an ExifRational value into memory in EXIF format." alt="" coords="793,740,924,765"/>
+<area shape="poly" id="edge29_Node000018_Node000027" title=" " alt="" coords="404,915,475,846,497,816,507,803,524,792,587,767,654,752,720,746,778,745,778,750,720,751,655,757,589,772,527,796,511,807,501,819,479,849,407,919"/>
+<area shape="rect" id="Node000030" href="$exif-utils_8c.html#ad905d16e26b4052a1db34dbebdc37341" title="Store an ExifShort value into memory in EXIF format." alt="" coords="801,789,916,815"/>
+<area shape="poly" id="edge31_Node000018_Node000030" title=" " alt="" coords="402,915,452,870,487,846,524,828,592,808,662,798,728,794,786,794,786,800,728,799,662,803,593,813,526,832,489,851,455,874,406,919"/>
+<area shape="rect" id="Node000022" href="$exif-data_8c.html#a9403ed4fde8ef603e9db173eb122efaf" title=" " alt="" coords="1027,948,1166,973"/>
+<area shape="poly" id="edge21_Node000021_Node000022" title=" " alt="" coords="921,1039,960,1025,974,1015,983,1005,993,994,1008,984,1023,977,1025,982,1011,988,997,998,987,1009,978,1019,963,1030,923,1044"/>
+<area shape="rect" id="Node000023" href="$exif-mem_8c.html#a68be7c7afc8cff75adc3b1a28b5ae9a2" title=" " alt="" coords="1033,1195,1160,1220"/>
+<area shape="poly" id="edge22_Node000021_Node000023" title=" " alt="" coords="923,1055,944,1063,963,1075,975,1088,983,1102,988,1129,993,1156,1000,1169,1011,1181,1021,1188,1018,1193,1008,1185,995,1172,988,1158,983,1130,978,1104,971,1091,960,1079,942,1068,922,1060"/>
+<area shape="poly" id="edge24_Node000024_Node000019" title=" " alt="" coords="677,990,795,964,796,969,678,995"/>
+<area shape="poly" id="edge25_Node000024_Node000021" title=" " alt="" coords="688,1017,780,1034,779,1039,687,1022"/>
+<area shape="poly" id="edge26_Node000024_Node000025" title=" " alt="" coords="636,990,689,959,755,926,778,918,780,923,757,931,691,963,639,995"/>
+<area shape="rect" id="Node000026" href="$exif-gps-ifd_8c.html#a5355c877082ce0f6f54482ed8a079079" title=" " alt="" coords="776,989,941,1015"/>
+<area shape="poly" id="edge27_Node000024_Node000026" title=" " alt="" coords="708,1002,761,1001,761,1006,708,1007"/>
+<area shape="rect" id="Node000028" href="$exif-utils_8c.html#ac90147d0cc97bec7a577bf9576191bf8" title="Store an ExifLong value into memory in EXIF format." alt="" coords="1042,740,1151,765"/>
+<area shape="poly" id="edge30_Node000027_Node000028" title=" " alt="" coords="924,750,1026,750,1026,755,924,755"/>
+<area shape="rect" id="Node000031" href="$exif-utils_8c.html#a6504651147702fc6db9a5cd4aa997023" title="Store an ExifSShort value into memory in EXIF format." alt="" coords="1036,789,1157,815"/>
+<area shape="poly" id="edge32_Node000030_Node000031" title=" " alt="" coords="916,799,1021,799,1021,805,916,805"/>
+<area shape="rect" id="Node000033" href="$exif-entry_8c.html#a2286e967d408b433d60ebad00c5af648" title="Reserve memory for and initialize new ExifEntry using the specified memory allocator." alt="" coords="777,1224,940,1249"/>
+<area shape="poly" id="edge34_Node000032_Node000033" title=" " alt="" coords="679,1207,762,1220,762,1225,678,1212"/>
+<area shape="rect" id="Node000036" href="$exif-mem_8c.html#acc8fd4e1a319a790581975db6f1a7233" title="Create a new ExifMem with default values for your convenience." alt="" coords="771,1153,946,1179"/>
+<area shape="poly" id="edge38_Node000032_Node000036" title=" " alt="" coords="678,1189,755,1178,756,1183,679,1195"/>
+<area shape="rect" id="Node000041" href="$exif-mem_8c.html#a66744e0987af08c443df247ce55f7d87" title="Unrefcount an ExifMem." alt="" coords="1247,941,1376,967"/>
+<area shape="poly" id="edge43_Node000032_Node000041" title=" " alt="" coords="642,1212,736,1259,802,1285,877,1309,956,1324,1035,1327,1074,1322,1112,1314,1148,1299,1182,1280,1216,1250,1244,1214,1265,1173,1281,1130,1300,1047,1306,982,1312,983,1305,1048,1286,1132,1270,1175,1248,1216,1220,1254,1186,1284,1151,1304,1114,1319,1075,1328,1036,1332,955,1329,875,1314,800,1290,734,1264,639,1216"/>
+<area shape="poly" id="edge35_Node000033_Node000023" title=" " alt="" coords="940,1224,1017,1214,1018,1220,941,1229"/>
+<area shape="rect" id="Node000034" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="1439,891,1560,916"/>
+<area shape="poly" id="edge36_Node000033_Node000034" title=" " alt="" coords="888,1247,944,1270,1019,1291,1061,1297,1103,1298,1144,1293,1183,1280,1240,1246,1292,1203,1339,1155,1380,1104,1445,1004,1484,929,1488,931,1449,1007,1385,1107,1343,1158,1296,1207,1243,1250,1185,1284,1145,1298,1103,1304,1060,1303,1018,1296,942,1275,886,1252"/>
+<area shape="rect" id="Node000035" href="$exif-mem_8c.html#af28c61972f529be46907956e0b3e7a60" title="Refcount an ExifMem." alt="" coords="1040,1244,1153,1269"/>
+<area shape="poly" id="edge37_Node000033_Node000035" title=" " alt="" coords="941,1241,1025,1248,1024,1253,940,1246"/>
+<area shape="rect" id="Node000037" href="$exif-mem_8c.html#a9d47487760e137ed23df5e1e79b3d3cd" title="Default memory allocation function." alt="" coords="1016,1096,1177,1121"/>
+<area shape="poly" id="edge39_Node000036_Node000037" title=" " alt="" coords="914,1150,1025,1123,1027,1128,915,1155"/>
+<area shape="rect" id="Node000038" href="$exif-mem_8c.html#a30e654456ffed5baaf5a23f1d8817aa6" title="Default memory free function." alt="" coords="1019,1145,1175,1171"/>
+<area shape="poly" id="edge40_Node000036_Node000038" title=" " alt="" coords="947,1160,1003,1158,1003,1164,947,1166"/>
+<area shape="rect" id="Node000039" href="$exif-mem_8c.html#a7c75dbf49ec65be9e1aa5b79d79c7ea6" title="Create a new ExifMem." alt="" coords="1035,997,1158,1023"/>
+<area shape="poly" id="edge41_Node000036_Node000039" title=" " alt="" coords="940,1150,960,1139,971,1127,978,1114,983,1088,988,1061,996,1047,1008,1033,1020,1025,1023,1029,1011,1037,1000,1050,994,1062,988,1089,983,1116,975,1130,963,1143,943,1155"/>
+<area shape="rect" id="Node000040" href="$exif-mem_8c.html#a92c900883df8fe466c158d00153404fe" title="Default memory reallocation function." alt="" coords="1009,1047,1184,1072"/>
+<area shape="poly" id="edge42_Node000036_Node000040" title=" " alt="" coords="934,1150,960,1138,975,1125,983,1111,992,1097,1008,1083,1019,1076,1021,1081,1011,1087,996,1100,988,1114,979,1129,963,1143,936,1155"/>
+<area shape="poly" id="edge44_Node000041_Node000034" title=" " alt="" coords="1361,938,1434,918,1436,923,1362,943"/>
+<area shape="rect" id="Node000043" href="$exif-entry_8c.html#a2879215e3863186650d3f32eb63bbaf4" title="Actually free the ExifEntry." alt="" coords="1036,891,1157,916"/>
+<area shape="poly" id="edge46_Node000042_Node000043" title=" " alt="" coords="925,708,945,715,963,727,983,750,991,774,997,799,1012,826,1038,855,1066,879,1063,883,1034,859,1007,829,992,801,986,776,978,753,960,731,942,720,923,712"/>
+<area shape="poly" id="edge47_Node000043_Node000034" title=" " alt="" coords="1158,901,1423,901,1423,906,1158,906"/>
+<area shape="poly" id="edge48_Node000043_Node000041" title=" " alt="" coords="1154,914,1240,935,1239,940,1153,919"/>
+<area shape="rect" id="Node000046" href="$exif-tag_8c.html#a92f313f59c9f2fc4bebe2438be038bd9" title="Return the support level of a tag in the given IFD, regardless of the data type." alt="" coords="756,511,961,536"/>
+<area shape="poly" id="edge53_Node000045_Node000046" title=" " alt="" coords="696,524,741,523,741,529,696,530"/>
+<area shape="rect" id="Node000047" href="$exif-tag_8c.html#a1581a40dbcb0f27d4a3f8181b272c55b" title="Return the support level of a tag in the given IFD with the given data type." alt="" coords="768,457,949,483"/>
+<area shape="poly" id="edge55_Node000045_Node000047" title=" " alt="" coords="696,507,788,484,789,489,697,512"/>
+<area shape="poly" id="edge54_Node000046_Node000011" title=" " alt="" coords="925,508,960,493,994,470,1025,444,1073,393,1077,397,1029,448,997,475,963,498,927,512"/>
+<area shape="poly" id="edge56_Node000047_Node000011" title=" " alt="" coords="923,454,960,442,1015,416,1062,389,1064,393,1017,421,962,447,925,459"/>
+<area shape="poly" id="edge59_Node000048_Node000012" title=" " alt="" coords="476,65,788,72,985,82,1184,97,1217,100,1216,106,1184,102,985,87,788,78,476,70"/>
+<area shape="rect" id="Node000050" href="$exif-entry_8c.html#aa19ef4321004b1ce44187c12ff4f78c6" title="Fix the type or format of the given EXIF entry to bring it into spec." alt="" coords="561,841,673,867"/>
+<area shape="poly" id="edge61_Node000049_Node000050" title=" " alt="" coords="428,825,546,841,545,847,427,830"/>
+<area shape="poly" id="edge69_Node000050_Node000010" title=" " alt="" coords="624,840,664,771,687,725,705,676,712,639,715,591,717,479,720,421,725,369,736,325,754,292,757,289,761,293,758,296,741,326,731,370,725,422,723,479,721,591,718,640,711,677,692,727,669,774,629,842"/>
+<area shape="poly" id="edge62_Node000050_Node000019" title=" " alt="" coords="640,865,692,895,757,926,797,938,796,944,755,931,689,900,637,869"/>
+<area shape="poly" id="edge63_Node000050_Node000020" title=" " alt="" coords="630,865,667,915,710,981,723,1009,730,1032,739,1053,758,1075,773,1085,770,1089,754,1079,734,1056,725,1034,718,1010,706,983,663,918,626,869"/>
+<area shape="poly" id="edge64_Node000050_Node000021" title=" " alt="" coords="629,866,690,951,727,997,758,1025,781,1036,779,1041,754,1030,723,1000,686,955,625,869"/>
+<area shape="poly" id="edge65_Node000050_Node000025" title=" " alt="" coords="673,863,779,884,777,890,672,868"/>
+<area shape="poly" id="edge67_Node000050_Node000027" title=" " alt="" coords="637,838,689,807,755,776,779,767,780,772,757,780,692,812,640,843"/>
+<area shape="poly" id="edge68_Node000050_Node000030" title=" " alt="" coords="672,839,786,815,787,820,673,845"/>
+<area shape="poly" id="edge66_Node000050_Node000034" title=" " alt="" coords="673,851,979,856,1183,865,1391,882,1423,886,1423,892,1390,887,1183,870,979,861,673,856"/>
+<area shape="poly" id="edge77_Node000062_Node000006" title=" " alt="" coords="406,572,439,544,475,510,489,491,497,475,507,460,524,444,563,426,565,431,527,448,511,463,502,478,493,494,479,513,443,548,410,576"/>
+<area shape="poly" id="edge75_Node000062_Node000017" title=" " alt="" coords="406,572,457,534,524,494,546,486,548,490,527,499,460,538,409,576"/>
+<area shape="poly" id="edge76_Node000062_Node000044" title=" " alt="" coords="472,585,530,585,530,590,472,590"/>
+<area shape="poly" id="edge78_Node000062_Node000045" title=" " alt="" coords="441,571,522,550,523,556,443,577"/>
+<area shape="poly" id="edge71_Node000062_Node000063" title=" " alt="" coords="444,598,522,618,521,623,443,603"/>
+<area shape="poly" id="edge74_Node000063_Node000008" title=" " alt="" coords="693,622,706,611,724,584,731,557,731,530,728,503,725,476,726,449,735,421,754,393,773,379,777,384,758,397,739,423,731,449,731,476,734,503,737,530,736,558,728,586,710,614,697,626"/>
+<area shape="poly" id="edge73_Node000063_Node000034" title=" " alt="" coords="697,643,797,649,921,662,1054,687,1121,705,1185,726,1268,763,1347,805,1468,879,1465,884,1344,809,1265,767,1183,731,1119,710,1053,692,920,667,797,654,697,648"/>
+<area shape="poly" id="edge72_Node000063_Node000042" title=" " alt="" coords="698,661,788,683,786,688,696,666"/>
+</map>

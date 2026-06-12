@@ -1,0 +1,15 @@
+<map id="exif_mnote_data_canon_get_name" name="exif_mnote_data_canon_get_name">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,37,184,77"/>
+<area shape="rect" id="Node000002" href="$exif-mnote-data-canon_8c.html#ae9824e7901a9cd61dc6d81713af3d34b" title=" " alt="" coords="232,5,411,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,42,216,37,217,43,185,47"/>
+<area shape="rect" id="Node000006" href="$mnote-canon-tag_8c.html#ac1a11a2d765ef97d13c4372166d22362" title=" " alt="" coords="238,69,405,109"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="185,67,223,73,222,78,184,73"/>
+<area shape="rect" id="Node000003" href="$mnote-canon-entry_8c.html#a9d343f3faec828b2467bacbab0919f47" title=" " alt="" coords="467,5,661,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="411,23,451,23,451,28,411,28"/>
+<area shape="rect" id="Node000004" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="717,13,832,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="661,23,701,23,701,28,661,28"/>
+<area shape="rect" id="Node000005" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="880,13,1003,38"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="832,23,864,23,864,28,832,28"/>
+<area shape="rect" id="Node000007" href="$mnote-canon-tag_8c.html#a49c2f8e609736433b79560ef0ac0fd6c" title=" " alt="" coords="459,77,669,102"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="405,87,443,87,443,92,405,92"/>
+</map>

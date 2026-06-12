@@ -1,0 +1,30 @@
+<map id="exif_mnote_data_canon_get_value" name="exif_mnote_data_canon_get_value">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,147,184,187"/>
+<area shape="rect" id="Node000002" href="$exif-mnote-data-canon_8c.html#ae9824e7901a9cd61dc6d81713af3d34b" title=" " alt="" coords="232,117,411,157"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,153,216,148,217,153,185,158"/>
+<area shape="rect" id="Node000006" href="$mnote-canon-entry_8c.html#a13dd559bf47b5f99a5ecc8389c72e324" title=" " alt="" coords="467,178,645,218"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="185,171,451,188,451,194,184,176"/>
+<area shape="rect" id="Node000003" href="$mnote-canon-entry_8c.html#a9d343f3faec828b2467bacbab0919f47" title=" " alt="" coords="459,57,653,97"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="402,113,460,98,461,104,403,119"/>
+<area shape="rect" id="Node000004" href="$exif-utils_8c.html#a4b4acf537a8c6b9405e7b53be868e4d7" title="Retrieve an ExifShort value from memory." alt="" coords="739,5,853,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="640,53,725,32,727,38,641,59"/>
+<area shape="rect" id="Node000005" href="$exif-utils_8c.html#a6baf094a71392f9cea23ad633ec13c8b" title="Retrieve an ExifSShort value from memory." alt="" coords="939,31,1061,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="854,22,924,31,923,37,854,28"/>
+<area shape="poly" id="edge13_Node000006_Node000004" title=" " alt="" coords="579,176,651,107,673,76,683,62,700,48,724,35,726,39,703,52,687,66,678,79,655,110,583,179"/>
+<area shape="poly" id="edge15_Node000006_Node000005" title=" " alt="" coords="577,175,630,132,664,110,700,92,757,72,816,58,923,44,924,49,816,64,758,77,702,96,667,115,633,137,580,180"/>
+<area shape="rect" id="Node000007" href="$mnote-canon-entry_8c.html#a06e73d7e72da3d1aa6914c8bf3d69c0d" title=" " alt="" coords="707,107,885,132"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="607,175,701,141,724,134,726,139,702,146,608,180"/>
+<area shape="rect" id="Node000008" href="$mnote-canon-entry_8c.html#a04ae2e21068f2ad8f6c7657cfddd9674" title=" " alt="" coords="701,156,891,181"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="645,184,686,179,686,185,646,190"/>
+<area shape="rect" id="Node000009" href="$mnote-canon-entry_8c.html#a1d6fc4e311ea9cd21992df9bd38c90ce" title=" " alt="" coords="711,206,881,246"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="646,206,696,212,695,217,645,211"/>
+<area shape="rect" id="Node000010" href="$mnote-canon-entry_8c.html#add2f1f2c87fe2684b11d79a9b6e43742" title=" " alt="" coords="721,270,871,310"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="605,216,702,256,719,262,717,267,700,260,603,221"/>
+<area shape="rect" id="Node000011" href="$mnote-canon-entry_8c.html#a8b4d32c58f704230c465d3af23f8501e" title=" " alt="" coords="721,334,871,374"/>
+<area shape="poly" id="edge10_Node000006_Node000011" title=" " alt="" coords="578,216,631,267,666,295,703,320,713,325,710,330,700,324,663,300,628,271,574,220"/>
+<area shape="rect" id="Node000012" href="$exif-utils_8c.html#a4ad94614630897766dd0a5c9bc2a59bf" title="Retrieve an ExifLong value from memory." alt="" coords="741,399,851,424"/>
+<area shape="poly" id="edge11_Node000006_Node000012" title=" " alt="" coords="570,217,590,253,619,299,657,345,703,384,727,396,725,401,700,388,653,349,615,302,585,256,565,220"/>
+<area shape="rect" id="Node000013" href="$exif-utils_8c.html#a56b96f076a13da6ed926e1ef29cb2dc3" title="Retrieve an ExifSLong value from memory." alt="" coords="941,424,1059,449"/>
+<area shape="poly" id="edge14_Node000006_Node000013" title=" " alt="" coords="565,218,580,265,607,327,626,358,648,387,673,413,703,434,731,447,761,456,823,463,884,460,937,451,938,456,884,465,823,468,760,461,729,452,700,439,670,417,643,391,621,361,602,329,575,267,560,219"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="852,416,926,425,926,430,851,421"/>
+</map>

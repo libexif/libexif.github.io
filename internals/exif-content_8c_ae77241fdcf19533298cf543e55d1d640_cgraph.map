@@ -1,0 +1,38 @@
+<map id="remove_not_recorded" name="remove_not_recorded">
+<area shape="rect" id="Node000001" title="Check if this entry is unknown and if so, delete it." alt="" coords="5,181,169,207"/>
+<area shape="rect" id="Node000002" href="$exif-content_8c.html#a04f76832f82ea29ce05cd7c4e51932b1" title="Remove an EXIF tag from an IFD." alt="" coords="229,67,389,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,179,156,149,216,117,230,111,232,116,218,122,159,153,110,183"/>
+<area shape="rect" id="Node000008" href="$exif-data_8c.html#a4fb5dada09c9fdcab3eb7fe7e840ec84" title="Return the data type for the given ExifData." alt="" coords="217,132,400,157"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="147,178,233,159,234,164,148,183"/>
+<area shape="rect" id="Node000009" href="$exif-ifd_8c.html#a7877a28898c084bd8311812d550181f2" title="Return a textual name of the given IFD." alt="" coords="237,181,380,207"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="169,191,222,191,222,197,169,197"/>
+<area shape="rect" id="Node000010" href="$exif-log_8c.html#a025d4a5d96544913ea6f6ebbec69cb68" title=" " alt="" coords="271,231,346,256"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="148,205,257,229,256,234,147,210"/>
+<area shape="rect" id="Node000012" href="$exif-tag_8c.html#a90f76ad051d48ed87fafa8aca39f98e2" title="Return whether the given tag is mandatory or not in the given IFD and data type according to the EXIF..." alt="" coords="229,281,388,321"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="111,205,159,234,218,265,235,272,233,277,216,270,157,238,108,209"/>
+<area shape="rect" id="Node000003" href="$exif-entry_8c.html#a82d5d923121488d847d341727cdd2ef4" title="Decrease reference counter for ExifEntry." alt="" coords="486,24,615,49"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="388,68,471,50,472,56,390,73"/>
+<area shape="rect" id="Node000005" href="$exif-mem_8c.html#a43190b81b4b4bdb4ffb89bfb612051b1" title=" " alt="" coords="1104,24,1225,49"/>
+<area shape="poly" id="edge7_Node000002_Node000005" title=" " alt="" coords="389,86,517,87,683,85,869,76,1056,58,1098,51,1099,56,1056,63,869,81,683,90,517,93,389,92"/>
+<area shape="rect" id="Node000007" href="$exif-mem_8c.html#a7302da5374a74202e03a781b7c4b7ebe" title=" " alt="" coords="481,125,620,151"/>
+<area shape="poly" id="edge8_Node000002_Node000007" title=" " alt="" coords="390,101,472,119,471,124,388,107"/>
+<area shape="rect" id="Node000004" href="$exif-entry_8c.html#a2879215e3863186650d3f32eb63bbaf4" title="Actually free the ExifEntry." alt="" coords="715,24,836,49"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="616,34,699,34,699,39,616,39"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="828,21,897,9,977,3,1056,9,1104,17,1103,22,1056,14,977,8,898,14,828,26"/>
+<area shape="rect" id="Node000006" href="$exif-mem_8c.html#a66744e0987af08c443df247ce55f7d87" title="Unrefcount an ExifMem." alt="" coords="912,24,1041,49"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="836,34,897,34,897,39,836,39"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="1042,34,1089,34,1089,39,1042,39"/>
+<area shape="rect" id="Node000011" href="$exif-log_8c.html#a99101b5ad01b2d82ce9d43c9e8534627" title=" " alt="" coords="509,231,592,256"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="346,241,494,241,494,246,346,246"/>
+<area shape="rect" id="Node000013" href="$exif-tag_8c.html#a92f313f59c9f2fc4bebe2438be038bd9" title="Return the support level of a tag in the given IFD, regardless of the data type." alt="" coords="448,284,653,309"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="388,297,433,296,433,301,388,302"/>
+<area shape="rect" id="Node000017" href="$exif-tag_8c.html#a1581a40dbcb0f27d4a3f8181b272c55b" title="Return the support level of a tag in the given IFD with the given data type." alt="" coords="460,333,641,359"/>
+<area shape="poly" id="edge18_Node000012_Node000017" title=" " alt="" coords="389,313,465,327,464,332,388,318"/>
+<area shape="rect" id="Node000014" href="$exif-tag_8c.html#a389f8ff3411e0525b28367892f1e78d3" title="Finds the first entry in the EXIF tag table with the given tag number using a binary search." alt="" coords="701,308,849,333"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="654,305,686,308,686,314,654,310"/>
+<area shape="rect" id="Node000015" href="$exif-tag_8c.html#a87563ee64809f5f0deb4d780098508c1" title="Return the number of entries in the EXIF tag table, including the terminating NULL entry." alt="" coords="897,283,1056,308"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="849,309,881,305,882,310,850,314"/>
+<area shape="rect" id="Node000016" href="$exif-tag_8c.html#a220c1b18832f113bc84ff9551754915f" title="Compares the tag with that in entry." alt="" coords="931,332,1022,357"/>
+<area shape="poly" id="edge17_Node000014_Node000016" title=" " alt="" coords="850,327,916,335,916,340,849,332"/>
+<area shape="poly" id="edge19_Node000017_Node000014" title=" " alt="" coords="641,333,686,328,686,333,642,338"/>
+</map>
